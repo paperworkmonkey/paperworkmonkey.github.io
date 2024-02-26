@@ -1,0 +1,126 @@
+html{
+  /*background-image: url('ICU.JPG');*/
+  background-size: cover;
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  font-size: 1rem;
+}
+
+body {
+  margin: 10px;
+  padding: 20px;
+  opacity: 0.99;
+}
+
+.read_in {
+  height: 240px;
+  padding: 5px;
+}
+
+h1{
+  justify-content: center;
+  align-content: center;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.my_table{
+  table-layout: fixed;
+  width: 75%;
+  font-size: 0.75rem;
+  border-color: rgb(200,200,200);
+  background-color: rgb(220,220,220);
+  border-style: solid
+}
+
+.metrics_table{
+  font-size: 0.75rem;
+  padding: 0px;
+}
+
+.metrics_row_header{
+  font-weight: bold;
+  width: 100px;
+  padding: 0px;
+  text-wrap: true;
+}
+
+.column_header{
+  font-weight: bold;
+  background-color: pink;
+}
+
+.odd_row{
+  background-color: rgb(178, 225, 241);
+  padding: 0px;
+}
+
+.even_row{
+  background-color: rgb(208, 231, 244);
+  padding: 0px;
+}
+
+.row_header{
+  font-weight: bold;
+  min-width: 100px;
+  padding: 5px;
+}
+
+td{
+  padding: 5px;
+  }
+
+.output_box{
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+.container {
+  display: flex;
+}
+
+.container > div {
+  max-width: 250px;
+  flex: 2; /*grow*/
+  padding: 5px;
+}
+
+canvas {
+  display: block;
+}
+
+
+.userInputs{
+  /*height, weight and gender*/
+  /*display: inline; */
+  margin: 5px;
+  font: 0.75rem;
+  font-size: 0.75rem;
+
+}
+
+/*used for male/female button highlighting, assigned in sketch.js*/
+.highlight {
+  background-color: rgb(248, 140, 140);
+}
+
+.weightSelectButton{
+  border-radius: 5px;
+}
+
+.row2{
+  display:grid;
+  margin: 5px;
+}
+
+.row1{
+  display:grid;
+  margin: 5px;
+  border-color: rgb(220,220,220);
+}
+
+#disclaimer{
+ font-size: 0.5rem;
+}

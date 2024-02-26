@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MEJD NG feeds v4</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="libraries/p5.min.js"></script>
+  <!-- <script src="libraries/p5.sound.min.js"></script> -->
+
+</head>
+
+<body style="font-family:Verdana">
+  <h1>NGFC</h1>
+  <div class="container">
+    <div class="row1">
+      <div>
+        <label>Paste content:</label><br>
+        <input type="text" id="read_in" style="height: 160px"></input>
+      </div>
+    </div>
+
+
+    <div class="row1">
+      <div class="userInputs">
+        <label>Height (cm):</label>
+        <input id="patientHeight" type="number" value="178" style="width: 75px"></input>
+      </div>
+      <div class="userInputs">
+        <label>Weight (kg):</label>
+        <input id="patientWeight" type="number" value="84" style="width: 75px"></input>
+      </div>
+      <div class="userInputs">
+        <label>Gender (M/F):</label>
+        <input id="patientMaleGender" type="button" value="male"></input>
+        <input id="patientFemaleGender" type="button" value="female"></input>
+      </div>
+
+      <div class="userInputs">
+        <label id="energyReqLabel">Energy (kcal/kg/day):25</label>
+        <input type="range" id="energyRequirements" min="25" max="35" step="1" value="25"
+          oninput="updateEnergyValue(this.value)">
+        <script>
+          function updateEnergyValue(value) {
+            // Convert value to floating point
+            let floatValue = parseFloat(value);
+            document.getElementById('energyReqLabel').textContent = "Energy (kcal/kg/day):" + floatValue.toFixed(1);
+          }
+        </script>
+      </div>
+
+      <div class="userInputs">
+        <label id="proteinReqLabel">Protein (g/kg/day):1.3</label>
+        <input type="range" id="proteinRequirements" min="1.0" max="1.8" step="0.1" value="1.3"
+          oninput="updateValue(this.value)">
+        <script>
+          function updateValue(value) {
+            // Convert value to floating point
+            let floatValue = parseFloat(value);
+            document.getElementById('proteinReqLabel').textContent = "Protein (g/kg/day):" + floatValue.toFixed(1);
+          }
+        </script>
+      </div>
+
+      <div class="userInputs">
+        <label>Naloxegol?:</label>
+        <input id="naloxegol" type="checkbox"></input>
+      </div>
+    </div>
+    <div class="row1">
+      <table class="metrics_table">Select weight to use:
+        <tr class="odd_row">
+          <td class="metrics_row_header">BMI</td>
+          <td id="BMIBox"></td>
+          <td></td>
+        </tr>
+        <tr class="even_row">
+          <td class="metrics_row_header">ABW (kg)</td>
+          <td id="ActBWBox"></td>
+          <td><input class="weightSelectButton" id="ABWselected" type="button" class="highlight"></td>
+        </tr>
+        <tr class="odd_row">
+          <td class="metrics_row_header">IBW (kg)</td>
+          <td id="IBWBox"></td>
+          <td><input class="weightSelectButton" id="IBWselected" type="button"></td>
+        </tr>
+
+        <tr class="even_row">
+          <td class="metrics_row_header">Adj BW (kg)</td>
+          <td id="AdjBWBox"></td>
+          <td><input class="weightSelectButton" id="AdjBWselected" type="button"></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="row1">
+      <table class="metrics_table">Requirements:
+        <tr class="odd_row">
+          <td class="metrics_row_header">Energy (kcal/day)</td>
+          <td id="dailyEnergyBox"></td>
+        </tr>
+        <tr class="even_row">
+          <td class="metrics_row_header">Protein (g/day)</td>
+          <td id="dailyProteinBox"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row2">
+    <div id="table1-container"></div>
+  </div>
+
+  </div>
+  <p id="outputBox" class="output_box">This box contains the output of the desired NG feed</p>
+  </div>
+
+
+  <script src="sketch.js"></script>
+  <script src="nonfeedfunctions.js"></script>
+  <script src="data.csv"></script>
+
+
+  <div id="disclaimer">
+    <p>Disclaimer:
+    <ol>
+      <li>This application is intended to provide general medical information and guidance. It is not a substitute for
+        professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or qualified
+        healthcare provider with any questions you may have regarding a medical condition.</li>
+      <li>While we strive to ensure the accuracy and reliability of the information provided within this application,
+        medical knowledge is constantly evolving. We cannot guarantee the accuracy, completeness, or timeliness of the
+        information provided. Therefore, reliance on any information provided by this application is solely at your own
+        risk.</li>
+      <li>This application is not designed for use in emergency situations. If you are experiencing a medical emergency,
+        please call your local emergency services immediately or go to the nearest emergency room.</li>
+      <li>Users of this application are responsible for their own health decisions. Any actions taken based on the
+        information provided by this application are at the user's discretion and risk.</li>
+      <li>The inclusion of specific healthcare providers, treatments, products, or services within this application does
+        not constitute endorsement or recommendation. We do not endorse any specific healthcare providers or treatments.
+      </li>
+      <li>While we take measures to protect the privacy and security of your personal information, the transmission of
+        data over the internet is not completely secure. By using this application, you acknowledge and accept the risks
+        associated with transmitting information over the internet.</li>
+      <li>By using this application, you agree to abide by the terms and conditions outlined in our Terms of Use and
+        Privacy Policy.</li>
+      <li>We welcome your feedback and suggestions for improving our services. However, please note that any feedback or
+        suggestions provided to us through this application may be used by us without obligation to you.</li>
+    </ol>
+    By continuing to use this application, you acknowledge that you have read, understood, and agree to the terms of
+    this
+    disclaimer. If you do not agree with any part of this disclaimer, please discontinue the use of this application
+    immediately.</p>
+  </div>
+</body>
+
+</html>
