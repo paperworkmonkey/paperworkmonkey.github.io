@@ -34,10 +34,13 @@ function setup() {
     energyRequirements.elt.addEventListener("input",recalculate,false);
 
     proteinRequirements = select('#proteinRequirements');
+    //proteinRequirements = document.querySelector('#proteinRequirements')
     proteinRequirements.elt.addEventListener("input",recalculate,false);
+    //proteinRequirements.changed(recalculate);
 
     naloxegol = select('#naloxegol');
     naloxegol.mousePressed(doNaloxegolCalculation);
+    //naloxegol.changed(doNaloxegolCalculation);
 
     ABWselected = select('#ABWselected');
     ABWselected.mouseClicked(selectABW);
