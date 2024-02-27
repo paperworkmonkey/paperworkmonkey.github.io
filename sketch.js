@@ -9,7 +9,7 @@ let dailyEnergy, dailyProtein;
 let useABW, useAdjBW, useIBW;
 
 function preload() {
-    feed_table = loadTable('data.csv', 'csv', 'header');
+    feed_table = loadTable('data2.csv', 'csv', 'header');
 }
 
 function setup() {
@@ -34,13 +34,10 @@ function setup() {
     energyRequirements.elt.addEventListener("input",recalculate,false);
 
     proteinRequirements = select('#proteinRequirements');
-    //proteinRequirements = document.querySelector('#proteinRequirements')
     proteinRequirements.elt.addEventListener("input",recalculate,false);
-    //proteinRequirements.changed(recalculate);
 
     naloxegol = select('#naloxegol');
     naloxegol.mousePressed(doNaloxegolCalculation);
-    //naloxegol.changed(doNaloxegolCalculation);
 
     ABWselected = select('#ABWselected');
     ABWselected.mouseClicked(selectABW);
