@@ -14,8 +14,8 @@ function preload() {
 
 function setup() {
 
-    inputBox = select('#read_in');
-    inputBox.changed(readInputBox);
+    //inputBox = select('#read_in');
+    //inputBox.changed(readInputBox);
 
     patientHeight = select('#patientHeight');
     patientHeight.changed(recalculate);
