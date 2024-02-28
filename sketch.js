@@ -31,11 +31,11 @@ function setup() {
 
     energyRequirements = select('#energyRequirements');
     //energyRequirements.changed(recalculate);
-    energyRequirements.elt.addEventListener("input",recalculate,false);
+    energyRequirements.elt.addEventListener("input", recalculate, false);
 
     proteinRequirements = select('#proteinRequirements');
     //proteinRequirements = document.querySelector('#proteinRequirements')
-    proteinRequirements.elt.addEventListener("input",recalculate,false);
+    proteinRequirements.elt.addEventListener("input", recalculate, false);
     //proteinRequirements.changed(recalculate);
 
     naloxegol = select('#naloxegol');
@@ -61,9 +61,9 @@ function setup() {
     outputBox = select('#outputBox');
 
     calculatedFeeds = deepCopyTable(feed_table);
-    
+
     createHTMLTable(feed_table);
-    
+
     renderTable(calculatedFeeds);
 
     //setup starting position
@@ -73,6 +73,7 @@ function setup() {
     assignMaleGender();
     selectABW();
     recalculate();
+    highlight_row();
 
 }
 
@@ -120,10 +121,10 @@ function createHTMLTable(data) {
     renderTable(calculatedFeeds);
 }
 
-function readInputBox(){
+function readInputBox() {
     //parse input box in this function
     let readWeight = float(inputBox.value());
-    console.log("well that worked",readWeight);
+    console.log("well that worked", readWeight);
     patientWeight.elt.value = readWeight;
     recalculate();
 }
@@ -155,7 +156,7 @@ function renderTable(dataTable) {
 }
 
 function recalculate() {
-  
+
     ABW = (float(patientWeight.value()));
     IBWM = int(50 + 2.3 * ((float(patientHeight.value()) / 2.54 - 60)));
     IBWF = int(45.5 + 2.3 * ((float(patientHeight.value()) / 2.54 - 60)));
@@ -285,7 +286,7 @@ function calculateFeedRatesAndVolumes() {
 function highlightProtein() {
     let htmlTable = document.getElementById("data_table");
     for (i = 2; i < calculatedFeeds.columns.length; i++) {
-        if (calculatedFeeds.get(1, i) < (0.9 * dailyProtein)){
+        if (calculatedFeeds.get(1, i) < (0.9 * dailyProtein)) {
             htmlTable.rows[2].cells[i].classList.add('highlight');
             //console.log("not engough in column" + i);
         }
@@ -294,6 +295,28 @@ function highlightProtein() {
         }
     }
 }
+
+function highlight_row() {
+
+    console.log("my thingn has been clicked!")
+
+    var table = document.getElementById("data_table");
+    var cells = table.getElementsByTagName("td");
+    for (var i = 0; i < cells.length; i++) {
+        var cell = cells[i];
+        cell.onclick = function () {
+            const parentTds = this.parentElement.children;
+            const clickedTdIndex = [...parentTds].findIndex(td => td == this);
+            const columns = document.querySelectorAll(`td:nth-child(${clickedTdIndex + 1}), th:nth-child(${clickedTdIndex + 1})`);
+            document.querySelectorAll('.selected').forEach(col => col.classList.remove('selected'));
+            columns.forEach(col => {
+                col.classList.add('selected');
+            });
+        }
+    }
+}
+
+
 
 function draw() {
     //recalculate();

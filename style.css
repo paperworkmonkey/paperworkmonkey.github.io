@@ -1,5 +1,5 @@
 html{
-  /*background-image: url('ICU.JPG');*/
+  background-image: url('slate.jpeg');
   background-size: cover;
   background-color: rgba(255,255,255,0.6);
   background-blend-mode: lighten;
@@ -67,7 +67,7 @@ h1{
 }
 
 td{
-  padding: 5px;
+  text-align:center;
   }
 
 .output_box{
@@ -120,6 +120,11 @@ canvas {
   margin: 5px;
   border-color: rgb(220,220,220);
 }
+
+.selected {
+  background-color: rgb(0,177,200);
+}
+
 
 #disclaimer{
  font-size: 0.5rem;
