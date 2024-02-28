@@ -297,9 +297,6 @@ function highlightProtein() {
 }
 
 function highlight_row() {
-
-    console.log("my thingn has been clicked!")
-
     var table = document.getElementById("data_table");
     var cells = table.getElementsByTagName("td");
     for (var i = 0; i < cells.length; i++) {
