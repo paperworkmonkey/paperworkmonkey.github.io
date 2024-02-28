@@ -15,7 +15,7 @@
 </head>
 
 <body style="font-family:Verdana">
-  <h1>NGFC</h1>
+  <h1>Nasogastric Feed Calculator</h1>
   <div class="container">
     <!--<div class="row1">
       <div>
@@ -24,7 +24,62 @@
       </div>
     </div>-->
 
+    <div class="row1">
+      <table class="metrics_table">
+        <tr class="odd_row">
+          <td class="metrics_row_header"><label>Height (cm):
+            <input id="patientHeight" type="number" value="178" style="width: 75px"></input></label></td>
+          
+        </tr>
+        <tr class="even_row">
+          <td class="metrics_row_header"><label>Weight (kg):
+            <input id="patientWeight" type="number" value="84" style="width: 75px"></input>
+          </label></td>
+          
+        </tr>
+        <tr class="odd_row">
+          <td class="metrics_row_header"><label>Gender (M/F):
+            <input id="patientMaleGender" type="button" value="male"></input>
+            <input id="patientFemaleGender" type="button" value="female"></input>
+          </label></td>
+        </tr>
 
+        <tr class="even_row">
+          <td class="metrics_row_header"><label id="energyReqLabel">Energy (kcal/kg/day):25</label>
+            <input type="range" id="energyRequirements" min="25" max="35" step="1" value="25"
+              oninput="updateEnergyValue(this.value)">
+            <script>
+              function updateEnergyValue(value) {
+                // Convert value to floating point
+                let floatValue = parseFloat(value);
+                document.getElementById('energyReqLabel').textContent = "Energy (kcal/kg/day):" + floatValue.toFixed(1);
+              }
+            </script></td>
+          
+        </tr>
+
+        <tr class="odd_row">
+          <td class="metrics_row_header"><label id="proteinReqLabel">Protein (g/kg/day):1.3</label>
+            <input type="range" id="proteinRequirements" min="1.0" max="1.8" step="0.1" value="1.3"
+              oninput="updateValue(this.value)">
+            <script>
+              function updateValue(value) {
+                // Convert value to floating point
+                let floatValue = parseFloat(value);
+                document.getElementById('proteinReqLabel').textContent = "Protein (g/kg/day):" + floatValue.toFixed(1);
+              }
+            </script></td>
+        </tr>
+
+        <tr class="odd_row">
+          <td class="metrics_row_header"><label>Naloxegol?</label>
+            <input id="naloxegol" type="checkbox"></input>
+          </div></td>
+        </tr>
+      </table>
+    </div>
+
+    <!--
     <div class="row1">
       <div class="userInputs">
         <label>Height (cm):
@@ -75,6 +130,8 @@
         <input id="naloxegol" type="checkbox"></input>
       </div>
     </div>
+  -->
+    
     <div class="row1">
       <table class="metrics_table">
         <tr class="odd_row">
@@ -120,7 +177,7 @@
   </div>
 
   </div>
-  <p id="outputBox" class="output_box">Archie is the best!</p>
+  <p id="outputBox" class="output_box">Feed:</p>
   </div>
 
 
