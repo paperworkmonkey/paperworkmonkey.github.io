@@ -2,7 +2,7 @@ html{
   background-image: url('slate.jpeg');
   background-size: cover;
   background-color: rgba(255,255,255,0.6);
-  background-blend-mode: lighten;
+  /*background-blend-mode: lighten;*/
   font-size: 1rem;
 }
 
@@ -15,9 +15,9 @@ body {
 h1{
   font-size: 2.5rem;
   padding: 10px;
-  border: 7.1px;
+  /*border: 0px;
   border-color: rgb(0, 0, 0);
-  border-style: solid;
+  border-style: solid;*/
   width: 60%;
   background-color: cadetblue;
   min-width: 700px
@@ -107,6 +107,7 @@ canvas {
 
 .weightSelectButton{
   border-radius: 2px;
+
 }
 
 .row1{

@@ -1,12 +1,13 @@
-// let feed_table, calculatedFeeds;
-// let inputBox, outputBox, naloxegol, IBWBox, AdjBWBox, ActBWBox;
-// let patientHeight, patientWeight, patientGender;
-// let patientMaleGender, patientFemaleGender;
+let feed_table, calculatedFeeds;
+let inputBox, outputBox, naloxegol, IBWBox, AdjBWBox, ActBWBox;
+let patientHeight, patientWeight, patientGender;
+let patientMaleGender, patientFemaleGender;
 let naloxegolFactor = 1;
-// let ABW, IBWM, IBWF, AdjBWM, AdjBWF;
-// let energyRequirements, proteinRequirements;
+let ABW, IBWM, IBWF, AdjBWM, AdjBWF;
+let energyRequirements, proteinRequirements;
 let dailyEnergy, dailyProtein;
 let useABW, useAdjBW, useIBW;
+let clickedHeader, clickedCellId;
 
 function preload() {
     feed_table = loadTable('data2.csv', 'csv', 'header');
@@ -30,17 +31,13 @@ function setup() {
     patientFemaleGender.mouseClicked(assignFemaleGender);
 
     energyRequirements = select('#energyRequirements');
-    //energyRequirements.changed(recalculate);
     energyRequirements.elt.addEventListener("input", recalculate, false);
 
     proteinRequirements = select('#proteinRequirements');
-    //proteinRequirements = document.querySelector('#proteinRequirements')
     proteinRequirements.elt.addEventListener("input", recalculate, false);
-    //proteinRequirements.changed(recalculate);
 
     naloxegol = select('#naloxegol');
     naloxegol.mousePressed(doNaloxegolCalculation);
-    //naloxegol.changed(doNaloxegolCalculation);
 
     ABWselected = select('#ABWselected');
     ABWselected.mouseClicked(selectABW);
@@ -66,15 +63,11 @@ function setup() {
 
     renderTable(calculatedFeeds);
 
-    //setup starting position
-    // patientMaleGender.addClass('highlight');
-    // patientFemaleGender.removeClass('highlight');
-    // patientGender = "male";
+    // setup starting position
     assignMaleGender();
     selectABW();
     recalculate();
     highlight_row();
-
 }
 
 function createHTMLTable(data) {
@@ -212,7 +205,7 @@ function doNaloxegolCalculation() {
     if (naloxegol.checked()) {
         naloxegolFactor = 1;
     } else {
-        naloxegolFactor = 24 / 21;
+        naloxegolFactor = 24 / 21.5;
     }
     recalculate();
 }
@@ -296,25 +289,36 @@ function highlightProtein() {
     }
 }
 
+
 function highlight_row() {
     var table = document.getElementById("data_table");
     var cells = table.getElementsByTagName("td");
     for (var i = 0; i < cells.length; i++) {
         var cell = cells[i];
         cell.onclick = function () {
-            const parentTds = this.parentElement.children;
-            const clickedTdIndex = [...parentTds].findIndex(td => td == this);
+            const parentTr = this.parentElement;
+            const clickedTdIndex = Array.from(parentTr.children).indexOf(this);
+            const columnHeader = table.querySelector(`th:nth-child(${clickedTdIndex + 1})`); // Find the corresponding column header
             const columns = document.querySelectorAll(`td:nth-child(${clickedTdIndex + 1}), th:nth-child(${clickedTdIndex + 1})`);
             document.querySelectorAll('.selected').forEach(col => col.classList.remove('selected'));
             columns.forEach(col => {
                 col.classList.add('selected');
             });
+
+            // Set outputBox text to the text content of the column header
+            if (columnHeader) {
+                outputBox.elt.innerHTML = columnHeader.textContent.trim() + ": target ";
+            } else {
+                outputBox.elt.innerHTML = "Column header not found";
+            }
         }
     }
 }
 
 
 
-function draw() {
-    //recalculate();
-}
+
+
+// function draw() {
+//     //recalculate();
+// }
