@@ -210,6 +210,7 @@ function doNaloxegolCalculation() {
         naloxegolFactor = 24 / 21.5;
     }
     recalculate();
+    highlight_row();
 }
 
 function selectABW() {
