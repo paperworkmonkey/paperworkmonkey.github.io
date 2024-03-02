@@ -198,7 +198,6 @@ function recalculate() {
     dailyProteinBox.html(dailyProtein);
     calculateFeedRatesAndVolumes();
 
-
 }
 
 function doNaloxegolCalculation() {
@@ -304,10 +303,13 @@ function highlight_row() {
             columns.forEach(col => {
                 col.classList.add('selected');
             });
+            
+            const lastRowCell = table.rows[table.rows.length - 1].cells[clickedTdIndex].textContent.trim();
 
             // Set outputBox text to the text content of the column header
             if (columnHeader) {
-                outputBox.elt.innerHTML = columnHeader.textContent.trim() + ": target ";
+                outputBox.elt.innerHTML = columnHeader.textContent.trim() + ": target " + lastRowCell + " ml/hr";
+                //outputBox.elt.innerHTML = "something" + "somethignelse" + "another thing";
             } else {
                 outputBox.elt.innerHTML = "Column header not found";
             }
