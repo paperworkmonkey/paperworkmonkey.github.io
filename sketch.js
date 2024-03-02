@@ -309,28 +309,31 @@ function highlight_row() {
     var cells = table.getElementsByTagName("td");
     for (var i = 0; i < cells.length; i++) {
         var cell = cells[i];
-        cell.onclick = function () {
-            const parentTr = this.parentElement;
-            const clickedTdIndex = Array.from(parentTr.children).indexOf(this);
-            const columnHeader = table.querySelector(`th:nth-child(${clickedTdIndex + 1})`); // Find the corresponding column header
-            const columns = document.querySelectorAll(`td:nth-child(${clickedTdIndex + 1}), th:nth-child(${clickedTdIndex + 1})`);
-            document.querySelectorAll('.selected').forEach(col => col.classList.remove('selected'));
-            columns.forEach(col => {
-                col.classList.add('selected');
-            });
+        const parentTr = cell.parentElement;
+        const clickedTdIndex = Array.from(parentTr.children).indexOf(cell);
+        if (clickedTdIndex > 1) { // Check if the column index is greater than 1
+            cell.onclick = function () {
+                const columnHeader = table.querySelector(`th:nth-child(${clickedTdIndex + 1})`); // Find the corresponding column header
+                const columns = document.querySelectorAll(`td:nth-child(${clickedTdIndex + 1}), th:nth-child(${clickedTdIndex + 1})`);
+                document.querySelectorAll('.selected').forEach(col => col.classList.remove('selected'));
+                columns.forEach(col => {
+                    col.classList.add('selected');
+                });
 
-            const rateCell = table.rows[table.rows.length - 2].cells[clickedTdIndex].textContent.trim();
-            const prosourceCell = table.rows[table.rows.length - 1].cells[clickedTdIndex].textContent.trim();
+                const rateCell = table.rows[table.rows.length - 2].cells[clickedTdIndex].textContent.trim();
+                const prosourceCell = table.rows[table.rows.length - 1].cells[clickedTdIndex].textContent.trim();
 
-            // Set outputBox text to the text content of the column header
-            if (columnHeader) {
-                outputBox.elt.innerHTML = columnHeader.textContent.trim() + ": target " + rateCell + " ml/hr, " + prosourceCell + " prosource required";
-            } else {
-                outputBox.elt.innerHTML = "Column header not found";
+                // Set outputBox text to the text content of the column header
+                if (columnHeader) {
+                    outputBox.elt.innerHTML = columnHeader.textContent.trim() + ": target " + rateCell + " ml/hr, " + prosourceCell + " prosource required";
+                } else {
+                    outputBox.elt.innerHTML = "Column header not found";
+                }
             }
         }
     }
 }
+
 
 // function draw() {
 //     //recalculate();
