@@ -1,5 +1,8 @@
+//need to ensure Nas restricted check box does something!
+
+
 let feed_table, calculatedFeeds;
-let inputBox, outputBox, naloxegol, IBWBox, AdjBWBox, ActBWBox;
+let inputBox, outputBox, naloxegol, NaRestrict, IBWBox, AdjBWBox, ActBWBox;
 let patientHeight, patientWeight, patientGender;
 let patientMaleGender, patientFemaleGender;
 let naloxegolFactor = 1;
@@ -40,6 +43,8 @@ function setup() {
     naloxegol = select('#naloxegol');
     naloxegol.mousePressed(doNaloxegolCalculation);
 
+    NaRestrict = select(('NaRestrict'));
+
     ABWselected = select('#ABWselected');
     ABWselected.mouseClicked(selectABW);
 
@@ -68,7 +73,8 @@ function setup() {
     assignMaleGender();
     selectABW();
     recalculate();
-    highlight_row();
+    highlight_column();
+    
 }
 
 function createHTMLTable(data) {
@@ -199,6 +205,7 @@ function recalculate() {
     dailyProteinBox.html(dailyProtein);
     calculateFeedRatesAndVolumes();
     highlightProtein();
+    highlightSodium();
 
 
 }
@@ -210,7 +217,7 @@ function doNaloxegolCalculation() {
         naloxegolFactor = 24 / 21.5;
     }
     recalculate();
-    highlight_row();
+    highlight_column();
 }
 
 function selectABW() {
@@ -245,10 +252,6 @@ function selectAdjBW() {
 
 function calculateFeedRatesAndVolumes() {
     // uses global dailyEnergy variable 
-
-    // let something;
-    // something = feed_table.matchRow(new RegExp('ml/hr'),1);
-    // print(something.getString(0));
     let dailyvolumeRowIndex = 8;
     let rateRowIndex = 9;
     let energyDensityRowIndex = 0;
@@ -275,13 +278,13 @@ function calculateFeedRatesAndVolumes() {
 
     //calculate prosource number required
     for (let j = 2; j < calculatedFeeds.columns.length; j++) {
-        const proteinDelivered = calculatedFeeds.get(1,j);
+        const proteinDelivered = calculatedFeeds.get(1, j);
         const proteinDeficit = dailyProtein - proteinDelivered;
         const prosourceRequired = round((proteinDeficit / proteinInProsourceTF), 0);
         // console.log("protein: " + proteinDelivered);
         // console.log("protein deficit: " + proteinDeficit);
         // console.log("prosource required: " + prosourceRequired);
-        calculatedFeeds.set(10,j,prosourceRequired);
+        calculatedFeeds.set(10, j, prosourceRequired);
     }
 
     renderTable(calculatedFeeds);
@@ -303,8 +306,25 @@ function highlightProtein() {
     }
 }
 
+function highlightSodium() {
+   // if (NaRestrict.checked) {
+        let htmlTable = document.getElementById("data_table");
+        for (i = 2; i < calculatedFeeds.columns.length; i++) {
+            console.log(calculatedFeeds.get(6, i));
+            console.log(ABW);
+            if (calculatedFeeds.get(6, i) > ABW) {
+                htmlTable.rows[7].cells[i].classList.add('highlight');
+                //console.log("not engough in column" + i);
+            }
+            else {
+                htmlTable.rows[7].cells[i].classList.remove('highlight');
+            }
+        }
+   // }
+}
 
-function highlight_row() {
+
+function highlight_column() {
     var table = document.getElementById("data_table");
     var cells = table.getElementsByTagName("td");
     for (var i = 0; i < cells.length; i++) {
