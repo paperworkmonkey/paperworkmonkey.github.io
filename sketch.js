@@ -8,6 +8,7 @@ let energyRequirements, proteinRequirements;
 let dailyEnergy, dailyProtein;
 let useABW, useAdjBW, useIBW;
 let clickedHeader, clickedCellId;
+const proteinInProsourceTF = 11;
 
 function preload() {
     feed_table = loadTable('data2.csv', 'csv', 'header');
@@ -197,6 +198,8 @@ function recalculate() {
     dailyEnergyBox.html(dailyEnergy);
     dailyProteinBox.html(dailyProtein);
     calculateFeedRatesAndVolumes();
+    highlightProtein();
+
 
 }
 
@@ -269,6 +272,17 @@ function calculateFeedRatesAndVolumes() {
         }
     }
 
+    //calculate prosource number required
+    for (let j = 2; j < calculatedFeeds.columns.length; j++) {
+        const proteinDelivered = calculatedFeeds.get(1,j);
+        const proteinDeficit = dailyProtein - proteinDelivered;
+        const prosourceRequired = round((proteinDeficit / proteinInProsourceTF), 0);
+        // console.log("protein: " + proteinDelivered);
+        // console.log("protein deficit: " + proteinDeficit);
+        // console.log("prosource required: " + prosourceRequired);
+        calculatedFeeds.set(10,j,prosourceRequired);
+    }
+
     renderTable(calculatedFeeds);
 
     //highlight protein if <90% required
@@ -303,23 +317,19 @@ function highlight_row() {
             columns.forEach(col => {
                 col.classList.add('selected');
             });
-            
-            const lastRowCell = table.rows[table.rows.length - 1].cells[clickedTdIndex].textContent.trim();
+
+            const rateCell = table.rows[table.rows.length - 2].cells[clickedTdIndex].textContent.trim();
+            const prosourceCell = table.rows[table.rows.length - 1].cells[clickedTdIndex].textContent.trim();
 
             // Set outputBox text to the text content of the column header
             if (columnHeader) {
-                outputBox.elt.innerHTML = columnHeader.textContent.trim() + ": target " + lastRowCell + " ml/hr";
-                //outputBox.elt.innerHTML = "something" + "somethignelse" + "another thing";
+                outputBox.elt.innerHTML = columnHeader.textContent.trim() + ": target " + rateCell + " ml/hr, " + prosourceCell + " prosource required";
             } else {
                 outputBox.elt.innerHTML = "Column header not found";
             }
         }
     }
 }
-
-
-
-
 
 // function draw() {
 //     //recalculate();
