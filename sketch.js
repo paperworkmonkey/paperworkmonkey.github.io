@@ -23,16 +23,16 @@ function setup() {
     //inputBox.changed(readInputBox);
 
     patientHeight = select('#patientHeight');
-    patientHeight.changed(recalculate);
+    patientHeight.elt.addEventListener('change', recalculate);
 
     patientWeight = select('#patientWeight')
     patientWeight.changed(recalculate);
 
     patientMaleGender = select('#patientMaleGender');
-    patientMaleGender.mouseClicked(assignMaleGender);
+    patientMaleGender.elt.addEventListener('click', assignMaleGender);
 
     patientFemaleGender = select('#patientFemaleGender');
-    patientFemaleGender.mouseClicked(assignFemaleGender);
+    patientFemaleGender.elt.addEventListener('click', assignFemaleGender);
 
     energyRequirements = select('#energyRequirements');
     energyRequirements.elt.addEventListener("input", recalculate, false);
@@ -41,19 +41,19 @@ function setup() {
     proteinRequirements.elt.addEventListener("input", recalculate, false);
 
     naloxegol = select('#naloxegol');
-    naloxegol.mousePressed(doNaloxegolCalculation);
+    naloxegol.elt.addEventListener('click', doNaloxegolCalculation);
 
     NaRestrict = select(('#NaRestrict'));
-    NaRestrict.mouseClicked(highlightSodium);
+    NaRestrict.elt.addEventListener('click', highlightSodium);
 
     ABWselected = select('#ABWselected');
-    ABWselected.mouseClicked(selectABW);
+    ABWselected.elt.addEventListener('click', selectABW);
 
     IBWselected = select('#IBWselected');
-    IBWselected.mouseClicked(selectIBW);
+    IBWselected.elt.addEventListener('click', selectIBW);
 
     AdjBWselected = select('#AdjBWselected');
-    AdjBWselected.mouseClicked(selectAdjBW);
+    AdjBWselected.elt.addEventListener('click', selectAdjBW);
 
     IBWBox = select('#IBWBox');
     ActBWBox = select('#ActBWBox')
