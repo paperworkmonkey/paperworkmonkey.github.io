@@ -43,7 +43,8 @@ function setup() {
     naloxegol = select('#naloxegol');
     naloxegol.mousePressed(doNaloxegolCalculation);
 
-    NaRestrict = select(('NaRestrict'));
+    NaRestrict = select(('#NaRestrict'));
+    NaRestrict.mouseClicked(highlightSodium);
 
     ABWselected = select('#ABWselected');
     ABWselected.mouseClicked(selectABW);
@@ -66,7 +67,6 @@ function setup() {
     calculatedFeeds = deepCopyTable(feed_table);
 
     createHTMLTable(feed_table);
-
     renderTable(calculatedFeeds);
 
     // setup starting position
@@ -74,7 +74,7 @@ function setup() {
     selectABW();
     recalculate();
     highlight_column();
-    
+
 }
 
 function createHTMLTable(data) {
@@ -121,13 +121,13 @@ function createHTMLTable(data) {
     renderTable(calculatedFeeds);
 }
 
-function readInputBox() {
-    //parse input box in this function
-    let readWeight = float(inputBox.value());
-    console.log("well that worked", readWeight);
-    patientWeight.elt.value = readWeight;
-    recalculate();
-}
+// function readInputBox() {
+//     //parse input box in this function
+//     let readWeight = float(inputBox.value());
+//     console.log("well that worked", readWeight);
+//     patientWeight.elt.value = readWeight;
+//     recalculate();
+// }
 
 function assignMaleGender() {
     patientMaleGender.addClass('highlight');
@@ -153,6 +153,9 @@ function renderTable(dataTable) {
             htmlTable.rows[i].cells[j].textContent = cellValue;
         }
     }
+
+    highlightProtein();
+    highlightSodium();
 }
 
 function recalculate() {
@@ -260,15 +263,18 @@ function calculateFeedRatesAndVolumes() {
     //console.log(weight, energy);
 
     for (let n = 2; n < feed_table.columns.length; n++) {
+
         dailyFeedVolume = int((dailyEnergy) / feed_table.get(energyDensityRowIndex, n));
         calculatedFeeds.set(dailyvolumeRowIndex, n, dailyFeedVolume);
+        //console.log("column " + n + ": " + dailyFeedVolume);
 
         feedRate = round((int(dailyFeedVolume) / 24) * naloxegolFactor, 0);
         calculatedFeeds.set(rateRowIndex, n, feedRate);
     }
 
+
     //calculate rest of table
-    for (let i = 0; i < feed_table.rows.length - 2; i++) {
+    for (let i = 0; i < feed_table.rows.length - 3; i++) {
         for (let j = 2; j < feed_table.columns.length; j++) {
             let newValue = feed_table.get(i, j);
             let dailyFeedVolume = calculatedFeeds.get(dailyvolumeRowIndex, j);
@@ -281,16 +287,13 @@ function calculateFeedRatesAndVolumes() {
         const proteinDelivered = calculatedFeeds.get(1, j);
         const proteinDeficit = dailyProtein - proteinDelivered;
         const prosourceRequired = round((proteinDeficit / proteinInProsourceTF), 0);
-        // console.log("protein: " + proteinDelivered);
-        // console.log("protein deficit: " + proteinDeficit);
-        // console.log("prosource required: " + prosourceRequired);
         calculatedFeeds.set(10, j, prosourceRequired);
     }
 
     renderTable(calculatedFeeds);
 
     //highlight protein if <90% required
-    highlightProtein();
+
 }
 
 function highlightProtein() {
@@ -307,11 +310,12 @@ function highlightProtein() {
 }
 
 function highlightSodium() {
-   // if (NaRestrict.checked) {
-        let htmlTable = document.getElementById("data_table");
+    let htmlTable = document.getElementById("data_table");
+    if (NaRestrict.checked()) {
+
         for (i = 2; i < calculatedFeeds.columns.length; i++) {
-            console.log(calculatedFeeds.get(6, i));
-            console.log(ABW);
+            // console.log(calculatedFeeds.get(6, i));
+            // console.log(ABW);
             if (calculatedFeeds.get(6, i) > ABW) {
                 htmlTable.rows[7].cells[i].classList.add('highlight');
                 //console.log("not engough in column" + i);
@@ -320,7 +324,13 @@ function highlightSodium() {
                 htmlTable.rows[7].cells[i].classList.remove('highlight');
             }
         }
-   // }
+    }
+    else {
+        //console.log("no longer Na resitriced");
+        for (i = 2; i < calculatedFeeds.columns.length; i++) {
+            htmlTable.rows[7].cells[i].classList.remove('highlight');
+        }
+    }
 }
 
 
