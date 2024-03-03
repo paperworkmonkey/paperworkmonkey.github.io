@@ -220,7 +220,7 @@ function doNaloxegolCalculation() {
         naloxegolFactor = 24 / 21.5;
     }
     recalculate();
-    highlight_column();
+    //highlight_column();
 }
 
 function selectABW() {
@@ -260,8 +260,6 @@ function calculateFeedRatesAndVolumes() {
     let energyDensityRowIndex = 0;
     let dailyFeedVolume, feedRate;
 
-    //console.log(weight, energy);
-
     for (let n = 2; n < feed_table.columns.length; n++) {
 
         dailyFeedVolume = int((dailyEnergy) / feed_table.get(energyDensityRowIndex, n));
@@ -273,7 +271,7 @@ function calculateFeedRatesAndVolumes() {
     }
 
 
-    //calculate rest of table
+    //calculate and display rest of table
     for (let i = 0; i < feed_table.rows.length - 3; i++) {
         for (let j = 2; j < feed_table.columns.length; j++) {
             let newValue = feed_table.get(i, j);
@@ -282,7 +280,7 @@ function calculateFeedRatesAndVolumes() {
         }
     }
 
-    //calculate prosource number required
+    //calculate and display prosource number required
     for (let j = 2; j < calculatedFeeds.columns.length; j++) {
         const proteinDelivered = calculatedFeeds.get(1, j);
         const proteinDeficit = dailyProtein - proteinDelivered;
@@ -291,8 +289,6 @@ function calculateFeedRatesAndVolumes() {
     }
 
     renderTable(calculatedFeeds);
-
-    //highlight protein if <90% required
 
 }
 

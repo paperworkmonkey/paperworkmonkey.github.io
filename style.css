@@ -1,7 +1,7 @@
-html{
+html {
   /*background-image: url('slate.jpeg');
   background-size: cover;*/
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   /*background-blend-mode: lighten;*/
   font-size: 1rem;
 }
@@ -12,7 +12,7 @@ body {
   opacity: 0.99;
 }
 
-h1{
+h1 {
   font-size: 2.5rem;
   padding: 10px;
   /*border-color: rgb(0, 0, 0);
@@ -22,16 +22,16 @@ h1{
   min-width: 700px
 }
 
-.my_table{
+.my_table {
   table-layout: fixed;
   min-width: 720px;
   font-size: 0.75rem;
-  border-color: rgb(200,200,200);
-  background-color: rgb(220,220,220);
+  border-color: rgb(200, 200, 200);
+  background-color: rgb(220, 220, 220);
   border-style: solid
 }
 
-.userInputs{
+.userInputs {
   /*height, weight and gender*/
   /*display: inline; */
   margin: 5px;
@@ -44,59 +44,63 @@ h1{
   padding: 5px;
 }
 
-.weightSelectButton{
+.weightSelectButton {
   width: 30px;
 }
 
-.metrics_table{
+.metrics_table {
   font-size: 0.75rem;
   padding: 0px;
   min-width: 100px;
 }
 
-.metrics_table > tr {
+.metrics_table>tr {
   padding: 40px;
 }
 
-.metrics_row_header{
+.metrics_row_header {
   /*font-weight: bold;*/
   width: 100px;
   padding: 5px;
   text-wrap: true;
 }
 
-.row_header{
+.row_header {
   font-weight: bold;
   min-width: 100px;
   padding: 5px;
 }
 
-.column_header{
+.column_header {
   font-weight: bold;
   background-color: pink;
 }
 
-.odd_row{
+.odd_row {
   background-color: rgb(178, 225, 241);
   padding: 0px;
 }
 
-.even_row{
+.even_row {
   background-color: rgb(208, 231, 244);
   padding: 0px;
 }
 
-td{
-  text-align:center;
+td {
+  text-align: center;
 }
 
 .container {
   display: flex;
+  justify-content: space-between;
+  /* Distribute items equally with space between them */
+  width: 100%;
 }
 
-.container > div {
+.container>div {
   max-width: 250px;
-  flex: 2; /*grow*/
+  flex: 2;
+  /*grow*/
   padding: 5px;
 }
 
@@ -104,28 +108,28 @@ canvas {
   display: block;
 }
 
-.weightSelectButton{
+.weightSelectButton {
   border-radius: 2px;
 
 }
 
-.row1{
-  display:grid;
+.row1 {
+  display: grid;
   margin: 5px;
-  border-color: rgb(220,220,220);
-  background-color: rbg(178,255,241);
+  border-color: rgb(220, 220, 220);
+  background-color: rbg(178, 255, 241);
 }
 
-.row2{
-  display:grid;
+.row2 {
+  display: grid;
   margin: 5px;
 }
 
-.output_box{
+.output_box {
   border: 2px;
   border-style: solid;
   border-color: black;
-  background-color: rgb(178,225,241);
+  background-color: rgb(178, 225, 241);
   width: 60%;
 }
 
@@ -139,6 +143,6 @@ canvas {
   background-color: rgb(248, 140, 140);
 }
 
-#disclaimer{
- font-size: 0.5rem;
+#disclaimer {
+  font-size: 0.5rem;
 }
