@@ -17,7 +17,7 @@ h1 {
   padding: 10px;
   /*border-color: rgb(0, 0, 0);
   border-style: solid;*/
-  width: 60%;
+  width: 720px;
   background-color: cadetblue;
   min-width: 700px
 }
@@ -95,13 +95,14 @@ td {
   justify-content: space-between;
   /* Distribute items equally with space between them */
   width: 100%;
+  max-width: 750px;
 }
 
 .container>div {
   max-width: 250px;
   flex: 2;
   /*grow*/
-  padding: 5px;
+  padding: 0px;
 }
 
 canvas {
@@ -115,9 +116,11 @@ canvas {
 
 .row1 {
   display: grid;
+  padding: 0px;
   margin: 5px;
   border-color: rgb(220, 220, 220);
   background-color: rbg(178, 255, 241);
+  min-width: 200px;
 }
 
 .row2 {
@@ -130,7 +133,7 @@ canvas {
   border-style: solid;
   border-color: black;
   background-color: rgb(178, 225, 241);
-  width: 60%;
+  width: 720px;
 }
 
 /*used for feed column selection */
@@ -144,5 +147,7 @@ canvas {
 }
 
 #disclaimer {
+  max-width: 740px;
   font-size: 0.5rem;
+  text-align: justify;
 }

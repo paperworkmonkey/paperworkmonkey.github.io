@@ -333,6 +333,7 @@ function highlightSodium() {
 function highlight_column() {
     var table = document.getElementById("data_table");
     var cells = table.getElementsByTagName("td");
+    let prosourceString;
     for (var i = 0; i < cells.length; i++) {
         var cell = cells[i];
         const parentTr = cell.parentElement;
@@ -349,9 +350,17 @@ function highlight_column() {
                 const rateCell = table.rows[table.rows.length - 2].cells[clickedTdIndex].textContent.trim();
                 const prosourceCell = table.rows[table.rows.length - 1].cells[clickedTdIndex].textContent.trim();
 
+
+                if (prosourceCell > 0){
+                prosourceString = ", and " + prosourceCell + " prosource required";
+                }
+                else{
+                    prosourceString = "";
+                }
+
                 // Set outputBox text to the text content of the column header
                 if (columnHeader) {
-                    outputBox.elt.innerHTML = columnHeader.textContent.trim() + ": target " + rateCell + " ml/hr, " + prosourceCell + " prosource required";
+                    outputBox.elt.innerHTML = columnHeader.textContent.trim() + ": target " + rateCell + " ml/hr" + prosourceString;
                 } else {
                     outputBox.elt.innerHTML = "Column header not found";
                 }
