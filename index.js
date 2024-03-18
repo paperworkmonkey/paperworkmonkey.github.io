@@ -3,7 +3,7 @@
 
 let feed_table, calculatedFeeds;
 let inputBox, outputBox, naloxegol, NaRestrict, IBWBox, AdjBWBox, ActBWBox;
-let patientHeight, patientWeight, patientGender;
+//let patientHeight, patientWeight, patientGender;
 let patientMaleGender, patientFemaleGender;
 let naloxegolFactor = 1;
 let ABW, IBWM, IBWF, AdjBWM, AdjBWF;
@@ -22,47 +22,47 @@ function setup() {
     //inputBox = select('#read_in');
     //inputBox.changed(readInputBox);
 
-    patientHeight = select('#patientHeight');
-    patientHeight.elt.addEventListener('change', recalculate);
+    patientHeight = document.getElementById("patientHeight");
+    patientHeight.addEventListener('change', recalculate);
 
-    patientWeight = select('#patientWeight')
-    patientWeight.changed(recalculate);
+    patientWeight = document.getElementById("patientWeight")
+    patientWeight.addEventListener('changed',recalculate);
 
-    patientMaleGender = select('#patientMaleGender');
-    patientMaleGender.elt.addEventListener('click', assignMaleGender);
+    patientMaleGender = document.getElementById("patientMaleGender");
+    patientMaleGender.addEventListener('click', assignMaleGender);
 
-    patientFemaleGender = select('#patientFemaleGender');
-    patientFemaleGender.elt.addEventListener('click', assignFemaleGender);
+    patientFemaleGender = document.getElementById("patientFemaleGender");
+    patientFemaleGender.addEventListener('click', assignFemaleGender);
 
-    energyRequirements = select('#energyRequirements');
-    energyRequirements.elt.addEventListener("input", recalculate, false);
+    energyRequirements = document.getElementById("energyRequirements");
+    energyRequirements.addEventListener("input", recalculate, false);
 
-    proteinRequirements = select('#proteinRequirements');
-    proteinRequirements.elt.addEventListener("input", recalculate, false);
+    proteinRequirements = document.getElementById("proteinRequirements");
+    proteinRequirements.addEventListener("input", recalculate, false);
 
-    naloxegol = select('#naloxegol');
-    naloxegol.elt.addEventListener('click', doNaloxegolCalculation);
+    naloxegol = document.getElementById("naloxegol");
+    naloxegol.addEventListener('click', doNaloxegolCalculation);
 
-    NaRestrict = select(('#NaRestrict'));
-    NaRestrict.elt.addEventListener('click', highlightSodium);
+    NaRestrict = document.getElementById(("NaRestrict"));
+    NaRestrict.addEventListener('click', highlightSodium);
 
-    ABWselected = select('#ABWselected');
-    ABWselected.elt.addEventListener('click', selectABW);
+    ABWselected = document.getElementById("ABWselected");
+    ABWselected.addEventListener('click', selectABW);
 
-    IBWselected = select('#IBWselected');
-    IBWselected.elt.addEventListener('click', selectIBW);
+    IBWselected = document.getElementById("IBWselected");
+    IBWselected.addEventListener('click', selectIBW);
 
-    AdjBWselected = select('#AdjBWselected');
-    AdjBWselected.elt.addEventListener('click', selectAdjBW);
+    AdjBWselected = document.getElementById("AdjBWselected");
+    AdjBWselected.addEventListener('click', selectAdjBW);
 
-    IBWBox = select('#IBWBox');
-    ActBWBox = select('#ActBWBox')
-    AdjBWBox = select('#AdjBWBox');
-    BMIBox = select('#BMIBox');
-    dailyEnergyBox = select('#dailyEnergyBox');
-    dailyProteinBox = select('#dailyProteinBox');
+    IBWBox = document.getElementById("IBWBox");
+    ActBWBox = document.getElementById("ActBWBox")
+    AdjBWBox = document.getElementById("AdjBWBox");
+    BMIBox = document.getElementById("BMIBox");
+    dailyEnergyBox = document.getElementById("dailyEnergyBox");
+    dailyProteinBox = document.getElementById("dailyProteinBox");
 
-    outputBox = select('#outputBox');
+    outputBox = document.getElementById("outputBox");
 
     calculatedFeeds = deepCopyTable(feed_table);
 
@@ -130,15 +130,15 @@ function createHTMLTable(data) {
 // }
 
 function assignMaleGender() {
-    patientMaleGender.addClass('highlight');
-    patientFemaleGender.removeClass('highlight');
+    patientMaleGender.classList.add('highlight');
+    patientFemaleGender.classList.remove('highlight');
     patientGender = "male";
     recalculate();
 }
 
 function assignFemaleGender() {
-    patientFemaleGender.addClass('highlight');
-    patientMaleGender.removeClass('highlight');
+    patientFemaleGender.classList.add('highlight');
+    patientMaleGender.classList.remove('highlight');
     patientGender = "female"
     recalculate();
 }
@@ -160,52 +160,52 @@ function renderTable(dataTable) {
 
 function recalculate() {
 
-    ABW = (float(patientWeight.value()));
-    IBWM = int(50 + 2.3 * ((float(patientHeight.value()) / 2.54 - 60)));
-    IBWF = int(45.5 + 2.3 * ((float(patientHeight.value()) / 2.54 - 60)));
-    AdjBWM = int(IBWM + (0.4 * (float(patientWeight.value()) - IBWM)));
-    AdjBWF = int(IBWF + (0.4 * (float(patientWeight.value()) - IBWF)));
+    ABW = (float(patientWeight.value));
+    IBWM = int(50 + 2.3 * ((float(patientHeight.value) / 2.54 - 60)));
+    IBWF = int(45.5 + 2.3 * ((float(patientHeight.value) / 2.54 - 60)));
+    AdjBWM = int(IBWM + (0.4 * (float(patientWeight.value) - IBWM)));
+    AdjBWF = int(IBWF + (0.4 * (float(patientWeight.value) - IBWF)));
 
     //populate metrics table
-    ActBWBox.html(int(patientWeight.value()) + " kg");
-    BMIBox.html(int(float(patientWeight.value()) / ((float(patientHeight.value() / 100)) * (float(patientHeight.value() / 100)))));
+    ActBWBox.textContent = int(patientWeight.value) + " kg";
+    BMIBox.innerHTML = int(float(patientWeight.value) / ((float(patientHeight.value / 100)) * (float(patientHeight.value / 100))));
 
     if (patientGender == "male") {
-        IBWBox.html(IBWM + " kg");
-        AdjBWBox.html(AdjBWM + " kg");
+        IBWBox.innerHTML = IBWM + " kg";
+        AdjBWBox.innerHTML = AdjBWM + " kg";
     } else {
-        IBWBox.html(IBWF + " kg");
-        AdjBWBox.html(AdjBWF + " kg");
+        IBWBox.innerHTML = IBWF + " kg";
+        AdjBWBox.innerHTML = AdjBWF + " kg";
     }
 
     //perform energy and protein calculations based on selected weight
     if (useABW) {
-        dailyEnergy = int(ABW * float(energyRequirements.value()));
-        dailyProtein = int(ABW * float(proteinRequirements.value()));
+        dailyEnergy = int(ABW * float(energyRequirements.value));
+        dailyProtein = int(ABW * float(proteinRequirements.value));
     }
 
     if (useIBW && patientGender == "male") {
-        dailyEnergy = int(IBWM * float(energyRequirements.value()));
-        dailyProtein = int(IBWM * float(proteinRequirements.value()));
+        dailyEnergy = int(IBWM * float(energyRequirements.value));
+        dailyProtein = int(IBWM * float(proteinRequirements.value));
     }
 
     if (useIBW && patientGender == "female") {
-        dailyEnergy = int(IBWF * float(energyRequirements.value()));
-        dailyProtein = int(IBWF * float(proteinRequirements.value()));
+        dailyEnergy = int(IBWF * float(energyRequirements.value));
+        dailyProtein = int(IBWF * float(proteinRequirements.value));
     }
 
     if (useAdjBW && patientGender == "male") {
-        dailyEnergy = int(AdjBWM * float(energyRequirements.value()));
-        dailyProtein = int(AdjBWM * float(proteinRequirements.value()));
+        dailyEnergy = int(AdjBWM * float(energyRequirements.value));
+        dailyProtein = int(AdjBWM * float(proteinRequirements.value));
     }
 
     if (useAdjBW && patientGender == "female") {
-        dailyEnergy = int(AdjBWF * float(energyRequirements.value()));
-        dailyProtein = int(AdjBWF * float(proteinRequirements.value()));
+        dailyEnergy = int(AdjBWF * float(energyRequirements.value));
+        dailyProtein = int(AdjBWF * float(proteinRequirements.value));
     }
 
-    dailyEnergyBox.html(dailyEnergy);
-    dailyProteinBox.html(dailyProtein);
+    dailyEnergyBox.innerHTML = dailyEnergy;
+    dailyProteinBox.innerHTML = dailyProtein;
     calculateFeedRatesAndVolumes();
     highlightProtein();
     highlightSodium();
@@ -214,19 +214,19 @@ function recalculate() {
 }
 
 function doNaloxegolCalculation() {
-    if (naloxegol.checked()) {
-        naloxegolFactor = 1;
-    } else {
+    if (naloxegol.checked) {
         naloxegolFactor = 24 / 21.5;
+    } else {
+        naloxegolFactor = 1;
     }
     recalculate();
     //highlight_column();
 }
 
 function selectABW() {
-    ABWselected.addClass('highlight');
-    IBWselected.removeClass('highlight');
-    AdjBWselected.removeClass('highlight');
+    ABWselected.classList.add('highlight');
+    IBWselected.classList.remove('highlight');
+    AdjBWselected.classList.remove('highlight');
     useIBW = false;
     useABW = true;
     useAdjBW = false;
@@ -234,9 +234,9 @@ function selectABW() {
 }
 
 function selectIBW() {
-    ABWselected.removeClass('highlight');
-    IBWselected.addClass('highlight');
-    AdjBWselected.removeClass('highlight');
+    ABWselected.classList.remove('highlight');
+    IBWselected.classList.add('highlight');
+    AdjBWselected.classList.remove('highlight');
     useIBW = true;
     useABW = false;
     useAdjBW = false;
@@ -244,9 +244,9 @@ function selectIBW() {
 }
 
 function selectAdjBW() {
-    ABWselected.removeClass('highlight');
-    IBWselected.removeClass('highlight');
-    AdjBWselected.addClass('highlight');
+    ABWselected.classList.remove('highlight');
+    IBWselected.classList.remove('highlight');
+    AdjBWselected.classList.add('highlight');
     useIBW = false;
     useABW = false;
     useAdjBW = true;
@@ -307,7 +307,7 @@ function highlightProtein() {
 
 function highlightSodium() {
     let htmlTable = document.getElementById("data_table");
-    if (NaRestrict.checked()) {
+    if (NaRestrict.checked) {
 
         for (i = 2; i < calculatedFeeds.columns.length; i++) {
             // console.log(calculatedFeeds.get(6, i));
@@ -341,6 +341,7 @@ function highlight_column() {
         if (clickedTdIndex > 1) { // Check if the column index is greater than 1
             cell.onclick = function () {
                 const columnHeader = table.querySelector(`th:nth-child(${clickedTdIndex + 1})`); // Find the corresponding column header
+                //console.log(columnHeader);
                 const columns = document.querySelectorAll(`td:nth-child(${clickedTdIndex + 1}), th:nth-child(${clickedTdIndex + 1})`);
                 document.querySelectorAll('.selected').forEach(col => col.classList.remove('selected'));
                 columns.forEach(col => {
@@ -351,18 +352,27 @@ function highlight_column() {
                 const prosourceCell = table.rows[table.rows.length - 1].cells[clickedTdIndex].textContent.trim();
 
 
-                if (prosourceCell > 0){
-                prosourceString = ", and " + prosourceCell + " prosource required";
+                if (prosourceCell > 0) {
+                    prosourceString = ", and " + prosourceCell + " prosource required";
                 }
-                else{
+                else {
                     prosourceString = "";
                 }
 
+                let naloxegolString = "";
+                if (naloxegol.checked) {
+                    //console.log("nnaalloooxxeegggooolll")
+                    naloxegolString = " over 21 hours"
+                } else {
+                    naloxegolString = " over 24 hours"
+                }
+
+
                 // Set outputBox text to the text content of the column header
                 if (columnHeader) {
-                    outputBox.elt.innerHTML = columnHeader.textContent.trim() + ": target " + rateCell + " ml/hr" + prosourceString;
+                    outputBox.innerHTML = columnHeader.textContent.trim() + ": target " + rateCell + " ml/hr" + naloxegolString + prosourceString;
                 } else {
-                    outputBox.elt.innerHTML = "Column header not found";
+                    outputBox.innerHTML = "Column header not found";
                 }
             }
         }
