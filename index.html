@@ -40,8 +40,8 @@
         </tr>
         <tr class="odd_row">
           <td class="metrics_row_header"><label>Gender (M/F):
-            <input id="patientMaleGender" type="button" value="male"></input>
-            <input id="patientFemaleGender" type="button" value="female"></input>
+            <input id="patientMaleGender" type="button" value="M" class = "genderSelectButton"></input>
+            <input id="patientFemaleGender" type="button" value="F" class = "genderSelectButton"></input>
           </label></td>
         </tr>
 
@@ -89,26 +89,27 @@
           <td>Select weight to use:</td>
         </tr>
         <tr class="even_row">
-          <td class="metrics_row_header">ABW (kg)</td>
+          <td class="metrics_row_header">Act BW</td>
           <td id="ActBWBox"></td>
           <td><input class="weightSelectButton" id="ABWselected" type="button" class="highlight"></td>
         </tr>
-        <tr class="odd_row">
-          <td class="metrics_row_header">IBW (kg)</td>
-          <td id="IBWBox"></td>
-          <td><input class="weightSelectButton" id="IBWselected" type="button"></td>
-        </tr>
-
+        
         <tr class="even_row">
-          <td class="metrics_row_header">Adj BW (kg)</td>
+          <td class="metrics_row_header">Adj BW</td>
           <td id="AdjBWBox"></td>
           <td><input class="weightSelectButton" id="AdjBWselected" type="button"></td>
         </tr>
 
         <tr class="even_row">
-          <td class="metrics_row_header">BMI 27 (kg)</td>
+          <td class="metrics_row_header">BMI 27</td>
           <td id="BMI27BWBox"></td>
           <td><input class="weightSelectButton" id="BMI27BWselected" type="button"></td>
+        </tr>
+
+        <tr class="odd_row">
+          <td class="metrics_row_header">IBW</td>
+          <td id="IBWBox"></td>
+          <td><input class="weightSelectButton" id="IBWselected" type="button"></td>
         </tr>
 
       </table>

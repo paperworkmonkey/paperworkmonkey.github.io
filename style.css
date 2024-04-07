@@ -19,7 +19,7 @@ h1 {
   border-style: solid;*/
   width: 720px;
   background-color: cadetblue;
-  min-width: 700px
+  min-width: 700px;
 }
 
 .my_table {
@@ -28,7 +28,7 @@ h1 {
   font-size: 0.75rem;
   border-color: rgb(200, 200, 200);
   background-color: rgb(220, 220, 220);
-  border-style: solid
+  border-style: solid;
 }
 
 .userInputs {
@@ -54,7 +54,7 @@ h1 {
   min-width: 100px;
 }
 
-.metrics_table>tr {
+.metrics_table > tr {
   padding: 40px;
 }
 
@@ -98,7 +98,7 @@ td {
   max-width: 750px;
 }
 
-.container>div {
+.container > div {
   max-width: 250px;
   flex: 2;
   /*grow*/
@@ -110,8 +110,15 @@ canvas {
 }
 
 .weightSelectButton {
-  border-radius: 2px;
+  border-radius: 8px;
+}
 
+.genderSelectButton {
+  width: 30px;
+  border-radius: 4px;
+}
+.genderSelectButtonHighlighted {
+  background-color: rgb(248, 140, 140);
 }
 
 .row1 {
@@ -144,6 +151,7 @@ canvas {
 /*used for male/female button highlighting, assigned in sketch.js*/
 .highlight {
   background-color: rgb(248, 140, 140);
+  /* border-radius: 8px; */
 }
 
 #disclaimer {

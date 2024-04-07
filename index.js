@@ -129,15 +129,15 @@ function createHTMLTable(data) {
 // }
 
 function assignMaleGender() {
-  patientMaleGender.classList.add("highlight");
-  patientFemaleGender.classList.remove("highlight");
+  patientMaleGender.classList.add("genderSelectButtonHighlighted");
+  patientFemaleGender.classList.remove("genderSelectButtonHighlighted");
   patientGender = "male";
   recalculate();
 }
 
 function assignFemaleGender() {
-  patientFemaleGender.classList.add("highlight");
-  patientMaleGender.classList.remove("highlight");
+  patientFemaleGender.classList.add("genderSelectButtonHighlighted");
+  patientMaleGender.classList.remove("genderSelectButtonHighlighted");
   patientGender = "female";
   recalculate();
 }
