@@ -17,15 +17,15 @@
 
 <body style="font-family:Verdana">
   <h1>Nasogastric Feed Calculator</h1>
-  <div class="container">
-    <!--<div class="row1">
+  <div class="row1">
+    <!--<div class="tableA">
       <div>
         <label>Paste content:</label><br>
         <input type="text" id="read_in" style="height: 160px"></input>
       </div>
     </div>-->
 
-    <div class="row1">
+    <div class="tableA">
       <table class="metrics_table">
         <tr class="odd_row">
           <td class="metrics_row_header"><label>Height (cm):
@@ -81,7 +81,7 @@
       </table>
     </div>
     
-    <div class="row1">
+    <div class="tableA">
       <table class="metrics_table">
         <tr class="odd_row">
           <td class="metrics_row_header">BMI</td>
@@ -115,7 +115,7 @@
       </table>
     </div>
 
-    <div class="row1">
+    <div class="tableA">
       <table class="metrics_table">
         <tr class="odd_row" >
           <td class="metrics_row_header">Energy (kcal/day)</td>
@@ -133,14 +133,9 @@
     <div id="table1-container"></div>
   </div>
 
-  </div>
+  <div class="row3">
   <p id="outputBox" class="output_box" style="padding: 10px">Feed:</p>
   </div>
-
-
-  <script src="index.js"></script>
-  <script src="nonfeedfunctions.js"></script>
-
 
   <div id="disclaimer">
     <p>Disclaimer:
@@ -150,10 +145,8 @@
         healthcare provider with any questions you may have regarding a medical condition.</li>
       <li>While we strive to ensure the accuracy and reliability of the information provided within this application,
         medical knowledge is constantly evolving. We cannot guarantee the accuracy, completeness, or timeliness of the
-        information provided. Therefore, reliance on any information provided by this application is solely at your own
+        information provided. Reliance on any information provided by this application is solely at your own
         risk.</li>
-      <li>This application is not designed for use in emergency situations. If you are experiencing a medical emergency,
-        please call your local emergency services immediately or go to the nearest emergency room.</li>
       <li>Users of this application are responsible for their own health decisions. Any actions taken based on the
         information provided by this application are at the user's discretion and risk.</li>
       <li>The inclusion of specific healthcare providers, treatments, products, or services within this application does
@@ -162,16 +155,18 @@
       <li>While we take measures to protect the privacy and security of your personal information, the transmission of
         data over the internet is not completely secure. By using this application, you acknowledge and accept the risks
         associated with transmitting information over the internet.</li>
-      <li>By using this application, you agree to abide by the terms and conditions outlined in our Terms of Use and
-        Privacy Policy.</li>
-      <li>We welcome your feedback and suggestions for improving our services. However, please note that any feedback or
+      <li>By using this application, you agree to abide by the terms and conditions outlined in this disclaimer.</li>
+      <li>We welcome your feedback and suggestions for improving our services. Please note that any feedback or
         suggestions provided to us through this application may be used by us without obligation to you.</li>
     </ol>
     By continuing to use this application, you acknowledge that you have read, understood, and agree to the terms of
-    this
-    disclaimer. If you do not agree with any part of this disclaimer, please discontinue the use of this application
+    this disclaimer. If you do not agree with any part of this disclaimer, please discontinue the use of this application
     immediately.</p>
   </div>
+
+  <script src="index.js"></script>
+  <script src="nonfeedfunctions.js"></script>
+
 </body>
 
 </html>

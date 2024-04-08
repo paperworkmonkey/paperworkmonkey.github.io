@@ -167,20 +167,20 @@ function recalculate() {
 
   //populate metrics table
   ActBWBox.textContent = int(patientWeight.value) + " kg";
-  BMIBox.innerHTML = int(
+  BMIBox.textContent = int(
     float(patientWeight.value) /
       (float(patientHeight.value / 100) * float(patientHeight.value / 100))
   );
 
   if (patientGender == "male") {
-    IBWBox.innerHTML = IBWM + " kg";
-    AdjBWBox.innerHTML = AdjBWM + " kg";
+    IBWBox.textContent = IBWM + " kg";
+    AdjBWBox.textContent = AdjBWM + " kg";
   } else {
-    IBWBox.innerHTML = IBWF + " kg";
-    AdjBWBox.innerHTML = AdjBWF + " kg";
+    IBWBox.innertextContentHTML = IBWF + " kg";
+    AdjBWBox.textContent = AdjBWF + " kg";
   }
 
-  BMI27BWBox.innerHTML = BMI27BW + " kg";
+  BMI27BWBox.textContent = BMI27BW + " kg";
 
   //perform energy and protein calculations based on selected weight
   if (useABW) {
@@ -213,8 +213,8 @@ function recalculate() {
     dailyProtein = int(BMI27BW * float(proteinRequirements.value));
   }
 
-  dailyEnergyBox.innerHTML = dailyEnergy;
-  dailyProteinBox.innerHTML = dailyProtein;
+  dailyEnergyBox.textContent = dailyEnergy;
+  dailyProteinBox.textContent = dailyProtein;
   calculateFeedRatesAndVolumes();
 }
 
@@ -331,17 +331,13 @@ function highlightSodium() {
   let htmlTable = document.getElementById("data_table");
   if (NaRestrict.checked) {
     for (i = 2; i < calculatedFeeds.columns.length; i++) {
-      // console.log(calculatedFeeds.get(6, i));
-      // console.log(ABW);
       if (calculatedFeeds.get(6, i) > ABW) {
         htmlTable.rows[7].cells[i].classList.add("highlight");
-        //console.log("not engough in column" + i);
       } else {
         htmlTable.rows[7].cells[i].classList.remove("highlight");
       }
     }
   } else {
-    //console.log("no longer Na resitriced");
     for (i = 2; i < calculatedFeeds.columns.length; i++) {
       htmlTable.rows[7].cells[i].classList.remove("highlight");
     }
@@ -399,7 +395,7 @@ function highlight_column() {
 
         // Set outputBox text to the text content of the column header
         if (columnHeader) {
-          outputBox.innerHTML =
+          outputBox.textContent =
             columnHeader.textContent.trim() +
             ": target " +
             rateCell +
@@ -407,7 +403,7 @@ function highlight_column() {
             naloxegolString +
             prosourceString;
         } else {
-          outputBox.innerHTML = "Column header not found";
+          outputBox.textContent = "Column header not found";
         }
       };
     }

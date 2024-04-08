@@ -17,7 +17,7 @@ h1 {
   padding: 10px;
   /*border-color: rgb(0, 0, 0);
   border-style: solid;*/
-  width: 720px;
+  width: 700px;
   background-color: cadetblue;
   min-width: 700px;
 }
@@ -90,16 +90,17 @@ td {
   text-align: center;
 }
 
-.container {
+.row1 {
   display: flex;
   justify-content: space-between;
   /* Distribute items equally with space between them */
   width: 100%;
-  max-width: 750px;
+  max-width: 720px;
+  min-width: 720px;
 }
 
-.container > div {
-  max-width: 250px;
+.row1 > div {
+  /* max-width: 250px; */
   flex: 2;
   /*grow*/
   padding: 0px;
@@ -114,17 +115,17 @@ canvas {
 }
 
 .genderSelectButton {
-  width: 30px;
+  width: 30;
   border-radius: 4px;
 }
 .genderSelectButtonHighlighted {
   background-color: rgb(248, 140, 140);
 }
 
-.row1 {
+.tableA {
   display: grid;
   padding: 0px;
-  margin: 5px;
+  /* margin: 5px; */
   border-color: rgb(220, 220, 220);
   background-color: rbg(178, 255, 241);
   min-width: 200px;
@@ -132,7 +133,14 @@ canvas {
 
 .row2 {
   display: grid;
-  margin: 5px;
+  max-width: 720px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.row3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .output_box {
@@ -140,7 +148,7 @@ canvas {
   border-style: solid;
   border-color: black;
   background-color: rgb(178, 225, 241);
-  width: 720px;
+  width: 700px;
 }
 
 /*used for feed column selection */
@@ -155,7 +163,7 @@ canvas {
 }
 
 #disclaimer {
-  max-width: 740px;
+  max-width: 700px;
   font-size: 0.5rem;
   text-align: justify;
 }
