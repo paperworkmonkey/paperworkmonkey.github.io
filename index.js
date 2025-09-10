@@ -17,6 +17,7 @@ function preload() {
 }
 
 function setup() {
+  noCanvas();
   //inputBox = select('#read_in');
   //inputBox.changed(readInputBox);
 
