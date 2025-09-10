@@ -167,3 +167,16 @@ canvas {
   font-size: 0.5rem;
   text-align: justify;
 }
+
+a:link, a:visited {
+  background-color: #2218b4;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #1a1f69ce;
+}
