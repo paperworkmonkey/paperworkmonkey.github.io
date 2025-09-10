@@ -28,7 +28,8 @@ body {
   justify-content: center;
   align-items: center;
   background: lightblue;
-  border: 1px solid #333;
+/*   border: 1px solid #333; */
+  border: 0px;
   font-size: 0.8rem;
 
   white-space: nowrap;  /* ✅ prevents text wrapping */
