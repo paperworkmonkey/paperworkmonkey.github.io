@@ -1,0 +1,1437 @@
+System,Site,Process,Condition,ICM V4.0,ICM V3.1 Surgical,ICM V3.1 Non-surgical,Unique code,APII code
+Respiratory,Upper airway or trachea,Haemorrhage,Haemorrhage into upper airway,1.1.15.3,1.1.1.15.3,2.1.1.15.3,RE119,R23
+Respiratory,Upper airway or trachea,Haemorrhage,Tracheal haemorrhage,1.1.15.4,1.1.1.15.4,2.1.1.15.4,RE147,R23
+Respiratory,Upper airway or trachea,Infection,"Mandible, facial bones, dental or salivary infection",1.1.27.1,1.1.1.27.1,2.1.1.27.1,RE71,R01
+Respiratory,Upper airway or trachea,Infection,"Pandemic influenza, suspected",1.1.27.10,1.1.1.27.10,2.1.1.27.10,RE138,R01
+Respiratory,Upper airway or trachea,Infection,"Pandemic influenza, confirmed",1.1.27.11,1.1.1.27.11,2.1.1.27.11,RE139,R01
+Respiratory,Upper airway or trachea,Infection,Tonsil or pharyngeal infection,1.1.27.2,1.1.1.27.2,2.1.1.27.2,GA114,R01
+Respiratory,Upper airway or trachea,Infection,Epiglottitis,1.1.27.3,1.1.1.27.3,2.1.1.27.3,RE40,R01
+Respiratory,Upper airway or trachea,Infection,Pertussis,1.1.27.6,1.1.1.27.6,2.1.1.27.6,RE90,R01
+Respiratory,Upper airway or trachea,Infection,Respiratory sinus infection,1.1.27.7,1.1.1.27.7,2.1.1.27.7,RE118,R01
+Respiratory,Upper airway or trachea,Infection,"Croup or laryngotracheobronchitis, non-influenza",1.1.27.8,1.1.1.27.8,2.1.1.27.8,RE120,R01
+Respiratory,Upper airway or trachea,Infection,"Croup or laryngotracheobronchitis, influenza",1.1.27.9,1.1.1.27.9,2.1.1.27.9,RE121,R01
+Respiratory,Upper airway or trachea,Inflammation,Inhalation burns,1.1.28.1,1.1.1.28.1,2.1.1.28.1,RE60,R36
+Respiratory,Upper airway or trachea,Inflammation,Angioedema due to drug or treatment reaction,1.1.28.2,1.1.1.28.2,2.1.1.28.2,RE5,R25
+Respiratory,Upper airway or trachea,Inflammation,Oedema due to venous obstruction,1.1.28.3,1.1.1.28.3,2.1.1.28.3,RE77,R26
+Respiratory,Upper airway or trachea,Inflammation,Extubation related oedema or obstruction,1.1.28.4,1.1.1.28.4,2.1.1.28.4,RE122,R26
+Respiratory,Upper airway or trachea,Obstruction,Extrinsic compression of airway by haematoma,1.1.30.1,1.1.1.30.1,2.1.1.30.1,RE44,R26
+Respiratory,Upper airway or trachea,Obstruction,Angioedema due to drug or treatment reaction,1.1.30.10,1.1.1.30.10,2.1.1.30.10,RE5,R25
+Respiratory,Upper airway or trachea,Obstruction,Oedema due to venous obstruction,1.1.30.11,1.1.1.30.11,2.1.1.30.11,RE77,R26
+Respiratory,Upper airway or trachea,Obstruction,Obstructive sleep apnoea,1.1.30.12,1.1.1.30.12,2.1.1.30.12,RE81,R26
+Respiratory,Upper airway or trachea,Obstruction,Vascular ring,1.1.30.14,1.1.1.30.14,2.1.1.30.14,RE104,C14
+Respiratory,Upper airway or trachea,Obstruction,Laryngospasm,1.1.30.15,1.1.1.30.15,2.1.1.30.15,RE65,R26
+Respiratory,Upper airway or trachea,Obstruction,Laryngeal cord paresis,1.1.30.16,1.1.1.30.16,2.1.1.30.16,RE123,R26
+Respiratory,Upper airway or trachea,Obstruction,Extubation related oedema or obstruction,1.1.30.17,1.1.1.30.17,2.1.1.30.17,RE122,R26
+Respiratory,Upper airway or trachea,Obstruction,Surgical emphysema,1.1.30.18,1.1.1.30.18,2.1.1.30.18,RE124,R26
+Respiratory,Upper airway or trachea,Obstruction,Extrinsic compression of airway by tumour or malignancy,1.1.30.19,1.1.1.30.19,2.1.1.30.19,RE125,R26
+Respiratory,Upper airway or trachea,Obstruction,Extrinsic compression of airway by abscess,1.1.30.2,1.1.1.30.2,2.1.1.30.2,RE43,R26
+Respiratory,Upper airway or trachea,Obstruction,Obstruction of tracheostomy,1.1.30.20,1.1.1.30.20,2.1.1.30.20,RE126,R26
+Respiratory,Upper airway or trachea,Obstruction,Displacement of tracheostomy,1.1.30.21,1.1.1.30.21,2.1.1.30.21,RE127,R26
+Respiratory,Upper airway or trachea,Obstruction,Haemorrhage into upper airway,1.1.30.22,1.1.1.30.22,2.1.1.30.22,RE119,R23
+Respiratory,Upper airway or trachea,Obstruction,Extrinsic compression of airway by thyroid or lymphoid tissue,1.1.30.3,1.1.1.30.3,2.1.1.30.3,RE45,R26
+Respiratory,Upper airway or trachea,Obstruction,Epiglottitis,1.1.30.4,1.1.1.30.4,2.1.1.30.4,RE40,R01
+Respiratory,Upper airway or trachea,Obstruction,Croup or laryngotracheobronchitis,1.1.30.5,1.1.1.30.5,2.1.1.30.5,RE27,R01
+Respiratory,Upper airway or trachea,Obstruction,Hanging or strangulation,1.1.30.6,1.1.1.30.6,2.1.1.30.6,RE53,R26
+Respiratory,Upper airway or trachea,Obstruction,Tracheal stenosis,1.1.30.7,1.1.1.30.7,2.1.1.30.7,RE114,R26
+Respiratory,Upper airway or trachea,Obstruction,Upper airway obstruction by foreign body,1.1.30.8,1.1.1.30.8,2.1.1.30.8,RE48,R26
+Respiratory,Upper airway or trachea,Obstruction,Inhalation burns,1.1.30.9,1.1.1.30.9,2.1.1.30.9,RE60,R36
+Respiratory,Upper airway or trachea,Tumour or malignancy,Head or neck tumour not intraoral or intranasal,1.1.39.1,1.1.1.39.1,2.1.1.39.1,RE54,R02
+Respiratory,Upper airway or trachea,Tumour or malignancy,Tracheal tumour,1.1.39.3,1.1.1.39.3,2.1.1.39.3,RE113,R02
+Respiratory,Upper airway or trachea,Tumour or malignancy,Laryngeal tumour,1.1.39.4,1.1.1.39.4,2.1.1.39.4,RE63,R02
+Respiratory,Upper airway or trachea,Tumour or malignancy,Malignant neoplasm of oropharynx,1.1.39.5,1.1.1.39.5,2.1.1.39.5,GA164,R02
+Respiratory,Upper airway or trachea,Tumour or malignancy,Malignant neoplasm of nasopharynx,1.1.39.6,1.1.1.39.6,2.1.1.39.6,GA162,R02
+Respiratory,Upper airway or trachea,Tumour or malignancy,Malignant neoplasm of hypopharynx,1.1.39.7,1.1.1.39.7,2.1.1.39.7,GA161,R02
+Respiratory,Upper airway or trachea,Vascular,Vascular ring,1.1.41.1,1.1.1.41.1,2.1.1.41.1,RE104,C14
+Respiratory,Upper airway or trachea,Vascular,Arterio-venous malformation,1.1.41.2,1.1.1.41.2,2.1.1.41.2,NE86,N14
+Respiratory,Upper airway or trachea,Trauma (or traumatic perforation or fistula),"Trauma to mouth, mandible, pharynx or facial bones",1.1.56.1,1.1.1.56.1,2.1.1.56.1,NE50,R03
+Respiratory,Upper airway or trachea,Trauma (or traumatic perforation or fistula),Laryngeal trauma or traumatic perforation,1.1.56.2,1.1.1.56.2,2.1.1.56.2,RE140,R03
+Respiratory,Upper airway or trachea,Trauma (or traumatic perforation or fistula),Tracheal trauma or traumatic perforation,1.1.56.3,1.1.1.56.3,2.1.1.56.3,RE142,R03
+Respiratory,Upper airway or trachea,Trauma (or traumatic perforation or fistula),Traumatic tracheo-oesophageal fistula,1.1.56.4,1.1.1.56.4,2.1.1.56.4,GA210,R03
+Respiratory,Upper airway or trachea,Non-traumatic perforation or fistula,Non-traumatic laryngeal perforation,1.1.57.1,1.1.1.57.1,2.1.1.57.1,RE141,R26
+Respiratory,Upper airway or trachea,Non-traumatic perforation or fistula,Non-traumatic tracheal perforation or fistula,1.1.57.2,1.1.1.57.2,2.1.1.57.2,RE143,R26
+Respiratory,Upper airway or trachea,Non-traumatic perforation or fistula,Non-traumatic tracheo-oesophageal fistula,1.1.57.3,1.1.1.57.3,2.1.1.57.3,GA211,R14
+Respiratory,Upper airway or trachea,Congenital or acquired deformity or abnormality,"Mouth, mandible, pharynx or facial bones deformity",1.1.8.1,1.1.1.8.1,2.1.1.8.1,NE25,R14
+Respiratory,Upper airway or trachea,Congenital or acquired deformity or abnormality,Laryngomalacia,1.1.8.3,1.1.1.8.3,2.1.1.8.3,RE64,R14
+Respiratory,Upper airway or trachea,Congenital or acquired deformity or abnormality,Tracheomalacia,1.1.8.4,1.1.1.8.4,2.1.1.8.4,RE112,R14
+Respiratory,Upper airway or trachea,Congenital or acquired deformity or abnormality,Choanal atresia,1.1.8.5,1.1.1.8.5,2.1.1.8.5,RE20,R14
+Respiratory,Upper airway or trachea,Congenital or acquired deformity or abnormality,Abnormality of vocal cord,1.1.8.6,1.1.1.8.6,2.1.1.8.6,RE38,R14
+Respiratory,Upper airway or trachea,Congenital or acquired deformity or abnormality,Traumatic tracheo-oesophageal fistula,1.1.8.7,1.1.1.8.7,2.1.1.8.7,GA210,R03
+Respiratory,Upper airway or trachea,Congenital or acquired deformity or abnormality,Non-traumatic tracheo-oesophageal fistula,1.1.8.8,1.1.1.8.8,2.1.1.8.8,GA211,R14
+Respiratory,Brain lesions causing respiratory failure,Haemorrhage,Non-traumatic subarachnoid haemorrhage,1.10.15.2,1.1.10.15.2,2.1.10.15.2,NE35,N06
+Respiratory,Brain lesions causing respiratory failure,Haemorrhage,Non-traumatic subdural haemorrhage,1.10.15.3,1.1.10.15.3,2.1.10.15.3,NE58,N06
+Respiratory,Brain lesions causing respiratory failure,Haemorrhage,Extradural haemorrhage,1.10.15.4,1.1.10.15.4,2.1.10.15.4,NE14,N06
+Respiratory,Brain lesions causing respiratory failure,Haemorrhage,Intracerebral haemorrhage (supratentorial),1.10.15.5,1.1.10.15.5,2.1.10.15.5,NE78,N05
+Respiratory,Brain lesions causing respiratory failure,Haemorrhage,Intracerebral haemorrhage (posterior fossa),1.10.15.6,1.1.10.15.6,2.1.10.15.6,NE79,N05
+Respiratory,Brain lesions causing respiratory failure,Infection,"Meningitis, unspecified",1.10.27.1,1.1.10.27.1,2.1.10.27.1,NE23,N01
+Respiratory,Brain lesions causing respiratory failure,Infection,Encephalitis,1.10.27.2,1.1.10.27.2,2.1.10.27.2,NE47,N01
+Respiratory,Brain lesions causing respiratory failure,Infection,Intracranial abscess,1.10.27.3,1.1.10.27.3,2.1.10.27.3,NE2,N01
+Respiratory,Brain lesions causing respiratory failure,Infection,Infected CSF shunt,1.10.27.4,1.1.10.27.4,2.1.10.27.4,NE49,N01
+Respiratory,Brain lesions causing respiratory failure,Infection,Meningococcal meningitis,1.10.27.5,1.1.10.27.5,2.1.10.27.5,NE69,N01
+Respiratory,Brain lesions causing respiratory failure,Infection,"Bacterial meningitis, not meningococcal",1.10.27.6,1.1.10.27.6,2.1.10.27.6,NE63,N01
+Respiratory,Brain lesions causing respiratory failure,Infection,Viral meningitis,1.10.27.7,1.1.10.27.7,2.1.10.27.7,NE77,N01
+Respiratory,Brain lesions causing respiratory failure,Seizures,Status epilepticus or uncontrolled seizures,1.10.33.1,1.1.10.33.1,2.1.10.33.1,NE57,N07
+Respiratory,Brain lesions causing respiratory failure,Seizures,Eclampsia,1.10.33.2,1.1.10.33.2,2.1.10.33.2,GE60,N07
+Respiratory,Brain lesions causing respiratory failure,Seizures,Alcohol withdrawal seizures,1.10.33.3,1.1.10.33.3,2.1.10.33.3,EN8,N07
+Respiratory,Brain lesions causing respiratory failure,Tumour or malignancy,Primary brain or meningeal tumour,1.10.39.1,1.1.10.39.1,2.1.10.39.1,NE29,N02
+Respiratory,Brain lesions causing respiratory failure,Tumour or malignancy,Secondary intracranial tumour,1.10.39.2,1.1.10.39.2,2.1.10.39.2,NE32,N02
+Respiratory,Brain lesions causing respiratory failure,Vascular,Berry or other intracranial aneurysm,1.10.41.1,1.1.10.41.1,2.1.10.41.1,NE4,N14
+Respiratory,Brain lesions causing respiratory failure,Vascular,Intracranial arterio-venous malformation,1.10.41.2,1.1.10.41.2,2.1.10.41.2,NE1,N14
+Respiratory,Brain lesions causing respiratory failure,Vascular,Thrombo-occlusive disease of brain,1.10.41.3,1.1.10.41.3,2.1.10.41.3,NE38,N13
+Respiratory,Brain lesions causing respiratory failure,Vascular,Venous air embolus,1.10.41.4,1.1.10.41.4,2.1.10.41.4,RE2,N13
+Respiratory,Brain lesions causing respiratory failure,Vascular,Vasculitis of cerebral circulation,1.10.41.5,1.1.10.41.5,2.1.10.41.5,NE40,C12
+Respiratory,Brain lesions causing respiratory failure,Vascular,Embolic brain lesions causing respiratory failure,1.10.41.6,1.1.10.41.6,2.1.10.41.6,NE46,N13
+Respiratory,Brain lesions causing respiratory failure,Trauma,Primary (diffuse) brain injury,1.10.56.1,1.1.10.56.1,2.1.10.56.1,NE54,N03
+Respiratory,Brain lesions causing respiratory failure,Trauma,Traumatic subdural haemorrhage,1.10.56.2,1.1.10.56.2,2.1.10.56.2,NE75,N06
+Respiratory,Brain lesions causing respiratory failure,Trauma,Traumatic subarachnoid haemorrhage,1.10.56.3,1.1.10.56.3,2.1.10.56.3,NE74,N06
+Respiratory,Brain lesions causing respiratory failure,Trauma,Non-accidental injury to brain,1.10.56.4,1.1.10.56.4,2.1.10.56.4,NE28,N03
+Respiratory,Brain lesions causing respiratory failure,Trauma,Skull fracture,1.10.56.5,1.1.10.56.5,2.1.10.56.5,NE70,N03
+Respiratory,Brain lesions causing respiratory failure,Trauma,Extradural haemorrhage,1.10.56.6,1.1.10.56.6,2.1.10.56.6,NE14,N06
+Respiratory,Brain lesions causing respiratory failure,Trauma,Focal brain injury,1.10.56.7,1.1.10.56.7,2.1.10.56.7,NE66,N03
+Respiratory,Brain lesions causing respiratory failure,Trauma,"Intracranial injury, unspecified",1.10.56.8,1.1.10.56.8,2.1.10.56.8,NE68,N03
+Respiratory,Brain lesions causing respiratory failure,Non-traumatic aneurysm,Berry or other intracranial aneurysm,1.10.57.1,1.1.10.57.1,2.1.10.57.1,NE4,N14
+Respiratory,Brain lesions causing respiratory failure,Coma or encephalopathy,Toxic or drug induced coma or encephalopathy,1.10.7.1,1.1.10.7.1,2.1.10.7.1,NE15,M27
+Respiratory,Brain lesions causing respiratory failure,Coma or encephalopathy,Metabolic coma or encephalopathy,1.10.7.2,1.1.10.7.2,2.1.10.7.2,NE22,M27
+Respiratory,Brain lesions causing respiratory failure,Coma or encephalopathy,Anoxic or ischaemic coma or encephalopathy,1.10.7.3,1.1.10.7.3,2.1.10.7.3,RE8,N27
+Respiratory,Brain lesions causing respiratory failure,Coma or encephalopathy,Degenerative coma or encephalopathy,1.10.7.4,1.1.10.7.4,2.1.10.7.4,NE45,N35
+Respiratory,Brain lesions causing respiratory failure,Coma or encephalopathy,Anaesthesia related encephalopathy,1.10.7.5,1.1.10.7.5,2.1.10.7.5,NE53,M27
+Respiratory,Brain lesions causing respiratory failure,Coma or encephalopathy,Admission solely for purposes of donation after brainstem death (DBD),1.10.7.6,1.1.10.7.6,2.1.10.7.6,NE5,NCA
+Respiratory,Brain lesions causing respiratory failure,Coma or encephalopathy,Primary (diffuse) brain injury,1.10.7.7,1.1.10.7.7,2.1.10.7.7,NE54,N03
+Respiratory,Brain lesions causing respiratory failure,Congenital or acquired deformity or abnormality,Congenital hydrocephalus,1.10.8.1,1.1.10.8.1,2.1.10.8.1,NE44,N14
+Respiratory,Brain lesions causing respiratory failure,Congenital or acquired deformity or abnormality,Secondary hydrocephalus,1.10.8.2,1.1.10.8.2,2.1.10.8.2,NE56,N14
+Respiratory,Brain lesions causing respiratory failure,Congenital or acquired deformity or abnormality,Arnold-Chiari malformation,1.10.8.3,1.1.10.8.3,2.1.10.8.3,RE9,N14
+Respiratory,Brain lesions causing respiratory failure,Congenital or acquired deformity or abnormality,Congenital abnormality of skull,1.10.8.4,1.1.10.8.4,2.1.10.8.4,NE43,N14
+Respiratory,Brain lesions causing respiratory failure,Congenital or acquired deformity or abnormality,Parkinson's Disease,1.10.8.5,1.1.10.8.5,2.1.10.8.5,RE87,N35
+Respiratory,Brain lesions causing respiratory failure,Congenital or acquired deformity or abnormality,Multiple sclerosis,1.10.8.6,1.1.10.8.6,2.1.10.8.6,NE26,N35
+Respiratory,Brain lesions causing respiratory failure,Congenital or acquired deformity or abnormality,Central hypoventilation (Ondine's curse),1.10.8.7,1.1.10.8.7,2.1.10.8.7,NE7,N14
+Respiratory,Bronchi or lower airways,Haemorrhage,Bronchial haemorrhage,1.2.15.1,1.1.2.15.1,2.1.2.15.1,RE14,R23
+Respiratory,Bronchi or lower airways,Infection,Chronic bronchiectasis,1.2.27.10,1.1.2.27.10,2.1.2.27.10,RE137,R35
+Respiratory,Bronchi or lower airways,Infection,"Pandemic influenza, suspected",1.2.27.11,1.1.2.27.11,2.1.2.27.11,RE138,R01
+Respiratory,Bronchi or lower airways,Infection,"Pandemic influenza, confirmed",1.2.27.12,1.1.2.27.12,2.1.2.27.12,RE139,R01
+Respiratory,Bronchi or lower airways,Infection,Chronic obstructive pulmonary disease (COPD/COAD) with acute lower respiratory infection,1.2.27.2,1.1.2.27.2,2.1.2.27.2,RE42,R35
+Respiratory,Bronchi or lower airways,Infection,Exacerbation of bronchiectasis,1.2.27.3,1.1.2.27.3,2.1.2.27.3,RE41,R35
+Respiratory,Bronchi or lower airways,Infection,"Chronic obstructive pulmonary disease (COPD/COAD) with acute exacerbation, unspecified",1.2.27.5,1.1.2.27.5,2.1.2.27.5,RE117,R35
+Respiratory,Bronchi or lower airways,Infection,"Acute bronchitis, non-influenza",1.2.27.6,1.1.2.27.6,2.1.2.27.6,RE128,R01
+Respiratory,Bronchi or lower airways,Infection,"Acute bronchitis, influenza",1.2.27.7,1.1.2.27.7,2.1.2.27.7,RE129,R01
+Respiratory,Bronchi or lower airways,Infection,"Bronchiolitis, non-influenza",1.2.27.8,1.1.2.27.8,2.1.2.27.8,RE130,R01
+Respiratory,Bronchi or lower airways,Infection,"Bronchiolitis, influenza",1.2.27.9,1.1.2.27.9,2.1.2.27.9,RE131,R01
+Respiratory,Bronchi or lower airways,Inflammation,Smoke inhalation,1.2.28.1,1.1.2.28.1,2.1.2.28.1,RE106,R36
+Respiratory,Bronchi or lower airways,Inflammation,Bronchiolitis obliterans,1.2.28.2,1.1.2.28.2,2.1.2.28.2,RE17,R35
+Respiratory,Bronchi or lower airways,Obstruction,Asthma attack in new or known asthmatic,1.2.30.1,1.1.2.30.1,2.1.2.30.1,RE11,R25
+Respiratory,Bronchi or lower airways,Obstruction,"Chronic obstructive pulmonary disease (COPD/COAD) with acute exacerbation, unspecified",1.2.30.10,1.1.2.30.10,2.1.2.30.10,RE117,R35
+Respiratory,Bronchi or lower airways,Obstruction,"Drug, procedure or transfusion induced bronchospasm in non-asthmatic",1.2.30.2,1.1.2.30.2,2.1.2.30.2,RE32,R25
+Respiratory,Bronchi or lower airways,Obstruction,Bronchi or lower airway obstruction by foreign body,1.2.30.3,1.1.2.30.3,2.1.2.30.3,RE80,R26
+Respiratory,Bronchi or lower airways,Obstruction,Sputum retention,1.2.30.4,1.1.2.30.4,2.1.2.30.4,RE108,R26
+Respiratory,Bronchi or lower airways,Obstruction,Extrinsic compression of bronchus by tumour,1.2.30.5,1.1.2.30.5,2.1.2.30.5,RE46,R26
+Respiratory,Bronchi or lower airways,Obstruction,Chronic obstructive pulmonary disease (COPD/COAD),1.2.30.6,1.1.2.30.6,2.1.2.30.6,RE21,R35
+Respiratory,Bronchi or lower airways,Obstruction,Meconium aspiration,1.2.30.7,1.1.2.30.7,2.1.2.30.7,RE72,R36
+Respiratory,Bronchi or lower airways,Obstruction,Bronchiolitis obliterans,1.2.30.8,1.1.2.30.8,2.1.2.30.8,RE17,R35
+Respiratory,Bronchi or lower airways,Obstruction,Chronic obstructive pulmonary disease (COPD/COAD) with acute lower respiratory infection,1.2.30.9,1.1.2.30.9,2.1.2.30.9,RE42,R35
+Respiratory,Bronchi or lower airways,Tumour or malignancy,Bronchial tumour,1.2.39.1,1.1.2.39.1,2.1.2.39.1,RE15,R02
+Respiratory,Bronchi or lower airways,Trauma (or traumatic perforation or rupture),Traumatic perforation or rupture of bronchus,1.2.56.1,1.1.2.56.1,2.1.2.56.1,RE62,R03
+Respiratory,Bronchi or lower airways,Trauma (or traumatic perforation or rupture),Instrumental perforation of bronchus,1.2.56.2,1.1.2.56.2,2.1.2.56.2,RE61,R03
+Respiratory,Bronchi or lower airways,"Non-traumatic perforation, rupture or fistula","Non-traumatic perforation, rupture or fistula of bronchus",1.2.57.1,1.1.2.57.1,2.1.2.57.1,RE144,R26
+Respiratory,Bronchi or lower airways,Congenital or acquired deformity or abnormality,Cystic fibrosis,1.2.8.1,1.1.2.8.1,2.1.2.8.1,RE28,R14
+Respiratory,Bronchi or lower airways,Congenital or acquired deformity or abnormality,Bronchopulmonary dysplasia,1.2.8.2,1.1.2.8.2,2.1.2.8.2,RE18,R14
+Respiratory,Pulmonary vasculature,Haemorrhage,Goodpasture's syndrome,1.3.15.1,1.1.3.15.1,2.1.3.15.1,RE51,R23
+Respiratory,Pulmonary vasculature,Haemorrhage,Pulmonary vasculitis not defined,1.3.15.2,1.1.3.15.2,2.1.3.15.2,RE84,R23
+Respiratory,Pulmonary vasculature,Haemorrhage,Leptospirosis,1.3.15.3,1.1.3.15.3,2.1.3.15.3,GE29,R01
+Respiratory,Pulmonary vasculature,Haemorrhage,Pulmonary haemorrhage due to contusion,1.3.15.4,1.1.3.15.4,2.1.3.15.4,RE29,R03
+Respiratory,Pulmonary vasculature,Haemorrhage,Pulmonary haemorrhage not defined,1.3.15.5,1.1.3.15.5,2.1.3.15.5,RE83,R23
+Respiratory,Pulmonary vasculature,Hypertension,Idiopathic pulmonary hypertension,1.3.19.1,1.1.3.19.1,2.1.3.19.1,CA53,C16
+Respiratory,Pulmonary vasculature,Hypertension,Eisenmenger's syndrome,1.3.19.2,1.1.3.19.2,2.1.3.19.2,CA131,C14
+Respiratory,Pulmonary vasculature,Hypertension,Cor pulmonale,1.3.19.3,1.1.3.19.3,2.1.3.19.3,CA33,C15
+Respiratory,Pulmonary vasculature,Hypertension,Chronic thromboembolic pulmonary hypertension,1.3.19.4,1.1.3.19.4,2.1.3.19.4,CA192,C16
+Respiratory,Pulmonary vasculature,Inflammation,Goodpasture's syndrome,1.3.28.1,1.1.3.28.1,2.1.3.28.1,RE51,R23
+Respiratory,Pulmonary vasculature,Inflammation,Pulmonary vasculitis not defined,1.3.28.2,1.1.3.28.2,2.1.3.28.2,RE84,R23
+Respiratory,Pulmonary vasculature,Obstruction,Pulmonary embolus (thrombus),1.3.30.1,1.1.3.30.1,2.1.3.30.1,CA94,R13
+Respiratory,Pulmonary vasculature,Obstruction,Fat embolus,1.3.30.2,1.1.3.30.2,2.1.3.30.2,RE47,R13
+Respiratory,Pulmonary vasculature,Obstruction,Venous air embolus,1.3.30.3,1.1.3.30.3,2.1.3.30.3,RE2,R13
+Respiratory,Pulmonary vasculature,Obstruction,Pulmonary tumour embolus,1.3.30.4,1.1.3.30.4,2.1.3.30.4,RE109,R13
+Respiratory,Pulmonary vasculature,Obstruction,Amniotic fluid embolus,1.3.30.5,1.1.3.30.5,2.1.3.30.5,GE10,R13
+Respiratory,Pulmonary vasculature,Trauma,Traumatic damage to pulmonary vessels,1.3.56.1,1.1.3.56.1,2.1.3.56.1,RE39,R03
+Respiratory,Pulmonary vasculature,Trauma,Instrumental damage to pulmonary vessels,1.3.56.2,1.1.3.56.2,2.1.3.56.2,RE25,R03
+Respiratory,Pulmonary vasculature,Congenital or acquired deformity or abnormality,Anomalous pulmonary venous drainage,1.3.8.1,1.1.3.8.1,2.1.3.8.1,RE7,C14
+Respiratory,Pulmonary vasculature,Congenital or acquired deformity or abnormality,Pulmonary arterio-venous malformation,1.3.8.2,1.1.3.8.2,2.1.3.8.2,CA93,R14
+Respiratory,Pulmonary vasculature,Congenital or acquired deformity or abnormality,Transposition of great arteries,1.3.8.3,1.1.3.8.3,2.1.3.8.3,CA95,C14
+Respiratory,Pulmonary vasculature,Congenital or acquired deformity or abnormality,Patent ductus arteriosus,1.3.8.4,1.1.3.8.4,2.1.3.8.4,RE88,C14
+Respiratory,Pulmonary vasculature,Congenital or acquired deformity or abnormality,Truncus arteriosus,1.3.8.5,1.1.3.8.5,2.1.3.8.5,CA119,C14
+Respiratory,Lungs,Haemorrhage,Pulmonary haemorrhage due to contusion,1.4.15.1,1.1.4.15.1,2.1.4.15.1,RE29,R03
+Respiratory,Lungs,Haemorrhage,Goodpasture's syndrome,1.4.15.2,1.1.4.15.2,2.1.4.15.2,RE51,R23
+Respiratory,Lungs,Haemorrhage,Leptospirosis,1.4.15.3,1.1.4.15.3,2.1.4.15.3,GE29,R01
+Respiratory,Lungs,Haemorrhage,Pulmonary haemorrhage not defined,1.4.15.4,1.1.4.15.4,2.1.4.15.4,RE83,R23
+Respiratory,Lungs,Haemorrhage,Pulmonary vasculitis not defined,1.4.15.5,1.1.4.15.5,2.1.4.15.5,RE84,R23
+Respiratory,Lungs,Infection,Bacterial pneumonia,1.4.27.1,1.1.4.27.1,2.1.4.27.1,RE82,R01
+Respiratory,Lungs,Infection,"Pandemic influenza, suspected",1.4.27.10,1.1.4.27.10,2.1.4.27.10,RE138,R01
+Respiratory,Lungs,Infection,"Pandemic influenza, confirmed",1.4.27.11,1.1.4.27.11,2.1.4.27.11,RE139,R01
+Respiratory,Lungs,Infection,Fungal or yeast pneumonia,1.4.27.2,1.1.4.27.2,2.1.4.27.2,RE50,R01
+Respiratory,Lungs,Infection,Parasitic pneumonia,1.4.27.4,1.1.4.27.4,2.1.4.27.4,RE86,R01
+Respiratory,Lungs,Infection,"Pneumonia, no organism isolated",1.4.27.5,1.1.4.27.5,2.1.4.27.5,RE94,R01
+Respiratory,Lungs,Infection,Tuberculosis,1.4.27.6,1.1.4.27.6,2.1.4.27.6,RE110,R01
+Respiratory,Lungs,Infection,Lung abscess,1.4.27.7,1.1.4.27.7,2.1.4.27.7,RE66,R01
+Respiratory,Lungs,Infection,"Viral pneumonia, non-influenza",1.4.27.8,1.1.4.27.8,2.1.4.27.8,RE132,R01
+Respiratory,Lungs,Infection,"Viral pneumonia, influenza",1.4.27.9,1.1.4.27.9,2.1.4.27.9,RE133,R01
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Sarcoidosis,1.4.28.1,1.1.4.28.1,2.1.4.28.1,RE103,R35
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Neurogenic pulmonary oedema,1.4.28.10,1.1.4.28.10,2.1.4.28.10,RE76,C15
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Post-radiotherapy pneumonitis or fibrosis,1.4.28.11,1.1.4.28.11,2.1.4.28.11,RE97,R02
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Lymphangitis carcinomatosis,1.4.28.12,1.1.4.28.12,2.1.4.28.12,RE70,R02
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Meconium aspiration,1.4.28.13,1.1.4.28.13,2.1.4.28.13,RE72,R36
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Hyaline membrane disease,1.4.28.14,1.1.4.28.14,2.1.4.28.14,RE55,R15
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Alveolar proteinosis,1.4.28.15,1.1.4.28.15,2.1.4.28.15,RE116,R15
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Cryptogenic or bronchiolitis obliterans organising pneumonia,1.4.28.16,1.1.4.28.16,2.1.4.28.16,RE134,R35
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Pulmonary fibrosis or fibrosing alveolitis,1.4.28.2,1.1.4.28.2,2.1.4.28.2,RE101,R35
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Emphysema,1.4.28.3,1.1.4.28.3,2.1.4.28.3,RE35,R35
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Inhalation pneumonitis (food or vomit),1.4.28.4,1.1.4.28.4,2.1.4.28.4,RE58,R36
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Inhalation pneumonitis (blood),1.4.28.5,1.1.4.28.5,2.1.4.28.5,RE57,R36
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Inhalation pneumonitis (smoke or gases),1.4.28.6,1.1.4.28.6,2.1.4.28.6,RE59,R36
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Drowning (fresh or salt water),1.4.28.7,1.1.4.28.7,2.1.4.28.7,RE31,R36
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Cardiogenic pulmonary oedema,1.4.28.8,1.1.4.28.8,2.1.4.28.8,RE19,C15
+Respiratory,Lungs,"inflammation (or oedema, fibrosis or inhalation)",Non-cardiogenic pulmonary oedema (ARDS),1.4.28.9,1.1.4.28.9,2.1.4.28.9,RE78,R15
+Respiratory,Lungs,Transplant (or related),Lung allograft,1.4.37.1,1.1.4.37.1,2.1.4.37.1,RE69,R33
+Respiratory,Lungs,Transplant (or related),Lung allograft rejection,1.4.37.2,1.1.4.37.2,2.1.4.37.2,RE102,R33
+Respiratory,Lungs,Tumour or malignancy,Primary lung tumour,1.4.39.1,1.1.4.39.1,2.1.4.39.1,RE99,R02
+Respiratory,Lungs,Tumour or malignancy,Secondary lung tumour,1.4.39.2,1.1.4.39.2,2.1.4.39.2,RE105,R02
+Respiratory,Lungs,Trauma,Pulmonary contusion,1.4.56.1,1.1.4.56.1,2.1.4.56.1,RE100,R03
+Respiratory,Lungs,Collapse,Lung collapse or atelectasis,1.4.6.1,1.1.4.6.1,2.1.4.6.1,RE67,R34
+Respiratory,Lungs,Collapse,Non-traumatic haemothorax,1.4.6.2,1.1.4.6.2,2.1.4.6.2,RE79,R23
+Respiratory,Lungs,Collapse,Traumatic haemothorax or haemopneumothorax,1.4.6.3,1.1.4.6.3,2.1.4.6.3,RE56,R03
+Respiratory,Lungs,Collapse,Lung collapse due to pneumothorax,1.4.6.4,1.1.4.6.4,2.1.4.6.4,RE115,R26
+Respiratory,Lungs,Collapse,Lung collapse secondary to broncho-pleural fistula,1.4.6.5,1.1.4.6.5,2.1.4.6.5,RE26,R26
+Respiratory,Lungs,Congenital or acquired deformity or abnormality,Lung cyst,1.4.8.1,1.1.4.8.1,2.1.4.8.1,RE68,R14
+Respiratory,Lungs,Congenital or acquired deformity or abnormality,Cystic fibrosis,1.4.8.2,1.1.4.8.2,2.1.4.8.2,RE28,R14
+Respiratory,Lungs,Congenital or acquired deformity or abnormality,Emphysema,1.4.8.3,1.1.4.8.3,2.1.4.8.3,RE35,R35
+Respiratory,Lungs,Congenital or acquired deformity or abnormality,Bulla formation,1.4.8.4,1.1.4.8.4,2.1.4.8.4,RE135,R35
+Respiratory,Pleura or mediastinum,Haemorrhage,Non-traumatic haemothorax,1.5.15.1,1.1.5.15.1,2.1.5.15.1,RE79,R23
+Respiratory,Pleura or mediastinum,Haemorrhage,Traumatic haemothorax or haemopneumothorax,1.5.15.2,1.1.5.15.2,2.1.5.15.2,RE56,R03
+Respiratory,Pleura or mediastinum,Infection,Pleurisy,1.5.27.1,1.1.5.27.1,2.1.5.27.1,RE93,R01
+Respiratory,Pleura or mediastinum,Infection,Empyema or infected effusion,1.5.27.2,1.1.5.27.2,2.1.5.27.2,RE36,R01
+Respiratory,Pleura or mediastinum,Infection,Mediastinitis,1.5.27.3,1.1.5.27.3,2.1.5.27.3,CA81,C01
+Respiratory,Pleura or mediastinum,Infection,Tuberculosis,1.5.27.4,1.1.5.27.4,2.1.5.27.4,RE110,R01
+Respiratory,Pleura or mediastinum,Infection,Sternotomy related infection,1.5.27.5,1.1.5.27.5,2.1.5.27.5,CA155,C01
+Respiratory,Pleura or mediastinum,Tumour or malignancy,Mesothelioma,1.5.39.1,1.1.5.39.1,2.1.5.39.1,RE74,R02
+Respiratory,Pleura or mediastinum,Tumour or malignancy,Mediastinal tumour,1.5.39.2,1.1.5.39.2,2.1.5.39.2,RE73,R02
+Respiratory,Pleura or mediastinum,Trauma (or traumatic fistula),Traumatic haemothorax or haemopneumothorax,1.5.56.1,1.1.5.56.1,2.1.5.56.1,RE56,R03
+Respiratory,Pleura or mediastinum,Trauma (or traumatic fistula),Traumatic pneumothorax,1.5.56.2,1.1.5.56.2,2.1.5.56.2,RE95,R03
+Respiratory,Pleura or mediastinum,Trauma (or traumatic fistula),Traumatic broncho-pleural fistula,1.5.56.3,1.1.5.56.3,2.1.5.56.3,RE37,R03
+Respiratory,Pleura or mediastinum,Trauma (or traumatic fistula),Chylothorax,1.5.56.4,1.1.5.56.4,2.1.5.56.4,RE22,C03
+Respiratory,Pleura or mediastinum,Non-traumatic fistula,Non-traumatic broncho-pleural fistula,1.5.57.1,1.1.5.57.1,2.1.5.57.1,RE145,R26
+Respiratory,Pleura or mediastinum,Congenital or acquired deformity or abnormality,Pleural thickening or calcification,1.5.8.1,1.1.5.8.1,2.1.5.8.1,RE92,R14
+Respiratory,Pleura or mediastinum,Congenital or acquired deformity or abnormality,Hiatus hernia,1.5.8.2,1.1.5.8.2,2.1.5.8.2,GA44,G14
+Respiratory,Pleura or mediastinum,Congenital or acquired deformity or abnormality,Diaphragmatic hernia,1.5.8.3,1.1.5.8.3,2.1.5.8.3,RE30,G14
+Respiratory,Pleura or mediastinum,Congenital or acquired deformity or abnormality,Pleural effusion,1.5.8.4,1.1.5.8.4,2.1.5.8.4,RE91,R14
+Respiratory,Pleura or mediastinum,Congenital or acquired deformity or abnormality,Spontaneous pneumothorax,1.5.8.5,1.1.5.8.5,2.1.5.8.5,RE136,R26
+Respiratory,Spinal cord lesions causing respiratory failure,Epidural or spinal drug administration,Epidural injection or infusion,1.6.12.1,1.1.6.12.1,2.1.6.12.1,NE12,N08
+Respiratory,Spinal cord lesions causing respiratory failure,Epidural or spinal drug administration,Spinal injection or infusion,1.6.12.2,1.1.6.12.2,2.1.6.12.2,RE107,N08
+Respiratory,Spinal cord lesions causing respiratory failure,Infection,Epidural or subdural abscess,1.6.27.1,1.1.6.27.1,2.1.6.27.1,NE48,N01
+Respiratory,Spinal cord lesions causing respiratory failure,Infection,Poliomyelitis,1.6.27.2,1.1.6.27.2,2.1.6.27.2,RE96,N01
+Respiratory,Spinal cord lesions causing respiratory failure,Infection,Tetanus,1.6.27.3,1.1.6.27.3,2.1.6.27.3,NE36,N01
+Respiratory,Spinal cord lesions causing respiratory failure,Trauma,Cervical cord injury,1.6.56.1,1.1.6.56.1,2.1.6.56.1,NE9,N03
+Respiratory,Spinal cord lesions causing respiratory failure,Trauma,Chronic spinal cord injury,1.6.56.2,1.1.6.56.2,2.1.6.56.2,NE42,N03
+Respiratory,Spinal cord lesions causing respiratory failure,Degeneration,Motor neurone disease,1.6.9.1,1.1.6.9.1,2.1.6.9.1,NE24,N08
+Respiratory,Spinal cord lesions causing respiratory failure,Degeneration,Chronic spinal cord injury,1.6.9.2,1.1.6.9.2,2.1.6.9.2,NE42,N03
+Respiratory,Peripheral nervous system disorders causing respiratory failure,Infection,Infective polyneuropathy,1.7.27.1,1.1.7.27.1,2.1.7.27.1,NE18,N01
+Respiratory,Peripheral nervous system disorders causing respiratory failure,Infection,Tetanus,1.7.27.2,1.1.7.27.2,2.1.7.27.2,NE36,N01
+Respiratory,Peripheral nervous system disorders causing respiratory failure,Infection,Botulism,1.7.27.3,1.1.7.27.3,2.1.7.27.3,NE64,N01
+Respiratory,Peripheral nervous system disorders causing respiratory failure,Inflammation,Guillain-Barr� syndrome,1.7.28.1,1.1.7.28.1,2.1.7.28.1,RE52,N08
+Respiratory,Peripheral nervous system disorders causing respiratory failure,Inflammation,Toxic polyneuropathy,1.7.28.2,1.1.7.28.2,2.1.7.28.2,NE60,N08
+Respiratory,Peripheral nervous system disorders causing respiratory failure,Inflammation,Critical illness polyneuropathy,1.7.28.3,1.1.7.28.3,2.1.7.28.3,NE80,N08
+Respiratory,Peripheral nervous system disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Pseudocholinesterase deficiency,1.7.8.1,1.1.7.8.1,2.1.7.8.1,NE31,N08
+Respiratory,Peripheral nervous system disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Failure of reversal of non-depolarising neuromuscular blockers,1.7.8.2,1.1.7.8.2,2.1.7.8.2,NE17,N08
+Respiratory,Neuro-muscular junction disorders causing respiratory failure,Inflammation,Myasthenia gravis,1.8.28.1,1.1.8.28.1,2.1.8.28.1,NE27,N08
+Respiratory,Neuro-muscular junction disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Pseudocholinesterase deficiency,1.8.8.1,1.1.8.8.1,2.1.8.8.1,NE31,N08
+Respiratory,Neuro-muscular junction disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Failure of reversal of non-depolarising neuromuscular blockers,1.8.8.2,1.1.8.8.2,2.1.8.8.2,NE17,N08
+Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Infection,Sternotomy related infection,1.9.27.1,1.1.9.27.1,2.1.9.27.1,CA155,C01
+Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Trauma (or traumatic rupture),Flail chest,1.9.56.1,1.1.9.56.1,2.1.9.56.1,RE13,R03
+Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Trauma (or traumatic rupture),Flail sternum,1.9.56.2,1.1.9.56.2,2.1.9.56.2,RE23,R03
+Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Trauma (or traumatic rupture),Multiple rib fractures,1.9.56.3,1.1.9.56.3,2.1.9.56.3,RE49,R03
+Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Trauma (or traumatic rupture),Penetrating injury to chest wall,1.9.56.4,1.1.9.56.4,2.1.9.56.4,RE89,R03
+Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Trauma (or traumatic rupture),Ruptured diaphragm,1.9.56.5,1.1.9.56.5,2.1.9.56.5,RE33,R03
+Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Thoracoplasty,1.9.8.1,1.1.9.8.1,2.1.9.8.1,RE111,R14
+Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Kyphoscoliosis,1.9.8.2,1.1.9.8.2,2.1.9.8.2,MU6,N14
+Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Congenital chest wall deformity,1.9.8.3,1.1.9.8.3,2.1.9.8.3,RE24,R14
+Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Congenital muscular dystrophy,1.9.8.4,1.1.9.8.4,2.1.9.8.4,MU28,R08
+Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Diaphragmatic hernia,1.9.8.5,1.1.9.8.5,2.1.9.8.5,RE30,G14
+Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Ankylosing spondylitis,1.9.8.6,1.1.9.8.6,2.1.9.8.6,RE6,M35
+Musculoskeletal,Vertebral column,Haemorrhage,Haemorrhage from or haematoma of vertebral column,10.1.15.1,1.10.1.15.1,2.10.1.15.1,MU4,N23
+Musculoskeletal,Vertebral column,Infection,Discitis,10.1.27.1,1.10.1.27.1,2.10.1.27.1,MU3,N01
+Musculoskeletal,Vertebral column,Infection,Osteomyelitis or vertebral abscess,10.1.27.2,1.10.1.27.2,2.10.1.27.2,MU12,N01
+Musculoskeletal,Vertebral column,Tumour or malignancy,Primary vertebral column tumour,10.1.39.1,1.10.1.39.1,2.10.1.39.1,MU16,N02
+Musculoskeletal,Vertebral column,Tumour or malignancy,Secondary vertebral column tumour,10.1.39.2,1.10.1.39.2,2.10.1.39.2,MU21,N02
+Musculoskeletal,Vertebral column,Trauma (or traumatic perforation or rupture),Cervical spine fracture or ligamentous injury,10.1.56.1,1.10.1.56.1,2.10.1.56.1,MU26,N03
+Musculoskeletal,Vertebral column,Trauma (or traumatic perforation or rupture),Thoracic spine fracture or ligamentous injury,10.1.56.2,1.10.1.56.2,2.10.1.56.2,MU33,N03
+Musculoskeletal,Vertebral column,Trauma (or traumatic perforation or rupture),Lumbar spine fracture or ligamentous injury,10.1.56.3,1.10.1.56.3,2.10.1.56.3,MU31,N03
+Musculoskeletal,Vertebral column,Congenital or acquired deformity or abnormality,Kyphoscoliosis,10.1.8.2,1.10.1.8.2,2.10.1.8.2,MU6,N14
+Musculoskeletal,Vertebral column,Congenital or acquired deformity or abnormality,Spinal ankylosis,10.1.8.3,1.10.1.8.3,2.10.1.8.3,MU23,N14
+Musculoskeletal,Vertebral column,Congenital or acquired deformity or abnormality,Spina bifida or meningomyelocele,10.1.8.4,1.10.1.8.4,2.10.1.8.4,NE33,N14
+Musculoskeletal,Vertebral column,Congenital or acquired deformity or abnormality,Disc herniation,10.1.8.5,1.10.1.8.5,2.10.1.8.5,MU43,M14
+Musculoskeletal,Vertebral column,Congenital or acquired deformity or abnormality,Rheumatoid arthritis,10.1.8.6,1.10.1.8.6,2.10.1.8.6,MU19,M35
+Musculoskeletal,Vertebral column,Congenital or acquired deformity or abnormality,Osteoarthritis,10.1.8.7,1.10.1.8.7,2.10.1.8.7,MU45,M35
+Musculoskeletal,"Pelvis, long bones or joints",Haemorrhage,"Haemorrhage from or haematoma of pelvis, long bones or joints",10.2.15.1,1.10.2.15.1,2.10.2.15.1,MU37,C23
+Musculoskeletal,"Pelvis, long bones or joints",Infection,Osteomyelitis,10.2.27.1,1.10.2.27.1,2.10.2.27.1,MU11,N01
+Musculoskeletal,"Pelvis, long bones or joints",Infection,Infective arthritis,10.2.27.2,1.10.2.27.2,2.10.2.27.2,MU5,M01
+Musculoskeletal,"Pelvis, long bones or joints",Infection,Pelvic infection or abscess,10.2.27.3,1.10.2.27.3,2.10.2.27.3,GE36,K01
+Musculoskeletal,"Pelvis, long bones or joints",Infection,Infected joint prosthesis,10.2.27.4,1.10.2.27.4,2.10.2.27.4,MU41,M01
+Musculoskeletal,"Pelvis, long bones or joints",Tumour or malignancy,Primary bone tumour,10.2.39.1,1.10.2.39.1,2.10.2.39.1,MU17,M02
+Musculoskeletal,"Pelvis, long bones or joints",Tumour or malignancy,Secondary bone tumour,10.2.39.2,1.10.2.39.2,2.10.2.39.2,MU22,M02
+Musculoskeletal,"Pelvis, long bones or joints",Trauma,Pelvic fracture,10.2.56.1,1.10.2.56.1,2.10.2.56.1,MU39,C03
+Musculoskeletal,"Pelvis, long bones or joints",Trauma,Single long bone fracture,10.2.56.2,1.10.2.56.2,2.10.2.56.2,MU32,C03
+Musculoskeletal,"Pelvis, long bones or joints",Trauma,Multiple long bone fractures,10.2.56.3,1.10.2.56.3,2.10.2.56.3,MU7,C03
+Musculoskeletal,"Pelvis, long bones or joints",Trauma,"Non-accidental injury to pelvis, long bones or joints",10.2.56.4,1.10.2.56.4,2.10.2.56.4,MU10,C03
+Musculoskeletal,"Pelvis, long bones or joints",Congenital or acquired deformity or abnormality,Arthrogryposis multiplex congenita,10.2.8.2,1.10.2.8.2,2.10.2.8.2,MU40,M14
+Musculoskeletal,"Pelvis, long bones or joints",Congenital or acquired deformity or abnormality,Osteogenesis imperfecta,10.2.8.3,1.10.2.8.3,2.10.2.8.3,MU42,M14
+Musculoskeletal,"Pelvis, long bones or joints",Congenital or acquired deformity or abnormality,Paget's disease,10.2.8.4,1.10.2.8.4,2.10.2.8.4,MU44,M14
+Musculoskeletal,"Pelvis, long bones or joints",Congenital or acquired deformity or abnormality,Rheumatoid arthritis,10.2.8.5,1.10.2.8.5,2.10.2.8.5,MU19,M35
+Musculoskeletal,"Pelvis, long bones or joints",Congenital or acquired deformity or abnormality,Osteoarthritis,10.2.8.6,1.10.2.8.6,2.10.2.8.6,MU45,M35
+Musculoskeletal,Muscles or connective tissue,Haemorrhage,Haemorrhage from or haematoma of muscle or connective tissue,10.3.15.1,1.10.3.15.1,2.10.3.15.1,MU38,C23
+Musculoskeletal,Muscles or connective tissue,Haemorrhage,Trauma related compartment syndrome,10.3.15.3,1.10.3.15.3,2.10.3.15.3,MU46,C03
+Musculoskeletal,Muscles or connective tissue,Haemorrhage,Non-trauma related compartment syndrome,10.3.15.4,1.10.3.15.4,2.10.3.15.4,MU47,C26
+Musculoskeletal,Muscles or connective tissue,Infection,Myositis,10.3.27.1,1.10.3.27.1,2.10.3.27.1,MU8,M01
+Musculoskeletal,Muscles or connective tissue,Infection,Necrotising fasciitis,10.3.27.2,1.10.3.27.2,2.10.3.27.2,DE7,G01
+Musculoskeletal,Muscles or connective tissue,Infection,Infective arthritis,10.3.27.3,1.10.3.27.3,2.10.3.27.3,MU5,M01
+Musculoskeletal,Muscles or connective tissue,Infection,Rhabdomyolysis,10.3.27.4,1.10.3.27.4,2.10.3.27.4,MU18,C01
+Musculoskeletal,Muscles or connective tissue,Infection,Muscle or connective tissue abscess,10.3.27.5,1.10.3.27.5,2.10.3.27.5,MU1,M01
+Musculoskeletal,Muscles or connective tissue,Infection,Fournier's gangrene of perineal tissues,10.3.27.6,1.10.3.27.6,2.10.3.27.6,GA32,K01
+Musculoskeletal,Muscles or connective tissue,Inflammation,Polymyositis,10.3.28.1,1.10.3.28.1,2.10.3.28.1,MU14,M
+Musculoskeletal,Muscles or connective tissue,Inflammation,Systemic lupus erythromatosis,10.3.28.2,1.10.3.28.2,2.10.3.28.2,MU24,M35
+Musculoskeletal,Muscles or connective tissue,Inflammation,Rhabdomyolysis,10.3.28.3,1.10.3.28.3,2.10.3.28.3,MU18,C26
+Musculoskeletal,Muscles or connective tissue,Inflammation,Myasthenia gravis,10.3.28.4,1.10.3.28.4,2.10.3.28.4,NE27,N08
+Musculoskeletal,Muscles or connective tissue,Inflammation,Rheumatoid arthritis,10.3.28.5,1.10.3.28.5,2.10.3.28.5,MU19,M35
+Musculoskeletal,Muscles or connective tissue,Inflammation,Systemic sclerosis,10.3.28.6,1.10.3.28.6,2.10.3.28.6,MU25,M35
+Musculoskeletal,Muscles or connective tissue,Inflammation,Vasculitis not defined,10.3.28.7,1.10.3.28.7,2.10.3.28.7,MU13,C12
+Musculoskeletal,Muscles or connective tissue,Tumour or malignancy,Primary muscle or connective tissue tumour,10.3.39.2,1.10.3.39.2,2.10.3.39.2,MU48,M02
+Musculoskeletal,Muscles or connective tissue,Tumour or malignancy,Secondary muscle or connective tissue tumour,10.3.39.3,1.10.3.39.3,2.10.3.39.3,MU49,M02
+Musculoskeletal,Muscles or connective tissue,Vascular,Rhabdomyolysis,10.3.41.1,1.10.3.41.1,2.10.3.41.1,MU18,C26
+Musculoskeletal,Muscles or connective tissue,Vascular,Trauma related compartment syndrome,10.3.41.3,1.10.3.41.3,2.10.3.41.3,MU46,C03
+Musculoskeletal,Muscles or connective tissue,Vascular,Non-trauma related compartment syndrome,10.3.41.4,1.10.3.41.4,2.10.3.41.4,MU47,C26
+Musculoskeletal,Muscles or connective tissue,Trauma,Crush injury,10.3.56.1,1.10.3.56.1,2.10.3.56.1,MU29,C03
+Musculoskeletal,Muscles or connective tissue,Trauma,Trauma related compartment syndrome,10.3.56.2,1.10.3.56.2,2.10.3.56.2,MU46,C03
+Musculoskeletal,Muscles or connective tissue,Trauma,Non-accidental injury to muscles or connective tissue,10.3.56.3,1.10.3.56.3,2.10.3.56.3,MU9,C03
+Musculoskeletal,Muscles or connective tissue,Trauma,Amputation of limb,10.3.56.4,1.10.3.56.4,2.10.3.56.4,MU35,C03
+Musculoskeletal,Muscles or connective tissue,Non-traumatic,Non-trauma related compartment syndrome,10.3.57.1,1.10.3.57.1,2.10.3.57.1,MU47,C26
+Musculoskeletal,Muscles or connective tissue,Congenital or acquired deformity or abnormality,Congenital muscular dystrophy,10.3.8.1,1.10.3.8.1,2.10.3.8.1,MU28,R08
+Musculoskeletal,Muscles or connective tissue,Congenital or acquired deformity or abnormality,Pseudocholinesterase deficiency,10.3.8.2,1.10.3.8.2,2.10.3.8.2,NE31,N08
+Musculoskeletal,Muscles or connective tissue,Congenital or acquired deformity or abnormality,Myasthenia gravis,10.3.8.3,1.10.3.8.3,2.10.3.8.3,NE27,N08
+Musculoskeletal,Muscles or connective tissue,Degeneration,Degenerative myopathy,10.3.9.1,1.10.3.9.1,2.10.3.9.1,MU2,N35
+Dermatological,Skin,Infection,Cutaneous cellulitis,11.1.27.1,1.11.1.27.1,2.11.1.27.1,DE2,M01
+Dermatological,Skin,Infection,Toxic epidermal necrolysis,11.1.27.2,1.11.1.27.2,2.11.1.27.2,DE15,M01
+Dermatological,Skin,Infection,Necrotising fasciitis,11.1.27.3,1.11.1.27.3,2.11.1.27.3,DE7,G01
+Dermatological,Skin,Infection,Orbital cellulitis,11.1.27.4,1.11.1.27.4,2.11.1.27.4,DE9,N01
+Dermatological,Skin,Infection,Fournier's gangrene of perineal tissues,11.1.27.5,1.11.1.27.5,2.11.1.27.5,GA32,K01
+Dermatological,Skin,Infection,Leprosy,11.1.27.6,1.11.1.27.6,2.11.1.27.6,DE19,M01
+Dermatological,Skin,Infection,"Pressure injury, ulcers or sores",11.1.27.7,1.11.1.27.7,2.11.1.27.7,DE20,M01
+Dermatological,Skin,Inflammation (immune-mediated),Exfoliative dermatitis,11.1.28.1,1.11.1.28.1,2.11.1.28.1,DE5,M
+Dermatological,Skin,Inflammation (immune-mediated),Pemphigus vulgaris,11.1.28.2,1.11.1.28.2,2.11.1.28.2,DE10,M
+Dermatological,Skin,Inflammation (immune-mediated),Psoriasis or pustular psoriasis,11.1.28.3,1.11.1.28.3,2.11.1.28.3,DE11,M
+Dermatological,Skin,Inflammation (immune-mediated),Toxic epidermal necrolysis,11.1.28.4,1.11.1.28.4,2.11.1.28.4,DE15,M
+Dermatological,Skin,Inflammation (immune-mediated),Erythema multiforme,11.1.28.5,1.11.1.28.5,2.11.1.28.5,DE4,M
+Dermatological,Skin,Inflammation (immune-mediated),Stevens-Johnson syndrome,11.1.28.6,1.11.1.28.6,2.11.1.28.6,DE14,M
+Dermatological,Skin,Inflammation (immune-mediated),Scleroderma,11.1.28.7,1.11.1.28.7,2.11.1.28.7,DE12,M
+Dermatological,Skin,Tumour or malignancy,Cutaneous melanoma,11.1.39.1,1.11.1.39.1,2.11.1.39.1,DE6,M02
+Dermatological,Skin,Tumour or malignancy,Basal cell carcinoma of skin,11.1.39.2,1.11.1.39.2,2.11.1.39.2,DE1,M02
+Dermatological,Skin,Tumour or malignancy,Carcinoma of breast,11.1.39.3,1.11.1.39.3,2.11.1.39.3,DE16,M02
+Dermatological,Skin,Burns or hyperthermia,Dry heat burns,11.1.5.1,1.11.1.5.1,2.11.1.5.1,DE17,NCA
+Dermatological,Skin,Burns or hyperthermia,Steam burns or scalds,11.1.5.2,1.11.1.5.2,2.11.1.5.2,DE13,NCA
+Dermatological,Skin,Burns or hyperthermia,Electrical burns,11.1.5.3,1.11.1.5.3,2.11.1.5.3,DE3,NCA
+Dermatological,Skin,Burns or hyperthermia,Chemical burns,11.1.5.4,1.11.1.5.4,2.11.1.5.4,DE18,NCA
+Dermatological,Skin,Trauma,Degloving injury,11.1.56.1,1.11.1.56.1,2.11.1.56.1,MU30,C03
+Dermatological,Skin,Trauma,Non-accidental injury to skin,11.1.56.2,1.11.1.56.2,2.11.1.56.2,DE8,C03
+Psychiatric,Psychiatric,Alcohol or drug dependence,Alcohol dependence,12.1.48.1,1.12.1.48.1,2.12.1.48.1,PS1,M27
+Psychiatric,Psychiatric,Alcohol or drug dependence,Drug dependence,12.1.48.2,1.12.1.48.2,2.12.1.48.2,PS4,NCA
+Psychiatric,Psychiatric,Alcohol or drug dependence,Delerium tremens,12.1.48.3,1.12.1.48.3,2.12.1.48.3,EN17,M27
+Psychiatric,Psychiatric,Affective disorder,Depression,12.1.49.1,1.12.1.49.1,2.12.1.49.1,PS3,NCA
+Psychiatric,Psychiatric,Affective disorder,Mania or manic depression,12.1.49.2,1.12.1.49.2,2.12.1.49.2,PS5,NCA
+Psychiatric,Psychiatric,Neurosis or personality disorder,Neurosis disorder,12.1.50.1,1.12.1.50.1,2.12.1.50.1,PS6,NCA
+Psychiatric,Psychiatric,Neurosis or personality disorder,Personality disorder,12.1.50.2,1.12.1.50.2,2.12.1.50.2,PS7,NCA
+Psychiatric,Psychiatric,Schizophrenia,Schizophrenia,12.1.51.1,1.12.1.51.1,2.12.1.51.1,PS8,NCA
+Psychiatric,Psychiatric,Learning disability,Congenital learning disability,12.1.52.1,1.12.1.52.1,2.12.1.52.1,PS2,N14
+Trauma,Respiratory,Upper airway or trachea,"Trauma to mouth, mandible, pharynx or facial bones",13.1.1.1,1.13.1.1.1,2.13.1.1.1,NE50,R03
+Trauma,Respiratory,Upper airway or trachea,Laryngeal trauma or traumatic perforation,13.1.1.2,1.13.1.1.2,2.13.1.1.2,RE140,R03
+Trauma,Respiratory,Upper airway or trachea,Tracheal trauma or traumatic perforation,13.1.1.3,1.13.1.1.3,2.13.1.1.3,RE142,R03
+Trauma,Respiratory,Upper airway or trachea,Traumatic tracheo-oesophageal fistula,13.1.1.4,1.13.1.1.4,2.13.1.1.4,GA210,R03
+Trauma,Respiratory,Bronchi or lower airways,Traumatic perforation or rupture of bronchus,13.1.2.1,1.13.1.2.1,2.13.1.2.1,RE62,R03
+Trauma,Respiratory,Bronchi or lower airways,Instrumental perforation of bronchus,13.1.2.2,1.13.1.2.2,2.13.1.2.2,RE61,R03
+Trauma,Respiratory,Pulmonary vasculature,Traumatic damage to pulmonary vessels,13.1.3.1,1.13.1.3.1,2.13.1.3.1,RE39,R03
+Trauma,Respiratory,Pulmonary vasculature,Instrumental damage to pulmonary vessels,13.1.3.2,1.13.1.3.2,2.13.1.3.2,RE25,R03
+Trauma,Respiratory,Lungs,Pulmonary contusion,13.1.4.1,1.13.1.4.1,2.13.1.4.1,RE100,R03
+Trauma,Respiratory,Pleura or mediastinum,Traumatic haemothorax or haemopneumothorax,13.1.5.1,1.13.1.5.1,2.13.1.5.1,RE56,R03
+Trauma,Respiratory,Pleura or mediastinum,Traumatic pneumothorax,13.1.5.2,1.13.1.5.2,2.13.1.5.2,RE95,R03
+Trauma,Respiratory,Pleura or mediastinum,Traumatic broncho-pleural fistula,13.1.5.3,1.13.1.5.3,2.13.1.5.3,RE37,R03
+Trauma,Respiratory,Pleura or mediastinum,Chylothorax,13.1.5.4,1.13.1.5.4,2.13.1.5.4,RE22,C03
+Trauma,Respiratory,Spinal cord lesions causing respiratory failure,Cervical cord injury,13.1.6.1,1.13.1.6.1,2.13.1.6.1,NE9,N03
+Trauma,Respiratory,Spinal cord lesions causing respiratory failure,Chronic spinal cord injury,13.1.6.2,1.13.1.6.2,2.13.1.6.2,NE42,N03
+Trauma,Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Flail chest,13.1.7.1,1.13.1.7.1,2.13.1.7.1,RE13,R03
+Trauma,Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Flail sternum,13.1.7.2,1.13.1.7.2,2.13.1.7.2,RE23,R03
+Trauma,Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Multiple rib fractures,13.1.7.3,1.13.1.7.3,2.13.1.7.3,RE49,R03
+Trauma,Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Penetrating injury to chest wall,13.1.7.4,1.13.1.7.4,2.13.1.7.4,RE89,R03
+Trauma,Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Ruptured diaphragm,13.1.7.5,1.13.1.7.5,2.13.1.7.5,RE33,R03
+Trauma,Respiratory,Brain lesions causing respiratory failure,Primary (diffuse) brain injury,13.1.8.1,1.13.1.8.1,2.13.1.8.1,NE54,N03
+Trauma,Respiratory,Brain lesions causing respiratory failure,Traumatic subdural haemorrhage,13.1.8.2,1.13.1.8.2,2.13.1.8.2,NE75,N06
+Trauma,Respiratory,Brain lesions causing respiratory failure,Traumatic subarachnoid haemorrhage,13.1.8.3,1.13.1.8.3,2.13.1.8.3,NE74,N06
+Trauma,Respiratory,Brain lesions causing respiratory failure,Non-accidental injury to brain,13.1.8.4,1.13.1.8.4,2.13.1.8.4,NE28,N03
+Trauma,Respiratory,Brain lesions causing respiratory failure,Skull fracture,13.1.8.5,1.13.1.8.5,2.13.1.8.5,NE70,N03
+Trauma,Respiratory,Brain lesions causing respiratory failure,Extradural haemorrhage,13.1.8.6,1.13.1.8.6,2.13.1.8.6,NE14,N06
+Trauma,Respiratory,Brain lesions causing respiratory failure,Focal brain injury,13.1.8.7,1.13.1.8.7,2.13.1.8.7,NE66,N03
+Trauma,Respiratory,Brain lesions causing respiratory failure,"Intracranial injury, unspecified",13.1.8.8,1.13.1.8.8,2.13.1.8.8,NE68,N03
+Trauma,Cardiovascular,Coronary arteries,Traumatic damage to coronary arteries,13.2.1.1,1.13.2.1.1,2.13.2.1.1,CA136,C03
+Trauma,Cardiovascular,Coronary arteries,Instrumental damage to coronary arteries,13.2.1.2,1.13.2.1.2,2.13.2.1.2,CA65,C03
+Trauma,Cardiovascular,Great veins,Superior vena caval damage,13.2.10.1,1.13.2.10.1,2.13.2.10.1,CA92,C03
+Trauma,Cardiovascular,Great veins,Inferior vena caval damage,13.2.10.2,1.13.2.10.2,2.13.2.10.2,CA63,C03
+Trauma,Cardiovascular,Pulmonary vasculature,Traumatic damage to pulmonary vessels,13.2.11.1,1.13.2.11.1,2.13.2.11.1,RE39,R03
+Trauma,Cardiovascular,Pulmonary vasculature,Instrumental damage to pulmonary vessels,13.2.11.2,1.13.2.11.2,2.13.2.11.2,RE25,R03
+Trauma,Cardiovascular,Uterine or ovarian vessels,Traumatic damage to uterine vessels,13.2.12.1,1.13.2.12.1,2.13.2.12.1,GE91,K03
+Trauma,Cardiovascular,Uterine or ovarian vessels,Instrumental damage to uterine vessels,13.2.12.2,1.13.2.12.2,2.13.2.12.2,GE92,K03
+Trauma,Cardiovascular,Uterine or ovarian vessels,Traumatic damage to ovarian vessels,13.2.12.3,1.13.2.12.3,2.13.2.12.3,GE93,K03
+Trauma,Cardiovascular,Uterine or ovarian vessels,Instrumental damage to ovarian vessels,13.2.12.4,1.13.2.12.4,2.13.2.12.4,GE94,K03
+Trauma,Cardiovascular,Myocardium or cardiac chambers,Myocardial contusion,13.2.2.1,1.13.2.2.1,2.13.2.2.1,CA134,C03
+Trauma,Cardiovascular,Myocardium or cardiac chambers,Instrumental damage to myocardium,13.2.2.2,1.13.2.2.2,2.13.2.2.2,CA68,C03
+Trauma,Cardiovascular,Myocardium or cardiac chambers,Traumatic perforation of myocardial wall,13.2.2.3,1.13.2.2.3,2.13.2.2.3,CA137,C03
+Trauma,Cardiovascular,Myocardium or cardiac chambers,Traumatic haemopericardium or tamponade,13.2.2.4,1.13.2.2.4,2.13.2.2.4,CA177,C03
+Trauma,Cardiovascular,Myocardium or cardiac chambers,Traumatic papillary muscle rupture,13.2.2.5,1.13.2.2.5,2.13.2.2.5,CA175,C03
+Trauma,Cardiovascular,Myocardium or cardiac chambers,Electrocution,13.2.2.6,1.13.2.2.6,2.13.2.2.6,CA162,C03
+Trauma,Cardiovascular,Heart valves,Trauma to aortic valve,13.2.3.1,1.13.2.3.1,2.13.2.3.1,CA109,C03
+Trauma,Cardiovascular,Heart valves,Trauma to mitral valve,13.2.3.2,1.13.2.3.2,2.13.2.3.2,CA110,C03
+Trauma,Cardiovascular,Heart valves,Trauma to pulmonary valve,13.2.3.3,1.13.2.3.3,2.13.2.3.3,CA111,C03
+Trauma,Cardiovascular,Heart valves,Trauma to tricuspid valve,13.2.3.4,1.13.2.3.4,2.13.2.3.4,CA112,C03
+Trauma,Cardiovascular,Heart valves,Instrumental damage to heart valves,13.2.3.5,1.13.2.3.5,2.13.2.3.5,CA66,C03
+Trauma,Cardiovascular,Heart valves,Traumatic papillary muscle rupture,13.2.3.6,1.13.2.3.6,2.13.2.3.6,CA175,C03
+Trauma,Cardiovascular,Thoracic aorta,"Traumatic dissection, perforation or rupture of thoracic aorta",13.2.4.1,1.13.2.4.1,2.13.2.4.1,CA187,C03
+Trauma,Cardiovascular,Thoracic aorta,Instrumental damage to thoracic aorta,13.2.4.2,1.13.2.4.2,2.13.2.4.2,CA188,C03
+Trauma,Cardiovascular,Abdominal aorta,Traumatic dissection or rupture of abdominal aorta,13.2.5.1,1.13.2.5.1,2.13.2.5.1,CA170,C03
+Trauma,Cardiovascular,Abdominal aorta,Instrumental damage to abdominal aorta,13.2.5.2,1.13.2.5.2,2.13.2.5.2,CA171,C03
+Trauma,Cardiovascular,Abdominal aorta,Traumatic aorto-enteric fistula,13.2.5.3,1.13.2.5.3,2.13.2.5.3,CA135,C03
+Trauma,Cardiovascular,Abdominal aorta,Traumatic aorto-caval fistula,13.2.5.4,1.13.2.5.4,2.13.2.5.4,CA96,C03
+Trauma,Cardiovascular,Iliac vessels,Instrumental damage to iliac vessels,13.2.6.1,1.13.2.6.1,2.13.2.6.1,CA174,C03
+Trauma,Cardiovascular,Splanchnic or renal vessels,Traumatic damage to renal vessels,13.2.7.1,1.13.2.7.1,2.13.2.7.1,GE69,K03
+Trauma,Cardiovascular,Splanchnic or renal vessels,Traumatic damage to splanchnic vessels,13.2.7.2,1.13.2.7.2,2.13.2.7.2,GA145,G03
+Trauma,Cardiovascular,Splanchnic or renal vessels,Instrumental damage to renal vessels,13.2.7.3,1.13.2.7.3,2.13.2.7.3,GE95,K03
+Trauma,Cardiovascular,Splanchnic or renal vessels,Instrumental damage to splanchnic vessels,13.2.7.4,1.13.2.7.4,2.13.2.7.4,GA206,G03
+Trauma,Cardiovascular,Splanchnic or renal vessels,Traumatic damage to hepatic vessels,13.2.7.5,1.13.2.7.5,2.13.2.7.5,GA216,G03
+Trauma,Cardiovascular,Splanchnic or renal vessels,Instrumental damage to hepatic vessels,13.2.7.6,1.13.2.7.6,2.13.2.7.6,GA217,G03
+Trauma,Cardiovascular,Neck or extracranial vessels,Traumatic rupture or puncture of carotid or vertebral artery,13.2.8.1,1.13.2.8.1,2.13.2.8.1,NE87,C03
+Trauma,Cardiovascular,Neck or extracranial vessels,Instrumental damage to carotid or vertebral artery,13.2.8.2,1.13.2.8.2,2.13.2.8.2,NE19,C03
+Trauma,Cardiovascular,Neck or extracranial vessels,Traumatic carotid or vertebral artery aneurysm or dissection,13.2.8.3,1.13.2.8.3,2.13.2.8.3,NE90,C03
+Trauma,Cardiovascular,Limb or limb girdle vessels,Traumatic rupture or puncture of upper limb artery,13.2.9.1,1.13.2.9.1,2.13.2.9.1,CA118,C03
+Trauma,Cardiovascular,Limb or limb girdle vessels,Traumatic rupture or puncture of lower limb artery,13.2.9.2,1.13.2.9.2,2.13.2.9.2,CA117,C03
+Trauma,Cardiovascular,Limb or limb girdle vessels,Instrumental damage to limb artery,13.2.9.3,1.13.2.9.3,2.13.2.9.3,CA67,C03
+Trauma,Gastrointestinal,Mouth or pharynx,"Trauma to mouth, mandible, pharynx or facial bones",13.3.1.1,1.13.3.1.1,2.13.3.1.1,NE50,R03
+Trauma,Gastrointestinal,Abdominal wall or peritoneum,Trauma to abdominal wall,13.3.10.1,1.13.3.10.1,2.13.3.10.1,MU34,G03
+Trauma,Gastrointestinal,Abdominal wall or peritoneum,Ruptured diaphragm,13.3.10.2,1.13.3.10.2,2.13.3.10.2,RE33,R03
+Trauma,Gastrointestinal,Oesophagus,Traumatic rupture of oesophagus,13.3.2.1,1.13.3.2.1,2.13.3.2.1,GA147,G03
+Trauma,Gastrointestinal,Oesophagus,Instrumental damage to oesophagus,13.3.2.2,1.13.3.2.2,2.13.3.2.2,GA59,G03
+Trauma,Gastrointestinal,Oesophagus,Traumatic tracheo-oesophageal fistula,13.3.2.3,1.13.3.2.3,2.13.3.2.3,GA210,R03
+Trauma,Gastrointestinal,Oesophagus,Traumatic oesophago-vascular fistula,13.3.2.4,1.13.3.2.4,2.13.3.2.4,GA212,G03
+Trauma,Gastrointestinal,Oesophagus,Traumatic oesophago-enteric or oesophago-cutaneous fistula,13.3.2.5,1.13.3.2.5,2.13.3.2.5,GA214,G03
+Trauma,Gastrointestinal,Stomach,Traumatic gastric rupture,13.3.3.1,1.13.3.3.1,2.13.3.3.1,GA130,G03
+Trauma,Gastrointestinal,Stomach,Instrumental damage to stomach,13.3.3.2,1.13.3.3.2,2.13.3.3.2,GA62,G03
+Trauma,Gastrointestinal,Duodenum,Traumatic duodenal rupture,13.3.4.1,1.13.3.4.1,2.13.3.4.1,GA146,G03
+Trauma,Gastrointestinal,Duodenum,Instrumental damage to duodenum,13.3.4.2,1.13.3.4.2,2.13.3.4.2,GA138,G03
+Trauma,Gastrointestinal,Duodenum,Trauma related duodeno-vascular fistula,13.3.4.3,1.13.3.4.3,2.13.3.4.3,GA192,G03
+Trauma,Gastrointestinal,Duodenum,Trauma related duodenal fistula,13.3.4.4,1.13.3.4.4,2.13.3.4.4,GA194,G03
+Trauma,Gastrointestinal,Small bowel,Traumatic perforation of small bowel,13.3.5.1,1.13.3.5.1,2.13.3.5.1,GA133,G03
+Trauma,Gastrointestinal,Small bowel,Instrumental damage to small bowel,13.3.5.2,1.13.3.5.2,2.13.3.5.2,GA61,G03
+Trauma,Gastrointestinal,Small bowel,Trauma related entero-enteric or entero-cutaneous fistula,13.3.5.3,1.13.3.5.3,2.13.3.5.3,GA196,G03
+Trauma,Gastrointestinal,"Large bowel, rectum or anus",Traumatic perforation or rupture of large bowel,13.3.6.1,1.13.3.6.1,2.13.3.6.1,GA131,G03
+Trauma,Gastrointestinal,"Large bowel, rectum or anus",Instrumental damage to large bowel,13.3.6.2,1.13.3.6.2,2.13.3.6.2,GA57,G03
+Trauma,Gastrointestinal,"Large bowel, rectum or anus",Trauma related large bowel fistula,13.3.6.3,1.13.3.6.3,2.13.3.6.3,GA198,G03
+Trauma,Gastrointestinal,"Large bowel, rectum or anus","Non-accidental injury to large bowel, rectum or anus",13.3.6.4,1.13.3.6.4,2.13.3.6.4,GA84,G03
+Trauma,Gastrointestinal,Liver or biliary tree,Traumatic rupture or laceration of liver,13.3.7.1,1.13.3.7.1,2.13.3.7.1,GA148,G03
+Trauma,Gastrointestinal,Liver or biliary tree,Traumatic perforation or rupture of biliary tree or gall bladder,13.3.7.2,1.13.3.7.2,2.13.3.7.2,GA204,G03
+Trauma,Gastrointestinal,Liver or biliary tree,Instrumental damage to liver or biliary tree,13.3.7.3,1.13.3.7.3,2.13.3.7.3,GA58,G03
+Trauma,Gastrointestinal,Liver or biliary tree,Trauma related biliary fistula,13.3.7.4,1.13.3.7.4,2.13.3.7.4,GA200,G03
+Trauma,Gastrointestinal,Liver or biliary tree,Traumatic damage to hepatic vessels,13.3.7.5,1.13.3.7.5,2.13.3.7.5,GA216,G03
+Trauma,Gastrointestinal,Liver or biliary tree,Instrumental damage to hepatic vessels,13.3.7.6,1.13.3.7.6,2.13.3.7.6,GA217,G03
+Trauma,Gastrointestinal,Spleen,Traumatic rupture or laceration of spleen,13.3.8.1,1.13.3.8.1,2.13.3.8.1,GA149,G03
+Trauma,Gastrointestinal,Spleen,Instrumental damage to spleen,13.3.8.2,1.13.3.8.2,2.13.3.8.2,GA184,G03
+Trauma,Gastrointestinal,Pancreas,Traumatic pancreatitis or traumatic damage to pancreas,13.3.9.1,1.13.3.9.1,2.13.3.9.1,GA132,G03
+Trauma,Gastrointestinal,Pancreas,Instrumental damage to pancreatic duct,13.3.9.2,1.13.3.9.2,2.13.3.9.2,GA60,G03
+Trauma,Gastrointestinal,Pancreas,Trauma related pancreatic fistula,13.3.9.3,1.13.3.9.3,2.13.3.9.3,GA190,G03
+Trauma,Neurological (including eyes),"Head, neck (extracranial) or eyes","Trauma to mouth, mandible, pharynx or facial bones",13.4.1.1,1.13.4.1.1,2.13.4.1.1,NE50,R03
+Trauma,Neurological (including eyes),"Head, neck (extracranial) or eyes",Ocular trauma,13.4.1.2,1.13.4.1.2,2.13.4.1.2,NE51,N03
+Trauma,Neurological (including eyes),"Head, neck (extracranial) or eyes",Traumatic carotid or vertebral artery aneurysm or dissection,13.4.1.3,1.13.4.1.3,2.13.4.1.3,NE90,C03
+Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Primary (diffuse) brain injury,13.4.2.1,1.13.4.2.1,2.13.4.2.1,NE54,N03
+Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Traumatic subdural haemorrhage,13.4.2.2,1.13.4.2.2,2.13.4.2.2,NE75,N06
+Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Traumatic subarachnoid haemorrhage,13.4.2.3,1.13.4.2.3,2.13.4.2.3,NE74,N06
+Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Non-accidental injury to brain,13.4.2.4,1.13.4.2.4,2.13.4.2.4,NE28,N03
+Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Skull fracture,13.4.2.5,1.13.4.2.5,2.13.4.2.5,NE70,N03
+Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Extradural haemorrhage,13.4.2.6,1.13.4.2.6,2.13.4.2.6,NE14,N06
+Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Focal brain injury,13.4.2.7,1.13.4.2.7,2.13.4.2.7,NE66,N03
+Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault","Intracranial injury, unspecified",13.4.2.8,1.13.4.2.8,2.13.4.2.8,NE68,N03
+Trauma,Neurological (including eyes),Spinal cord,Cervical cord injury,13.4.3.1,1.13.4.3.1,2.13.4.3.1,NE9,N03
+Trauma,Neurological (including eyes),Spinal cord,Thoracic cord injury,13.4.3.2,1.13.4.3.2,2.13.4.3.2,NE37,N03
+Trauma,Neurological (including eyes),Spinal cord,Lumbar cord or cauda equina injury,13.4.3.3,1.13.4.3.3,2.13.4.3.3,NE13,N03
+Trauma,Neurological (including eyes),Spinal cord,Chronic spinal cord injury,13.4.3.4,1.13.4.3.4,2.13.4.3.4,NE42,N03
+Trauma,Neurological (including eyes),Peripheral nervous system,Brachial plexus injury,13.4.4.1,1.13.4.4.1,2.13.4.4.1,NE39,N03
+Trauma,Neurological (including eyes),Peripheral nervous system,Lumbar plexus injury,13.4.4.2,1.13.4.4.2,2.13.4.4.2,NE20,N03
+Trauma,Genito-urinary,Kidney or ureter,Traumatic renal rupture,13.5.1.1,1.13.5.1.1,2.13.5.1.1,GE73,K03
+Trauma,Genito-urinary,Kidney or ureter,Traumatic disruption of ureter,13.5.1.2,1.13.5.1.2,2.13.5.1.2,GE71,K03
+Trauma,Genito-urinary,Kidney or ureter,Traumatic damage to renal vessels,13.5.1.3,1.13.5.1.3,2.13.5.1.3,GE69,K03
+Trauma,Genito-urinary,Kidney or ureter,Instrumental damage to kidney or ureter,13.5.1.4,1.13.5.1.4,2.13.5.1.4,GE61,K03
+Trauma,Genito-urinary,Kidney or ureter,Instrumental damage to renal vessels,13.5.1.5,1.13.5.1.5,2.13.5.1.5,GE95,K03
+Trauma,Genito-urinary,Bladder or urethra,Traumatic perforation or rupture of bladder,13.5.2.1,1.13.5.2.1,2.13.5.2.1,GE72,K03
+Trauma,Genito-urinary,Bladder or urethra,Traumatic perforation or rupture of urethra,13.5.2.2,1.13.5.2.2,2.13.5.2.2,GE70,K03
+Trauma,Genito-urinary,Bladder or urethra,Instrumental damage to bladder or urethra,13.5.2.3,1.13.5.2.3,2.13.5.2.3,GE27,K03
+Trauma,Genito-urinary,Bladder or urethra,Trauma related bladder fistula,13.5.2.4,1.13.5.2.4,2.13.5.2.4,GE79,K03
+Trauma,Genito-urinary,Bladder or urethra,Trauma related urethral fistula,13.5.2.5,1.13.5.2.5,2.13.5.2.5,GE89,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Traumatic perforation or rupture of uterus,13.5.3.1,1.13.5.3.1,2.13.5.3.1,GE87,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)","Instrumental damage to uterus, ovaries or fallopian tubes",13.5.3.2,1.13.5.3.2,2.13.5.3.2,GE62,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Non-accidental injury to female genitalia ,13.5.3.3,1.13.5.3.3,2.13.5.3.3,GE33,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Traumatic damage to uterine vessels,13.5.3.4,1.13.5.3.4,2.13.5.3.4,GE91,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Instrumental damage to uterine vessels,13.5.3.5,1.13.5.3.5,2.13.5.3.5,GE92,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Traumatic damage to ovarian vessels,13.5.3.6,1.13.5.3.6,2.13.5.3.6,GE93,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Instrumental damage to ovarian vessels,13.5.3.7,1.13.5.3.7,2.13.5.3.7,GE94,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Traumatic perforation or rupture of uterus,13.5.4.1,1.13.5.4.1,2.13.5.4.1,GE87,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)","Instrumental damage to uterus, ovaries or fallopian tubes",13.5.4.2,1.13.5.4.2,2.13.5.4.2,GE62,K03
+Trauma,Genito-urinary,"Testes, prostate or penis","Traumatic damage to testes, prostrate or penis",13.5.5.1,1.13.5.5.1,2.13.5.5.1,GE52,K03
+Trauma,Genito-urinary,"Testes, prostate or penis","Instrumental damage to testes, prostrate or penis",13.5.5.2,1.13.5.5.2,2.13.5.5.2,GE26,K03
+Trauma,Genito-urinary,"Testes, prostate or penis",Non-accidental injury to male genitalia,13.5.5.3,1.13.5.5.3,2.13.5.5.3,GE34,K03
+Trauma,Musculoskeletal,Vertebral column,Cervical spine fracture or ligamentous injury,13.6.1.1,1.13.6.1.1,2.13.6.1.1,MU26,N03
+Trauma,Musculoskeletal,Vertebral column,Thoracic spine fracture or ligamentous injury,13.6.1.2,1.13.6.1.2,2.13.6.1.2,MU33,N03
+Trauma,Musculoskeletal,Vertebral column,Lumbar spine fracture or ligamentous injury,13.6.1.3,1.13.6.1.3,2.13.6.1.3,MU31,N03
+Trauma,Musculoskeletal,Vertebral column,Haemorrhage from or haematoma of vertebral column,13.6.1.4,1.13.6.1.4,2.13.6.1.4,MU4,C03
+Trauma,Musculoskeletal,"Pelvis, long bones or joints",Pelvic fracture,13.6.2.1,1.13.6.2.1,2.13.6.2.1,MU39,C03
+Trauma,Musculoskeletal,"Pelvis, long bones or joints",Single long bone fracture,13.6.2.2,1.13.6.2.2,2.13.6.2.2,MU32,C03
+Trauma,Musculoskeletal,"Pelvis, long bones or joints",Multiple long bone fractures,13.6.2.3,1.13.6.2.3,2.13.6.2.3,MU7,C03
+Trauma,Musculoskeletal,"Pelvis, long bones or joints","Non-accidental injury to pelvis, long bones or joints",13.6.2.4,1.13.6.2.4,2.13.6.2.4,MU10,C03
+Trauma,Musculoskeletal,"Pelvis, long bones or joints","Haemorrhage from or haematoma of pelvis, long bones or joints",13.6.2.5,1.13.6.2.5,2.13.6.2.5,MU37,C03
+Trauma,Musculoskeletal,Muscles or connective tissue,Crush injury,13.6.3.1,1.13.6.3.1,2.13.6.3.1,MU29,C03
+Trauma,Musculoskeletal,Muscles or connective tissue,Trauma related compartment syndrome,13.6.3.2,1.13.6.3.2,2.13.6.3.2,MU46,C03
+Trauma,Musculoskeletal,Muscles or connective tissue,Non-accidental injury to muscles or connective tissue,13.6.3.3,1.13.6.3.3,2.13.6.3.3,MU9,C03
+Trauma,Musculoskeletal,Muscles or connective tissue,Amputation of limb,13.6.3.4,1.13.6.3.4,2.13.6.3.4,MU35,C03
+Trauma,Musculoskeletal,Muscles or connective tissue,Haemorrhage from or haematoma of muscle or connective tissue,13.6.3.5,1.13.6.3.5,2.13.6.3.5,MU38,C03
+Trauma,Dermatological,Skin,Degloving injury,13.7.1.1,1.13.7.1.1,2.13.7.1.1,MU30,C03
+Trauma,Dermatological,Skin,Non-accidental injury to skin,13.7.1.2,1.13.7.1.2,2.13.7.1.2,DE8,C03
+Trauma,Dermatological,Skin,Electrical burns,13.7.1.3,1.13.7.1.3,2.13.7.1.3,DE3,NCA
+Trauma,Dermatological,Skin,Dry heat burns,13.7.1.4,1.13.7.1.4,2.13.7.1.4,DE17,NCA
+Trauma,Dermatological,Skin,Steam burns or scalds,13.7.1.5,1.13.7.1.5,2.13.7.1.5,DE13,NCA
+Trauma,Dermatological,Skin,Chemical burns,13.7.1.6,1.13.7.1.6,2.13.7.1.6,DE18,NCA
+Cardiovascular,Coronary arteries,Haemorrhage,Haemorrhage from coronary arteries,2.1.15.1,1.2.1.15.1,2.2.1.15.1,CA45,C23
+Cardiovascular,Coronary arteries,Infection,Mediastinitis,2.1.27.1,1.2.1.27.1,2.2.1.27.1,CA81,C01
+Cardiovascular,Coronary arteries,Inflammation,Kawasaki syndrome,2.1.28.1,1.2.1.28.1,2.2.1.28.1,CA72,C09
+Cardiovascular,Coronary arteries,Obstruction,Acute myocardial infarction,2.1.30.1,1.2.1.30.1,2.2.1.30.1,CA8,C10
+Cardiovascular,Coronary arteries,Obstruction,Acute coronary syndrome (acute crescendo or unstable angina),2.1.30.2,1.2.1.30.2,2.2.1.30.2,CA7,C09
+Cardiovascular,Coronary arteries,Obstruction,Chronic angina,2.1.30.3,1.2.1.30.3,2.2.1.30.3,CA23,C09
+Cardiovascular,Coronary arteries,Obstruction,CABG for acute myocardial infarction,2.1.30.4,1.2.1.30.4,2.2.1.30.4,CA19,NCA
+Cardiovascular,Coronary arteries,Obstruction,CABG for acute coronary syndrome (acute crescendo or unstable angina),2.1.30.5,1.2.1.30.5,2.2.1.30.5,CA18,NCA
+Cardiovascular,Coronary arteries,Obstruction,CABG for chronic angina,2.1.30.6,1.2.1.30.6,2.2.1.30.6,CA20,NCA
+Cardiovascular,Coronary arteries,Obstruction,Myocardial ischaemia without angina,2.1.30.7,1.2.1.30.7,2.2.1.30.7,CA82,C09
+Cardiovascular,Coronary arteries,Obstruction,CABG for asymptomatic artery disease,2.1.30.8,1.2.1.30.8,2.2.1.30.8,CA156,NCA
+Cardiovascular,Coronary arteries,Trauma,Traumatic damage to coronary arteries,2.1.56.1,1.2.1.56.1,2.2.1.56.1,CA136,C03
+Cardiovascular,Coronary arteries,Trauma,Instrumental damage to coronary arteries,2.1.56.2,1.2.1.56.2,2.2.1.56.2,CA65,C03
+Cardiovascular,Coronary arteries,Non-traumatic fistula,Coronary sinus fistula,2.1.57.1,1.2.1.57.1,2.2.1.57.1,CA34,C14
+Cardiovascular,Coronary arteries,Congenital or acquired deformity or abnormality,Coronary sinus fistula,2.1.8.1,1.2.1.8.1,2.2.1.8.1,CA34,C14
+Cardiovascular,Coronary arteries,Congenital or acquired deformity or abnormality,Anomalous coronary artery,2.1.8.2,1.2.1.8.2,2.2.1.8.2,CA10,C14
+Cardiovascular,Limb or limb girdle vessels,Haemorrhage,Haemorrhage from limb vessel,2.10.15.1,1.2.10.15.1,2.2.10.15.1,CA17,C23
+Cardiovascular,Limb or limb girdle vessels,Infection,Infected vascular prosthesis,2.10.27.1,1.2.10.27.1,2.2.10.27.1,CA147,C01
+Cardiovascular,Limb or limb girdle vessels,Inflammation,Large vessel arteritis,2.10.28.1,1.2.10.28.1,2.2.10.28.1,CA148,C12
+Cardiovascular,Limb or limb girdle vessels,Obstruction,Upper limb artery stenosis or occlusion,2.10.30.1,1.2.10.30.1,2.2.10.30.1,CA121,C12
+Cardiovascular,Limb or limb girdle vessels,Obstruction,Lower limb artery stenosis or occlusion,2.10.30.2,1.2.10.30.2,2.2.10.30.2,CA76,C12
+Cardiovascular,Limb or limb girdle vessels,Obstruction,Upper limb embolus,2.10.30.3,1.2.10.30.3,2.2.10.30.3,CA122,C13
+Cardiovascular,Limb or limb girdle vessels,Obstruction,Lower limb embolus,2.10.30.4,1.2.10.30.4,2.2.10.30.4,CA77,C13
+Cardiovascular,Limb or limb girdle vessels,Trauma,Traumatic rupture or puncture of upper limb artery,2.10.56.1,1.2.10.56.1,2.2.10.56.1,CA118,C03
+Cardiovascular,Limb or limb girdle vessels,Trauma,Traumatic rupture or puncture of lower limb artery,2.10.56.2,1.2.10.56.2,2.2.10.56.2,CA117,C03
+Cardiovascular,Limb or limb girdle vessels,Trauma,Instrumental damage to limb artery,2.10.56.3,1.2.10.56.3,2.2.10.56.3,CA67,C03
+Cardiovascular,Limb or limb girdle vessels,"Non-traumatic aneurysm, dissection or rupture",Non-traumatic rupture of upper limb artery,2.10.57.1,1.2.10.57.1,2.2.10.57.1,CA179,C26
+Cardiovascular,Limb or limb girdle vessels,"Non-traumatic aneurysm, dissection or rupture",Non-traumatic rupture of lower limb artery,2.10.57.2,1.2.10.57.2,2.2.10.57.2,CA180,C26
+Cardiovascular,Limb or limb girdle vessels,"Non-traumatic aneurysm, dissection or rupture",Lower limb artery aneurysm or dissection,2.10.57.3,1.2.10.57.3,2.2.10.57.3,CA75,C12
+Cardiovascular,Limb or limb girdle vessels,"Non-traumatic aneurysm, dissection or rupture",Upper limb artery aneurysm or dissection,2.10.57.4,1.2.10.57.4,2.2.10.57.4,CA120,C12
+Cardiovascular,Great veins,Infection,Infected thrombophlebitis of the great veins,2.11.27.1,1.2.11.27.1,2.2.11.27.1,CA60,C01
+Cardiovascular,Great veins,Infection,Infected intravenous catheter in the great veins,2.11.27.2,1.2.11.27.2,2.2.11.27.2,CA58,C01
+Cardiovascular,Great veins,Obstruction,Superior vena caval obstruction or thrombosis,2.11.30.1,1.2.11.30.1,2.2.11.30.1,CA101,C26
+Cardiovascular,Great veins,Obstruction,Inferior vena caval obstruction or thrombosis,2.11.30.2,1.2.11.30.2,2.2.11.30.2,CA64,C26
+Cardiovascular,Great veins,Trauma,Superior vena caval damage,2.11.56.1,1.2.11.56.1,2.2.11.56.1,CA92,C03
+Cardiovascular,Great veins,Trauma,Inferior vena caval damage,2.11.56.2,1.2.11.56.2,2.2.11.56.2,CA63,C03
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Hypertension,Accelerated or malignant hypertension,2.12.19.1,1.2.12.19.1,2.2.12.19.1,CA6,C16
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Hypertension,Essential hypertension,2.12.19.2,1.2.12.19.2,2.2.12.19.2,CA40,C16
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Hypertension,Phaeochromocytoma,2.12.19.3,1.2.12.19.3,2.2.12.19.3,CA91,K02
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Hypertension,HELLP syndrome,2.12.19.4,1.2.12.19.4,2.2.12.19.4,HA28,C16
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Hypertension,Pre-eclampsia,2.12.19.5,1.2.12.19.5,2.2.12.19.5,GE40,C16
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Hypertension,Coarctation of aorta,2.12.19.6,1.2.12.19.6,2.2.12.19.6,CA28,C14
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Infection,Infected thrombophlebitis of the peripheral veins,2.12.27.1,1.2.12.27.1,2.2.12.27.1,CA141,C01
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Infection,Infected intravenous catheter in the peripheral veins,2.12.27.2,1.2.12.27.2,2.2.12.27.2,CA140,C01
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Infection,Infected arterio-venous shunt or fistula,2.12.27.3,1.2.12.27.3,2.2.12.27.3,CA56,C01
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Shock or hypotension,Hypovolaemic shock,2.12.35.1,1.2.12.35.1,2.2.12.35.1,CA52,C22
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Shock or hypotension,"Septic shock, aetiology uncertain",2.12.35.2,1.2.12.35.2,2.2.12.35.2,CA99,C20
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Shock or hypotension,Anaphylaxis,2.12.35.3,1.2.12.35.3,2.2.12.35.3,CA9,C21
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Shock or hypotension,Cardiogenic shock,2.12.35.4,1.2.12.35.4,2.2.12.35.4,CA21,C19
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Shock or hypotension,Tumour lysis syndrome,2.12.35.5,1.2.12.35.5,2.2.12.35.5,CA157,M28
+Cardiovascular,"Peripheral vasculature, shock or hypertension",Non-traumatic fistula,Infected arterio-venous shunt or fistula,2.12.57.1,1.2.12.57.1,2.2.12.57.1,CA56,C01
+Cardiovascular,Pulmonary vasculature,Haemorrhage,Goodpasture's syndrome,2.13.15.1,1.2.13.15.1,2.2.13.15.1,RE51,R23
+Cardiovascular,Pulmonary vasculature,Haemorrhage,Pulmonary vasculitis not defined,2.13.15.2,1.2.13.15.2,2.2.13.15.2,RE84,R23
+Cardiovascular,Pulmonary vasculature,Haemorrhage,Leptospirosis,2.13.15.3,1.2.13.15.3,2.2.13.15.3,GE29,R01
+Cardiovascular,Pulmonary vasculature,Haemorrhage,Pulmonary haemorrhage due to contusion,2.13.15.4,1.2.13.15.4,2.2.13.15.4,RE29,R03
+Cardiovascular,Pulmonary vasculature,Haemorrhage,Pulmonary haemorrhage not defined,2.13.15.5,1.2.13.15.5,2.2.13.15.5,RE83,R23
+Cardiovascular,Pulmonary vasculature,Hypertension,Idiopathic pulmonary hypertension,2.13.19.1,1.2.13.19.1,2.2.13.19.1,CA53,C16
+Cardiovascular,Pulmonary vasculature,Hypertension,Eisenmenger's syndrome,2.13.19.2,1.2.13.19.2,2.2.13.19.2,CA131,C14
+Cardiovascular,Pulmonary vasculature,Hypertension,Cor pulmonale,2.13.19.3,1.2.13.19.3,2.2.13.19.3,CA33,C15
+Cardiovascular,Pulmonary vasculature,Hypertension,Chronic thromboembolic pulmonary hypertension,2.13.19.4,1.2.13.19.4,2.2.13.19.4,CA192,C16
+Cardiovascular,Pulmonary vasculature,Inflammation,Goodpasture's syndrome,2.13.28.1,1.2.13.28.1,2.2.13.28.1,RE51,R23
+Cardiovascular,Pulmonary vasculature,Inflammation,Pulmonary vasculitis not defined,2.13.28.2,1.2.13.28.2,2.2.13.28.2,RE84,R23
+Cardiovascular,Pulmonary vasculature,Obstruction,Pulmonary embolus (thrombus),2.13.30.1,1.2.13.30.1,2.2.13.30.1,CA94,R13
+Cardiovascular,Pulmonary vasculature,Obstruction,Fat embolus,2.13.30.2,1.2.13.30.2,2.2.13.30.2,RE47,R13
+Cardiovascular,Pulmonary vasculature,Obstruction,Venous air embolus,2.13.30.3,1.2.13.30.3,2.2.13.30.3,RE2,R13
+Cardiovascular,Pulmonary vasculature,Obstruction,Pulmonary tumour embolus,2.13.30.4,1.2.13.30.4,2.2.13.30.4,RE109,R13
+Cardiovascular,Pulmonary vasculature,Obstruction,Amniotic fluid embolus,2.13.30.5,1.2.13.30.5,2.2.13.30.5,GE10,R13
+Cardiovascular,Pulmonary vasculature,Trauma,Traumatic damage to pulmonary vessels,2.13.56.1,1.2.13.56.1,2.2.13.56.1,RE39,R03
+Cardiovascular,Pulmonary vasculature,Trauma,Instrumental damage to pulmonary vessels,2.13.56.2,1.2.13.56.2,2.2.13.56.2,RE25,R03
+Cardiovascular,Pulmonary vasculature,Non-traumatic rupture or fistula,Non-traumatic rupture or fistula of pulmonary vessels,2.13.57.1,1.2.13.57.1,2.2.13.57.1,RE146,R26
+Cardiovascular,Pulmonary vasculature,Congenital or acquired deformity or abnormality,Anomalous pulmonary venous drainage,2.13.8.1,1.2.13.8.1,2.2.13.8.1,RE7,C14
+Cardiovascular,Pulmonary vasculature,Congenital or acquired deformity or abnormality,Pulmonary arterio-venous malformation,2.13.8.2,1.2.13.8.2,2.2.13.8.2,CA93,R14
+Cardiovascular,Pulmonary vasculature,Congenital or acquired deformity or abnormality,Transposition of great arteries,2.13.8.3,1.2.13.8.3,2.2.13.8.3,CA95,C14
+Cardiovascular,Pulmonary vasculature,Congenital or acquired deformity or abnormality,Patent ductus arteriosus,2.13.8.4,1.2.13.8.4,2.2.13.8.4,RE88,C14
+Cardiovascular,Pulmonary vasculature,Congenital or acquired deformity or abnormality,Truncus arteriosus,2.13.8.5,1.2.13.8.5,2.2.13.8.5,CA119,C14
+Cardiovascular,Uterine or ovarian vessels,Trauma,Traumatic damage to uterine vessels,2.14.56.1,1.2.14.56.1,2.2.14.56.1,GE91,K03
+Cardiovascular,Uterine or ovarian vessels,Trauma,Instrumental damage to uterine vessels,2.14.56.2,1.2.14.56.2,2.2.14.56.2,GE92,K03
+Cardiovascular,Uterine or ovarian vessels,Trauma,Traumatic damage to ovarian vessels,2.14.56.3,1.2.14.56.3,2.2.14.56.3,GE93,K03
+Cardiovascular,Uterine or ovarian vessels,Trauma,Instrumental damage to ovarian vessels,2.14.56.4,1.2.14.56.4,2.2.14.56.4,GE94,K03
+Cardiovascular,Abdominal aorta,Infection,Infected abdominal aortic prosthesis,2.15.27.1,1.2.15.27.1,2.2.15.27.1,CA181,C01
+Cardiovascular,Abdominal aorta,Inflammation,Large vessel arteritis,2.15.28.1,1.2.15.28.1,2.2.15.28.1,CA148,C12
+Cardiovascular,Abdominal aorta,Obstruction,Occlusive aortic disease,2.15.30.1,1.2.15.30.1,2.2.15.30.1,CA182,C26
+Cardiovascular,Abdominal aorta,Obstruction,Saddle embolus,2.15.30.2,1.2.15.30.2,2.2.15.30.2,CA183,C13
+Cardiovascular,Abdominal aorta,"Trauma (or traumatic dissection, rupture or fistula)",Traumatic dissection or rupture of abdominal aorta,2.15.56.1,1.2.15.56.1,2.2.15.56.1,CA170,C03
+Cardiovascular,Abdominal aorta,"Trauma (or traumatic dissection, rupture or fistula)",Instrumental damage to abdominal aorta,2.15.56.2,1.2.15.56.2,2.2.15.56.2,CA171,C03
+Cardiovascular,Abdominal aorta,"Trauma (or traumatic dissection, rupture or fistula)",Traumatic aorto-enteric fistula,2.15.56.3,1.2.15.56.3,2.2.15.56.3,CA135,C03
+Cardiovascular,Abdominal aorta,"Trauma (or traumatic dissection, rupture or fistula)",Traumatic aorto-caval fistula,2.15.56.4,1.2.15.56.4,2.2.15.56.4,CA96,C03
+Cardiovascular,Abdominal aorta,"Non-traumatic aneurysm, dissection, rupture or fistula",Non-traumatic dissection of abdominal aorta,2.15.57.1,1.2.15.57.1,2.2.15.57.1,CA169,C12
+Cardiovascular,Abdominal aorta,"Non-traumatic aneurysm, dissection, rupture or fistula","Abdominal aortic aneurysm, ruptured",2.15.57.2,1.2.15.57.2,2.2.15.57.2,CA144,C12
+Cardiovascular,Abdominal aorta,"Non-traumatic aneurysm, dissection, rupture or fistula","Thoracoabdominal aortic aneurysm, ruptured",2.15.57.3,1.2.15.57.3,2.2.15.57.3,CA154,C12
+Cardiovascular,Abdominal aorta,"Non-traumatic aneurysm, dissection, rupture or fistula","Abdominal aortic aneurysm, leaking or expanding but not ruptured",2.15.57.4,1.2.15.57.4,2.2.15.57.4,CA142,C12
+Cardiovascular,Abdominal aorta,"Non-traumatic aneurysm, dissection, rupture or fistula","Abdominal aortic aneurysm, neither ruptured, leaking nor expanding",2.15.57.5,1.2.15.57.5,2.2.15.57.5,CA143,C12
+Cardiovascular,Abdominal aorta,"Non-traumatic aneurysm, dissection, rupture or fistula","Thoracoabdominal aortic aneurysm, not ruptured",2.15.57.6,1.2.15.57.6,2.2.15.57.6,CA153,C12
+Cardiovascular,Abdominal aorta,"Non-traumatic aneurysm, dissection, rupture or fistula",Non-traumatic aorto-caval fistula,2.15.57.7,1.2.15.57.7,2.2.15.57.7,CA189,C12
+Cardiovascular,Abdominal aorta,"Non-traumatic aneurysm, dissection, rupture or fistula",Non-traumatic aorto-enteric fistula,2.15.57.8,1.2.15.57.8,2.2.15.57.8,CA190,C12
+Cardiovascular,Iliac vessels,Infection,Infected iliac prosthesis,2.16.27.1,1.2.16.27.1,2.2.16.27.1,CA184,C01
+Cardiovascular,Iliac vessels,Inflammation,Large vessel arteritis,2.16.28.1,1.2.16.28.1,2.2.16.28.1,CA148,C12
+Cardiovascular,Iliac vessels,Obstruction,Occlusive iliac disease,2.16.30.1,1.2.16.30.1,2.2.16.30.1,CA185,C26
+Cardiovascular,Iliac vessels,Obstruction,Iliac embolus,2.16.30.2,1.2.16.30.2,2.2.16.30.2,CA186,C13
+Cardiovascular,Iliac vessels,Trauma,Instrumental damage to iliac vessels,2.16.56.1,1.2.16.56.1,2.2.16.56.1,CA174,C03
+Cardiovascular,Iliac vessels,"Non-traumatic aneurysm, dissection or rupture","Iliac artery aneurysm, ruptured",2.16.57.1,1.2.16.57.1,2.2.16.57.1,CA173,C12
+Cardiovascular,Iliac vessels,"Non-traumatic aneurysm, dissection or rupture","Iliac artery aneurysm, not ruptured",2.16.57.2,1.2.16.57.2,2.2.16.57.2,CA172,C12
+Cardiovascular,Iliac vessels,"Non-traumatic aneurysm, dissection or rupture",Non-traumatic dissection of iliac vessels,2.16.57.3,1.2.16.57.3,2.2.16.57.3,CA191,C12
+Cardiovascular,Myocardium or cardiac chambers,Failure,Left ventricular failure,2.2.13.1,1.2.2.13.1,2.2.2.13.1,CA73,C15
+Cardiovascular,Myocardium or cardiac chambers,Failure,Right ventricular failure,2.2.13.2,1.2.2.13.2,2.2.2.13.2,CA97,C15
+Cardiovascular,Myocardium or cardiac chambers,Failure,Bi-ventricular failure,2.2.13.3,1.2.2.13.3,2.2.2.13.3,CA16,C15
+Cardiovascular,Myocardium or cardiac chambers,Failure,Cardiogenic shock,2.2.13.4,1.2.2.13.4,2.2.2.13.4,CA21,C19
+Cardiovascular,Myocardium or cardiac chambers,Failure,Cor pulmonale,2.2.13.5,1.2.2.13.5,2.2.2.13.5,CA33,C15
+Cardiovascular,Myocardium or cardiac chambers,Infection,Viral or bacterial cardiomyopathy,2.2.27.1,1.2.2.27.1,2.2.2.27.1,CA125,C19
+Cardiovascular,Myocardium or cardiac chambers,Infection,Myocardial or septal abscess,2.2.27.2,1.2.2.27.2,2.2.2.27.2,CA5,C01
+Cardiovascular,Myocardium or cardiac chambers,Infection,Myocarditis,2.2.27.3,1.2.2.27.3,2.2.2.27.3,CA83,C19
+Cardiovascular,Myocardium or cardiac chambers,Infection,Non-valvular endocarditis,2.2.27.4,1.2.2.27.4,2.2.2.27.4,CA86,C01
+Cardiovascular,Myocardium or cardiac chambers,Inflammation,Toxic myopathy,2.2.28.1,1.2.2.28.1,2.2.2.28.1,CA107,C19
+Cardiovascular,Myocardium or cardiac chambers,Inflammation,Myocarditis,2.2.28.2,1.2.2.28.2,2.2.2.28.2,CA83,C19
+Cardiovascular,Myocardium or cardiac chambers,Transplant (or related),Heart or heart-lung allograft,2.2.37.1,1.2.2.37.1,2.2.2.37.1,CA47,C33
+Cardiovascular,Myocardium or cardiac chambers,Transplant (or related),Heart or heart-lung allograft rejection,2.2.37.2,1.2.2.37.2,2.2.2.37.2,CA108,C33
+Cardiovascular,Myocardium or cardiac chambers,Tumour or malignancy,Myxoma,2.2.39.1,1.2.2.39.1,2.2.2.39.1,CA84,C02
+Cardiovascular,Myocardium or cardiac chambers,Vascular,Ischaemic cardiomyopathy,2.2.41.1,1.2.2.41.1,2.2.2.41.1,CA69,C09
+Cardiovascular,Myocardium or cardiac chambers,Vascular,Ischaemic ventricular septal defect,2.2.41.2,1.2.2.41.2,2.2.2.41.2,CA71,C10
+Cardiovascular,Myocardium or cardiac chambers,Vascular,Acute myocardial infarction,2.2.41.4,1.2.2.41.4,2.2.2.41.4,CA8,C10
+Cardiovascular,Myocardium or cardiac chambers,Vascular,Traumatic papillary muscle rupture,2.2.41.5,1.2.2.41.5,2.2.2.41.5,CA175,C03
+Cardiovascular,Myocardium or cardiac chambers,Vascular,Non-traumatic papillary muscle rupture,2.2.41.6,1.2.2.41.6,2.2.2.41.6,CA176,C10
+Cardiovascular,Myocardium or cardiac chambers,Trauma (or traumatic perforation or rupture),Myocardial contusion,2.2.56.1,1.2.2.56.1,2.2.2.56.1,CA134,C03
+Cardiovascular,Myocardium or cardiac chambers,Trauma (or traumatic perforation or rupture),Instrumental damage to myocardium,2.2.56.2,1.2.2.56.2,2.2.2.56.2,CA68,C03
+Cardiovascular,Myocardium or cardiac chambers,Trauma (or traumatic perforation or rupture),Traumatic perforation of myocardial wall,2.2.56.3,1.2.2.56.3,2.2.2.56.3,CA137,C03
+Cardiovascular,Myocardium or cardiac chambers,Trauma (or traumatic perforation or rupture),Traumatic haemopericardium or tamponade,2.2.56.4,1.2.2.56.4,2.2.2.56.4,CA177,C03
+Cardiovascular,Myocardium or cardiac chambers,Trauma (or traumatic perforation or rupture),Traumatic papillary muscle rupture,2.2.56.5,1.2.2.56.5,2.2.2.56.5,CA175,C03
+Cardiovascular,Myocardium or cardiac chambers,Trauma (or traumatic perforation or rupture),Electrocution,2.2.56.6,1.2.2.56.6,2.2.2.56.6,CA162,C03
+Cardiovascular,Myocardium or cardiac chambers,"Non-traumatic aneurysm, perforation or rupture",Ischaemic myocardial perforation,2.2.57.1,1.2.2.57.1,2.2.2.57.1,CA70,C10
+Cardiovascular,Myocardium or cardiac chambers,"Non-traumatic aneurysm, perforation or rupture",Ischaemic ventricular septal defect,2.2.57.2,1.2.2.57.2,2.2.2.57.2,CA71,C10
+Cardiovascular,Myocardium or cardiac chambers,"Non-traumatic aneurysm, perforation or rupture",Non-traumatic papillary muscle rupture,2.2.57.3,1.2.2.57.3,2.2.2.57.3,CA176,C10
+Cardiovascular,Myocardium or cardiac chambers,"Non-traumatic aneurysm, perforation or rupture",Non-traumatic haemopericardium or tamponade post surgery,2.2.57.4,1.2.2.57.4,2.2.2.57.4,CA178,C23
+Cardiovascular,Myocardium or cardiac chambers,"Non-traumatic aneurysm, perforation or rupture",Ventricular aneurysm,2.2.57.5,1.2.2.57.5,2.2.2.57.5,CA138,C10
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Complex congenital cardiac abnormality,2.2.8.1,1.2.2.8.1,2.2.2.8.1,CA29,C14
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Toxic myocarditis,2.2.8.10,1.2.2.8.10,2.2.2.8.10,CA106,C19
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Single ventricle,2.2.8.12,1.2.2.8.12,2.2.2.8.12,CA100,C14
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Right ventricular outflow tract obstruction,2.2.8.13,1.2.2.8.13,2.2.2.8.13,CA98,C14
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Left ventricular outflow tract obstruction,2.2.8.14,1.2.2.8.14,2.2.2.8.14,CA74,C14
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Double outlet left ventricle,2.2.8.15,1.2.2.8.15,2.2.2.8.15,CA35,C14
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Hypoplastic left or right ventricle,2.2.8.16,1.2.2.8.16,2.2.2.8.16,CA51,C14
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Ventricular aneurysm,2.2.8.17,1.2.2.8.17,2.2.2.8.17,CA138,C10
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,"Congenital cardiomyopathy, not hypertrophic",2.2.8.18,1.2.2.8.18,2.2.2.8.18,CA150,C19
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Mural or intracavity thrombus,2.2.8.19,1.2.2.8.19,2.2.2.8.19,CA149,C13
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Atrial septal defect,2.2.8.2,1.2.2.8.2,2.2.2.8.2,CA15,C14
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Congenital ventricular septal defect,2.2.8.3,1.2.2.8.3,2.2.2.8.3,CA31,C14
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Ischaemic ventricular septal defect,2.2.8.4,1.2.2.8.4,2.2.2.8.4,CA71,C10
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Tetralogy of Fallot,2.2.8.6,1.2.2.8.6,2.2.2.8.6,CA104,C14
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,AV canal defect,2.2.8.7,1.2.2.8.7,2.2.2.8.7,CA1,C14
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Transposition of great arteries,2.2.8.8,1.2.2.8.8,2.2.2.8.8,CA95,C14
+Cardiovascular,Myocardium or cardiac chambers,Congenital or acquired deformity or abnormality,Hypertrophic cardiomyopathy,2.2.8.9,1.2.2.8.9,2.2.2.8.9,CA50,C19
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Haemorrhage,Haemopericardium from instrumental perforation of myocardial wall,2.3.15.1,1.2.3.15.1,2.2.3.15.1,CA42,C03
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Haemorrhage,Haemopericardium from ischaemic perforation of myocardial wall,2.3.15.2,1.2.3.15.2,2.2.3.15.2,CA43,C10
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Haemorrhage,Haemopericardium from traumatic perforation of myocardial wall,2.3.15.3,1.2.3.15.3,2.2.3.15.3,CA44,C03
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Haemorrhage,Haemopericardium from coronary artery damage,2.3.15.4,1.2.3.15.4,2.2.3.15.4,CA41,C03
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Haemorrhage,Traumatic haemopericardium or tamponade,2.3.15.6,1.2.3.15.6,2.2.3.15.6,CA177,C03
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Haemorrhage,Non-traumatic haemopericardium or tamponade post surgery,2.3.15.7,1.2.3.15.7,2.2.3.15.7,CA178,C23
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Infection,Infective pericarditis,2.3.27.1,1.2.3.27.1,2.2.3.27.1,CA62,C01
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Infection,Mediastinitis,2.3.27.2,1.2.3.27.2,2.2.3.27.2,CA81,C01
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Infection,Sternotomy related infection,2.3.27.3,1.2.3.27.3,2.2.3.27.3,CA155,C01
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Inflammation,Pericardial effusion,2.3.28.1,1.2.3.28.1,2.2.3.28.1,CA90,C18
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Tumour or malignancy,Malignant pericardial effusion,2.3.39.1,1.2.3.39.1,2.2.3.39.1,CA79,C02
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Congenital or acquired deformity or abnormality,Constrictive pericarditis,2.3.8.1,1.2.3.8.1,2.2.3.8.1,CA32,C18
+Cardiovascular,"Pericardium, pericardial space or mediastinum",Congenital or acquired deformity or abnormality,Pericardial effusion,2.3.8.2,1.2.3.8.2,2.2.3.8.2,CA90,C18
+Cardiovascular,Heart valves,Infection,Endocarditis of aortic valve,2.4.27.1,1.2.4.27.1,2.2.4.27.1,CA36,C01
+Cardiovascular,Heart valves,Infection,Endocarditis of mitral valve,2.4.27.2,1.2.4.27.2,2.2.4.27.2,CA37,C01
+Cardiovascular,Heart valves,Infection,Endocarditis of pulmonary valve,2.4.27.3,1.2.4.27.3,2.2.4.27.3,CA38,C01
+Cardiovascular,Heart valves,Infection,Endocarditis of tricuspid valve,2.4.27.4,1.2.4.27.4,2.2.4.27.4,CA39,C01
+Cardiovascular,Heart valves,Infection,Aortic root abscess,2.4.27.5,1.2.4.27.5,2.2.4.27.5,CA12,C01
+Cardiovascular,Heart valves,Infection,Infection of prosthetic heart valve,2.4.27.6,1.2.4.27.6,2.2.4.27.6,CA61,C01
+Cardiovascular,Heart valves,Infection,Non-valvular endocarditis,2.4.27.7,1.2.4.27.7,2.2.4.27.7,CA86,C01
+Cardiovascular,Heart valves,Tumour or malignancy,Myxoma,2.4.39.1,1.2.4.39.1,2.2.4.39.1,CA84,C02
+Cardiovascular,Heart valves,Vascular,Traumatic papillary muscle rupture,2.4.41.2,1.2.4.41.2,2.2.4.41.2,CA175,C03
+Cardiovascular,Heart valves,Vascular,Non-traumatic papillary muscle rupture,2.4.41.3,1.2.4.41.3,2.2.4.41.3,CA176,C10
+Cardiovascular,Heart valves,Trauma (or traumatic rupture),Trauma to aortic valve,2.4.56.1,1.2.4.56.1,2.2.4.56.1,CA109,C03
+Cardiovascular,Heart valves,Trauma (or traumatic rupture),Trauma to mitral valve,2.4.56.2,1.2.4.56.2,2.2.4.56.2,CA110,C03
+Cardiovascular,Heart valves,Trauma (or traumatic rupture),Trauma to pulmonary valve,2.4.56.3,1.2.4.56.3,2.2.4.56.3,CA111,C03
+Cardiovascular,Heart valves,Trauma (or traumatic rupture),Trauma to tricuspid valve,2.4.56.4,1.2.4.56.4,2.2.4.56.4,CA112,C03
+Cardiovascular,Heart valves,Trauma (or traumatic rupture),Instrumental damage to heart valves,2.4.56.5,1.2.4.56.5,2.2.4.56.5,CA66,C03
+Cardiovascular,Heart valves,Trauma (or traumatic rupture),Traumatic papillary muscle rupture,2.4.56.6,1.2.4.56.6,2.2.4.56.6,CA175,C03
+Cardiovascular,Heart valves,Non-traumatic rupture,Non-traumatic papillary muscle rupture,2.4.57.1,1.2.4.57.1,2.2.4.57.1,CA176,C10
+Cardiovascular,Heart valves,Congenital or acquired deformity or abnormality,Abnormality of aortic valve,2.4.8.1,1.2.4.8.1,2.2.4.8.1,CA2,C11
+Cardiovascular,Heart valves,Congenital or acquired deformity or abnormality,Abnormality of mitral valve,2.4.8.2,1.2.4.8.2,2.2.4.8.2,CA3,C11
+Cardiovascular,Heart valves,Congenital or acquired deformity or abnormality,Abnormality of pulmonary valve,2.4.8.3,1.2.4.8.3,2.2.4.8.3,CA4,C11
+Cardiovascular,Heart valves,Congenital or acquired deformity or abnormality,Abnormality of tricuspid valve,2.4.8.4,1.2.4.8.4,2.2.4.8.4,CA130,C11
+Cardiovascular,Heart valves,Congenital or acquired deformity or abnormality,Tetralogy of Fallot,2.4.8.5,1.2.4.8.5,2.2.4.8.5,CA104,C14
+Cardiovascular,Heart valves,Congenital or acquired deformity or abnormality,AV canal defect,2.4.8.6,1.2.4.8.6,2.2.4.8.6,CA1,C14
+Cardiovascular,Heart valves,Congenital or acquired deformity or abnormality,Abnormality of prosthetic valve,2.4.8.7,1.2.4.8.7,2.2.4.8.7,CA139,C11
+Cardiovascular,Heart valves,Degeneration,Chronic degeneration of aortic valve,2.4.9.1,1.2.4.9.1,2.2.4.9.1,CA24,C11
+Cardiovascular,Heart valves,Degeneration,Chronic degeneration of mitral valve,2.4.9.2,1.2.4.9.2,2.2.4.9.2,CA25,C11
+Cardiovascular,Heart valves,Degeneration,Chronic degeneration of pulmonary valve,2.4.9.3,1.2.4.9.3,2.2.4.9.3,CA26,C11
+Cardiovascular,Heart valves,Degeneration,Chronic degeneration of tricuspid valve,2.4.9.4,1.2.4.9.4,2.2.4.9.4,CA27,C11
+Cardiovascular,Conducting system or rhythm disturbances,Infection,Infected artificial pacemaker,2.5.27.1,1.2.5.27.1,2.2.5.27.1,CA57,C01
+Cardiovascular,Conducting system or rhythm disturbances,Over-activity (tachyarrhythmia or ectopy),"Supra-ventricular tachycardia, atrial fibrillation or flutter",2.5.32.1,1.2.5.32.1,2.2.5.32.1,CA102,C17
+Cardiovascular,Conducting system or rhythm disturbances,Over-activity (tachyarrhythmia or ectopy),Ventricular tachycardia or fibrillation,2.5.32.2,1.2.5.32.2,2.2.5.32.2,CA124,C17
+Cardiovascular,Conducting system or rhythm disturbances,Over-activity (tachyarrhythmia or ectopy),Atrial premature beats or ectopics,2.5.32.3,1.2.5.32.3,2.2.5.32.3,CA14,C17
+Cardiovascular,Conducting system or rhythm disturbances,Over-activity (tachyarrhythmia or ectopy),Ventricular ectopics,2.5.32.4,1.2.5.32.4,2.2.5.32.4,CA123,C17
+Cardiovascular,Conducting system or rhythm disturbances,Under-activity (bradyarrhythmia),Heart block,2.5.40.1,1.2.5.40.1,2.2.5.40.1,CA46,C17
+Cardiovascular,Conducting system or rhythm disturbances,Under-activity (bradyarrhythmia),Pulseless electrical activity (PEA),2.5.40.2,1.2.5.40.2,2.2.5.40.2,CA163,C17
+Cardiovascular,Conducting system or rhythm disturbances,Under-activity (bradyarrhythmia),Asystole,2.5.40.3,1.2.5.40.3,2.2.5.40.3,CA164,C17
+Cardiovascular,Conducting system or rhythm disturbances,Congenital or acquired deformity or abnormality,Wolff-Parkinson-White syndrome,2.5.8.1,1.2.5.8.1,2.2.5.8.1,CA129,C14
+Cardiovascular,Conducting system or rhythm disturbances,Congenital or acquired deformity or abnormality,Lown-Ganong-Levine syndrome,2.5.8.2,1.2.5.8.2,2.2.5.8.2,CA78,C14
+Cardiovascular,Conducting system or rhythm disturbances,Congenital or acquired deformity or abnormality,Brugada or QT syndrome,2.5.8.3,1.2.5.8.3,2.2.5.8.3,CA165,C14
+Cardiovascular,Thoracic aorta,Infection,Infected thoracic aortic prosthesis,2.6.27.1,1.2.6.27.1,2.2.6.27.1,CA59,C01
+Cardiovascular,Thoracic aorta,Infection,Aortic root abscess,2.6.27.2,1.2.6.27.2,2.2.6.27.2,CA12,C01
+Cardiovascular,Thoracic aorta,Infection,Syphilitic aortitis,2.6.27.3,1.2.6.27.3,2.2.6.27.3,CA103,C01
+Cardiovascular,Thoracic aorta,Inflammation,Large vessel arteritis,2.6.28.1,1.2.6.28.1,2.2.6.28.1,CA148,C12
+Cardiovascular,Thoracic aorta,Obstruction,Coarctation of aorta,2.6.30.1,1.2.6.30.1,2.2.6.30.1,CA28,C14
+Cardiovascular,Thoracic aorta,"Trauma (or traumatic dissection, perforation or rupture)","Traumatic dissection, perforation or rupture of thoracic aorta",2.6.56.1,1.2.6.56.1,2.2.6.56.1,CA187,C03
+Cardiovascular,Thoracic aorta,"Trauma (or traumatic dissection, perforation or rupture)",Instrumental damage to thoracic aorta,2.6.56.2,1.2.6.56.2,2.2.6.56.2,CA188,C03
+Cardiovascular,Thoracic aorta,"Non-traumatic aneurysm, dissection or rupture",Non-traumatic dissection of thoracic aorta,2.6.57.1,1.2.6.57.1,2.2.6.57.1,CA85,C12
+Cardiovascular,Thoracic aorta,"Non-traumatic aneurysm, dissection or rupture","Thoracic aortic aneurysm, ruptured",2.6.57.2,1.2.6.57.2,2.2.6.57.2,CA152,C12
+Cardiovascular,Thoracic aorta,"Non-traumatic aneurysm, dissection or rupture","Thoracic aortic aneurysm, not ruptured",2.6.57.3,1.2.6.57.3,2.2.6.57.3,CA151,C12
+Cardiovascular,Thoracic aorta,"Non-traumatic aneurysm, dissection or rupture","Thoracoabdominal aortic aneurysm, ruptured",2.6.57.4,1.2.6.57.4,2.2.6.57.4,CA154,C12
+Cardiovascular,Thoracic aorta,"Non-traumatic aneurysm, dissection or rupture","Thoracoabdominal aortic aneurysm, not ruptured",2.6.57.5,1.2.6.57.5,2.2.6.57.5,CA153,C12
+Cardiovascular,Thoracic aorta,Congenital or acquired deformity or abnormality,Coarctation of aorta,2.6.8.1,1.2.6.8.1,2.2.6.8.1,CA28,C14
+Cardiovascular,Thoracic aorta,Congenital or acquired deformity or abnormality,Marfan's syndrome,2.6.8.2,1.2.6.8.2,2.2.6.8.2,CA80,C14
+Cardiovascular,Thoracic aorta,Congenital or acquired deformity or abnormality,Congenital abnormality of aortic arch,2.6.8.3,1.2.6.8.3,2.2.6.8.3,CA30,C14
+Cardiovascular,Thoracic aorta,Congenital or acquired deformity or abnormality,Transposition of great arteries,2.6.8.4,1.2.6.8.4,2.2.6.8.4,CA95,C14
+Cardiovascular,Thoracic aorta,Congenital or acquired deformity or abnormality,Truncus arteriosus,2.6.8.5,1.2.6.8.5,2.2.6.8.5,CA119,C14
+Cardiovascular,Thoracic aorta,Congenital or acquired deformity or abnormality,Patent ductus arteriosus,2.6.8.6,1.2.6.8.6,2.2.6.8.6,RE88,C14
+Cardiovascular,Splanchnic or renal vessels,Obstruction,Renal artery stenosis or occlusion,2.8.30.1,1.2.8.30.1,2.2.8.30.1,GE65,C12
+Cardiovascular,Splanchnic or renal vessels,Obstruction,Visceral infarction due to primary vascular disease,2.8.30.10,1.2.8.30.10,2.2.8.30.10,CA128,C12
+Cardiovascular,Splanchnic or renal vessels,Obstruction,"Small bowel infarction due to herniation, volvulus or adhesions",2.8.30.11,1.2.8.30.11,2.2.8.30.11,GA120,G26
+Cardiovascular,Splanchnic or renal vessels,Obstruction,Portal hypertension,2.8.30.12,1.2.8.30.12,2.2.8.30.12,GA107,C12
+Cardiovascular,Splanchnic or renal vessels,Obstruction,Renal vein thrombosis,2.8.30.13,1.2.8.30.13,2.2.8.30.13,CA166,C12
+Cardiovascular,Splanchnic or renal vessels,Obstruction,Renal artery embolus,2.8.30.2,1.2.8.30.2,2.2.8.30.2,GE45,K13
+Cardiovascular,Splanchnic or renal vessels,Obstruction,Renal infarction,2.8.30.3,1.2.8.30.3,2.2.8.30.3,GE46,C12
+Cardiovascular,Splanchnic or renal vessels,Obstruction,Renal artery aneurysm or dissection,2.8.30.4,1.2.8.30.4,2.2.8.30.4,GE44,C12
+Cardiovascular,Splanchnic or renal vessels,Obstruction,Hepatic artery stenosis or occlusion,2.8.30.5,1.2.8.30.5,2.2.8.30.5,GA209,C12
+Cardiovascular,Splanchnic or renal vessels,Obstruction,Portal vein occlusion or thrombosis,2.8.30.6,1.2.8.30.6,2.2.8.30.6,GA108,C12
+Cardiovascular,Splanchnic or renal vessels,Obstruction,Hepatic vein occlusion or thrombosis,2.8.30.7,1.2.8.30.7,2.2.8.30.7,GA187,C12
+Cardiovascular,Splanchnic or renal vessels,Obstruction,Visceral artery stenosis or occlusion,2.8.30.8,1.2.8.30.8,2.2.8.30.8,CA127,C12
+Cardiovascular,Splanchnic or renal vessels,Obstruction,Visceral artery embolism,2.8.30.9,1.2.8.30.9,2.2.8.30.9,CA126,G13
+Cardiovascular,Splanchnic or renal vessels,Trauma,Traumatic damage to renal vessels,2.8.56.1,1.2.8.56.1,2.2.8.56.1,GE69,K03
+Cardiovascular,Splanchnic or renal vessels,Trauma,Traumatic damage to splanchnic vessels,2.8.56.2,1.2.8.56.2,2.2.8.56.2,GA145,G03
+Cardiovascular,Splanchnic or renal vessels,Trauma,Instrumental damage to renal vessels,2.8.56.3,1.2.8.56.3,2.2.8.56.3,GE95,K03
+Cardiovascular,Splanchnic or renal vessels,Trauma,Instrumental damage to splanchnic vessels,2.8.56.4,1.2.8.56.4,2.2.8.56.4,GA206,G03
+Cardiovascular,Splanchnic or renal vessels,Trauma,Traumatic damage to hepatic vessels,2.8.56.5,1.2.8.56.5,2.2.8.56.5,GA216,G03
+Cardiovascular,Splanchnic or renal vessels,Trauma,Instrumental damage to hepatic vessels,2.8.56.6,1.2.8.56.6,2.2.8.56.6,GA217,G03
+Cardiovascular,Splanchnic or renal vessels,"Non-traumatic aneurysm, dissection, perforation or rupture",Non-traumatic perforation or rupture of splanchnic vessels,2.8.57.1,1.2.8.57.1,2.2.8.57.1,GA207,G26
+Cardiovascular,Splanchnic or renal vessels,"Non-traumatic aneurysm, dissection, perforation or rupture",Renal artery aneurysm or dissection,2.8.57.2,1.2.8.57.2,2.2.8.57.2,GE44,C12
+Cardiovascular,Splanchnic or renal vessels,"Non-traumatic aneurysm, dissection, perforation or rupture",Hepatic artery aneurysm,2.8.57.3,1.2.8.57.3,2.2.8.57.3,GA42,C12
+Cardiovascular,Splanchnic or renal vessels,"Non-traumatic aneurysm, dissection, perforation or rupture",Splanchnic artery aneurysm or dissection,2.8.57.4,1.2.8.57.4,2.2.8.57.4,GA208,C12
+Cardiovascular,Neck or extracranial vessels,Haemorrhage,Epistaxis,2.9.15.1,1.2.9.15.1,2.2.9.15.1,RE3,R23
+Cardiovascular,Neck or extracranial vessels,Inflammation,Large vessel arteritis,2.9.28.1,1.2.9.28.1,2.2.9.28.1,CA148,C12
+Cardiovascular,Neck or extracranial vessels,Obstruction,Carotid or vertebral artery stenosis or occlusion,2.9.30.1,1.2.9.30.1,2.2.9.30.1,NE89,C12
+Cardiovascular,Neck or extracranial vessels,Tumour or malignancy,Carotid body tumour (Paraganglioma),2.9.39.1,1.2.9.39.1,2.2.9.39.1,CA146,C01
+Cardiovascular,Neck or extracranial vessels,"Trauma (or traumatic aneurysm, dissection, rupture or puncture)",Traumatic rupture or puncture of carotid or vertebral artery,2.9.56.1,1.2.9.56.1,2.2.9.56.1,NE87,C03
+Cardiovascular,Neck or extracranial vessels,"Trauma (or traumatic aneurysm, dissection, rupture or puncture)",Instrumental damage to carotid or vertebral artery,2.9.56.2,1.2.9.56.2,2.2.9.56.2,NE19,C03
+Cardiovascular,Neck or extracranial vessels,"Trauma (or traumatic aneurysm, dissection, rupture or puncture)",Traumatic carotid or vertebral artery aneurysm or dissection,2.9.56.3,1.2.9.56.3,2.2.9.56.3,NE90,C03
+Cardiovascular,Neck or extracranial vessels,"Non-traumatic aneurysm, dissection or rupture",Non-traumatic rupture of carotid or vertebral artery,2.9.57.1,1.2.9.57.1,2.2.9.57.1,NE88,C26
+Cardiovascular,Neck or extracranial vessels,"Non-traumatic aneurysm, dissection or rupture",Non-traumatic carotid or vertebral artery aneurysm or dissection,2.9.57.2,1.2.9.57.2,2.2.9.57.2,NE91,C12
+Cardiovascular,Neck or extracranial vessels,Congenital or acquired deformity or abnormality,Extracranial or neck arterio-venous malformation or haemangioma,2.9.8.1,1.2.9.8.1,2.2.9.8.1,CA13,C14
+Gastrointestinal,Mouth or pharynx,Haemorrhage,Haemorrhage into upper airway,3.1.15.2,1.3.1.15.2,2.3.1.15.2,RE119,R23
+Gastrointestinal,Mouth or pharynx,Haemorrhage,Tracheal haemorrhage,3.1.15.3,1.3.1.15.3,2.3.1.15.3,RE147,R23
+Gastrointestinal,Mouth or pharynx,Infection,"Mandible, facial bones, dental or salivary infection",3.1.27.1,1.3.1.27.1,2.3.1.27.1,RE71,R01
+Gastrointestinal,Mouth or pharynx,Infection,Tonsil or pharyngeal infection,3.1.27.2,1.3.1.27.2,2.3.1.27.2,GA114,R01
+Gastrointestinal,Mouth or pharynx,Tumour or malignancy,Head or neck tumour not intraoral or intranasal,3.1.39.1,1.3.1.39.1,2.3.1.39.1,RE54,R02
+Gastrointestinal,Mouth or pharynx,Tumour or malignancy,Malignant neoplasm of oropharynx,3.1.39.3,1.3.1.39.3,2.3.1.39.3,GA164,R02
+Gastrointestinal,Mouth or pharynx,Tumour or malignancy,Malignant neoplasm of nasopharynx,3.1.39.4,1.3.1.39.4,2.3.1.39.4,GA162,R02
+Gastrointestinal,Mouth or pharynx,Tumour or malignancy,Malignant neoplasm of hypopharynx,3.1.39.5,1.3.1.39.5,2.3.1.39.5,GA161,R02
+Gastrointestinal,Mouth or pharynx,Trauma,"Trauma to mouth, mandible, pharynx or facial bones",3.1.56.1,1.3.1.56.1,2.3.1.56.1,NE50,R03
+Gastrointestinal,Mouth or pharynx,Congenital or acquired deformity or abnormality,"Mouth, mandible, pharynx or facial bones deformity",3.1.8.1,1.3.1.8.1,2.3.1.8.1,NE25,R14
+Gastrointestinal,Abdominal wall or peritoneum,Haemorrhage,Retroperitoneal haemorrhage,3.10.15.1,1.3.10.15.1,2.3.10.15.1,GE48,G23
+Gastrointestinal,Abdominal wall or peritoneum,Infection,Primary peritonitis,3.10.27.1,1.3.10.27.1,2.3.10.27.1,GA110,G01
+Gastrointestinal,Abdominal wall or peritoneum,Infection,Intra-peritoneal abscess (not pelvic),3.10.27.2,1.3.10.27.2,2.3.10.27.2,GA63,G01
+Gastrointestinal,Abdominal wall or peritoneum,Infection,CAPD related peritonitis,3.10.27.3,1.3.10.27.3,2.3.10.27.3,GA16,G01
+Gastrointestinal,Abdominal wall or peritoneum,Infection,Fournier's gangrene of abdominal wall,3.10.27.4,1.3.10.27.4,2.3.10.27.4,GA137,K01
+Gastrointestinal,Abdominal wall or peritoneum,Infection,Necrotising fasciitis,3.10.27.5,1.3.10.27.5,2.3.10.27.5,DE7,G01
+Gastrointestinal,Abdominal wall or peritoneum,Infection,Pelvic infection or abscess,3.10.27.6,1.3.10.27.6,2.3.10.27.6,GE36,K01
+Gastrointestinal,Abdominal wall or peritoneum,Infection,Retroperitoneal abscess or infection,3.10.27.7,1.3.10.27.7,2.3.10.27.7,GA113,K01
+Gastrointestinal,Abdominal wall or peritoneum,Infection,Tuberculous peritonitis,3.10.27.8,1.3.10.27.8,2.3.10.27.8,GA134,G01
+Gastrointestinal,Abdominal wall or peritoneum,Infection,Device related abdominal wall infection,3.10.27.9,1.3.10.27.9,2.3.10.27.9,GA170,G01
+Gastrointestinal,Abdominal wall or peritoneum,Tumour or malignancy,Primary retroperitoneal malignancy,3.10.39.1,1.3.10.39.1,2.3.10.39.1,GA111,G02
+Gastrointestinal,Abdominal wall or peritoneum,Tumour or malignancy,Secondary retroperitoneal malignancy,3.10.39.2,1.3.10.39.2,2.3.10.39.2,GA117,G02
+Gastrointestinal,Abdominal wall or peritoneum,Tumour or malignancy,Pseudomyxoma peritonei,3.10.39.3,1.3.10.39.3,2.3.10.39.3,GA171,G02
+Gastrointestinal,Abdominal wall or peritoneum,Trauma (or traumatic rupture),Trauma to abdominal wall,3.10.56.1,1.3.10.56.1,2.3.10.56.1,MU34,G03
+Gastrointestinal,Abdominal wall or peritoneum,Trauma (or traumatic rupture),Ruptured diaphragm,3.10.56.2,1.3.10.56.2,2.3.10.56.2,RE33,R03
+Gastrointestinal,Abdominal wall or peritoneum,Non-traumatic rupture,Abdominal wound dehiscence,3.10.57.1,1.3.10.57.1,2.3.10.57.1,GA1,G26
+Gastrointestinal,Abdominal wall or peritoneum,Congenital or acquired deformity or abnormality,Gastroschisis or exomphalos,3.10.8.2,1.3.10.8.2,2.3.10.8.2,GA40,G14
+Gastrointestinal,Abdominal wall or peritoneum,Congenital or acquired deformity or abnormality,Diaphragmatic hernia,3.10.8.3,1.3.10.8.3,2.3.10.8.3,RE30,G14
+Gastrointestinal,Abdominal wall or peritoneum,Congenital or acquired deformity or abnormality,Inguinal or femoral hernia,3.10.8.4,1.3.10.8.4,2.3.10.8.4,GA56,G26
+Gastrointestinal,Abdominal wall or peritoneum,Congenital or acquired deformity or abnormality,Hernia not defined,3.10.8.5,1.3.10.8.5,2.3.10.8.5,GA99,G26
+Gastrointestinal,Oesophagus,Haemorrhage,Oesophageal varices,3.2.15.1,1.3.2.15.1,2.3.2.15.1,GA93,G23
+Gastrointestinal,Oesophagus,Haemorrhage,Mallory-Weiss or other tear,3.2.15.2,1.3.2.15.2,2.3.2.15.2,GA81,G23
+Gastrointestinal,Oesophagus,Haemorrhage,Non-infective oesophagitis or oesophageal ulcers,3.2.15.4,1.3.2.15.4,2.3.2.15.4,GA94,G23
+Gastrointestinal,Oesophagus,Haemorrhage,Haemorrhage from oesophageal vascular abnormality,3.2.15.5,1.3.2.15.5,2.3.2.15.5,GA172,G23
+Gastrointestinal,Oesophagus,Haemorrhage,"Gastrointestinal haemorrhage, source not identified",3.2.15.6,1.3.2.15.6,2.3.2.15.6,GA173,G23
+Gastrointestinal,Oesophagus,Haemorrhage,Traumatic oesophago-vascular fistula,3.2.15.7,1.3.2.15.7,2.3.2.15.7,GA212,G03
+Gastrointestinal,Oesophagus,Haemorrhage,Non-traumatic oesophago-vascular fistula,3.2.15.8,1.3.2.15.8,2.3.2.15.8,GA213,G23
+Gastrointestinal,Oesophagus,Infection,Infective oesophagitis,3.2.27.1,1.3.2.27.1,2.3.2.27.1,GA53,G01
+Gastrointestinal,Oesophagus,Inflammation,Non-infective oesophagitis or oesophageal ulcers,3.2.28.1,1.3.2.28.1,2.3.2.28.1,GA94,G23
+Gastrointestinal,Oesophagus,Inflammation,Chemical or thermal oesophageal burns,3.2.28.2,1.3.2.28.2,2.3.2.28.2,NE59,G36
+Gastrointestinal,Oesophagus,Obstruction,Oesophageal atresia,3.2.30.1,1.3.2.30.1,2.3.2.30.1,GA90,G14
+Gastrointestinal,Oesophagus,Obstruction,Non-traumatic oesophago-enteric or oesophago-cutaneous fistula,3.2.30.10,1.3.2.30.10,2.3.2.30.10,GA215,G26
+Gastrointestinal,Oesophagus,Obstruction,Non-malignant stricture of oesophagus,3.2.30.2,1.3.2.30.2,2.3.2.30.2,GA85,G26
+Gastrointestinal,Oesophagus,Obstruction,Malignant neoplasm of oesophagus,3.2.30.3,1.3.2.30.3,2.3.2.30.3,GA92,G02
+Gastrointestinal,Oesophagus,Obstruction,Malignant neoplasm of oesophageal-gastric junction,3.2.30.6,1.3.2.30.6,2.3.2.30.6,GA163,G02
+Gastrointestinal,Oesophagus,Obstruction,Traumatic oesophago-vascular fistula,3.2.30.7,1.3.2.30.7,2.3.2.30.7,GA212,G03
+Gastrointestinal,Oesophagus,Obstruction,Non-traumatic oesophago-vascular fistula,3.2.30.8,1.3.2.30.8,2.3.2.30.8,GA213,G23
+Gastrointestinal,Oesophagus,Obstruction,Traumatic oesophago-enteric or oesophago-cutaneous fistula,3.2.30.9,1.3.2.30.9,2.3.2.30.9,GA214,G03
+Gastrointestinal,Oesophagus,Tumour or malignancy,Malignant neoplasm of oesophagus,3.2.39.1,1.3.2.39.1,2.3.2.39.1,GA92,G02
+Gastrointestinal,Oesophagus,Tumour or malignancy,Malignant neoplasm of oesophageal-gastric junction,3.2.39.2,1.3.2.39.2,2.3.2.39.2,GA163,G02
+Gastrointestinal,Oesophagus,Trauma (or traumatic fistula),Traumatic rupture of oesophagus,3.2.56.1,1.3.2.56.1,2.3.2.56.1,GA147,G03
+Gastrointestinal,Oesophagus,Trauma (or traumatic fistula),Instrumental damage to oesophagus,3.2.56.2,1.3.2.56.2,2.3.2.56.2,GA59,G03
+Gastrointestinal,Oesophagus,Trauma (or traumatic fistula),Traumatic tracheo-oesophageal fistula,3.2.56.3,1.3.2.56.3,2.3.2.56.3,GA210,R03
+Gastrointestinal,Oesophagus,Trauma (or traumatic fistula),Traumatic oesophago-vascular fistula,3.2.56.4,1.3.2.56.4,2.3.2.56.4,GA212,G03
+Gastrointestinal,Oesophagus,Trauma (or traumatic fistula),Traumatic oesophago-enteric or oesophago-cutaneous fistula,3.2.56.5,1.3.2.56.5,2.3.2.56.5,GA214,G03
+Gastrointestinal,Oesophagus,"Non-traumatic perforation, rupture or fistula",Spontaneous rupture of oesophagus,3.2.57.1,1.3.2.57.1,2.3.2.57.1,GA125,G26
+Gastrointestinal,Oesophagus,"Non-traumatic perforation, rupture or fistula",Non-traumatic perforation or rupture of oesophagus,3.2.57.2,1.3.2.57.2,2.3.2.57.2,GA191,G26
+Gastrointestinal,Oesophagus,"Non-traumatic perforation, rupture or fistula",Leaking oesophageal anastomosis,3.2.57.3,1.3.2.57.3,2.3.2.57.3,GA142,G26
+Gastrointestinal,Oesophagus,"Non-traumatic perforation, rupture or fistula",Non-traumatic tracheo-oesophageal fistula,3.2.57.4,1.3.2.57.4,2.3.2.57.4,GA211,R14
+Gastrointestinal,Oesophagus,"Non-traumatic perforation, rupture or fistula",Non-traumatic oesophago-vascular fistula,3.2.57.5,1.3.2.57.5,2.3.2.57.5,GA213,G23
+Gastrointestinal,Oesophagus,"Non-traumatic perforation, rupture or fistula",Non-traumatic oesophago-enteric or oesophago-cutaneous fistula,3.2.57.6,1.3.2.57.6,2.3.2.57.6,GA215,G26
+Gastrointestinal,Oesophagus,Congenital or acquired deformity or abnormality,Oesophageal atresia,3.2.8.1,1.3.2.8.1,2.3.2.8.1,GA90,G14
+Gastrointestinal,Oesophagus,Congenital or acquired deformity or abnormality,Achalasia,3.2.8.3,1.3.2.8.3,2.3.2.8.3,GA151,G26
+Gastrointestinal,Oesophagus,Congenital or acquired deformity or abnormality,Barrett's oesophagus,3.2.8.4,1.3.2.8.4,2.3.2.8.4,GA155,G23
+Gastrointestinal,Oesophagus,Congenital or acquired deformity or abnormality,Traumatic tracheo-oesophageal fistula,3.2.8.5,1.3.2.8.5,2.3.2.8.5,GA210,R03
+Gastrointestinal,Oesophagus,Congenital or acquired deformity or abnormality,Non-traumatic tracheo-oesophageal fistula,3.2.8.6,1.3.2.8.6,2.3.2.8.6,GA211,R14
+Gastrointestinal,Stomach,Haemorrhage,Haemorrhage from gastric ulcer or gastritis,3.3.15.1,1.3.3.15.1,2.3.3.15.1,GA14,G23
+Gastrointestinal,Stomach,Haemorrhage,Haemorrhage from gastric varices,3.3.15.2,1.3.3.15.2,2.3.3.15.2,GA15,G23
+Gastrointestinal,Stomach,Haemorrhage,Gastro-vascular fistula,3.3.15.3,1.3.3.15.3,2.3.3.15.3,GA39,G23
+Gastrointestinal,Stomach,Haemorrhage,Haemorrhage from gastric tumour,3.3.15.4,1.3.3.15.4,2.3.3.15.4,GA174,G23
+Gastrointestinal,Stomach,Haemorrhage,Haemorrhage from gastric vascular abnormality,3.3.15.5,1.3.3.15.5,2.3.3.15.5,GA175,G23
+Gastrointestinal,Stomach,Haemorrhage,"Gastrointestinal haemorrhage, source not identified",3.3.15.6,1.3.3.15.6,2.3.3.15.6,GA173,G23
+Gastrointestinal,Stomach,Obstruction,Pyloric obstruction,3.3.30.1,1.3.3.30.1,2.3.3.30.1,GA112,G26
+Gastrointestinal,Stomach,Obstruction,Congenital pyloric stenosis,3.3.30.2,1.3.3.30.2,2.3.3.30.2,GA22,G26
+Gastrointestinal,Stomach,Obstruction,Gastric herniation,3.3.30.3,1.3.3.30.3,2.3.3.30.3,GA34,G26
+Gastrointestinal,Stomach,Obstruction,Gastric volvulus,3.3.30.4,1.3.3.30.4,2.3.3.30.4,GA38,G26
+Gastrointestinal,Stomach,Obstruction,Gastric tumour,3.3.30.5,1.3.3.30.5,2.3.3.30.5,GA37,G02
+Gastrointestinal,Stomach,Tumour or malignancy,Gastric tumour,3.3.39.1,1.3.3.39.1,2.3.3.39.1,GA37,G02
+Gastrointestinal,Stomach,Vascular,Gastric infarction,3.3.41.1,1.3.3.41.1,2.3.3.41.1,GA35,G26
+Gastrointestinal,Stomach,Trauma,Traumatic gastric rupture,3.3.56.1,1.3.3.56.1,2.3.3.56.1,GA130,G03
+Gastrointestinal,Stomach,Trauma,Instrumental damage to stomach,3.3.56.2,1.3.3.56.2,2.3.3.56.2,GA62,G03
+Gastrointestinal,Stomach,"Non-traumatic perforation, rupture or fistula",Non-traumatic gastric rupture,3.3.57.1,1.3.3.57.1,2.3.3.57.1,GA87,G26
+Gastrointestinal,Stomach,"Non-traumatic perforation, rupture or fistula",Gastric perforation due to ulcers,3.3.57.2,1.3.3.57.2,2.3.3.57.2,GA36,G26
+Gastrointestinal,Stomach,"Non-traumatic perforation, rupture or fistula",Leaking gastric anastomosis,3.3.57.3,1.3.3.57.3,2.3.3.57.3,GA5,G26
+Gastrointestinal,Stomach,"Non-traumatic perforation, rupture or fistula",Gastro-vascular fistula,3.3.57.4,1.3.3.57.4,2.3.3.57.4,GA39,G23
+Gastrointestinal,Stomach,"Non-traumatic perforation, rupture or fistula",Gastro-enteric or gastro-cutaneous fistula,3.3.57.5,1.3.3.57.5,2.3.3.57.5,GA98,G26
+Gastrointestinal,Stomach,Congenital or acquired deformity or abnormality,Congenital pyloric stenosis,3.3.8.1,1.3.3.8.1,2.3.3.8.1,GA22,G26
+Gastrointestinal,Stomach,Congenital or acquired deformity or abnormality,Gastroschisis or exomphalos,3.3.8.2,1.3.3.8.2,2.3.3.8.2,GA40,G14
+Gastrointestinal,Stomach,Congenital or acquired deformity or abnormality,Hiatus hernia,3.3.8.3,1.3.3.8.3,2.3.3.8.3,GA44,G14
+Gastrointestinal,Duodenum,Haemorrhage,"Haemorrhage from duodenal ulcer, duodenitis or duodenal diverticulum",3.4.15.1,1.3.4.15.1,2.3.4.15.1,GA12,G23
+Gastrointestinal,Duodenum,Haemorrhage,Duodenal or ampullary tumour,3.4.15.3,1.3.4.15.3,2.3.4.15.3,GA27,G02
+Gastrointestinal,Duodenum,Haemorrhage,Haemorrhage from duodenal vascular abnormality,3.4.15.4,1.3.4.15.4,2.3.4.15.4,GA177,G23
+Gastrointestinal,Duodenum,Haemorrhage,"Gastrointestinal haemorrhage, source not identified",3.4.15.5,1.3.4.15.5,2.3.4.15.5,GA173,G23
+Gastrointestinal,Duodenum,Haemorrhage,Trauma related duodeno-vascular fistula,3.4.15.6,1.3.4.15.6,2.3.4.15.6,GA192,G03
+Gastrointestinal,Duodenum,Haemorrhage,Non-trauma related duodeno-vascular fistula,3.4.15.7,1.3.4.15.7,2.3.4.15.7,GA193,G23
+Gastrointestinal,Duodenum,Obstruction,Duodenal or ampullary tumour,3.4.30.1,1.3.4.30.1,2.3.4.30.1,GA27,G02
+Gastrointestinal,Duodenum,Obstruction,Duodenal atresia,3.4.30.2,1.3.4.30.2,2.3.4.30.2,GA26,G14
+Gastrointestinal,Duodenum,Obstruction,Meconium ileus,3.4.30.3,1.3.4.30.3,2.3.4.30.3,GA82,G26
+Gastrointestinal,Duodenum,Tumour or malignancy,Duodenal or ampullary tumour,3.4.39.1,1.3.4.39.1,2.3.4.39.1,GA27,G02
+Gastrointestinal,Duodenum,Trauma (or traumatic rupture or fistula),Traumatic duodenal rupture,3.4.56.1,1.3.4.56.1,2.3.4.56.1,GA146,G03
+Gastrointestinal,Duodenum,Trauma (or traumatic rupture or fistula),Instrumental damage to duodenum,3.4.56.2,1.3.4.56.2,2.3.4.56.2,GA138,G03
+Gastrointestinal,Duodenum,Trauma (or traumatic rupture or fistula),Trauma related duodeno-vascular fistula,3.4.56.3,1.3.4.56.3,2.3.4.56.3,GA192,G03
+Gastrointestinal,Duodenum,Trauma (or traumatic rupture or fistula),Trauma related duodenal fistula,3.4.56.4,1.3.4.56.4,2.3.4.56.4,GA194,G03
+Gastrointestinal,Duodenum,"Non-traumatic perforation, rupture or fistula",Non-traumatic duodenal rupture,3.4.57.1,1.3.4.57.1,2.3.4.57.1,GA86,G26
+Gastrointestinal,Duodenum,"Non-traumatic perforation, rupture or fistula",Duodenal perforation due to ulcers,3.4.57.2,1.3.4.57.2,2.3.4.57.2,GA28,G26
+Gastrointestinal,Duodenum,"Non-traumatic perforation, rupture or fistula",Leaking duodenal anastomosis,3.4.57.3,1.3.4.57.3,2.3.4.57.3,GA76,G26
+Gastrointestinal,Duodenum,"Non-traumatic perforation, rupture or fistula",Non-trauma related duodeno-vascular fistula,3.4.57.4,1.3.4.57.4,2.3.4.57.4,GA193,G23
+Gastrointestinal,Duodenum,"Non-traumatic perforation, rupture or fistula",Non-trauma related duodenal fistula,3.4.57.5,1.3.4.57.5,2.3.4.57.5,GA195,G26
+Gastrointestinal,Duodenum,Congenital or acquired deformity or abnormality,Meconium ileus,3.4.8.1,1.3.4.8.1,2.3.4.8.1,GA82,G26
+Gastrointestinal,Duodenum,Congenital or acquired deformity or abnormality,Duodenal atresia,3.4.8.2,1.3.4.8.2,2.3.4.8.2,GA26,G14
+Gastrointestinal,Small bowel,Haemorrhage,Entero-vascular fistula,3.5.15.1,1.3.5.15.1,2.3.5.15.1,GA30,G23
+Gastrointestinal,Small bowel,Haemorrhage,Small bowel arterio-venous malformation,3.5.15.2,1.3.5.15.2,2.3.5.15.2,GA7,G14
+Gastrointestinal,Small bowel,Haemorrhage,Haemorrhage from small bowel vascular abnormality,3.5.15.3,1.3.5.15.3,2.3.5.15.3,GA178,G23
+Gastrointestinal,Small bowel,Haemorrhage,"Gastrointestinal haemorrhage, source not identified",3.5.15.4,1.3.5.15.4,2.3.5.15.4,GA173,G23
+Gastrointestinal,Small bowel,Infection,Infective enteritides,3.5.27.1,1.3.5.27.1,2.3.5.27.1,GA51,G01
+Gastrointestinal,Small bowel,Infection,Necrotising enterocolitis,3.5.27.2,1.3.5.27.2,2.3.5.27.2,GA83,G01
+Gastrointestinal,Small bowel,Inflammation,Crohn's disease of small bowel,3.5.28.1,1.3.5.28.1,2.3.5.28.1,GA23,G35
+Gastrointestinal,Small bowel,Inflammation,Inflammatory perforation of small bowel,3.5.28.2,1.3.5.28.2,2.3.5.28.2,GA55,G26
+Gastrointestinal,Small bowel,Inflammation,Coeliac disease,3.5.28.3,1.3.5.28.3,2.3.5.28.3,GA156,G25
+Gastrointestinal,Small bowel,Inflammation,Radiation enteritis,3.5.28.4,1.3.5.28.4,2.3.5.28.4,GA179,G36
+Gastrointestinal,Small bowel,Obstruction,Small bowel herniation,3.5.30.1,1.3.5.30.1,2.3.5.30.1,GA119,G26
+Gastrointestinal,Small bowel,Obstruction,Small bowel volvulus,3.5.30.2,1.3.5.30.2,2.3.5.30.2,GA124,G26
+Gastrointestinal,Small bowel,Obstruction,Small bowel adhesions,3.5.30.3,1.3.5.30.3,2.3.5.30.3,GA118,G26
+Gastrointestinal,Small bowel,Obstruction,Small bowel intussusception,3.5.30.4,1.3.5.30.4,2.3.5.30.4,GA122,G26
+Gastrointestinal,Small bowel,Obstruction,Small bowel tumour,3.5.30.5,1.3.5.30.5,2.3.5.30.5,GA123,G02
+Gastrointestinal,Small bowel,Obstruction,Small bowel inflammatory masses,3.5.30.6,1.3.5.30.6,2.3.5.30.6,GA121,G26
+Gastrointestinal,Small bowel,Obstruction,Functional obstruction or pseudo-obstruction,3.5.30.7,1.3.5.30.7,2.3.5.30.7,GA158,G26
+Gastrointestinal,Small bowel,Obstruction,Gall stone ileus,3.5.30.8,1.3.5.30.8,2.3.5.30.8,GA180,G26
+Gastrointestinal,Small bowel,Transplant (or related),Small bowel allograft,3.5.37.1,1.3.5.37.1,2.3.5.37.1,GA168,G33
+Gastrointestinal,Small bowel,Tumour or malignancy,Small bowel tumour,3.5.39.1,1.3.5.39.1,2.3.5.39.1,GA123,G02
+Gastrointestinal,Small bowel,Vascular,Visceral artery stenosis or occlusion,3.5.41.1,1.3.5.41.1,2.3.5.41.1,CA127,C12
+Gastrointestinal,Small bowel,Vascular,Visceral artery embolism,3.5.41.2,1.3.5.41.2,2.3.5.41.2,CA126,G13
+Gastrointestinal,Small bowel,Vascular,Visceral infarction due to primary vascular disease,3.5.41.3,1.3.5.41.3,2.3.5.41.3,CA128,C12
+Gastrointestinal,Small bowel,Vascular,"Small bowel infarction due to herniation, volvulus or adhesions",3.5.41.4,1.3.5.41.4,2.3.5.41.4,GA120,G26
+Gastrointestinal,Small bowel,Trauma (or traumatic perforation or fistula),Traumatic perforation of small bowel,3.5.56.1,1.3.5.56.1,2.3.5.56.1,GA133,G03
+Gastrointestinal,Small bowel,Trauma (or traumatic perforation or fistula),Instrumental damage to small bowel,3.5.56.2,1.3.5.56.2,2.3.5.56.2,GA61,G03
+Gastrointestinal,Small bowel,Trauma (or traumatic perforation or fistula),Trauma related entero-enteric or entero-cutaneous fistula,3.5.56.3,1.3.5.56.3,2.3.5.56.3,GA196,G03
+Gastrointestinal,Small bowel,Non-traumatic perforation or fistula,Non-traumatic perforation of small bowel,3.5.57.1,1.3.5.57.1,2.3.5.57.1,GA89,G26
+Gastrointestinal,Small bowel,Non-traumatic perforation or fistula,Leaking small bowel anastomosis,3.5.57.2,1.3.5.57.2,2.3.5.57.2,GA77,G26
+Gastrointestinal,Small bowel,Non-traumatic perforation or fistula,Non-trauma related entero-enteric or entero-cutaneous fistula,3.5.57.3,1.3.5.57.3,2.3.5.57.3,GA197,G26
+Gastrointestinal,Small bowel,Non-traumatic perforation or fistula,Entero-vascular fistula,3.5.57.4,1.3.5.57.4,2.3.5.57.4,GA30,G23
+Gastrointestinal,Small bowel,Non-traumatic perforation or fistula,Inflammatory perforation of small bowel,3.5.57.5,1.3.5.57.5,2.3.5.57.5,GA55,G26
+Gastrointestinal,Small bowel,Congenital or acquired deformity or abnormality,Small bowel stoma,3.5.8.1,1.3.5.8.1,2.3.5.8.1,GA167,G14
+Gastrointestinal,"Large bowel, rectum or anus",Haemorrhage,Colonic or rectal haemorrhage,3.6.15.1,1.3.6.15.1,2.3.6.15.1,GA21,G23
+Gastrointestinal,"Large bowel, rectum or anus",Haemorrhage,Colo-vascular fistula,3.6.15.2,1.3.6.15.2,2.3.6.15.2,GA20,G23
+Gastrointestinal,"Large bowel, rectum or anus",Haemorrhage,"Haemorrhage from large bowel, rectal or anal vascular abnormality",3.6.15.3,1.3.6.15.3,2.3.6.15.3,GA181,G23
+Gastrointestinal,"Large bowel, rectum or anus",Haemorrhage,"Gastrointestinal haemorrhage, source not identified",3.6.15.4,1.3.6.15.4,2.3.6.15.4,GA173,G23
+Gastrointestinal,"Large bowel, rectum or anus",Infection,Infective colitis or proctocolitis,3.6.27.1,1.3.6.27.1,2.3.6.27.1,GA50,G01
+Gastrointestinal,"Large bowel, rectum or anus",Infection,Necrotising enterocolitis,3.6.27.2,1.3.6.27.2,2.3.6.27.2,GA83,G01
+Gastrointestinal,"Large bowel, rectum or anus",Infection,Diverticulitis or diverticular abscess,3.6.27.3,1.3.6.27.3,2.3.6.27.3,GA24,G01
+Gastrointestinal,"Large bowel, rectum or anus",Infection,Appendicitis or appendix abscess,3.6.27.4,1.3.6.27.4,2.3.6.27.4,GA6,G01
+Gastrointestinal,"Large bowel, rectum or anus",Inflammation,"Crohn's disease of large bowel, rectum or anus",3.6.28.1,1.3.6.28.1,2.3.6.28.1,GA150,G35
+Gastrointestinal,"Large bowel, rectum or anus",Inflammation,Ulcerative colitis,3.6.28.2,1.3.6.28.2,2.3.6.28.2,GA135,G35
+Gastrointestinal,"Large bowel, rectum or anus",Inflammation,Toxic dilatation of large bowel,3.6.28.3,1.3.6.28.3,2.3.6.28.3,GA128,G35
+Gastrointestinal,"Large bowel, rectum or anus",Inflammation,Diverticulitis or diverticular abscess,3.6.28.4,1.3.6.28.4,2.3.6.28.4,GA24,G01
+Gastrointestinal,"Large bowel, rectum or anus",Inflammation,Appendicitis or appendix abscess,3.6.28.5,1.3.6.28.5,2.3.6.28.5,GA6,G01
+Gastrointestinal,"Large bowel, rectum or anus",Inflammation,Ischaemic colitis,3.6.28.6,1.3.6.28.6,2.3.6.28.6,GA64,C12
+Gastrointestinal,"Large bowel, rectum or anus",Inflammation,Radiation colitis or proctitis,3.6.28.7,1.3.6.28.7,2.3.6.28.7,GA182,G36
+Gastrointestinal,"Large bowel, rectum or anus",Obstruction,Large bowel herniation,3.6.30.1,1.3.6.30.1,2.3.6.30.1,GA69,G26
+Gastrointestinal,"Large bowel, rectum or anus",Obstruction,Large bowel volvulus,3.6.30.2,1.3.6.30.2,2.3.6.30.2,GA75,G26
+Gastrointestinal,"Large bowel, rectum or anus",Obstruction,Large bowel adhesions,3.6.30.3,1.3.6.30.3,2.3.6.30.3,GA65,G26
+Gastrointestinal,"Large bowel, rectum or anus",Obstruction,Large bowel intussusception or prolapse,3.6.30.4,1.3.6.30.4,2.3.6.30.4,GA73,G26
+Gastrointestinal,"Large bowel, rectum or anus",Obstruction,Large bowel inflammatory masses,3.6.30.6,1.3.6.30.6,2.3.6.30.6,GA72,G26
+Gastrointestinal,"Large bowel, rectum or anus",Obstruction,Functional obstruction or pseudo-obstruction,3.6.30.7,1.3.6.30.7,2.3.6.30.7,GA158,G26
+Gastrointestinal,"Large bowel, rectum or anus",Obstruction,Malignant large bowel tumour,3.6.30.8,1.3.6.30.8,2.3.6.30.8,GA160,G02
+Gastrointestinal,"Large bowel, rectum or anus",Obstruction,Villous adenoma or benign large bowel tumour,3.6.30.9,1.3.6.30.9,2.3.6.30.9,GA169,G02
+Gastrointestinal,"Large bowel, rectum or anus",Tumour or malignancy,Malignant large bowel tumour,3.6.39.2,1.3.6.39.2,2.3.6.39.2,GA160,G02
+Gastrointestinal,"Large bowel, rectum or anus",Tumour or malignancy,Villous adenoma or benign large bowel tumour,3.6.39.3,1.3.6.39.3,2.3.6.39.3,GA169,G02
+Gastrointestinal,"Large bowel, rectum or anus",Vascular,Large bowel artery stenosis or occlusion,3.6.41.1,1.3.6.41.1,2.3.6.41.1,GA67,C12
+Gastrointestinal,"Large bowel, rectum or anus",Vascular,Large bowel artery embolization,3.6.41.2,1.3.6.41.2,2.3.6.41.2,GA66,G13
+Gastrointestinal,"Large bowel, rectum or anus",Vascular,Large bowel infarction due to primary vascular disease,3.6.41.3,1.3.6.41.3,2.3.6.41.3,GA71,C12
+Gastrointestinal,"Large bowel, rectum or anus",Vascular,"Large bowel infarction due to herniation, volvulus or adhesions",3.6.41.4,1.3.6.41.4,2.3.6.41.4,GA70,G26
+Gastrointestinal,"Large bowel, rectum or anus",Vascular,Ischaemic colitis,3.6.41.5,1.3.6.41.5,2.3.6.41.5,GA64,C12
+Gastrointestinal,"Large bowel, rectum or anus","Trauma (or traumatic perforation, rupture or fistula)",Traumatic perforation or rupture of large bowel,3.6.56.1,1.3.6.56.1,2.3.6.56.1,GA131,G03
+Gastrointestinal,"Large bowel, rectum or anus","Trauma (or traumatic perforation, rupture or fistula)",Instrumental damage to large bowel,3.6.56.2,1.3.6.56.2,2.3.6.56.2,GA57,G03
+Gastrointestinal,"Large bowel, rectum or anus","Trauma (or traumatic perforation, rupture or fistula)",Trauma related large bowel fistula,3.6.56.3,1.3.6.56.3,2.3.6.56.3,GA198,G03
+Gastrointestinal,"Large bowel, rectum or anus","Trauma (or traumatic perforation, rupture or fistula)","Non-accidental injury to large bowel, rectum or anus",3.6.56.4,1.3.6.56.4,2.3.6.56.4,GA84,G03
+Gastrointestinal,"Large bowel, rectum or anus","Non-traumatic perforation, rupture or fistula",Non-traumatic perforation or rupture of large bowel,3.6.57.1,1.3.6.57.1,2.3.6.57.1,GA88,G26
+Gastrointestinal,"Large bowel, rectum or anus","Non-traumatic perforation, rupture or fistula",Leaking large bowel anastomosis,3.6.57.2,1.3.6.57.2,2.3.6.57.2,GA141,G26
+Gastrointestinal,"Large bowel, rectum or anus","Non-traumatic perforation, rupture or fistula",Non-trauma related large bowel fistula,3.6.57.3,1.3.6.57.3,2.3.6.57.3,GA199,G26
+Gastrointestinal,"Large bowel, rectum or anus","Non-traumatic perforation, rupture or fistula",Colo-vascular fistula,3.6.57.4,1.3.6.57.4,2.3.6.57.4,GA20,G23
+Gastrointestinal,"Large bowel, rectum or anus",Congenital or acquired deformity or abnormality,Imperforate anus or rectum,3.6.8.1,1.3.6.8.1,2.3.6.8.1,GA48,G14
+Gastrointestinal,"Large bowel, rectum or anus",Congenital or acquired deformity or abnormality,Hirschsprung's disease,3.6.8.2,1.3.6.8.2,2.3.6.8.2,GA45,G14
+Gastrointestinal,"Large bowel, rectum or anus",Congenital or acquired deformity or abnormality,Large bowel stoma,3.6.8.3,1.3.6.8.3,2.3.6.8.3,GA159,G14
+Gastrointestinal,Liver or biliary tree,Haemorrhage,Variceal haemorrhage,3.7.15.1,1.3.7.15.1,2.3.7.15.1,GA136,G23
+Gastrointestinal,Liver or biliary tree,Haemorrhage,Spontaneous subcapsular haematoma,3.7.15.2,1.3.7.15.2,2.3.7.15.2,GA127,G23
+Gastrointestinal,Liver or biliary tree,Haemorrhage,Haemorrhage from biliary tree,3.7.15.3,1.3.7.15.3,2.3.7.15.3,GA13,G23
+Gastrointestinal,Liver or biliary tree,Haemorrhage,Acute fatty liver of pregnancy,3.7.15.4,1.3.7.15.4,2.3.7.15.4,GA152,G36
+Gastrointestinal,Liver or biliary tree,Infection,Infective hepatitis,3.7.27.2,1.3.7.27.2,2.3.7.27.2,GA52,G01
+Gastrointestinal,Liver or biliary tree,Infection,Infective cholangitis,3.7.27.3,1.3.7.27.3,2.3.7.27.3,GA49,G01
+Gastrointestinal,Liver or biliary tree,Infection,Hepatic abscess,3.7.27.4,1.3.7.27.4,2.3.7.27.4,GA41,G01
+Gastrointestinal,Liver or biliary tree,Infection,Hydatid disease,3.7.27.5,1.3.7.27.5,2.3.7.27.5,GA46,G01
+Gastrointestinal,Liver or biliary tree,Infection,Leptospirosis,3.7.27.6,1.3.7.27.6,2.3.7.27.6,GE29,R01
+Gastrointestinal,Liver or biliary tree,Infection,Acute cholecystitis or empyema of gall bladder,3.7.27.7,1.3.7.27.7,2.3.7.27.7,GA189,G01
+Gastrointestinal,Liver or biliary tree,Infection,Gangrenous gall bladder,3.7.27.8,1.3.7.27.8,2.3.7.27.8,GA33,G01
+Gastrointestinal,Liver or biliary tree,Inflammation,Ischaemic hepatitis,3.7.28.10,1.3.7.28.10,2.3.7.28.10,GA183,C12
+Gastrointestinal,Liver or biliary tree,Inflammation,Acute cholecystitis or empyema of gall bladder,3.7.28.11,1.3.7.28.11,2.3.7.28.11,GA189,G01
+Gastrointestinal,Liver or biliary tree,Inflammation,Gangrenous gall bladder,3.7.28.12,1.3.7.28.12,2.3.7.28.12,GA33,G01
+Gastrointestinal,Liver or biliary tree,Inflammation,Alcoholic cirrhosis,3.7.28.2,1.3.7.28.2,2.3.7.28.2,GA4,G35
+Gastrointestinal,Liver or biliary tree,Inflammation,Acute alcoholic hepatitis,3.7.28.3,1.3.7.28.3,2.3.7.28.3,EN3,G36
+Gastrointestinal,Liver or biliary tree,Inflammation,Drug induced hepatitis or hepatic necrosis,3.7.28.4,1.3.7.28.4,2.3.7.28.4,GA25,G36
+Gastrointestinal,Liver or biliary tree,Inflammation,Chronic cirrhosis cause not defined,3.7.28.5,1.3.7.28.5,2.3.7.28.5,GA96,G35
+Gastrointestinal,Liver or biliary tree,Inflammation,Sclerosing cholangitis,3.7.28.6,1.3.7.28.6,2.3.7.28.6,GA115,G35
+Gastrointestinal,Liver or biliary tree,Inflammation,Reye's or Reye-like syndrome ,3.7.28.7,1.3.7.28.7,2.3.7.28.7,NE55,M27
+Gastrointestinal,Liver or biliary tree,Inflammation,Autoimmune hepatitis,3.7.28.8,1.3.7.28.8,2.3.7.28.8,GA154,G36
+Gastrointestinal,Liver or biliary tree,Inflammation,Acute fatty liver of pregnancy,3.7.28.9,1.3.7.28.9,2.3.7.28.9,GA152,G36
+Gastrointestinal,Liver or biliary tree,Obstruction,Biliary tree obstruction,3.7.30.1,1.3.7.30.1,2.3.7.30.1,GA10,G26
+Gastrointestinal,Liver or biliary tree,Obstruction,Biliary atresia,3.7.30.2,1.3.7.30.2,2.3.7.30.2,GA8,G14
+Gastrointestinal,Liver or biliary tree,Obstruction,Sclerosing cholangitis,3.7.30.3,1.3.7.30.3,2.3.7.30.3,GA115,G35
+Gastrointestinal,Liver or biliary tree,Obstruction,Cholelithiasis (gall stones),3.7.30.4,1.3.7.30.4,2.3.7.30.4,GA18,G26
+Gastrointestinal,Liver or biliary tree,Transplant (or related),Liver allograft recipient,3.7.37.1,1.3.7.37.1,2.3.7.37.1,GA78,G33
+Gastrointestinal,Liver or biliary tree,Transplant (or related),Liver allograft rejection,3.7.37.2,1.3.7.37.2,2.3.7.37.2,GA79,G33
+Gastrointestinal,Liver or biliary tree,Transplant (or related),Liver allograft donor,3.7.37.3,1.3.7.37.3,2.3.7.37.3,GA188,G33
+Gastrointestinal,Liver or biliary tree,Tumour or malignancy,Primary hepatic tumour,3.7.39.1,1.3.7.39.1,2.3.7.39.1,GA109,G02
+Gastrointestinal,Liver or biliary tree,Tumour or malignancy,Secondary hepatic tumour,3.7.39.2,1.3.7.39.2,2.3.7.39.2,GA116,G02
+Gastrointestinal,Liver or biliary tree,Tumour or malignancy,Biliary tree tumour,3.7.39.3,1.3.7.39.3,2.3.7.39.3,GA11,G02
+Gastrointestinal,Liver or biliary tree,Tumour or malignancy,Carcinoid tumour,3.7.39.4,1.3.7.39.4,2.3.7.39.4,GA17,G02
+Gastrointestinal,Liver or biliary tree,Vascular,Gangrenous gall bladder,3.7.41.1,1.3.7.41.1,2.3.7.41.1,GA33,G01
+Gastrointestinal,Liver or biliary tree,Vascular,Portal vein occlusion or thrombosis,3.7.41.2,1.3.7.41.2,2.3.7.41.2,GA108,C12
+Gastrointestinal,Liver or biliary tree,Vascular,Hepatic vein occlusion or thrombosis,3.7.41.3,1.3.7.41.3,2.3.7.41.3,GA187,C12
+Gastrointestinal,Liver or biliary tree,Vascular,Hepatic artery aneurysm,3.7.41.4,1.3.7.41.4,2.3.7.41.4,GA42,C12
+Gastrointestinal,Liver or biliary tree,Vascular,Hepatic infarction,3.7.41.5,1.3.7.41.5,2.3.7.41.5,GA43,C12
+Gastrointestinal,Liver or biliary tree,Vascular,Portal hypertension,3.7.41.6,1.3.7.41.6,2.3.7.41.6,GA107,C12
+Gastrointestinal,Liver or biliary tree,"Trauma (or traumatic perforation, laceration, rupture or fistula)",Traumatic rupture or laceration of liver,3.7.56.1,1.3.7.56.1,2.3.7.56.1,GA148,G03
+Gastrointestinal,Liver or biliary tree,"Trauma (or traumatic perforation, laceration, rupture or fistula)",Traumatic perforation or rupture of biliary tree or gall bladder,3.7.56.2,1.3.7.56.2,2.3.7.56.2,GA204,G03
+Gastrointestinal,Liver or biliary tree,"Trauma (or traumatic perforation, laceration, rupture or fistula)",Instrumental damage to liver or biliary tree,3.7.56.3,1.3.7.56.3,2.3.7.56.3,GA58,G03
+Gastrointestinal,Liver or biliary tree,"Trauma (or traumatic perforation, laceration, rupture or fistula)",Trauma related biliary fistula,3.7.56.4,1.3.7.56.4,2.3.7.56.4,GA200,G03
+Gastrointestinal,Liver or biliary tree,"Trauma (or traumatic perforation, laceration, rupture or fistula)",Traumatic damage to hepatic vessels,3.7.56.5,1.3.7.56.5,2.3.7.56.5,GA216,G03
+Gastrointestinal,Liver or biliary tree,"Trauma (or traumatic perforation, laceration, rupture or fistula)",Instrumental damage to hepatic vessels,3.7.56.6,1.3.7.56.6,2.3.7.56.6,GA217,G03
+Gastrointestinal,Liver or biliary tree,"Non-traumatic aneurysm, perforation, rupture or fistula",Non-traumatic rupture of liver,3.7.57.1,1.3.7.57.1,2.3.7.57.1,GA203,G26
+Gastrointestinal,Liver or biliary tree,"Non-traumatic aneurysm, perforation, rupture or fistula",Non-traumatic perforation or rupture of biliary tree or gall bladder,3.7.57.2,1.3.7.57.2,2.3.7.57.2,GA205,G26
+Gastrointestinal,Liver or biliary tree,"Non-traumatic aneurysm, perforation, rupture or fistula",Hepatic artery aneurysm,3.7.57.3,1.3.7.57.3,2.3.7.57.3,GA42,C12
+Gastrointestinal,Liver or biliary tree,"Non-traumatic aneurysm, perforation, rupture or fistula",Non-trauma related biliary fistula,3.7.57.4,1.3.7.57.4,2.3.7.57.4,GA201,G26
+Gastrointestinal,Liver or biliary tree,"Non-traumatic aneurysm, perforation, rupture or fistula",Leaking biliary anastomosis,3.7.57.5,1.3.7.57.5,2.3.7.57.5,GA143,G26
+Gastrointestinal,Liver or biliary tree,Congenital or acquired deformity or abnormality,Biliary atresia,3.7.8.1,1.3.7.8.1,2.3.7.8.1,GA8,G14
+Gastrointestinal,Liver or biliary tree,Congenital or acquired deformity or abnormality,Cholelithiasis (gall stones),3.7.8.2,1.3.7.8.2,2.3.7.8.2,GA18,G26
+Gastrointestinal,Liver or biliary tree,Congenital or acquired deformity or abnormality,Cystic liver disease,3.7.8.3,1.3.7.8.3,2.3.7.8.3,GA102,G14
+Gastrointestinal,Spleen,Tumour or malignancy,Hypersplenism,3.8.39.1,1.3.8.39.1,2.3.8.39.1,GA47,G02
+Gastrointestinal,Spleen,Tumour or malignancy,Lymphoma,3.8.39.2,1.3.8.39.2,2.3.8.39.2,GA80,H02
+Gastrointestinal,Spleen,Trauma (or traumatic rupture or laceration),Traumatic rupture or laceration of spleen,3.8.56.1,1.3.8.56.1,2.3.8.56.1,GA149,G03
+Gastrointestinal,Spleen,Trauma (or traumatic rupture or laceration),Instrumental damage to spleen,3.8.56.2,1.3.8.56.2,2.3.8.56.2,GA184,G03
+Gastrointestinal,Spleen,Non-traumatic rupture,Non-traumatic rupture of spleen,3.8.57.1,1.3.8.57.1,2.3.8.57.1,GA126,G23
+Gastrointestinal,Spleen,Congenital or acquired deformity or abnormality,Splenic cyst,3.8.8.1,1.3.8.8.1,2.3.8.8.1,GA185,G14
+Gastrointestinal,Pancreas,Haemorrhage,Pancreatic haemorrhage,3.9.15.1,1.3.9.15.1,2.3.9.15.1,GA144,G23
+Gastrointestinal,Pancreas,Infection,Pancreatic abscess or infected pseudocyst,3.9.27.1,1.3.9.27.1,2.3.9.27.1,GA103,G01
+Gastrointestinal,Pancreas,Infection,Infective pancreatitis,3.9.27.2,1.3.9.27.2,2.3.9.27.2,GA54,G01
+Gastrointestinal,Pancreas,Inflammation,Acute pancreatitis,3.9.28.1,1.3.9.28.1,2.3.9.28.1,GA3,G01
+Gastrointestinal,Pancreas,Inflammation,"Chronic pancreatitis, not alcohol induced",3.9.28.2,1.3.9.28.2,2.3.9.28.2,GA19,G35
+Gastrointestinal,Pancreas,Inflammation,Alcohol-induced chronic pancreatitis,3.9.28.3,1.3.9.28.3,2.3.9.28.3,GA153,G35
+Gastrointestinal,Pancreas,Inflammation,Cytomegaloviral pancreatitis,3.9.28.4,1.3.9.28.4,2.3.9.28.4,GA157,G01
+Gastrointestinal,Pancreas,Inflammation,Mumps pancreatitis,3.9.28.5,1.3.9.28.5,2.3.9.28.5,GA165,G01
+Gastrointestinal,Pancreas,Inflammation,Traumatic pancreatitis or traumatic damage to pancreas,3.9.28.6,1.3.9.28.6,2.3.9.28.6,GA132,G03
+Gastrointestinal,Pancreas,Transplant (or related),Pancreas or kidney/pancreas allograft,3.9.37.1,1.3.9.37.1,2.3.9.37.1,GA166,G33
+Gastrointestinal,Pancreas,Tumour or malignancy,Pancreatic or pancreato-duodenal tumour,3.9.39.1,1.3.9.39.1,2.3.9.39.1,GA105,G02
+Gastrointestinal,Pancreas,Trauma (or trauma related fistula),Traumatic pancreatitis or traumatic damage to pancreas,3.9.56.1,1.3.9.56.1,2.3.9.56.1,GA132,G03
+Gastrointestinal,Pancreas,Trauma (or trauma related fistula),Instrumental damage to pancreatic duct,3.9.56.2,1.3.9.56.2,2.3.9.56.2,GA60,G03
+Gastrointestinal,Pancreas,Trauma (or trauma related fistula),Trauma related pancreatic fistula,3.9.56.3,1.3.9.56.3,2.3.9.56.3,GA190,G03
+Gastrointestinal,Pancreas,Non-traumatic fistula,Non-trauma related pancreatic fistula,3.9.57.1,1.3.9.57.1,2.3.9.57.1,GA202,G26
+Gastrointestinal,Pancreas,Congenital or acquired deformity or abnormality,Pancreatic pseudocyst,3.9.8.1,1.3.9.8.1,2.3.9.8.1,GA186,G35
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Haemorrhage,Epistaxis,4.1.15.2,1.4.1.15.2,2.4.1.15.2,RE3,R23
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Haemorrhage,Haemorrhage into upper airway,4.1.15.3,1.4.1.15.3,2.4.1.15.3,RE119,R23
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Haemorrhage,Extrinsic compression of airway by haematoma,4.1.15.4,1.4.1.15.4,2.4.1.15.4,RE44,R26
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Infection,"Mandible, facial bones, dental or salivary infection",4.1.27.1,1.4.1.27.1,2.4.1.27.1,RE71,R01
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Infection,Tonsil or pharyngeal infection,4.1.27.2,1.4.1.27.2,2.4.1.27.2,GA114,R01
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Infection,Orbital cellulitis,4.1.27.3,1.4.1.27.3,2.4.1.27.3,DE9,N01
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Infection,Respiratory sinus infection,4.1.27.4,1.4.1.27.4,2.4.1.27.4,RE118,R01
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Infection,Mastoid infection,4.1.27.5,1.4.1.27.5,2.4.1.27.5,NE81,N01
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Head or neck tumour not intraoral or intranasal,4.1.39.1,1.4.1.39.1,2.4.1.39.1,RE54,N02
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Ocular tumour,4.1.39.3,1.4.1.39.3,2.4.1.39.3,NE52,N02
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Malignant neoplasm of oropharynx,4.1.39.4,1.4.1.39.4,2.4.1.39.4,GA164,R02
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Malignant neoplasm of nasopharynx,4.1.39.5,1.4.1.39.5,2.4.1.39.5,GA162,R02
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Malignant neoplasm of hypopharynx,4.1.39.6,1.4.1.39.6,2.4.1.39.6,GA161,R02
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Carotid or vertebral artery stenosis or occlusion,4.1.41.1,1.4.1.41.1,2.4.1.41.1,NE89,C12
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Traumatic rupture or puncture of carotid or vertebral artery,4.1.41.3,1.4.1.41.3,2.4.1.41.3,NE87,C03
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Instrumental damage to carotid or vertebral artery,4.1.41.4,1.4.1.41.4,2.4.1.41.4,NE19,C03
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Extracranial or neck arterio-venous malformation or haemangioma,4.1.41.5,1.4.1.41.5,2.4.1.41.5,CA13,C14
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Vasculitis of cerebral circulation,4.1.41.6,1.4.1.41.6,2.4.1.41.6,NE40,C12
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Vascular lesion of eyes,4.1.41.7,1.4.1.41.7,2.4.1.41.7,NE61,C12
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Traumatic carotid or vertebral artery aneurysm or dissection,4.1.41.8,1.4.1.41.8,2.4.1.41.8,NE90,C03
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Non-traumatic carotid or vertebral artery aneurysm or dissection,4.1.41.9,1.4.1.41.9,2.4.1.41.9,NE91,C12
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Trauma,"Trauma to mouth, mandible, pharynx or facial bones",4.1.56.1,1.4.1.56.1,2.4.1.56.1,NE50,R03
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Trauma,Ocular trauma,4.1.56.2,1.4.1.56.2,2.4.1.56.2,NE51,N03
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Trauma,Traumatic carotid or vertebral artery aneurysm or dissection,4.1.56.3,1.4.1.56.3,2.4.1.56.3,NE90,C03
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Non-traumatic aneurysm or dissection,Non-traumatic carotid or vertebral artery aneurysm or dissection,4.1.57.1,1.4.1.57.1,2.4.1.57.1,NE91,C12
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Congenital or acquired deformity or abnormality,"Mouth, mandible, pharynx or facial bones deformity",4.1.8.1,1.4.1.8.1,2.4.1.8.1,NE25,R14
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Congenital or acquired deformity or abnormality,Cystic hygroma,4.1.8.2,1.4.1.8.2,2.4.1.8.2,NE11,N14
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Congenital or acquired deformity or abnormality,Extracranial or neck arterio-venous malformation or haemangioma,4.1.8.3,1.4.1.8.3,2.4.1.8.3,CA13,C14
+Neurological (including eyes),"Head, neck (extracranial) or eyes",Congenital or acquired deformity or abnormality,Cholesteatoma,4.1.8.4,1.4.1.8.4,2.4.1.8.4,NE65,N02
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Non-traumatic subarachnoid haemorrhage,4.2.15.2,1.4.2.15.2,2.4.2.15.2,NE35,N06
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Non-traumatic subdural haemorrhage,4.2.15.3,1.4.2.15.3,2.4.2.15.3,NE58,N06
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Extradural haemorrhage,4.2.15.4,1.4.2.15.4,2.4.2.15.4,NE14,N06
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Intracerebral haemorrhage (supratentorial),4.2.15.5,1.4.2.15.5,2.4.2.15.5,NE78,N05
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Intracerebral haemorrhage (posterior fossa),4.2.15.6,1.4.2.15.6,2.4.2.15.6,NE79,N05
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,"Meningitis, unspecified",4.2.27.1,1.4.2.27.1,2.4.2.27.1,NE23,N01
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Encephalitis,4.2.27.2,1.4.2.27.2,2.4.2.27.2,NE47,N01
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Intracranial abscess,4.2.27.3,1.4.2.27.3,2.4.2.27.3,NE2,N01
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Orbital cellulitis,4.2.27.4,1.4.2.27.4,2.4.2.27.4,DE9,N01
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Infected CSF shunt,4.2.27.5,1.4.2.27.5,2.4.2.27.5,NE49,N01
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Meningococcal meningitis,4.2.27.6,1.4.2.27.6,2.4.2.27.6,NE69,N01
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,"Bacterial meningitis, not meningococcal",4.2.27.7,1.4.2.27.7,2.4.2.27.7,NE63,N01
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Viral meningitis,4.2.27.8,1.4.2.27.8,2.4.2.27.8,NE77,N01
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Tuberculous meningitis,4.2.27.9,1.4.2.27.9,2.4.2.27.9,NE82,N01
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Seizures,Status epilepticus or uncontrolled seizures,4.2.33.1,1.4.2.33.1,2.4.2.33.1,NE57,N07
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Seizures,Eclampsia,4.2.33.2,1.4.2.33.2,2.4.2.33.2,GE60,N07
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Seizures,Alcohol withdrawal seizures,4.2.33.3,1.4.2.33.3,2.4.2.33.3,EN8,N07
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Tumour or malignancy,Primary brain or meningeal tumour,4.2.39.1,1.4.2.39.1,2.4.2.39.1,NE29,N02
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Tumour or malignancy,Secondary intracranial tumour,4.2.39.2,1.4.2.39.2,2.4.2.39.2,NE32,N02
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Berry or other intracranial aneurysm,4.2.41.1,1.4.2.41.1,2.4.2.41.1,NE4,N14
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Intracranial arterio-venous malformation,4.2.41.2,1.4.2.41.2,2.4.2.41.2,NE1,N14
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Thrombo-occlusive disease of brain,4.2.41.3,1.4.2.41.3,2.4.2.41.3,NE38,N13
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Arterial air embolus,4.2.41.4,1.4.2.41.4,2.4.2.41.4,NE41,N13
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Vasculitis of cerebral circulation,4.2.41.5,1.4.2.41.5,2.4.2.41.5,NE40,C12
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Embolic brain lesions causing respiratory failure,4.2.41.6,1.4.2.41.6,2.4.2.41.6,NE46,N13
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Venous sinus thrombosis,4.2.41.7,1.4.2.41.7,2.4.2.41.7,NE76,N13
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Primary (diffuse) brain injury,4.2.56.1,1.4.2.56.1,2.4.2.56.1,NE54,N03
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Traumatic subdural haemorrhage,4.2.56.2,1.4.2.56.2,2.4.2.56.2,NE75,N06
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Traumatic subarachnoid haemorrhage,4.2.56.3,1.4.2.56.3,2.4.2.56.3,NE74,N06
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Non-accidental injury to brain,4.2.56.4,1.4.2.56.4,2.4.2.56.4,NE28,N03
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Skull fracture,4.2.56.5,1.4.2.56.5,2.4.2.56.5,NE70,N03
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Extradural haemorrhage,4.2.56.6,1.4.2.56.6,2.4.2.56.6,NE14,N06
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Focal brain injury,4.2.56.7,1.4.2.56.7,2.4.2.56.7,NE66,N03
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,"Intracranial injury, unspecified",4.2.56.8,1.4.2.56.8,2.4.2.56.8,NE68,N03
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Non-traumatic aneurysm,Berry or other intracranial aneurysm,4.2.57.1,1.4.2.57.1,2.4.2.57.1,NE4,N14
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Toxic or drug induced coma or encephalopathy,4.2.7.1,1.4.2.7.1,2.4.2.7.1,NE15,M27
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Admission solely for purposes of donation after cardiac death (DCD),4.2.7.10,1.4.2.7.10,2.4.2.7.10,NE83,NCA
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Metabolic coma or encephalopathy,4.2.7.2,1.4.2.7.2,2.4.2.7.2,NE22,M27
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Anoxic or ischaemic coma or encephalopathy,4.2.7.3,1.4.2.7.3,2.4.2.7.3,RE8,N27
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Degenerative coma or encephalopathy,4.2.7.4,1.4.2.7.4,2.4.2.7.4,NE45,N35
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Anaesthesia related encephalopathy,4.2.7.5,1.4.2.7.5,2.4.2.7.5,NE53,M27
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Admission solely for purposes of donation after brainstem death (DBD),4.2.7.6,1.4.2.7.6,2.4.2.7.6,NE5,NCA
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Primary (diffuse) brain injury,4.2.7.7,1.4.2.7.7,2.4.2.7.7,NE54,N03
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Reye's or Reye-like syndrome ,4.2.7.8,1.4.2.7.8,2.4.2.7.8,NE55,M27
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Hypertension encephalopathy,4.2.7.9,1.4.2.7.9,2.4.2.7.9,NE84,M27
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Congenital hydrocephalus,4.2.8.1,1.4.2.8.1,2.4.2.8.1,NE44,N14
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Trigeminal neuralgia,4.2.8.10,1.4.2.8.10,2.4.2.8.10,NE85,N14
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Secondary hydrocephalus,4.2.8.2,1.4.2.8.2,2.4.2.8.2,NE56,N14
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Arnold-Chiari malformation,4.2.8.3,1.4.2.8.3,2.4.2.8.3,RE9,N14
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Cerebral palsy,4.2.8.4,1.4.2.8.4,2.4.2.8.4,NE8,N14
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Congenital abnormality of skull,4.2.8.5,1.4.2.8.5,2.4.2.8.5,NE43,N14
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Parkinson's Disease,4.2.8.6,1.4.2.8.6,2.4.2.8.6,RE87,N35
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Multiple sclerosis,4.2.8.7,1.4.2.8.7,2.4.2.8.7,NE26,N35
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Central hypoventilation (Ondine's curse),4.2.8.8,1.4.2.8.8,2.4.2.8.8,NE7,N14
+Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Intracerebral cyst,4.2.8.9,1.4.2.8.9,2.4.2.8.9,NE67,N02
+Neurological (including eyes),Spinal cord,Epidural or spinal drug administration,Epidural injection or infusion,4.3.12.1,1.4.3.12.1,2.4.3.12.1,NE12,N08
+Neurological (including eyes),Spinal cord,Epidural or spinal drug administration,Spinal injection or infusion,4.3.12.2,1.4.3.12.2,2.4.3.12.2,RE107,N08
+Neurological (including eyes),Spinal cord,Haemorrhage,Extradural haemorrhage,4.3.15.1,1.4.3.15.1,2.4.3.15.1,NE14,N06
+Neurological (including eyes),Spinal cord,Haemorrhage,Spinal cord haematoma,4.3.15.2,1.4.3.15.2,2.4.3.15.2,NE71,N03
+Neurological (including eyes),Spinal cord,Infection,Epidural or subdural abscess,4.3.27.1,1.4.3.27.1,2.4.3.27.1,NE48,N01
+Neurological (including eyes),Spinal cord,Infection,Poliomyelitis,4.3.27.2,1.4.3.27.2,2.4.3.27.2,RE96,N01
+Neurological (including eyes),Spinal cord,Infection,Tetanus,4.3.27.3,1.4.3.27.3,2.4.3.27.3,NE36,N01
+Neurological (including eyes),Spinal cord,Tumour or malignancy,Primary cord or meninges tumour,4.3.39.1,1.4.3.39.1,2.4.3.39.1,NE30,N02
+Neurological (including eyes),Spinal cord,Tumour or malignancy,Extrinsic compression of cord by non-neural tumour,4.3.39.2,1.4.3.39.2,2.4.3.39.2,NE16,N02
+Neurological (including eyes),Spinal cord,Vascular,Spinal cord ischaemia,4.3.41.1,1.4.3.41.1,2.4.3.41.1,NE72,C12
+Neurological (including eyes),Spinal cord,Vascular,Arterio-venous malformation,4.3.41.2,1.4.3.41.2,2.4.3.41.2,NE86,N14
+Neurological (including eyes),Spinal cord,Trauma,Cervical cord injury,4.3.56.1,1.4.3.56.1,2.4.3.56.1,NE9,N03
+Neurological (including eyes),Spinal cord,Trauma,Thoracic cord injury,4.3.56.2,1.4.3.56.2,2.4.3.56.2,NE37,N03
+Neurological (including eyes),Spinal cord,Trauma,Lumbar cord or cauda equina injury,4.3.56.3,1.4.3.56.3,2.4.3.56.3,NE13,N03
+Neurological (including eyes),Spinal cord,Trauma,Chronic spinal cord injury,4.3.56.4,1.4.3.56.4,2.4.3.56.4,NE42,N03
+Neurological (including eyes),Spinal cord,Congenital or acquired deformity or abnormality,Compression of spinal cord or nerve root by intervertebral disc,4.3.8.1,1.4.3.8.1,2.4.3.8.1,NE10,N14
+Neurological (including eyes),Spinal cord,Congenital or acquired deformity or abnormality,Spinal stenosis,4.3.8.2,1.4.3.8.2,2.4.3.8.2,NE34,N14
+Neurological (including eyes),Spinal cord,Congenital or acquired deformity or abnormality,Spina bifida or meningomyelocele,4.3.8.3,1.4.3.8.3,2.4.3.8.3,NE33,N14
+Neurological (including eyes),Spinal cord,Congenital or acquired deformity or abnormality,Multiple sclerosis,4.3.8.4,1.4.3.8.4,2.4.3.8.4,NE26,N35
+Neurological (including eyes),Spinal cord,Congenital or acquired deformity or abnormality,Spinal syrinx,4.3.8.5,1.4.3.8.5,2.4.3.8.5,NE73,N14
+Neurological (including eyes),Spinal cord,Degeneration,Motor neurone disease,4.3.9.1,1.4.3.9.1,2.4.3.9.1,NE24,N08
+Neurological (including eyes),Spinal cord,Degeneration,Transverse myelitis,4.3.9.2,1.4.3.9.2,2.4.3.9.2,NE62,N35
+Neurological (including eyes),Peripheral nervous system,Infection,Infective polyneuropathy,4.4.27.1,1.4.4.27.1,2.4.4.27.1,NE18,N01
+Neurological (including eyes),Peripheral nervous system,Infection,Leprosy,4.4.27.2,1.4.4.27.2,2.4.4.27.2,DE19,M01
+Neurological (including eyes),Peripheral nervous system,Infection,Botulism,4.4.27.3,1.4.4.27.3,2.4.4.27.3,NE64,N01
+Neurological (including eyes),Peripheral nervous system,Inflammation,Guillain-Barr� syndrome,4.4.28.1,1.4.4.28.1,2.4.4.28.1,RE52,N08
+Neurological (including eyes),Peripheral nervous system,Inflammation,Toxic polyneuropathy,4.4.28.2,1.4.4.28.2,2.4.4.28.2,NE60,N08
+Neurological (including eyes),Peripheral nervous system,Inflammation,Autoimmune polyneuropathy,4.4.28.3,1.4.4.28.3,2.4.4.28.3,NE3,N08
+Neurological (including eyes),Peripheral nervous system,Inflammation,Porphyria,4.4.28.4,1.4.4.28.4,2.4.4.28.4,HA27,H32
+Neurological (including eyes),Peripheral nervous system,Inflammation,Critical illness polyneuropathy,4.4.28.5,1.4.4.28.5,2.4.4.28.5,NE80,N08
+Neurological (including eyes),Peripheral nervous system,Trauma,Brachial plexus injury,4.4.56.1,1.4.4.56.1,2.4.4.56.1,NE39,N03
+Neurological (including eyes),Peripheral nervous system,Trauma,Lumbar plexus injury,4.4.56.2,1.4.4.56.2,2.4.4.56.2,NE20,N03
+Neurological (including eyes),Peripheral nervous system,Degeneration,Motor neurone disease,4.4.9.1,1.4.4.9.1,2.4.4.9.1,NE24,N08
+Neurological (including eyes),Neuro-muscular junction,Congenital or acquired deformity or abnormality,Pseudocholinesterase deficiency,4.5.8.1,1.4.5.8.1,2.4.5.8.1,NE31,N08
+Neurological (including eyes),Neuro-muscular junction,Congenital or acquired deformity or abnormality,Failure of reversal of non-depolarising neuromuscular blockers,4.5.8.2,1.4.5.8.2,2.4.5.8.2,NE17,N08
+Neurological (including eyes),Neuro-muscular junction,Congenital or acquired deformity or abnormality,Myasthenia gravis,4.5.8.3,1.4.5.8.3,2.4.5.8.3,NE27,N08
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with sedatives or hypnotics,6.8.1.1,1.6.8.1.1,2.6.8.1.1,EN66,N36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with alcohol,6.8.1.10,1.6.8.1.10,2.6.8.1.10,EN7,N36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with carbon monoxide,6.8.1.11,1.6.8.1.11,2.6.8.1.11,EN88,R36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with gases (not carbon monoxide),6.8.1.12,1.6.8.1.12,2.6.8.1.12,EN90,R36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with agent not defined,6.8.1.13,1.6.8.1.13,2.6.8.1.13,EN50,N36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with warfarin,6.8.1.14,1.6.8.1.14,2.6.8.1.14,EN103,H36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with narcotics,6.8.1.2,1.6.8.1.2,2.6.8.1.2,EN49,N36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with tri- or tetracyclic antidepressants,6.8.1.3,1.6.8.1.3,2.6.8.1.3,EN87,N36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with non-cyclic antidepressants,6.8.1.4,1.6.8.1.4,2.6.8.1.4,EN10,N36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with cardiovascular drugs,6.8.1.5,1.6.8.1.5,2.6.8.1.5,EN13,C36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with aspirin,6.8.1.6,1.6.8.1.6,2.6.8.1.6,EN11,N36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with paracetamol,6.8.1.7,1.6.8.1.7,2.6.8.1.7,EN91,N36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with industrial or agricultural chemicals,6.8.1.8,1.6.8.1.8,2.6.8.1.8,EN89,N36
+Poisoning,Poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with insulin,6.8.1.9,1.6.8.1.9,2.6.8.1.9,EN42,M36
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with sedatives or hypnotics,6.8.34.1,1.6.8.34.1,2.6.8.34.1,EN98,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with alcohol,6.8.34.10,1.6.8.34.10,2.6.8.34.10,EN99,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with carbon monoxide,6.8.34.11,1.6.8.34.11,2.6.8.34.11,EN64,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with gases (not carbon monoxide),6.8.34.12,1.6.8.34.12,2.6.8.34.12,EN77,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with agent not defined,6.8.34.13,1.6.8.34.13,2.6.8.34.13,EN97,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with warfarin,6.8.34.14,1.6.8.34.14,2.6.8.34.14,EN104,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with narcotics,6.8.34.2,1.6.8.34.2,2.6.8.34.2,EN96,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with tri- or tetracyclic antidepressants,6.8.34.3,1.6.8.34.3,2.6.8.34.3,EN79,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with non-cyclic antidepressants,6.8.34.4,1.6.8.34.4,2.6.8.34.4,EN92,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with cardiovascular drugs,6.8.34.5,1.6.8.34.5,2.6.8.34.5,EN94,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with aspirin,6.8.34.6,1.6.8.34.6,2.6.8.34.6,EN93,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with paracetamol,6.8.34.7,1.6.8.34.7,2.6.8.34.7,EN78,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with industrial or agricultural chemicals,6.8.34.8,1.6.8.34.8,2.6.8.34.8,EN65,N04
+Poisoning,Poisoning,Self-harm or self poisoning,Self-harm with insulin,6.8.34.9,1.6.8.34.9,2.6.8.34.9,EN95,N04
+Genito-urinary,Kidney or ureter,Failure,Acute renal failure due to infection,7.1.13.1,1.7.1.13.1,2.7.1.13.1,GE5,M28
+Genito-urinary,Kidney or ureter,Failure,Acute renal failure due to haemodynamic causes,7.1.13.2,1.7.1.13.2,2.7.1.13.2,GE4,M28
+Genito-urinary,Kidney or ureter,Failure,Acute renal failure due to toxic or drug causes,7.1.13.3,1.7.1.13.3,2.7.1.13.3,GE6,K36
+Genito-urinary,Kidney or ureter,Failure,Chronic renal failure,7.1.13.5,1.7.1.13.5,2.7.1.13.5,GE17,K35
+Genito-urinary,Kidney or ureter,Failure,Tumour lysis syndrome,7.1.13.6,1.7.1.13.6,2.7.1.13.6,CA157,M28
+Genito-urinary,Kidney or ureter,Failure,Acute renal failure due to haemolytic uraemic syndrome,7.1.13.7,1.7.1.13.7,2.7.1.13.7,HA37,H32
+Genito-urinary,Kidney or ureter,Haemorrhage,Retroperitoneal haemorrhage,7.1.15.1,1.7.1.15.1,2.7.1.15.1,GE48,K23
+Genito-urinary,Kidney or ureter,Haemorrhage,Traumatic damage to renal vessels,7.1.15.2,1.7.1.15.2,2.7.1.15.2,GE69,K03
+Genito-urinary,Kidney or ureter,Haemorrhage,Renal artery aneurysm or dissection,7.1.15.3,1.7.1.15.3,2.7.1.15.3,GE44,C12
+Genito-urinary,Kidney or ureter,Infection,Pyelonephritis or pyonephrosis,7.1.27.1,1.7.1.27.1,2.7.1.27.1,GE42,K01
+Genito-urinary,Kidney or ureter,Infection,Perinephric abscess,7.1.27.2,1.7.1.27.2,2.7.1.27.2,GE38,K01
+Genito-urinary,Kidney or ureter,Infection,Leptospirosis,7.1.27.3,1.7.1.27.3,2.7.1.27.3,GE29,R01
+Genito-urinary,Kidney or ureter,Infection,CAPD related peritonitis,7.1.27.4,1.7.1.27.4,2.7.1.27.4,GA16,G01
+Genito-urinary,Kidney or ureter,Inflammation,Glomerulonephritis,7.1.28.1,1.7.1.28.1,2.7.1.28.1,GE20,M28
+Genito-urinary,Kidney or ureter,Inflammation,Nephrotic syndrome,7.1.28.2,1.7.1.28.2,2.7.1.28.2,GE32,K28
+Genito-urinary,Kidney or ureter,Inflammation,Renal vasculitis,7.1.28.3,1.7.1.28.3,2.7.1.28.3,GE68,C12
+Genito-urinary,Kidney or ureter,Obstruction,Ureteric or renal obstruction,7.1.30.1,1.7.1.30.1,2.7.1.30.1,GE54,K26
+Genito-urinary,Kidney or ureter,Transplant (or related),Kidney allograft,7.1.37.1,1.7.1.37.1,2.7.1.37.1,GE8,K33
+Genito-urinary,Kidney or ureter,Transplant (or related),Kidney autograft,7.1.37.2,1.7.1.37.2,2.7.1.37.2,GE12,K33
+Genito-urinary,Kidney or ureter,Transplant (or related),Kidney allograft rejection,7.1.37.3,1.7.1.37.3,2.7.1.37.3,GE64,K33
+Genito-urinary,Kidney or ureter,Tumour or malignancy,Renal or ureteric tumour,7.1.39.1,1.7.1.39.1,2.7.1.39.1,GE47,K02
+Genito-urinary,Kidney or ureter,Vascular,Renal artery stenosis or occlusion,7.1.41.1,1.7.1.41.1,2.7.1.41.1,GE65,C12
+Genito-urinary,Kidney or ureter,Vascular,Renal artery aneurysm or dissection,7.1.41.2,1.7.1.41.2,2.7.1.41.2,GE44,C12
+Genito-urinary,Kidney or ureter,Vascular,Renal artery embolus,7.1.41.3,1.7.1.41.3,2.7.1.41.3,GE45,K13
+Genito-urinary,Kidney or ureter,Vascular,Renal infarction,7.1.41.4,1.7.1.41.4,2.7.1.41.4,GE46,C12
+Genito-urinary,Kidney or ureter,Vascular,Retroperitoneal haemorrhage,7.1.41.5,1.7.1.41.5,2.7.1.41.5,GE48,K23
+Genito-urinary,Kidney or ureter,Vascular,Traumatic damage to renal vessels,7.1.41.6,1.7.1.41.6,2.7.1.41.6,GE69,K03
+Genito-urinary,Kidney or ureter,Vascular,Renal vasculitis,7.1.41.7,1.7.1.41.7,2.7.1.41.7,GE68,C12
+Genito-urinary,Kidney or ureter,Vascular,Renal vein thrombosis,7.1.41.8,1.7.1.41.8,2.7.1.41.8,CA166,C12
+Genito-urinary,Kidney or ureter,Trauma (or traumatic rupture),Traumatic renal rupture,7.1.56.1,1.7.1.56.1,2.7.1.56.1,GE73,K03
+Genito-urinary,Kidney or ureter,Trauma (or traumatic rupture),Traumatic disruption of ureter,7.1.56.2,1.7.1.56.2,2.7.1.56.2,GE71,K03
+Genito-urinary,Kidney or ureter,Trauma (or traumatic rupture),Traumatic damage to renal vessels,7.1.56.3,1.7.1.56.3,2.7.1.56.3,GE69,K03
+Genito-urinary,Kidney or ureter,Trauma (or traumatic rupture),Instrumental damage to kidney or ureter,7.1.56.4,1.7.1.56.4,2.7.1.56.4,GE61,K03
+Genito-urinary,Kidney or ureter,Trauma (or traumatic rupture),Instrumental damage to renal vessels,7.1.56.5,1.7.1.56.5,2.7.1.56.5,GE95,K03
+Genito-urinary,Kidney or ureter,"Non-traumatic aneurysm, dissection or fistula",Leaking renal or ureteric anastomosis,7.1.57.1,1.7.1.57.1,2.7.1.57.1,GE78,K26
+Genito-urinary,Kidney or ureter,"Non-traumatic aneurysm, dissection or fistula",Renal artery aneurysm or dissection,7.1.57.2,1.7.1.57.2,2.7.1.57.2,GE44,C12
+Genito-urinary,Kidney or ureter,Congenital or acquired deformity or abnormality,Polycystic kidneys,7.1.8.1,1.7.1.8.1,2.7.1.8.1,GE39,K14
+Genito-urinary,Kidney or ureter,Congenital or acquired deformity or abnormality,Renal agenesis or hypoplasia,7.1.8.2,1.7.1.8.2,2.7.1.8.2,GE43,K14
+Genito-urinary,Kidney or ureter,Congenital or acquired deformity or abnormality,Nephrolithiasis (stone disease),7.1.8.3,1.7.1.8.3,2.7.1.8.3,GE63,K26
+Genito-urinary,Kidney or ureter,Congenital or acquired deformity or abnormality,Renal amyloid,7.1.8.4,1.7.1.8.4,2.7.1.8.4,GE77,K35
+Genito-urinary,Bladder or urethra,Haemorrhage,Haemorrhage from urethra,7.2.15.1,1.7.2.15.1,2.7.2.15.1,GE23,K23
+Genito-urinary,Bladder or urethra,Haemorrhage,Haemorrhage from bladder,7.2.15.2,1.7.2.15.2,2.7.2.15.2,GE21,K23
+Genito-urinary,Bladder or urethra,Infection,"Cystitis, pyocystis or urethritis",7.2.27.1,1.7.2.27.1,2.7.2.27.1,GE18,K01
+Genito-urinary,Bladder or urethra,Obstruction,Bladder outlet obstruction,7.2.30.1,1.7.2.30.1,2.7.2.30.1,GE14,K26
+Genito-urinary,Bladder or urethra,Tumour or malignancy,Bladder tumour,7.2.39.1,1.7.2.39.1,2.7.2.39.1,GE15,K02
+Genito-urinary,Bladder or urethra,Tumour or malignancy,Urethral tumour,7.2.39.2,1.7.2.39.2,2.7.2.39.2,GE55,K02
+Genito-urinary,Bladder or urethra,"Trauma (or traumatic perforation, rupture or fistula)",Traumatic perforation or rupture of bladder,7.2.56.1,1.7.2.56.1,2.7.2.56.1,GE72,K03
+Genito-urinary,Bladder or urethra,"Trauma (or traumatic perforation, rupture or fistula)",Traumatic perforation or rupture of urethra,7.2.56.2,1.7.2.56.2,2.7.2.56.2,GE70,K03
+Genito-urinary,Bladder or urethra,"Trauma (or traumatic perforation, rupture or fistula)",Instrumental damage to bladder or urethra,7.2.56.3,1.7.2.56.3,2.7.2.56.3,GE27,K03
+Genito-urinary,Bladder or urethra,"Trauma (or traumatic perforation, rupture or fistula)",Trauma related bladder fistula,7.2.56.4,1.7.2.56.4,2.7.2.56.4,GE79,K03
+Genito-urinary,Bladder or urethra,"Trauma (or traumatic perforation, rupture or fistula)",Trauma related urethral fistula,7.2.56.5,1.7.2.56.5,2.7.2.56.5,GE89,K03
+Genito-urinary,Bladder or urethra,"Non-traumatic perforation, rupture or fistula",Non-traumatic perforation or rupture of bladder,7.2.57.1,1.7.2.57.1,2.7.2.57.1,GE84,K26
+Genito-urinary,Bladder or urethra,"Non-traumatic perforation, rupture or fistula",Non-traumatic perforation or rupture of urethra,7.2.57.2,1.7.2.57.2,2.7.2.57.2,GE85,K26
+Genito-urinary,Bladder or urethra,"Non-traumatic perforation, rupture or fistula",Non-trauma related bladder fistula,7.2.57.3,1.7.2.57.3,2.7.2.57.3,GE86,K26
+Genito-urinary,Bladder or urethra,"Non-traumatic perforation, rupture or fistula",Non-trauma related urethral fistula,7.2.57.4,1.7.2.57.4,2.7.2.57.4,GE90,K26
+Genito-urinary,Bladder or urethra,Congenital or acquired deformity or abnormality,Abnormality of bladder or urinary diversion procedure,7.2.8.1,1.7.2.8.1,2.7.2.8.1,GE1,K14
+Genito-urinary,Bladder or urethra,Congenital or acquired deformity or abnormality,Abnormality of urethra,7.2.8.2,1.7.2.8.2,2.7.2.8.2,GE2,K14
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Haemorrhage,Haemorrhage from uterus,7.3.15.1,1.7.3.15.1,2.7.3.15.1,GE24,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Haemorrhage,Haemorrhage from ovary or fallopian tubes,7.3.15.2,1.7.3.15.2,2.7.3.15.2,GE22,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Infection,Uterine cavity infection,7.3.27.1,1.7.3.27.1,2.7.3.27.1,GE56,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Infection,Pelvic infection or abscess,7.3.27.2,1.7.3.27.2,2.7.3.27.2,GE36,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Infection,Toxic shock syndrome,7.3.27.3,1.7.3.27.3,2.7.3.27.3,GE51,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Infection,Tubo-ovarian abscess,7.3.27.4,1.7.3.27.4,2.7.3.27.4,GE53,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Over-activity,Ovarian hyperstimulation,7.3.32.1,1.7.3.32.1,2.7.3.32.1,EN55,K30
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Tumour or malignancy,Ovarian tumour,7.3.39.1,1.7.3.39.1,2.7.3.39.1,EN56,K02
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Tumour or malignancy,Vulval or vaginal tumour,7.3.39.3,1.7.3.39.3,2.7.3.39.3,GE59,K02
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Tumour or malignancy,Ovarian cyst,7.3.39.4,1.7.3.39.4,2.7.3.39.4,GE35,K35
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Tumour or malignancy,Uterine tumour (non-fibroids),7.3.39.5,1.7.3.39.5,2.7.3.39.5,GE80,K02
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Tumour or malignancy,Uterine fibroids,7.3.39.6,1.7.3.39.6,2.7.3.39.6,GE81,K02
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),Traumatic perforation or rupture of uterus,7.3.56.1,1.7.3.56.1,2.7.3.56.1,GE87,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),"Instrumental damage to uterus, ovaries or fallopian tubes",7.3.56.2,1.7.3.56.2,2.7.3.56.2,GE62,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),Non-accidental injury to female genitalia ,7.3.56.3,1.7.3.56.3,2.7.3.56.3,GE33,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),Traumatic damage to uterine vessels,7.3.56.4,1.7.3.56.4,2.7.3.56.4,GE91,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),Instrumental damage to uterine vessels,7.3.56.5,1.7.3.56.5,2.7.3.56.5,GE92,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),Traumatic damage to ovarian vessels,7.3.56.6,1.7.3.56.6,2.7.3.56.6,GE93,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),Instrumental damage to ovarian vessels,7.3.56.7,1.7.3.56.7,2.7.3.56.7,GE94,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Non-traumatic rupture,Non-traumatic rupture of uterus,7.3.57.1,1.7.3.57.1,2.7.3.57.1,GE88,K26
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Congenital or acquired deformity or abnormality,Abnormality of external genitalia,7.3.8.1,1.7.3.8.1,2.7.3.8.1,GE74,K14
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Haemorrhage,Antepartum haemorrhage,7.4.15.1,1.7.4.15.1,2.7.4.15.1,GE11,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Haemorrhage,Ectopic pregnancy,7.4.15.3,1.7.4.15.3,2.7.4.15.3,GE19,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Haemorrhage,Peripartum haemorrhage,7.4.15.4,1.7.4.15.4,2.7.4.15.4,GE82,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Haemorrhage,Postpartum haemorrhage,7.4.15.5,1.7.4.15.5,2.7.4.15.5,GE83,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Infection,Amnionitis,7.4.27.1,1.7.4.27.1,2.7.4.27.1,GE9,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Infection,Pelvic infection or abscess,7.4.27.2,1.7.4.27.2,2.7.4.27.2,GE36,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Infection,Infected retained products of conception,7.4.27.3,1.7.4.27.3,2.7.4.27.3,GE25,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Infection,Septic abortion,7.4.27.4,1.7.4.27.4,2.7.4.27.4,GE49,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Inflammation (intrauterine death),Intrauterine death,7.4.28.1,1.7.4.28.1,2.7.4.28.1,GE28,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Over-activity,Ovarian hyperstimulation,7.4.32.1,1.7.4.32.1,2.7.4.32.1,EN55,K30
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Tumour or malignancy,Molar pregnancy,7.4.39.1,1.7.4.39.1,2.7.4.39.1,GE31,K02
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Vascular,Amniotic fluid embolus,7.4.41.1,1.7.4.41.1,2.7.4.41.1,GE10,R13
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Vascular,HELLP syndrome,7.4.41.2,1.7.4.41.2,2.7.4.41.2,HA28,C16
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Vascular,Pre-eclampsia,7.4.41.3,1.7.4.41.3,2.7.4.41.3,GE40,C16
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Pregnancy,Normal pregnancy,7.4.55.1,1.7.4.55.1,2.7.4.55.1,GE76,NCA
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Pregnancy,Ectopic pregnancy,7.4.55.2,1.7.4.55.2,2.7.4.55.2,GE19,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Pregnancy,Molar pregnancy,7.4.55.3,1.7.4.55.3,2.7.4.55.3,GE31,K02
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Trauma (or traumatic perforation or rupture),Traumatic perforation or rupture of uterus,7.4.56.1,1.7.4.56.1,2.7.4.56.1,GE87,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Trauma (or traumatic perforation or rupture),"Instrumental damage to uterus, ovaries or fallopian tubes",7.4.56.2,1.7.4.56.2,2.7.4.56.2,GE62,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Non-traumatic rupture,Non-traumatic rupture of uterus,7.4.57.1,1.7.4.57.1,2.7.4.57.1,GE88,K26
+Genito-urinary,"Testes, prostate or penis",Haemorrhage,Haemorrhage from prostate gland,7.5.15.1,1.7.5.15.1,2.7.5.15.1,GE16,K23
+Genito-urinary,"Testes, prostate or penis",Infection,Prostatitis,7.5.27.1,1.7.5.27.1,2.7.5.27.1,GE41,K01
+Genito-urinary,"Testes, prostate or penis",Infection,"Testicular, prostatatic or penile abscess",7.5.27.2,1.7.5.27.2,2.7.5.27.2,GE3,K01
+Genito-urinary,"Testes, prostate or penis",Infection,Fournier's gangrene of perineal tissues,7.5.27.3,1.7.5.27.3,2.7.5.27.3,GA32,K01
+Genito-urinary,"Testes, prostate or penis",Tumour or malignancy (or hyperplasia),Testicular or penile tumour,7.5.39.1,1.7.5.39.1,2.7.5.39.1,GE50,K02
+Genito-urinary,"Testes, prostate or penis",Tumour or malignancy (or hyperplasia),Benign prostatic hyperplasia,7.5.39.2,1.7.5.39.2,2.7.5.39.2,GE13,K02
+Genito-urinary,"Testes, prostate or penis",Tumour or malignancy (or hyperplasia),Malignant prostatic tumour,7.5.39.3,1.7.5.39.3,2.7.5.39.3,GE30,K02
+Genito-urinary,"Testes, prostate or penis",Trauma,"Traumatic damage to testes, prostrate or penis",7.5.56.1,1.7.5.56.1,2.7.5.56.1,GE52,K03
+Genito-urinary,"Testes, prostate or penis",Trauma,"Instrumental damage to testes, prostrate or penis",7.5.56.2,1.7.5.56.2,2.7.5.56.2,GE26,K03
+Genito-urinary,"Testes, prostate or penis",Trauma,Non-accidental injury to male genitalia,7.5.56.3,1.7.5.56.3,2.7.5.56.3,GE34,K03
+Genito-urinary,"Testes, prostate or penis",Congenital or acquired deformity or abnormality,"Abnormality of testes, prostate or penis",7.5.8.1,1.7.5.8.1,2.7.5.8.1,GE75,K14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Thyroid,Haemorrhage,Haemorrhage into or from thyroid,8.1.15.1,1.8.1.15.1,2.8.1.15.1,EN27,M23
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Thyroid,Over-activity,Hyperthyroidism,8.1.32.1,1.8.1.32.1,2.8.1.32.1,EN32,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Thyroid,Over-activity,Thyroid crisis,8.1.32.2,1.8.1.32.2,2.8.1.32.2,EN68,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Thyroid,Tumour or malignancy,Thyroid tumour,8.1.39.1,1.8.1.39.1,2.8.1.39.1,EN70,M02
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Thyroid,Under-activity,Hypothyroidism or myxoedema,8.1.40.1,1.8.1.40.1,2.8.1.40.1,EN36,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Thyroid,Congenital or acquired deformity or abnormality,Thyroid cysts,8.1.8.1,1.8.1.8.1,2.8.1.8.1,EN69,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Chromosomal abnormalities,Sex chromosome disorders,Turner's syndrome (XO),8.11.46.1,1.8.11.46.1,2.8.11.46.1,EN83,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Chromosomal abnormalities,Sex chromosome disorders,Klinefelter's syndrome (XXY),8.11.46.2,1.8.11.46.2,2.8.11.46.2,EN86,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Chromosomal abnormalities,Sex chromosome disorders,"Sex chromosome disorder, neither Kleinfelter's syndrome (XXY) nor Turner's syndrome (XO)",8.11.46.3,1.8.11.46.3,2.8.11.46.3,EN75,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Chromosomal abnormalities,Contiguous gene syndromes,Contiguous gene syndromes,8.11.47.1,1.8.11.47.1,2.8.11.47.1,EN85,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Chromosomal abnormalities,Trisomy,Trisomy 18 (Edward's syndrome),8.11.53.1,1.8.11.53.1,2.8.11.53.1,EN81,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Chromosomal abnormalities,Trisomy,Trisomy 21 (Down's syndrome),8.11.53.2,1.8.11.53.2,2.8.11.53.2,EN82,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Chromosomal abnormalities,Trisomy,Trisomy 13 (Patau or trisomy D),8.11.53.3,1.8.11.53.3,2.8.11.53.3,EN80,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Chromosomal abnormalities,Trisomy,"Trisomy, neither 13, 18 nor 21",8.11.53.4,1.8.11.53.4,2.8.11.53.4,EN76,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Chromosomal abnormalities,Chromosomal deletion syndromes,Chromosomal deletion syndromes (partial monosomy),8.11.54.1,1.8.11.54.1,2.8.11.54.1,EN84,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Pituitary,Haemorrhage,Pituitary haemorrhage,8.2.15.1,1.8.2.15.1,2.8.2.15.1,EN61,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Pituitary,Over-activity,Cushing's syndrome,8.2.32.1,1.8.2.32.1,2.8.2.32.1,EN16,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Pituitary,Over-activity,Acromegaly,8.2.32.2,1.8.2.32.2,2.8.2.32.2,EN2,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Pituitary,Over-activity,Prolactinoma,8.2.32.3,1.8.2.32.3,2.8.2.32.3,EN63,M02
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Pituitary,Tumour or malignancy,Cushing's syndrome,8.2.39.1,1.8.2.39.1,2.8.2.39.1,EN16,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Pituitary,Tumour or malignancy,Acromegaly,8.2.39.2,1.8.2.39.2,2.8.2.39.2,EN2,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Pituitary,Tumour or malignancy,Prolactinoma,8.2.39.3,1.8.2.39.3,2.8.2.39.3,EN63,M02
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Pituitary,Tumour or malignancy,Pituitary tumour not defined,8.2.39.4,1.8.2.39.4,2.8.2.39.4,EN54,M02
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Pituitary,Under-activity,Diabetes insipidus (central),8.2.40.1,1.8.2.40.1,2.8.2.40.1,EN18,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Pituitary,Under-activity,Hypopituitarism,8.2.40.2,1.8.2.40.2,2.8.2.40.2,EN35,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Adrenal,Haemorrhage,Haemorrhage into or from adrenal,8.3.15.1,1.8.3.15.1,2.8.3.15.1,EN5,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Adrenal,Over-activity,Cushing's syndrome,8.3.32.1,1.8.3.32.1,2.8.3.32.1,EN16,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Adrenal,Tumour or malignancy,Phaeochromocytoma,8.3.39.1,1.8.3.39.1,2.8.3.39.1,CA91,K02
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Adrenal,Tumour or malignancy,Adrenocortical tumour,8.3.39.2,1.8.3.39.2,2.8.3.39.2,EN6,M02
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Adrenal,Under-activity,Addison's disease,8.3.40.1,1.8.3.40.1,2.8.3.40.1,EN4,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Adrenal,Congenital or acquired deformity or abnormality,Inborn errors of adrenal function,8.3.8.1,1.8.3.8.1,2.8.3.8.1,EN39,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Endocrine pancreas,Diabetes mellitus,Diabetic ketoacidosis,8.4.10.1,1.8.4.10.1,2.8.4.10.1,EN20,M29
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Endocrine pancreas,Diabetes mellitus,Hyperosmolar coma,8.4.10.2,1.8.4.10.2,2.8.4.10.2,EN31,M29
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Endocrine pancreas,Diabetes mellitus,Hypoglycaemia due to insulin therapy,8.4.10.3,1.8.4.10.3,2.8.4.10.3,EN33,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Endocrine pancreas,Diabetes mellitus,Insulinoma,8.4.10.4,1.8.4.10.4,2.8.4.10.4,EN43,M02
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Endocrine pancreas,Diabetes mellitus,Diabetes mellitus,8.4.10.5,1.8.4.10.5,2.8.4.10.5,EN19,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Endocrine pancreas,Transplant (or related),Islet cell allograft,8.4.37.1,1.8.4.37.1,2.8.4.37.1,EN44,M33
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Endocrine pancreas,Tumour or malignancy,Insulinoma,8.4.39.1,1.8.4.39.1,2.8.4.39.1,EN43,M02
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Parathyroids,Over-activity,Hypercalcaemia,8.5.32.1,1.8.5.32.1,2.8.5.32.1,EN29,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Parathyroids,Tumour or malignancy,Parathyroid tumour,8.5.39.1,1.8.5.39.1,2.8.5.39.1,EN60,M02
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Parathyroids,Under-activity,Congenital hypoparathyroidism,8.5.40.1,1.8.5.40.1,2.8.5.40.1,EN15,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Parathyroids,Under-activity,Autoimmune hypoparathyroidism,8.5.40.2,1.8.5.40.2,2.8.5.40.2,EN12,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Parathyroids,Under-activity,Post-surgical hypoparathyroidism,8.5.40.3,1.8.5.40.3,2.8.5.40.3,EN62,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Parathyroids,Congenital or acquired deformity or abnormality,Congenital hypoparathyroidism,8.5.8.1,1.8.5.8.1,2.8.5.8.1,EN15,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Parathyroids,Congenital or acquired deformity or abnormality,Autoimmune hypoparathyroidism,8.5.8.2,1.8.5.8.2,2.8.5.8.2,EN12,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Parathyroids,Congenital or acquired deformity or abnormality,Post-surgical hypoparathyroidism,8.5.8.3,1.8.5.8.3,2.8.5.8.3,EN62,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Ovaries,Over-activity,Ovarian hyperstimulation,8.6.32.1,1.8.6.32.1,2.8.6.32.1,EN55,K30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Ovaries,Tumour or malignancy,Ovarian tumour,8.6.39.1,1.8.6.39.1,2.8.6.39.1,EN56,K02
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Ovaries,Tumour or malignancy,Ovarian cyst,8.6.39.2,1.8.6.39.2,2.8.6.39.2,GE35,K35
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Thermoregulation,Hyperthermia,Malignant hyperpyrexia,8.7.20.1,1.8.7.20.1,2.8.7.20.1,EN46,M31
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Thermoregulation,Hyperthermia,Drug induced hyperpyrexia or neuroleptic malignant syndrome,8.7.20.2,1.8.7.20.2,2.8.7.20.2,EN51,M31
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Thermoregulation,Hyperthermia,Heat-stroke or heat exhaustion,8.7.20.3,1.8.7.20.3,2.8.7.20.3,EN28,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Thermoregulation,Hypothermia,Accidental hypothermia,8.7.26.1,1.8.7.26.1,2.8.7.26.1,EN1,M31
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Thermoregulation,Hypothermia,Induced hypothermia,8.7.26.2,1.8.7.26.2,2.8.7.26.2,EN41,M31
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with sedatives or hypnotics,8.8.1.1,1.8.8.1.1,2.8.8.1.1,EN66,N36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with alcohol,8.8.1.10,1.8.8.1.10,2.8.8.1.10,EN7,N36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with carbon monoxide,8.8.1.11,1.8.8.1.11,2.8.8.1.11,EN88,R36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with gases (not carbon monoxide),8.8.1.12,1.8.8.1.12,2.8.8.1.12,EN90,R36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with agent not defined,8.8.1.13,1.8.8.1.13,2.8.8.1.13,EN50,N36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with warfarin,8.8.1.14,1.8.8.1.14,2.8.8.1.14,EN103,H36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with narcotics,8.8.1.2,1.8.8.1.2,2.8.8.1.2,EN49,N36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with tri- or tetracyclic antidepressants,8.8.1.3,1.8.8.1.3,2.8.8.1.3,EN87,N36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with non-cyclic antidepressants,8.8.1.4,1.8.8.1.4,2.8.8.1.4,EN10,N36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with cardiovascular drugs,8.8.1.5,1.8.8.1.5,2.8.8.1.5,EN13,C36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with aspirin,8.8.1.6,1.8.8.1.6,2.8.8.1.6,EN11,N36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with paracetamol,8.8.1.7,1.8.8.1.7,2.8.8.1.7,EN91,N36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with industrial or agricultural chemicals,8.8.1.8,1.8.8.1.8,2.8.8.1.8,EN89,N36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with insulin,8.8.1.9,1.8.8.1.9,2.8.8.1.9,EN42,M36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hyperglycaemia,Diabetic ketoacidosis,8.8.16.1,1.8.8.16.1,2.8.8.16.1,EN20,M29
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hyperglycaemia,Hyperosmolar states,8.8.16.2,1.8.8.16.2,2.8.8.16.2,EN74,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hyperkalaemia,Iatrogenic potassium intoxication,8.8.17.1,1.8.8.17.1,2.8.8.17.1,EN38,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hyperkalaemia,Familial periodic paralysis,8.8.17.3,1.8.8.17.3,2.8.8.17.3,EN25,N08
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hyperkalaemia,Acute renal failure due to infection,8.8.17.4,1.8.8.17.4,2.8.8.17.4,GE5,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hyperkalaemia,Acute renal failure due to haemodynamic causes,8.8.17.5,1.8.8.17.5,2.8.8.17.5,GE4,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hyperkalaemia,Acute renal failure due to toxic or drug causes,8.8.17.6,1.8.8.17.6,2.8.8.17.6,GE6,K36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hyperkalaemia,Chronic renal failure,8.8.17.7,1.8.8.17.7,2.8.8.17.7,GE17,K35
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hyperkalaemia,Acute renal failure due to haemolytic uraemic syndrome,8.8.17.8,1.8.8.17.8,2.8.8.17.8,HA37,H32
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypernatraemia,Water depletion,8.8.18.2,1.8.8.18.2,2.8.8.18.2,EN72,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypernatraemia,Excess sodium intake,8.8.18.3,1.8.8.18.3,2.8.8.18.3,EN24,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypernatraemia,Diabetes insipidus (central),8.8.18.4,1.8.8.18.4,2.8.8.18.4,EN18,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypernatraemia,Diabetes insipidus (nephrogenic),8.8.18.5,1.8.8.18.5,2.8.8.18.5,EN106,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Acidaemia,Hyperchloraemic acidosis,8.8.2.1,1.8.8.2.1,2.8.8.2.1,EN30,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Acidaemia,Lactic acidosis,8.8.2.2,1.8.8.2.2,2.8.8.2.2,EN45,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Acidaemia,Diabetic ketoacidosis,8.8.2.3,1.8.8.2.3,2.8.8.2.3,EN20,M29
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypocalcaemia,Hypoparathyroidism,8.8.21.1,1.8.8.21.1,2.8.8.21.1,EN34,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypocalcaemia,Chelating agent toxicity,8.8.21.2,1.8.8.21.2,2.8.8.21.2,EN14,M36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypoglycaemia,Hypoglycaemia due to insulin therapy,8.8.22.1,1.8.8.22.1,2.8.8.22.1,EN33,M30
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypoglycaemia,Insulinoma,8.8.22.2,1.8.8.22.2,2.8.8.22.2,EN43,M02
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypoglycaemia,Hypoglycaemia not due to excess insulin,8.8.22.3,1.8.8.22.3,2.8.8.22.3,EN53,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypokalaemia,Paraneoplastic hypokalaemia,8.8.23.1,1.8.8.23.1,2.8.8.23.1,EN59,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypokalaemia,Drug induced hypokalaemia,8.8.23.2,1.8.8.23.2,2.8.8.23.2,EN21,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypokalaemia,Renal hypokalaemia,8.8.23.3,1.8.8.23.3,2.8.8.23.3,GE67,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hyponatraemia,Water intoxication,8.8.24.1,1.8.8.24.1,2.8.8.24.1,EN73,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hyponatraemia,Iatrogenic hyponatraemia,8.8.24.2,1.8.8.24.2,2.8.8.24.2,EN37,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hyponatraemia,Paraneoplastic hyponatraemia,8.8.24.3,1.8.8.24.3,2.8.8.24.3,EN57,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Alcohol related disorders,Alcohol overdose,8.8.3.1,1.8.8.3.1,2.8.8.3.1,EN100,N36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Alcohol related disorders,Alcohol withdrawal seizures,8.8.3.2,1.8.8.3.2,2.8.8.3.2,EN8,N07
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Alcohol related disorders,Delerium tremens,8.8.3.3,1.8.8.3.3,2.8.8.3.3,EN17,M27
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Alcohol related disorders,Acute alcoholic hepatitis,8.8.3.4,1.8.8.3.4,2.8.8.3.4,EN3,G36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with sedatives or hypnotics,8.8.34.1,1.8.8.34.1,2.8.8.34.1,EN98,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with alcohol,8.8.34.10,1.8.8.34.10,2.8.8.34.10,EN99,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with carbon monoxide,8.8.34.11,1.8.8.34.11,2.8.8.34.11,EN64,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with gases (not carbon monoxide),8.8.34.12,1.8.8.34.12,2.8.8.34.12,EN77,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with agent not defined,8.8.34.13,1.8.8.34.13,2.8.8.34.13,EN97,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with warfarin,8.8.34.14,1.8.8.34.14,2.8.8.34.14,EN104,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with narcotics,8.8.34.2,1.8.8.34.2,2.8.8.34.2,EN96,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with tri- or tetracyclic antidepressants,8.8.34.3,1.8.8.34.3,2.8.8.34.3,EN79,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with non-cyclic antidepressants,8.8.34.4,1.8.8.34.4,2.8.8.34.4,EN92,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with cardiovascular drugs,8.8.34.5,1.8.8.34.5,2.8.8.34.5,EN94,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with aspirin,8.8.34.6,1.8.8.34.6,2.8.8.34.6,EN93,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with paracetamol ,8.8.34.7,1.8.8.34.7,2.8.8.34.7,EN78,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with industrial or agricultural chemicals ,8.8.34.8,1.8.8.34.8,2.8.8.34.8,EN65,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with insulin,8.8.34.9,1.8.8.34.9,2.8.8.34.9,EN95,N04
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Alkalaemia,Gastric fluid loss,8.8.4.1,1.8.8.4.1,2.8.8.4.1,EN26,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Alkalaemia,Alkali ingestion,8.8.4.2,1.8.8.4.2,2.8.8.4.2,EN9,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypercalcaemia,Paraneoplastic hypercalcaemia,8.8.42.1,1.8.8.42.1,2.8.8.42.1,EN58,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypercalcaemia,Vitamin D intoxication,8.8.42.2,1.8.8.42.2,2.8.8.42.2,EN71,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypercalcaemia,Milk-alkali syndrome,8.8.42.3,1.8.8.42.3,2.8.8.42.3,EN47,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Hypercalcaemia,Hyperparathyroidism,8.8.42.4,1.8.8.42.4,2.8.8.42.4,EN105,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Fluid overload,Water intoxication,8.8.43.1,1.8.8.43.1,2.8.8.43.1,EN73,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Fluid overload,Excess parenteral fluids,8.8.43.2,1.8.8.43.2,2.8.8.43.2,EN23,M28
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Envenomation,Snake bite,8.8.44.1,1.8.8.44.1,2.8.8.44.1,EN67,M36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Envenomation,"Envenomation, not by snake bite",8.8.44.2,1.8.8.44.2,2.8.8.44.2,EN52,C36
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body fluids or tissues,Inborn errors of metabolism,Inborn errors of metabolism,8.8.45.1,1.8.8.45.1,2.8.8.45.1,EN40,M14
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body composition,Obesity,Morbid obesity,8.9.29.1,1.8.9.29.1,2.8.9.29.1,EN48,M35
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body composition,Starvation,Eating disorder,8.9.36.1,1.8.9.36.1,2.8.9.36.1,EN22,M35
+"Endocrine, Metabolic, Thermoregulation and Poisoning",Body composition,Starvation,Short bowel syndrome,8.9.36.2,1.8.9.36.2,2.8.9.36.2,EN102,M35
+Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,Autoimmune haemolysis,9.1.14.1,1.9.1.14.1,2.9.1.14.1,HA5,H32
+Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,Thrombotic thrombocytopaenic purpura,9.1.14.10,1.9.1.14.10,2.9.1.14.10,HA33,H32
+Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,Drug induced haemolysis,9.1.14.2,1.9.1.14.2,2.9.1.14.2,HA10,H32
+Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,Disseminated intravascular coagulation,9.1.14.3,1.9.1.14.3,2.9.1.14.3,HA9,H32
+Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,Idiopathic thrombocytopaenic purpura,9.1.14.4,1.9.1.14.4,2.9.1.14.4,HA19,H32
+Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,Drug induced thrombocytopaenia,9.1.14.5,1.9.1.14.5,2.9.1.14.5,HA12,H32
+Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,Haemolytic uraemic syndrome,9.1.14.6,1.9.1.14.6,2.9.1.14.6,HA15,H32
+Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,Henoch-Schonlein purpura,9.1.14.7,1.9.1.14.7,2.9.1.14.7,HA17,H32
+Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,Transfusion reaction,9.1.14.8,1.9.1.14.8,2.9.1.14.8,HA34,H25
+Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,HELLP syndrome,9.1.14.9,1.9.1.14.9,2.9.1.14.9,HA28,C16
+Haematological/Immunological,Blood,Infection,Leishmaniasis,9.1.27.1,1.9.1.27.1,2.9.1.27.1,HA20,H01
+Haematological/Immunological,Blood,Infection,Malaria,9.1.27.2,1.9.1.27.2,2.9.1.27.2,HA21,H01
+Haematological/Immunological,Blood,Infection,HIV,9.1.27.3,1.9.1.27.3,2.9.1.27.3,HA14,H01
+Haematological/Immunological,Blood,Infection,Septicaemia,9.1.27.4,1.9.1.27.4,2.9.1.27.4,HA29,H01
+Haematological/Immunological,Blood,Infection,Leptospirosis,9.1.27.5,1.9.1.27.5,2.9.1.27.5,GE29,R01
+Haematological/Immunological,Blood,Infection,Mononucleosis,9.1.27.6,1.9.1.27.6,2.9.1.27.6,HA22,H01
+Haematological/Immunological,Blood,Congenital or acquired deformity or abnormality,Anaemia,9.1.8.1,1.9.1.8.1,2.9.1.8.1,HA3,H32
+Haematological/Immunological,Blood,Congenital or acquired deformity or abnormality,Polycythaemia,9.1.8.2,1.9.1.8.2,2.9.1.8.2,HA26,H14
+Haematological/Immunological,Blood,Congenital or acquired deformity or abnormality,Porphyria,9.1.8.3,1.9.1.8.3,2.9.1.8.3,HA27,H32
+Haematological/Immunological,Blood,Congenital or acquired deformity or abnormality,Sickle cell disease,9.1.8.4,1.9.1.8.4,2.9.1.8.4,HA30,H14
+Haematological/Immunological,Blood,Congenital or acquired deformity or abnormality,Spherocytosis or stomatocytosis,9.1.8.5,1.9.1.8.5,2.9.1.8.5,HA31,H14
+Haematological/Immunological,Blood,Congenital or acquired deformity or abnormality,Thalassaemia,9.1.8.6,1.9.1.8.6,2.9.1.8.6,HA32,H14
+Haematological/Immunological,Blood,Congenital or acquired deformity or abnormality,Haemophilia or von Willebrand's disease,9.1.8.7,1.9.1.8.7,2.9.1.8.7,HA16,H14
+Haematological/Immunological,Blood,Congenital or acquired deformity or abnormality,Pro-coagulant states,9.1.8.9,1.9.1.8.9,2.9.1.8.9,HA35,H32
+Haematological/Immunological,Marrow,Hypoplasia or dysplasia,Aplastic anaemia,9.2.25.1,1.9.2.25.1,2.9.2.25.1,HA4,H32
+Haematological/Immunological,Marrow,Hypoplasia or dysplasia,Drug induced hypoplasia,9.2.25.2,1.9.2.25.2,2.9.2.25.2,HA11,H32
+Haematological/Immunological,Marrow,Hypoplasia or dysplasia,Myelodysplasia,9.2.25.3,1.9.2.25.3,2.9.2.25.3,HA23,H02
+Haematological/Immunological,Marrow,Transplant (or related),Bone marrow allograft,9.2.37.1,1.9.2.37.1,2.9.2.37.1,HA6,H33
+Haematological/Immunological,Marrow,Transplant (or related),Graft vs Host disease,9.2.37.2,1.9.2.37.2,2.9.2.37.2,HA13,H33
+Haematological/Immunological,Marrow,Tumour or malignancy,Acute lymphoblastic leukaemia,9.2.39.1,1.9.2.39.1,2.9.2.39.1,HA1,H02
+Haematological/Immunological,Marrow,Tumour or malignancy,Acute myeloblastic leukaemia,9.2.39.2,1.9.2.39.2,2.9.2.39.2,HA2,H02
+Haematological/Immunological,Marrow,Tumour or malignancy,Chronic lymphocytic leukaemia,9.2.39.3,1.9.2.39.3,2.9.2.39.3,HA7,H02
+Haematological/Immunological,Marrow,Tumour or malignancy,Chronic myelogenous leukaemia,9.2.39.4,1.9.2.39.4,2.9.2.39.4,HA8,H02
+Haematological/Immunological,Marrow,Tumour or malignancy,Hodgkin's lymphoma,9.2.39.5,1.9.2.39.5,2.9.2.39.5,HA18,H02
+Haematological/Immunological,Marrow,Tumour or malignancy,Non-Hodgkin's lymphoma,9.2.39.6,1.9.2.39.6,2.9.2.39.6,HA25,H02
+Haematological/Immunological,Marrow,Tumour or malignancy,Myeloma,9.2.39.7,1.9.2.39.7,2.9.2.39.7,HA24,H02

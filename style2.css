@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 20;
+  padding: 0;
+}
+
+/* canvas {
+  display: block;
+} */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 7fr 1fr;
+  /* 3 equal-width columns */
+  grid-template-rows: repeat(3, 1fr);
+  /* 3 equal-height rows */
+  gap: 5px;
+  /* spacing between cells */
+  width: 900px;
+  /* adjust size as needed */
+  height: 300px;
+}
+
+.grid>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  border: 1px solid #333;
+  font-size: 0.8rem;
+
+  white-space: nowrap;  /* ✅ prevents text wrapping */
+  text-overflow: ellipsis;  /* ✅ optional: adds "..." if text overflows */
+}
+
+.item1 {
+  border: none;
+  margin: 10px;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.inputValue {
+  border: none;
+}
