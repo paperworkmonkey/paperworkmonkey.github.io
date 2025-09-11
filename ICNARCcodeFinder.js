@@ -15,13 +15,13 @@ function preload() {
 function getSearchTerm() {
   searchTerm = inputValue.value.toLowerCase();
   let mySearchTermArray = searchTerm.split(" ");
-  console.log(mySearchTermArray);
+  // console.log(mySearchTermArray);
 
   let myInitialRows = data.matchRows(
     mySearchTermArray[0],
     "lowerCaseCondition"
   );
-  console.log(myInitialRows);
+  // console.log(myInitialRows);
 
   let myRows = myInitialRows.filter((row) =>
     mySearchTermArray.every((term) =>
