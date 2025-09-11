@@ -16,7 +16,7 @@ body {
   /* 3 equal-width columns */
   grid-template-rows: repeat(3, 1fr);
   /* 3 equal-height rows */
-  gap: 5px;
+  gap: 1px;
   /* spacing between cells */
   width: 900px;
   /* adjust size as needed */
