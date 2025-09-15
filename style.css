@@ -13,13 +13,13 @@ body {
 }
 
 h1 {
-/*   font-size: 2.5rem; */
-/*   padding: 10px; */
-/*   border-color: rgb(0, 0, 0); */
-/*   border-style: solid; */
-/*   width: 700px; */
-/*   background-color: cadetblue; */
-/*   min-width: 700px; */
+  /*   font-size: 2.5rem; */
+  /*   padding: 10px; */
+  /*   border-color: rgb(0, 0, 0); */
+  /*   border-style: solid; */
+  /*   width: 700px; */
+  /*   background-color: cadetblue; */
+  /*   min-width: 700px; */
 }
 
 .my_table {
@@ -151,11 +151,6 @@ canvas {
   width: 700px;
 }
 
-#dailyEnergyBox,
-#dailyProteinBox {
-  font-size: x-large;
-}
-
 /*used for feed column selection */
 .selected {
   background-color: rgba(255, 242, 4, 0.84);
@@ -173,7 +168,13 @@ canvas {
   text-align: justify;
 }
 
-a:link, a:visited {
+#dailyEnergyBox,
+#dailyProteinBox {
+  font-size: x-large;
+}
+
+a:link,
+a:visited {
   background-color: #2218b4;
   color: white;
   padding: 14px 25px;
@@ -182,6 +183,7 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   background-color: #1a1f69ce;
 }

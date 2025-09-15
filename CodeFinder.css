@@ -1,0 +1,77 @@
+html {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  margin: 10px;
+  padding: 20px;
+}
+
+/* canvas {
+  display: block;
+} */
+
+.grid {
+  display: grid;
+  grid-template-columns: 173px 346px 346px 535px, 100px;
+  grid-template-rows: repeat(3, 1fr);
+  /* 3 equal-height rows */
+  gap: 5px;
+  /* spacing between cells */
+  width: 1400px;
+  height: 100px;
+}
+
+.grid > div {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  border: 0px;
+  font-size: 0.8rem;
+  white-space: nowrap; /* ✅ prevents text wrapping */
+  text-overflow: ellipsis; /* ✅ optional: adds "..." if text overflows */
+}
+
+.item1 {
+  border: none;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  text-align: center;
+}
+
+.item1a,
+.item1b,
+.item1c,
+.item1d,
+.item1e {
+  display: flex;
+  border: none;
+  text-align: center;
+  align-items: center;
+}
+
+.inputValue {
+  border: none;
+}
+
+a:link,
+a:visited {
+  background-color: #2218b4;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #1a1f69ce;
+}
+
+#disclaimer {
+  max-width: 700px;
+  font-size: 0.5rem;
+  text-align: justify;
+}

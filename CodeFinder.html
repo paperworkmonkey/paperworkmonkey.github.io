@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="CodeFinder.css" />
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+  </head>
+  <title>ICNARC code finder</title>
+
+  <body style="font-family: Verdana">
+    <main>
+      <a href="index.html" target="_self">Feed calculator</a>
+      <a href="CodeFinder.html" target="_self">ICNARC code finder</a>
+      <div id="disclaimer">
+        <p>
+          Disclaimer:
+          <li>
+            Care has been taken to ensure the accuracy of this application, but
+            use of this application is entirely at the user's risk. No liability
+            is be accepted for any errors or consequences thereof that arise
+            through use of this applicaiton. This application is intended to be
+            a convenient tool to generate codes which should be checked against
+            the ICNARC website.
+          </li>
+          <li>
+            By continuing to use this application, you acknowledge that you have
+            read, understood, and agree to the terms of this disclaimer. If you
+            do not agree with any part of this disclaimer, please discontinue
+            the use of this application immediately.
+          </li>
+        </p>
+      </div>
+    </main>
+    <h1>ICNARC code finder</h1>
+    <p style="font-size: small; color: grey">
+      This search box allow complation mapping. e.g. you can search for "oes
+      var" or "sm bow obs", or "bow ob smal" etc.
+    </p>
+    <div class="grid">
+      <div class="item1" class="topLines">
+        <label for="inputValue">Search for: </label>
+        <input
+          type="text"
+          id="inputValue"
+          oninput="getSearchTerm()"
+          backgroundColor="red"
+        />
+      </div>
+
+      <div class="item1a" class="topLines">System</div>
+      <div class="item1b" class="topLines">Site</div>
+      <div class="item1c" class="topLines">Process</div>
+      <div class="item1d" class="topLines">Condition</div>
+      <div class="item1e" class="topLines">Code</div>
+
+      <div class="item2"><p id="ICNARCsystem"></p></div>
+      <div class="item3"><p id="ICNARCsite"></p></div>
+      <div class="item4"><p id="ICNARCprocess"></p></div>
+      <div class="item5"><p id="ICNARCcondition"></p></div>
+      <div class="item6"><p id="ICNARCcode"></p></div>
+      <!-- <div class = "item8">8</div> -->
+      <!-- <div class = "item9">9</div> -->
+    </div>
+
+    <script src="CodeFinder.js"></script>
+  </body>
+</html>
