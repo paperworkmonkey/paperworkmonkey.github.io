@@ -34,6 +34,7 @@ body {
 }
 
 .item1 {
+  display: flex;
   border: none;
   grid-column-start: 1;
   grid-column-end: 6;
