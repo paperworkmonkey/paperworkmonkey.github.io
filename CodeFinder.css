@@ -41,11 +41,7 @@ body {
   text-align: center;
 }
 
-.item1a,
-.item1b,
-.item1c,
-.item1d,
-.item1e {
+.topLines {
   display: flex;
   border: none;
   text-align: center;
