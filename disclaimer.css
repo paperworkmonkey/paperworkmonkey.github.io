@@ -19,6 +19,7 @@ body {
     "Helvetica Neue", Arial;
   background: var(--bg);
   color: #111;
+  font-size: small;
 }
 
 .top-row {
