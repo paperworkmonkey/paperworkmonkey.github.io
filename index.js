@@ -337,16 +337,33 @@ function updateOutputBox() {
     table.rows[table.rows.length - 2].cells[clickedTdIndex].textContent.trim();
   const prosourceCell =
     table.rows[table.rows.length - 1].cells[clickedTdIndex].textContent.trim();
+  const proteinDelivered =
+    table.rows[2].cells[clickedTdIndex].textContent.trim();
+  const proteinGoal = dailyProtein || 0;
+
+  let proteinPercent = 0;
+  if (proteinGoal > 0) {
+    proteinPercent = Math.round((proteinDelivered / proteinGoal) * 100);
+  }
+
+  // ✅ Identify which weight system is active
+  let weightTypeUsed = "";
+  if (useABW) weightTypeUsed = "Act BW";
+  else if (useIBW) weightTypeUsed = "IBW";
+  else if (useAdjBW) weightTypeUsed = "Adj BW";
+  else if (useBMI27BW) weightTypeUsed = "BMI 27";
 
   const prosourceString =
-    prosourceCell > 0 ? `, and ${prosourceCell} prosource required` : "";
+    prosourceCell > 0 ? `, ${prosourceCell} prosource required` : "";
   const naloxegolString =
     naloxegol && naloxegol.checked ? " over 21 hours" : " over 24 hours";
 
   if (outputBox) {
-    outputBox.textContent = `${columnHeader.textContent.trim()} (${baseWeight}kg @ ${
+    outputBox.innerHTML = `${columnHeader.textContent.trim()}: target ${rateCell} ml/hr${naloxegolString}
+<br>Calculated using ${weightTypeUsed} (${baseWeight}kg @ ${
       energyRequirements.value
-    } kcal/kg/day): target ${rateCell} ml/hr${naloxegolString}${prosourceString}`;
+    } kcal/kg/day)
+<br>Provides ${proteinDelivered}g protein (${proteinPercent}% of goal)${prosourceString}`;
   }
 }
 
