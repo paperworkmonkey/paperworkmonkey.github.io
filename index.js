@@ -360,7 +360,7 @@ function updateOutputBox() {
 
   if (outputBox) {
     outputBox.innerHTML = `${columnHeader.textContent.trim()}: target ${rateCell} ml/hr${naloxegolString}
-<br>Calculated using ${weightTypeUsed} (${baseWeight}kg @ ${
+<br><br>Calculated using ${weightTypeUsed} (${baseWeight}kg @ ${
       energyRequirements.value
     } kcal/kg/day)
 <br>Provides ${proteinDelivered}g protein (${proteinPercent}% of goal)${prosourceString}`;

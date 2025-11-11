@@ -266,6 +266,8 @@ canvas {
   border-color: black;
   background-color: rgb(178, 225, 241);
   width: 700px;
+  font: 0.75rem;
+  font-size: 0.75rem;
 }
 
 /*used for feed column selection */
