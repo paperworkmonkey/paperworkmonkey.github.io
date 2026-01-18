@@ -12,7 +12,7 @@ let IBWBox,
 let patientHeight, patientWeight, patientMaleGender, patientFemaleGender;
 let energyRequirements, proteinRequirements, energyDisplay, proteinDisplay;
 let ABW, IBWM, IBWF, AdjBWM, AdjBWF, BMI27BW, baseWeight;
-let dailyEnergy, dailyProtein;
+let dailyEnergy, dailyProtein, dailyNonPropofolEnergy, dailyPropofolEnergy;
 let useABW, useAdjBW, useIBW, useBMI27BW;
 let outputBox;
 let naloxegolFactor = 1;
@@ -34,8 +34,11 @@ function setup() {
 
   energyRequirements = document.getElementById("energyRequirements");
   proteinRequirements = document.getElementById("proteinRequirements");
+  propofolRate = document.getElementById("propofolRate");
   energyDisplay = document.getElementById("energyDisplay");
   proteinDisplay = document.getElementById("proteinDisplay");
+  propofolDisplay = document.getElementById("dailyPropofolBox");
+  nonPropofolDisplay = document.getElementById("dailyNonPropofolBox");
 
   naloxegol = document.getElementById("naloxegol");
   NaRestrict = document.getElementById("NaRestrict");
@@ -71,6 +74,7 @@ function setup() {
     });
     if (energyDisplay) energyDisplay.textContent = energyRequirements.value;
   }
+
   if (proteinRequirements) {
     proteinRequirements.addEventListener("input", () => {
       if (proteinDisplay)
@@ -80,9 +84,16 @@ function setup() {
     if (proteinDisplay) proteinDisplay.textContent = proteinRequirements.value;
   }
 
+  if (propofolRate) {
+    propofolRate.addEventListener("input", () => {
+      if (propofolDisplay) propofolDisplay.textContent = propofolRate.value;
+      recalculate();
+    });
+    if (propofolDisplay) propofolDisplay.textContent = propofolRate.value;
+  }
+
   if (naloxegol) naloxegol.addEventListener("click", doNaloxegolCalculation);
   if (NaRestrict) NaRestrict.addEventListener("click", highlightSodium);
-
   if (ABWselected) ABWselected.addEventListener("click", selectABW);
   if (IBWselected) IBWselected.addEventListener("click", selectIBW);
   if (AdjBWselected) AdjBWselected.addEventListener("click", selectAdjBW);
@@ -153,6 +164,7 @@ function renderTable(dataTable) {
 function recalculate() {
   const energyVal = energyRequirements ? float(energyRequirements.value) : 0;
   const proteinVal = proteinRequirements ? float(proteinRequirements.value) : 0;
+  dailyPropofolEnergy = int(propofolRate.value * 24 * 1.1);
 
   ABW = float(patientWeight && patientWeight.value ? patientWeight.value : 0);
   IBWM = int(
@@ -160,14 +172,14 @@ function recalculate() {
       2.3 *
         (float(patientHeight && patientHeight.value ? patientHeight.value : 0) /
           2.54 -
-          60)
+          60),
   );
   IBWF = int(
     45.5 +
       2.3 *
         (float(patientHeight && patientHeight.value ? patientHeight.value : 0) /
           2.54 -
-          60)
+          60),
   );
   AdjBWM = int(IBWM + 0.4 * (ABW - IBWM));
   AdjBWF = int(IBWF + 0.4 * (ABW - IBWF));
@@ -175,7 +187,7 @@ function recalculate() {
     ((patientHeight && patientHeight.value ? float(patientHeight.value) : 0) /
       100) **
       2 *
-      27
+      27,
   );
 
   if (ActBWBox) ActBWBox.textContent = int(ABW) + " kg";
@@ -197,22 +209,26 @@ function recalculate() {
   baseWeight = useABW
     ? ABW
     : useIBW
-    ? patientGender === "male"
-      ? IBWM
-      : IBWF
-    : useAdjBW
-    ? patientGender === "male"
-      ? AdjBWM
-      : AdjBWF
-    : useBMI27BW
-    ? BMI27BW
-    : 0;
+      ? patientGender === "male"
+        ? IBWM
+        : IBWF
+      : useAdjBW
+        ? patientGender === "male"
+          ? AdjBWM
+          : AdjBWF
+        : useBMI27BW
+          ? BMI27BW
+          : 0;
 
   dailyEnergy = int(baseWeight * energyVal);
   dailyProtein = int(baseWeight * proteinVal);
 
+  dailyNonPropofolEnergy = int(dailyEnergy - dailyPropofolEnergy);
   if (dailyEnergyBox) dailyEnergyBox.textContent = dailyEnergy;
   if (dailyProteinBox) dailyProteinBox.textContent = dailyProtein;
+  if (propofolDisplay) propofolDisplay.textContent = dailyPropofolEnergy;
+  if (nonPropofolDisplay)
+    nonPropofolDisplay.textContent = dailyNonPropofolEnergy;
 
   calculateFeedRatesAndVolumes();
 }
@@ -262,7 +278,7 @@ function calculateFeedRatesAndVolumes() {
 
   for (let n = 2; n < feed_table.columns.length; n++) {
     let energyDensity = feed_table.getNum(energyDensityRowIndex, n) || 1;
-    let dailyFeedVolume = int(dailyEnergy / energyDensity);
+    let dailyFeedVolume = int(dailyNonPropofolEnergy / energyDensity);
     calculatedFeeds.set(dailyvolumeRowIndex, n, dailyFeedVolume);
 
     let feedRate = round((dailyFeedVolume / 24) * naloxegolFactor, 0);
@@ -326,10 +342,10 @@ function updateOutputBox() {
   if (!selected) return;
 
   const clickedTdIndex = Array.from(selected.parentElement.children).indexOf(
-    selected
+    selected,
   );
   const columnHeader = table.querySelector(
-    `th:nth-child(${clickedTdIndex + 1})`
+    `th:nth-child(${clickedTdIndex + 1})`,
   );
   if (!columnHeader) return;
 
@@ -360,9 +376,8 @@ function updateOutputBox() {
 
   if (outputBox) {
     outputBox.innerHTML = `${columnHeader.textContent.trim()}: target ${rateCell} ml/hr${naloxegolString}
-<br><br>Calculated using ${weightTypeUsed} (${baseWeight}kg @ ${
-      energyRequirements.value
-    } kcal/kg/day)
+<br><br>Calculated using ${weightTypeUsed}, ${baseWeight}kg @ ${energyRequirements.value} kcal/kg/day and ${proteinRequirements.value} g/kg/day, and ${dailyPropofolEnergy} kcal/day from propofol.
+
 <br>Provides ${proteinDelivered}g protein (${proteinPercent}% of goal)${prosourceString}`;
   }
 }
@@ -375,7 +390,7 @@ function highlight_column() {
   for (let i = 0; i < cells.length; i++) {
     const cell = cells[i];
     const clickedTdIndex = Array.from(cell.parentElement.children).indexOf(
-      cell
+      cell,
     );
     if (clickedTdIndex > 1) {
       cell.onclick = () => {
@@ -385,7 +400,7 @@ function highlight_column() {
         const columns = table.querySelectorAll(
           `td:nth-child(${clickedTdIndex + 1}), th:nth-child(${
             clickedTdIndex + 1
-          })`
+          })`,
         );
         columns.forEach((col) => col.classList.add("selected"));
         updateOutputBox();

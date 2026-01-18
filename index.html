@@ -60,8 +60,8 @@
         </tr>
 
         <tr class="even_row">
-          <td class="metrics_row_header"><label id="energyReqLabel">Energy (kcal/kg/day):27</label>
-            <input type="range" id="energyRequirements" min="5" max="35" step="1" value="27"
+          <td class="metrics_row_header"><label id="energyReqLabel">Energy (kcal/kg/day):25</label>
+            <input type="range" id="energyRequirements" min="5" max="35" step="1" value="25"
               oninput="updateEnergyValue(this.value)">
             <script>
               function updateEnergyValue(value) {
@@ -82,6 +82,19 @@
                 // Convert value to floating point
                 let floatValue = parseFloat(value);
                 document.getElementById('proteinReqLabel').textContent = "Protein (g/kg/day):" + floatValue.toFixed(1);
+              }
+            </script></td>
+        </tr>
+
+         <tr class="even_row">
+          <td class="metrics_row_header"><label id="propofolRateLabel">Propofol rate (ml/hr): 0</label>
+            <input type="range" id="propofolRate" min="0" max="50" step="1" value="0"
+              oninput="updatePropofolRate(this.value)">
+            <script>
+              function updatePropofolRate(value) {
+                // Convert value to floating point
+                let floatValue = parseFloat(value);
+                document.getElementById('propofolRateLabel').textContent = "Propofol rate (ml/hr):" + floatValue.toFixed(1);
               }
             </script></td>
         </tr>
@@ -135,6 +148,17 @@
           <td class="metrics_row_header">Energy (kcal/day)</td>
           <td id="dailyEnergyBox"></td>
         </tr>
+
+        <tr class="even_row" >
+          <td class="metrics_row_header">Propofol calories (kcal/day)</td>
+          <td id="dailyPropofolBox"></td>
+        </tr>
+
+             <tr class="odd_row" >
+          <td class="metrics_row_header">non-Propofol energy required (kcal/day)</td>
+          <td id="dailyNonPropofolBox"></td>
+        </tr>
+
         <tr class="even_row">
           <td class="metrics_row_header">Protein (g/day)</td>
           <td id="dailyProteinBox"></td>
@@ -152,8 +176,20 @@
   <input type="button" value="Copy feed to clipboard" id="copyFeedButton" onclick="copyFeed()">
   </div>
 
-  <div id="disclaimer">
-    
+  <div id="startGuide" class="startGuide">
+    <h5>You must read the disclaimer before use.</h5>
+    <h5>Initial guidance:</h5>
+    <ol>
+      <li>Enter the patient's actual height and gender to calculate their ideal body weight (IBW).</li>
+      <li>Input the patient's actual weight. You can then select from actual body weight (ABW), adjusted body weight (Adj BW), BMI 27 weight, or ideal body weight (IBW) by clicking the corresponding button.</li>
+      <li>Adjust the energy requirementsusing the slider provided. The default values are set to 25 kcal/kg/day for energy and 1.3 g/kg/day for protein. In the early catabolic phase of critical illness a value of 25 kcal/kg/day is appropriate. Later, in the anabolic phase between 30 and 35 kcal/kg/day can be used.</li>
+      <li>Adjust the protein requirements using the slider provided. The default value is set to 1.3 g/kg/day. In critically ill patients, protein requirements may range from 1.2 to 2.0 g/kg/day depending on the clinical situation.</li>
+      <li>If the patient is receiving naloxegol (or any other medication requiring a 3 hour break in feed administration), tick the naloxegol checkbox to adjust feed rates to account for a 3 hour break in feed administration.</li>
+      <li>If the patient is receiving propofol, enter an approximate hourly rate to account for the additional calories provided by the lipid emulsion which is 1.1 kcal/ml irrespective of whether 1% or 2% propofol is used. The calculator will convert the hourly rate to a 24 hour equivalent calorie value.</li>
+      <li>If the patient is hypernatraemic or on a sodium-restricted diet, tick the Na restrict checkbox to highlight feeds that are lower in sodium content.</li>
+    </ol>
+    <li>Values highlighted in red suggest th.</li>
+    <li>Select a feed by clicking anywhere in the relevant column. Copy and paste the feed details to your patient's chart.</li>
   </div>
 
   <script src="index.js"></script>
