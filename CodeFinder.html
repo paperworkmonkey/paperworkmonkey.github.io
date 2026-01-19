@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
@@ -34,30 +34,30 @@
       This search box allows completion mapping. e.g. you can search for "oes
       var" or "sm bow obs", or "bow ob smal" etc.
     </p>
-    <div class="grid">
-      <div class="item1 topLines">
-        <label for="inputValue">Search for: </label>
-        <input
-          type="text"
-          id="inputValue"
-          oninput="getSearchTerm()"
-          backgroundColor="red"
-        />
-      </div>
 
-      <div class="item1a topLines">System</div>
-      <div class="item1b topLines">Site</div>
-      <div class="item1c topLines">Process</div>
-      <div class="item1d topLines">Condition</div>
-      <div class="item1e topLines">Code</div>
-
-      <div class="item2"><p id="ICNARCsystem"></p></div>
-      <div class="item3"><p id="ICNARCsite"></p></div>
-      <div class="item4"><p id="ICNARCprocess"></p></div>
-      <div class="item5"><p id="ICNARCcondition"></p></div>
-      <div class="item6"><p id="ICNARCcode"></p></div>
-      <!-- <div class = "item8">8</div> -->
-      <!-- <div class = "item9">9</div> -->
+<div class="myGrid">
+  <div class="div1 topLines">
+    <label for="inputValue">Search for: </label>
+    <input
+      type="text"
+      id="inputValue"
+      oninput="getSearchTerm()"
+      backgroundColor="red"
+    />
+  </div>
+<div class="div2 topLines">System</div>
+<div class="div3 topLines">Site</div>
+<div class="div4 topLines">Process</div>
+<div class="div5 topLines">Condition</div>
+<div class="div6 topLines">Code</div>
+<div class="div7 topLines">Unique code</div>
+<div class="div8"> <p id="ICNARCsystem"></p></div>
+<div class="div9"> <p id="ICNARCsite"></p></div>
+<div class="div10"> <p id="ICNARCprocess"></p></div>
+<div class="div11"> <p id="ICNARCcondition"></p></div>
+<div class="div12"> <p id="ICNARCcode"></p></div>
+<div class="div13"> <p id="ICNARCuniqueCode"></p></div>
+</div>
     </div>
 
     <script src="CodeFinder.js"></script>

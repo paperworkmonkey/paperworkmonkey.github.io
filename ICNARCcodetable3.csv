@@ -219,38 +219,38 @@ Respiratory,Pleura or mediastinum,Congenital or acquired deformity or abnormalit
 Respiratory,Pleura or mediastinum,Congenital or acquired deformity or abnormality,Diaphragmatic hernia,1.5.8.3,1.1.5.8.3,2.1.5.8.3,RE30,G14
 Respiratory,Pleura or mediastinum,Congenital or acquired deformity or abnormality,Pleural effusion,1.5.8.4,1.1.5.8.4,2.1.5.8.4,RE91,R14
 Respiratory,Pleura or mediastinum,Congenital or acquired deformity or abnormality,Spontaneous pneumothorax,1.5.8.5,1.1.5.8.5,2.1.5.8.5,RE136,R26
-Respiratory,Spinal cord lesions causing respiratory failure,Epidural or spinal drug administration,Epidural injection or infusion,1.6.12.1,1.1.6.12.1,2.1.6.12.1,NE12,N08
-Respiratory,Spinal cord lesions causing respiratory failure,Epidural or spinal drug administration,Spinal injection or infusion,1.6.12.2,1.1.6.12.2,2.1.6.12.2,RE107,N08
-Respiratory,Spinal cord lesions causing respiratory failure,Infection,Epidural or subdural abscess,1.6.27.1,1.1.6.27.1,2.1.6.27.1,NE48,N01
-Respiratory,Spinal cord lesions causing respiratory failure,Infection,Poliomyelitis,1.6.27.2,1.1.6.27.2,2.1.6.27.2,RE96,N01
-Respiratory,Spinal cord lesions causing respiratory failure,Infection,Tetanus,1.6.27.3,1.1.6.27.3,2.1.6.27.3,NE36,N01
-Respiratory,Spinal cord lesions causing respiratory failure,Trauma,Cervical cord injury,1.6.56.1,1.1.6.56.1,2.1.6.56.1,NE9,N03
-Respiratory,Spinal cord lesions causing respiratory failure,Trauma,Chronic spinal cord injury,1.6.56.2,1.1.6.56.2,2.1.6.56.2,NE42,N03
-Respiratory,Spinal cord lesions causing respiratory failure,Degeneration,Motor neurone disease,1.6.9.1,1.1.6.9.1,2.1.6.9.1,NE24,N08
-Respiratory,Spinal cord lesions causing respiratory failure,Degeneration,Chronic spinal cord injury,1.6.9.2,1.1.6.9.2,2.1.6.9.2,NE42,N03
-Respiratory,Peripheral nervous system disorders causing respiratory failure,Infection,Infective polyneuropathy,1.7.27.1,1.1.7.27.1,2.1.7.27.1,NE18,N01
-Respiratory,Peripheral nervous system disorders causing respiratory failure,Infection,Tetanus,1.7.27.2,1.1.7.27.2,2.1.7.27.2,NE36,N01
-Respiratory,Peripheral nervous system disorders causing respiratory failure,Infection,Botulism,1.7.27.3,1.1.7.27.3,2.1.7.27.3,NE64,N01
-Respiratory,Peripheral nervous system disorders causing respiratory failure,Inflammation,Guillain-Barr� syndrome,1.7.28.1,1.1.7.28.1,2.1.7.28.1,RE52,N08
-Respiratory,Peripheral nervous system disorders causing respiratory failure,Inflammation,Toxic polyneuropathy,1.7.28.2,1.1.7.28.2,2.1.7.28.2,NE60,N08
-Respiratory,Peripheral nervous system disorders causing respiratory failure,Inflammation,Critical illness polyneuropathy,1.7.28.3,1.1.7.28.3,2.1.7.28.3,NE80,N08
-Respiratory,Peripheral nervous system disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Pseudocholinesterase deficiency,1.7.8.1,1.1.7.8.1,2.1.7.8.1,NE31,N08
-Respiratory,Peripheral nervous system disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Failure of reversal of non-depolarising neuromuscular blockers,1.7.8.2,1.1.7.8.2,2.1.7.8.2,NE17,N08
-Respiratory,Neuro-muscular junction disorders causing respiratory failure,Inflammation,Myasthenia gravis,1.8.28.1,1.1.8.28.1,2.1.8.28.1,NE27,N08
-Respiratory,Neuro-muscular junction disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Pseudocholinesterase deficiency,1.8.8.1,1.1.8.8.1,2.1.8.8.1,NE31,N08
-Respiratory,Neuro-muscular junction disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Failure of reversal of non-depolarising neuromuscular blockers,1.8.8.2,1.1.8.8.2,2.1.8.8.2,NE17,N08
-Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Infection,Sternotomy related infection,1.9.27.1,1.1.9.27.1,2.1.9.27.1,CA155,C01
-Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Trauma (or traumatic rupture),Flail chest,1.9.56.1,1.1.9.56.1,2.1.9.56.1,RE13,R03
-Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Trauma (or traumatic rupture),Flail sternum,1.9.56.2,1.1.9.56.2,2.1.9.56.2,RE23,R03
-Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Trauma (or traumatic rupture),Multiple rib fractures,1.9.56.3,1.1.9.56.3,2.1.9.56.3,RE49,R03
-Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Trauma (or traumatic rupture),Penetrating injury to chest wall,1.9.56.4,1.1.9.56.4,2.1.9.56.4,RE89,R03
-Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Trauma (or traumatic rupture),Ruptured diaphragm,1.9.56.5,1.1.9.56.5,2.1.9.56.5,RE33,R03
-Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Thoracoplasty,1.9.8.1,1.1.9.8.1,2.1.9.8.1,RE111,R14
-Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Kyphoscoliosis,1.9.8.2,1.1.9.8.2,2.1.9.8.2,MU6,N14
-Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Congenital chest wall deformity,1.9.8.3,1.1.9.8.3,2.1.9.8.3,RE24,R14
-Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Congenital muscular dystrophy,1.9.8.4,1.1.9.8.4,2.1.9.8.4,MU28,R08
-Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Diaphragmatic hernia,1.9.8.5,1.1.9.8.5,2.1.9.8.5,RE30,G14
-Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Congenital or acquired deformity or abnormality,Ankylosing spondylitis,1.9.8.6,1.1.9.8.6,2.1.9.8.6,RE6,M35
+Respiratory,Spinal cord lesions causing resp failure,Epidural or spinal drug administration,Epidural injection or infusion,1.6.12.1,1.1.6.12.1,2.1.6.12.1,NE12,N08
+Respiratory,Spinal cord lesions causing resp failure,Epidural or spinal drug administration,Spinal injection or infusion,1.6.12.2,1.1.6.12.2,2.1.6.12.2,RE107,N08
+Respiratory,Spinal cord lesions causing resp failure,Infection,Epidural or subdural abscess,1.6.27.1,1.1.6.27.1,2.1.6.27.1,NE48,N01
+Respiratory,Spinal cord lesions causing resp failure,Infection,Poliomyelitis,1.6.27.2,1.1.6.27.2,2.1.6.27.2,RE96,N01
+Respiratory,Spinal cord lesions causing resp failure,Infection,Tetanus,1.6.27.3,1.1.6.27.3,2.1.6.27.3,NE36,N01
+Respiratory,Spinal cord lesions causing resp failure,Trauma,Cervical cord injury,1.6.56.1,1.1.6.56.1,2.1.6.56.1,NE9,N03
+Respiratory,Spinal cord lesions causing resp failure,Trauma,Chronic spinal cord injury,1.6.56.2,1.1.6.56.2,2.1.6.56.2,NE42,N03
+Respiratory,Spinal cord lesions causing resp failure,Degeneration,Motor neurone disease,1.6.9.1,1.1.6.9.1,2.1.6.9.1,NE24,N08
+Respiratory,Spinal cord lesions causing resp failure,Degeneration,Chronic spinal cord injury,1.6.9.2,1.1.6.9.2,2.1.6.9.2,NE42,N03
+Respiratory,PNS disorders causing resp failure,Infection,Infective polyneuropathy,1.7.27.1,1.1.7.27.1,2.1.7.27.1,NE18,N01
+Respiratory,PNS disorders causing resp failure,Infection,Tetanus,1.7.27.2,1.1.7.27.2,2.1.7.27.2,NE36,N01
+Respiratory,PNS disorders causing resp failure,Infection,Botulism,1.7.27.3,1.1.7.27.3,2.1.7.27.3,NE64,N01
+Respiratory,PNS disorders causing resp failure,Inflammation,Guillain-Barr� syndrome,1.7.28.1,1.1.7.28.1,2.1.7.28.1,RE52,N08
+Respiratory,PNS disorders causing resp failure,Inflammation,Toxic polyneuropathy,1.7.28.2,1.1.7.28.2,2.1.7.28.2,NE60,N08
+Respiratory,PNS disorders causing resp failure,Inflammation,Critical illness polyneuropathy,1.7.28.3,1.1.7.28.3,2.1.7.28.3,NE80,N08
+Respiratory,PNS disorders causing resp failure,Congenital or acquired deformity or abnormality,Pseudocholinesterase deficiency,1.7.8.1,1.1.7.8.1,2.1.7.8.1,NE31,N08
+Respiratory,PNS disorders causing resp failure,Congenital or acquired deformity or abnormality,Failure of reversal of non-depolarising neuromuscular blockers,1.7.8.2,1.1.7.8.2,2.1.7.8.2,NE17,N08
+Respiratory,NMJ disorders disorders causing resp failure,Inflammation,Myasthenia gravis,1.8.28.1,1.1.8.28.1,2.1.8.28.1,NE27,N08
+Respiratory,NMJ disorders disorders causing resp failure,Congenital or acquired deformity or abnormality,Pseudocholinesterase deficiency,1.8.8.1,1.1.8.8.1,2.1.8.8.1,NE31,N08
+Respiratory,NMJ disorders disorders causing resp failure,Congenital or acquired deformity or abnormality,Failure of reversal of non-depolarising neuromuscular blockers,1.8.8.2,1.1.8.8.2,2.1.8.8.2,NE17,N08
+Respiratory,Chest wall or diaphragm disorders causing resp failure,Infection,Sternotomy related infection,1.9.27.1,1.1.9.27.1,2.1.9.27.1,CA155,C01
+Respiratory,Chest wall or diaphragm disorders causing resp failure,Trauma (or traumatic rupture),Flail chest,1.9.56.1,1.1.9.56.1,2.1.9.56.1,RE13,R03
+Respiratory,Chest wall or diaphragm disorders causing resp failure,Trauma (or traumatic rupture),Flail sternum,1.9.56.2,1.1.9.56.2,2.1.9.56.2,RE23,R03
+Respiratory,Chest wall or diaphragm disorders causing resp failure,Trauma (or traumatic rupture),Multiple rib fractures,1.9.56.3,1.1.9.56.3,2.1.9.56.3,RE49,R03
+Respiratory,Chest wall or diaphragm disorders causing resp failure,Trauma (or traumatic rupture),Penetrating injury to chest wall,1.9.56.4,1.1.9.56.4,2.1.9.56.4,RE89,R03
+Respiratory,Chest wall or diaphragm disorders causing resp failure,Trauma (or traumatic rupture),Ruptured diaphragm,1.9.56.5,1.1.9.56.5,2.1.9.56.5,RE33,R03
+Respiratory,Chest wall or diaphragm disorders causing resp failure,Congenital or acquired deformity or abnormality,Thoracoplasty,1.9.8.1,1.1.9.8.1,2.1.9.8.1,RE111,R14
+Respiratory,Chest wall or diaphragm disorders causing resp failure,Congenital or acquired deformity or abnormality,Kyphoscoliosis,1.9.8.2,1.1.9.8.2,2.1.9.8.2,MU6,N14
+Respiratory,Chest wall or diaphragm disorders causing resp failure,Congenital or acquired deformity or abnormality,Congenital chest wall deformity,1.9.8.3,1.1.9.8.3,2.1.9.8.3,RE24,R14
+Respiratory,Chest wall or diaphragm disorders causing resp failure,Congenital or acquired deformity or abnormality,Congenital muscular dystrophy,1.9.8.4,1.1.9.8.4,2.1.9.8.4,MU28,R08
+Respiratory,Chest wall or diaphragm disorders causing resp failure,Congenital or acquired deformity or abnormality,Diaphragmatic hernia,1.9.8.5,1.1.9.8.5,2.1.9.8.5,RE30,G14
+Respiratory,Chest wall or diaphragm disorders causing resp failure,Congenital or acquired deformity or abnormality,Ankylosing spondylitis,1.9.8.6,1.1.9.8.6,2.1.9.8.6,RE6,M35
 Musculoskeletal,Vertebral column,Haemorrhage,Haemorrhage from or haematoma of vertebral column,10.1.15.1,1.10.1.15.1,2.10.1.15.1,MU4,N23
 Musculoskeletal,Vertebral column,Infection,Discitis,10.1.27.1,1.10.1.27.1,2.10.1.27.1,MU3,N01
 Musculoskeletal,Vertebral column,Infection,Osteomyelitis or vertebral abscess,10.1.27.2,1.10.1.27.2,2.10.1.27.2,MU12,N01
@@ -356,21 +356,21 @@ Trauma,Respiratory,Pleura or mediastinum,Traumatic haemothorax or haemopneumotho
 Trauma,Respiratory,Pleura or mediastinum,Traumatic pneumothorax,13.1.5.2,1.13.1.5.2,2.13.1.5.2,RE95,R03
 Trauma,Respiratory,Pleura or mediastinum,Traumatic broncho-pleural fistula,13.1.5.3,1.13.1.5.3,2.13.1.5.3,RE37,R03
 Trauma,Respiratory,Pleura or mediastinum,Chylothorax,13.1.5.4,1.13.1.5.4,2.13.1.5.4,RE22,C03
-Trauma,Respiratory,Spinal cord lesions causing respiratory failure,Cervical cord injury,13.1.6.1,1.13.1.6.1,2.13.1.6.1,NE9,N03
-Trauma,Respiratory,Spinal cord lesions causing respiratory failure,Chronic spinal cord injury,13.1.6.2,1.13.1.6.2,2.13.1.6.2,NE42,N03
-Trauma,Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Flail chest,13.1.7.1,1.13.1.7.1,2.13.1.7.1,RE13,R03
-Trauma,Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Flail sternum,13.1.7.2,1.13.1.7.2,2.13.1.7.2,RE23,R03
-Trauma,Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Multiple rib fractures,13.1.7.3,1.13.1.7.3,2.13.1.7.3,RE49,R03
-Trauma,Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Penetrating injury to chest wall,13.1.7.4,1.13.1.7.4,2.13.1.7.4,RE89,R03
-Trauma,Respiratory,Chest wall or diaphragm disorders causing respiratory failure,Ruptured diaphragm,13.1.7.5,1.13.1.7.5,2.13.1.7.5,RE33,R03
-Trauma,Respiratory,Brain lesions causing respiratory failure,Primary (diffuse) brain injury,13.1.8.1,1.13.1.8.1,2.13.1.8.1,NE54,N03
-Trauma,Respiratory,Brain lesions causing respiratory failure,Traumatic subdural haemorrhage,13.1.8.2,1.13.1.8.2,2.13.1.8.2,NE75,N06
-Trauma,Respiratory,Brain lesions causing respiratory failure,Traumatic subarachnoid haemorrhage,13.1.8.3,1.13.1.8.3,2.13.1.8.3,NE74,N06
-Trauma,Respiratory,Brain lesions causing respiratory failure,Non-accidental injury to brain,13.1.8.4,1.13.1.8.4,2.13.1.8.4,NE28,N03
-Trauma,Respiratory,Brain lesions causing respiratory failure,Skull fracture,13.1.8.5,1.13.1.8.5,2.13.1.8.5,NE70,N03
-Trauma,Respiratory,Brain lesions causing respiratory failure,Extradural haemorrhage,13.1.8.6,1.13.1.8.6,2.13.1.8.6,NE14,N06
-Trauma,Respiratory,Brain lesions causing respiratory failure,Focal brain injury,13.1.8.7,1.13.1.8.7,2.13.1.8.7,NE66,N03
-Trauma,Respiratory,Brain lesions causing respiratory failure,"Intracranial injury, unspecified",13.1.8.8,1.13.1.8.8,2.13.1.8.8,NE68,N03
+Trauma,Respiratory,Spinal cord lesions causing resp failure,Cervical cord injury,13.1.6.1,1.13.1.6.1,2.13.1.6.1,NE9,N03
+Trauma,Respiratory,Spinal cord lesions causing resp failure,Chronic spinal cord injury,13.1.6.2,1.13.1.6.2,2.13.1.6.2,NE42,N03
+Trauma,Respiratory,Chest wall or diaphragm disorders causing resp failure,Flail chest,13.1.7.1,1.13.1.7.1,2.13.1.7.1,RE13,R03
+Trauma,Respiratory,Chest wall or diaphragm disorders causing resp failure,Flail sternum,13.1.7.2,1.13.1.7.2,2.13.1.7.2,RE23,R03
+Trauma,Respiratory,Chest wall or diaphragm disorders causing resp failure,Multiple rib fractures,13.1.7.3,1.13.1.7.3,2.13.1.7.3,RE49,R03
+Trauma,Respiratory,Chest wall or diaphragm disorders causing resp failure,Penetrating injury to chest wall,13.1.7.4,1.13.1.7.4,2.13.1.7.4,RE89,R03
+Trauma,Respiratory,Chest wall or diaphragm disorders causing resp failure,Ruptured diaphragm,13.1.7.5,1.13.1.7.5,2.13.1.7.5,RE33,R03
+Trauma,Respiratory,Brain lesions causing resp failure,Primary (diffuse) brain injury,13.1.8.1,1.13.1.8.1,2.13.1.8.1,NE54,N03
+Trauma,Respiratory,Brain lesions causing resp failure,Traumatic subdural haemorrhage,13.1.8.2,1.13.1.8.2,2.13.1.8.2,NE75,N06
+Trauma,Respiratory,Brain lesions causing resp failure,Traumatic subarachnoid haemorrhage,13.1.8.3,1.13.1.8.3,2.13.1.8.3,NE74,N06
+Trauma,Respiratory,Brain lesions causing resp failure,Non-accidental injury to brain,13.1.8.4,1.13.1.8.4,2.13.1.8.4,NE28,N03
+Trauma,Respiratory,Brain lesions causing resp failure,Skull fracture,13.1.8.5,1.13.1.8.5,2.13.1.8.5,NE70,N03
+Trauma,Respiratory,Brain lesions causing resp failure,Extradural haemorrhage,13.1.8.6,1.13.1.8.6,2.13.1.8.6,NE14,N06
+Trauma,Respiratory,Brain lesions causing resp failure,Focal brain injury,13.1.8.7,1.13.1.8.7,2.13.1.8.7,NE66,N03
+Trauma,Respiratory,Brain lesions causing resp failure,"Intracranial injury, unspecified",13.1.8.8,1.13.1.8.8,2.13.1.8.8,NE68,N03
 Trauma,Cardiovascular,Coronary arteries,Traumatic damage to coronary arteries,13.2.1.1,1.13.2.1.1,2.13.2.1.1,CA136,C03
 Trauma,Cardiovascular,Coronary arteries,Instrumental damage to coronary arteries,13.2.1.2,1.13.2.1.2,2.13.2.1.2,CA65,C03
 Trauma,Cardiovascular,Great veins,Superior vena caval damage,13.2.10.1,1.13.2.10.1,2.13.2.10.1,CA92,C03
@@ -444,23 +444,23 @@ Trauma,Gastrointestinal,Spleen,Instrumental damage to spleen,13.3.8.2,1.13.3.8.2
 Trauma,Gastrointestinal,Pancreas,Traumatic pancreatitis or traumatic damage to pancreas,13.3.9.1,1.13.3.9.1,2.13.3.9.1,GA132,G03
 Trauma,Gastrointestinal,Pancreas,Instrumental damage to pancreatic duct,13.3.9.2,1.13.3.9.2,2.13.3.9.2,GA60,G03
 Trauma,Gastrointestinal,Pancreas,Trauma related pancreatic fistula,13.3.9.3,1.13.3.9.3,2.13.3.9.3,GA190,G03
-Trauma,Neurological (including eyes),"Head, neck (extracranial) or eyes","Trauma to mouth, mandible, pharynx or facial bones",13.4.1.1,1.13.4.1.1,2.13.4.1.1,NE50,R03
-Trauma,Neurological (including eyes),"Head, neck (extracranial) or eyes",Ocular trauma,13.4.1.2,1.13.4.1.2,2.13.4.1.2,NE51,N03
-Trauma,Neurological (including eyes),"Head, neck (extracranial) or eyes",Traumatic carotid or vertebral artery aneurysm or dissection,13.4.1.3,1.13.4.1.3,2.13.4.1.3,NE90,C03
-Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Primary (diffuse) brain injury,13.4.2.1,1.13.4.2.1,2.13.4.2.1,NE54,N03
-Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Traumatic subdural haemorrhage,13.4.2.2,1.13.4.2.2,2.13.4.2.2,NE75,N06
-Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Traumatic subarachnoid haemorrhage,13.4.2.3,1.13.4.2.3,2.13.4.2.3,NE74,N06
-Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Non-accidental injury to brain,13.4.2.4,1.13.4.2.4,2.13.4.2.4,NE28,N03
-Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Skull fracture,13.4.2.5,1.13.4.2.5,2.13.4.2.5,NE70,N03
-Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Extradural haemorrhage,13.4.2.6,1.13.4.2.6,2.13.4.2.6,NE14,N06
-Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault",Focal brain injury,13.4.2.7,1.13.4.2.7,2.13.4.2.7,NE66,N03
-Trauma,Neurological (including eyes),"Brain, CSF, meninges or skull vault","Intracranial injury, unspecified",13.4.2.8,1.13.4.2.8,2.13.4.2.8,NE68,N03
-Trauma,Neurological (including eyes),Spinal cord,Cervical cord injury,13.4.3.1,1.13.4.3.1,2.13.4.3.1,NE9,N03
-Trauma,Neurological (including eyes),Spinal cord,Thoracic cord injury,13.4.3.2,1.13.4.3.2,2.13.4.3.2,NE37,N03
-Trauma,Neurological (including eyes),Spinal cord,Lumbar cord or cauda equina injury,13.4.3.3,1.13.4.3.3,2.13.4.3.3,NE13,N03
-Trauma,Neurological (including eyes),Spinal cord,Chronic spinal cord injury,13.4.3.4,1.13.4.3.4,2.13.4.3.4,NE42,N03
-Trauma,Neurological (including eyes),Peripheral nervous system,Brachial plexus injury,13.4.4.1,1.13.4.4.1,2.13.4.4.1,NE39,N03
-Trauma,Neurological (including eyes),Peripheral nervous system,Lumbar plexus injury,13.4.4.2,1.13.4.4.2,2.13.4.4.2,NE20,N03
+Trauma,Neurological (incl eyes),"Head, neck (extracranial) or eyes","Trauma to mouth, mandible, pharynx or facial bones",13.4.1.1,1.13.4.1.1,2.13.4.1.1,NE50,R03
+Trauma,Neurological (incl eyes),"Head, neck (extracranial) or eyes",Ocular trauma,13.4.1.2,1.13.4.1.2,2.13.4.1.2,NE51,N03
+Trauma,Neurological (incl eyes),"Head, neck (extracranial) or eyes",Traumatic carotid or vertebral artery aneurysm or dissection,13.4.1.3,1.13.4.1.3,2.13.4.1.3,NE90,C03
+Trauma,Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Primary (diffuse) brain injury,13.4.2.1,1.13.4.2.1,2.13.4.2.1,NE54,N03
+Trauma,Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Traumatic subdural haemorrhage,13.4.2.2,1.13.4.2.2,2.13.4.2.2,NE75,N06
+Trauma,Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Traumatic subarachnoid haemorrhage,13.4.2.3,1.13.4.2.3,2.13.4.2.3,NE74,N06
+Trauma,Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Non-accidental injury to brain,13.4.2.4,1.13.4.2.4,2.13.4.2.4,NE28,N03
+Trauma,Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Skull fracture,13.4.2.5,1.13.4.2.5,2.13.4.2.5,NE70,N03
+Trauma,Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Extradural haemorrhage,13.4.2.6,1.13.4.2.6,2.13.4.2.6,NE14,N06
+Trauma,Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Focal brain injury,13.4.2.7,1.13.4.2.7,2.13.4.2.7,NE66,N03
+Trauma,Neurological (incl eyes),"Brain, CSF, meninges or skull vault","Intracranial injury, unspecified",13.4.2.8,1.13.4.2.8,2.13.4.2.8,NE68,N03
+Trauma,Neurological (incl eyes),Spinal cord,Cervical cord injury,13.4.3.1,1.13.4.3.1,2.13.4.3.1,NE9,N03
+Trauma,Neurological (incl eyes),Spinal cord,Thoracic cord injury,13.4.3.2,1.13.4.3.2,2.13.4.3.2,NE37,N03
+Trauma,Neurological (incl eyes),Spinal cord,Lumbar cord or cauda equina injury,13.4.3.3,1.13.4.3.3,2.13.4.3.3,NE13,N03
+Trauma,Neurological (incl eyes),Spinal cord,Chronic spinal cord injury,13.4.3.4,1.13.4.3.4,2.13.4.3.4,NE42,N03
+Trauma,Neurological (incl eyes),Peripheral nervous system,Brachial plexus injury,13.4.4.1,1.13.4.4.1,2.13.4.4.1,NE39,N03
+Trauma,Neurological (incl eyes),Peripheral nervous system,Lumbar plexus injury,13.4.4.2,1.13.4.4.2,2.13.4.4.2,NE20,N03
 Trauma,Genito-urinary,Kidney or ureter,Traumatic renal rupture,13.5.1.1,1.13.5.1.1,2.13.5.1.1,GE73,K03
 Trauma,Genito-urinary,Kidney or ureter,Traumatic disruption of ureter,13.5.1.2,1.13.5.1.2,2.13.5.1.2,GE71,K03
 Trauma,Genito-urinary,Kidney or ureter,Traumatic damage to renal vessels,13.5.1.3,1.13.5.1.3,2.13.5.1.3,GE69,K03
@@ -471,15 +471,15 @@ Trauma,Genito-urinary,Bladder or urethra,Traumatic perforation or rupture of ure
 Trauma,Genito-urinary,Bladder or urethra,Instrumental damage to bladder or urethra,13.5.2.3,1.13.5.2.3,2.13.5.2.3,GE27,K03
 Trauma,Genito-urinary,Bladder or urethra,Trauma related bladder fistula,13.5.2.4,1.13.5.2.4,2.13.5.2.4,GE79,K03
 Trauma,Genito-urinary,Bladder or urethra,Trauma related urethral fistula,13.5.2.5,1.13.5.2.5,2.13.5.2.5,GE89,K03
-Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Traumatic perforation or rupture of uterus,13.5.3.1,1.13.5.3.1,2.13.5.3.1,GE87,K03
-Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)","Instrumental damage to uterus, ovaries or fallopian tubes",13.5.3.2,1.13.5.3.2,2.13.5.3.2,GE62,K03
-Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Non-accidental injury to female genitalia ,13.5.3.3,1.13.5.3.3,2.13.5.3.3,GE33,K03
-Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Traumatic damage to uterine vessels,13.5.3.4,1.13.5.3.4,2.13.5.3.4,GE91,K03
-Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Instrumental damage to uterine vessels,13.5.3.5,1.13.5.3.5,2.13.5.3.5,GE92,K03
-Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Traumatic damage to ovarian vessels,13.5.3.6,1.13.5.3.6,2.13.5.3.6,GE93,K03
-Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Instrumental damage to ovarian vessels,13.5.3.7,1.13.5.3.7,2.13.5.3.7,GE94,K03
-Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Traumatic perforation or rupture of uterus,13.5.4.1,1.13.5.4.1,2.13.5.4.1,GE87,K03
-Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)","Instrumental damage to uterus, ovaries or fallopian tubes",13.5.4.2,1.13.5.4.2,2.13.5.4.2,GE62,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Traumatic perforation or rupture of uterus,13.5.3.1,1.13.5.3.1,2.13.5.3.1,GE87,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)","Instrumental damage to uterus, ovaries or fallopian tubes",13.5.3.2,1.13.5.3.2,2.13.5.3.2,GE62,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Non-accidental injury to female genitalia ,13.5.3.3,1.13.5.3.3,2.13.5.3.3,GE33,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Traumatic damage to uterine vessels,13.5.3.4,1.13.5.3.4,2.13.5.3.4,GE91,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Instrumental damage to uterine vessels,13.5.3.5,1.13.5.3.5,2.13.5.3.5,GE92,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Traumatic damage to ovarian vessels,13.5.3.6,1.13.5.3.6,2.13.5.3.6,GE93,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Instrumental damage to ovarian vessels,13.5.3.7,1.13.5.3.7,2.13.5.3.7,GE94,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Traumatic perforation or rupture of uterus,13.5.4.1,1.13.5.4.1,2.13.5.4.1,GE87,K03
+Trauma,Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)","Instrumental damage to uterus, ovaries or fallopian tubes",13.5.4.2,1.13.5.4.2,2.13.5.4.2,GE62,K03
 Trauma,Genito-urinary,"Testes, prostate or penis","Traumatic damage to testes, prostrate or penis",13.5.5.1,1.13.5.5.1,2.13.5.5.1,GE52,K03
 Trauma,Genito-urinary,"Testes, prostate or penis","Instrumental damage to testes, prostrate or penis",13.5.5.2,1.13.5.5.2,2.13.5.5.2,GE26,K03
 Trauma,Genito-urinary,"Testes, prostate or penis",Non-accidental injury to male genitalia,13.5.5.3,1.13.5.5.3,2.13.5.5.3,GE34,K03
@@ -1015,126 +1015,126 @@ Gastrointestinal,Pancreas,Trauma (or trauma related fistula),Instrumental damage
 Gastrointestinal,Pancreas,Trauma (or trauma related fistula),Trauma related pancreatic fistula,3.9.56.3,1.3.9.56.3,2.3.9.56.3,GA190,G03
 Gastrointestinal,Pancreas,Non-traumatic fistula,Non-trauma related pancreatic fistula,3.9.57.1,1.3.9.57.1,2.3.9.57.1,GA202,G26
 Gastrointestinal,Pancreas,Congenital or acquired deformity or abnormality,Pancreatic pseudocyst,3.9.8.1,1.3.9.8.1,2.3.9.8.1,GA186,G35
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Haemorrhage,Epistaxis,4.1.15.2,1.4.1.15.2,2.4.1.15.2,RE3,R23
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Haemorrhage,Haemorrhage into upper airway,4.1.15.3,1.4.1.15.3,2.4.1.15.3,RE119,R23
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Haemorrhage,Extrinsic compression of airway by haematoma,4.1.15.4,1.4.1.15.4,2.4.1.15.4,RE44,R26
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Infection,"Mandible, facial bones, dental or salivary infection",4.1.27.1,1.4.1.27.1,2.4.1.27.1,RE71,R01
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Infection,Tonsil or pharyngeal infection,4.1.27.2,1.4.1.27.2,2.4.1.27.2,GA114,R01
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Infection,Orbital cellulitis,4.1.27.3,1.4.1.27.3,2.4.1.27.3,DE9,N01
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Infection,Respiratory sinus infection,4.1.27.4,1.4.1.27.4,2.4.1.27.4,RE118,R01
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Infection,Mastoid infection,4.1.27.5,1.4.1.27.5,2.4.1.27.5,NE81,N01
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Head or neck tumour not intraoral or intranasal,4.1.39.1,1.4.1.39.1,2.4.1.39.1,RE54,N02
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Ocular tumour,4.1.39.3,1.4.1.39.3,2.4.1.39.3,NE52,N02
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Malignant neoplasm of oropharynx,4.1.39.4,1.4.1.39.4,2.4.1.39.4,GA164,R02
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Malignant neoplasm of nasopharynx,4.1.39.5,1.4.1.39.5,2.4.1.39.5,GA162,R02
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Malignant neoplasm of hypopharynx,4.1.39.6,1.4.1.39.6,2.4.1.39.6,GA161,R02
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Carotid or vertebral artery stenosis or occlusion,4.1.41.1,1.4.1.41.1,2.4.1.41.1,NE89,C12
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Traumatic rupture or puncture of carotid or vertebral artery,4.1.41.3,1.4.1.41.3,2.4.1.41.3,NE87,C03
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Instrumental damage to carotid or vertebral artery,4.1.41.4,1.4.1.41.4,2.4.1.41.4,NE19,C03
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Extracranial or neck arterio-venous malformation or haemangioma,4.1.41.5,1.4.1.41.5,2.4.1.41.5,CA13,C14
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Vasculitis of cerebral circulation,4.1.41.6,1.4.1.41.6,2.4.1.41.6,NE40,C12
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Vascular lesion of eyes,4.1.41.7,1.4.1.41.7,2.4.1.41.7,NE61,C12
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Traumatic carotid or vertebral artery aneurysm or dissection,4.1.41.8,1.4.1.41.8,2.4.1.41.8,NE90,C03
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Vascular,Non-traumatic carotid or vertebral artery aneurysm or dissection,4.1.41.9,1.4.1.41.9,2.4.1.41.9,NE91,C12
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Trauma,"Trauma to mouth, mandible, pharynx or facial bones",4.1.56.1,1.4.1.56.1,2.4.1.56.1,NE50,R03
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Trauma,Ocular trauma,4.1.56.2,1.4.1.56.2,2.4.1.56.2,NE51,N03
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Trauma,Traumatic carotid or vertebral artery aneurysm or dissection,4.1.56.3,1.4.1.56.3,2.4.1.56.3,NE90,C03
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Non-traumatic aneurysm or dissection,Non-traumatic carotid or vertebral artery aneurysm or dissection,4.1.57.1,1.4.1.57.1,2.4.1.57.1,NE91,C12
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Congenital or acquired deformity or abnormality,"Mouth, mandible, pharynx or facial bones deformity",4.1.8.1,1.4.1.8.1,2.4.1.8.1,NE25,R14
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Congenital or acquired deformity or abnormality,Cystic hygroma,4.1.8.2,1.4.1.8.2,2.4.1.8.2,NE11,N14
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Congenital or acquired deformity or abnormality,Extracranial or neck arterio-venous malformation or haemangioma,4.1.8.3,1.4.1.8.3,2.4.1.8.3,CA13,C14
-Neurological (including eyes),"Head, neck (extracranial) or eyes",Congenital or acquired deformity or abnormality,Cholesteatoma,4.1.8.4,1.4.1.8.4,2.4.1.8.4,NE65,N02
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Non-traumatic subarachnoid haemorrhage,4.2.15.2,1.4.2.15.2,2.4.2.15.2,NE35,N06
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Non-traumatic subdural haemorrhage,4.2.15.3,1.4.2.15.3,2.4.2.15.3,NE58,N06
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Extradural haemorrhage,4.2.15.4,1.4.2.15.4,2.4.2.15.4,NE14,N06
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Intracerebral haemorrhage (supratentorial),4.2.15.5,1.4.2.15.5,2.4.2.15.5,NE78,N05
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Intracerebral haemorrhage (posterior fossa),4.2.15.6,1.4.2.15.6,2.4.2.15.6,NE79,N05
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,"Meningitis, unspecified",4.2.27.1,1.4.2.27.1,2.4.2.27.1,NE23,N01
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Encephalitis,4.2.27.2,1.4.2.27.2,2.4.2.27.2,NE47,N01
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Intracranial abscess,4.2.27.3,1.4.2.27.3,2.4.2.27.3,NE2,N01
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Orbital cellulitis,4.2.27.4,1.4.2.27.4,2.4.2.27.4,DE9,N01
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Infected CSF shunt,4.2.27.5,1.4.2.27.5,2.4.2.27.5,NE49,N01
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Meningococcal meningitis,4.2.27.6,1.4.2.27.6,2.4.2.27.6,NE69,N01
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,"Bacterial meningitis, not meningococcal",4.2.27.7,1.4.2.27.7,2.4.2.27.7,NE63,N01
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Viral meningitis,4.2.27.8,1.4.2.27.8,2.4.2.27.8,NE77,N01
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Infection,Tuberculous meningitis,4.2.27.9,1.4.2.27.9,2.4.2.27.9,NE82,N01
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Seizures,Status epilepticus or uncontrolled seizures,4.2.33.1,1.4.2.33.1,2.4.2.33.1,NE57,N07
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Seizures,Eclampsia,4.2.33.2,1.4.2.33.2,2.4.2.33.2,GE60,N07
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Seizures,Alcohol withdrawal seizures,4.2.33.3,1.4.2.33.3,2.4.2.33.3,EN8,N07
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Tumour or malignancy,Primary brain or meningeal tumour,4.2.39.1,1.4.2.39.1,2.4.2.39.1,NE29,N02
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Tumour or malignancy,Secondary intracranial tumour,4.2.39.2,1.4.2.39.2,2.4.2.39.2,NE32,N02
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Berry or other intracranial aneurysm,4.2.41.1,1.4.2.41.1,2.4.2.41.1,NE4,N14
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Intracranial arterio-venous malformation,4.2.41.2,1.4.2.41.2,2.4.2.41.2,NE1,N14
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Thrombo-occlusive disease of brain,4.2.41.3,1.4.2.41.3,2.4.2.41.3,NE38,N13
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Arterial air embolus,4.2.41.4,1.4.2.41.4,2.4.2.41.4,NE41,N13
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Vasculitis of cerebral circulation,4.2.41.5,1.4.2.41.5,2.4.2.41.5,NE40,C12
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Embolic brain lesions causing respiratory failure,4.2.41.6,1.4.2.41.6,2.4.2.41.6,NE46,N13
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Vascular,Venous sinus thrombosis,4.2.41.7,1.4.2.41.7,2.4.2.41.7,NE76,N13
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Primary (diffuse) brain injury,4.2.56.1,1.4.2.56.1,2.4.2.56.1,NE54,N03
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Traumatic subdural haemorrhage,4.2.56.2,1.4.2.56.2,2.4.2.56.2,NE75,N06
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Traumatic subarachnoid haemorrhage,4.2.56.3,1.4.2.56.3,2.4.2.56.3,NE74,N06
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Non-accidental injury to brain,4.2.56.4,1.4.2.56.4,2.4.2.56.4,NE28,N03
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Skull fracture,4.2.56.5,1.4.2.56.5,2.4.2.56.5,NE70,N03
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Extradural haemorrhage,4.2.56.6,1.4.2.56.6,2.4.2.56.6,NE14,N06
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,Focal brain injury,4.2.56.7,1.4.2.56.7,2.4.2.56.7,NE66,N03
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Trauma,"Intracranial injury, unspecified",4.2.56.8,1.4.2.56.8,2.4.2.56.8,NE68,N03
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Non-traumatic aneurysm,Berry or other intracranial aneurysm,4.2.57.1,1.4.2.57.1,2.4.2.57.1,NE4,N14
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Toxic or drug induced coma or encephalopathy,4.2.7.1,1.4.2.7.1,2.4.2.7.1,NE15,M27
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Admission solely for purposes of donation after cardiac death (DCD),4.2.7.10,1.4.2.7.10,2.4.2.7.10,NE83,NCA
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Metabolic coma or encephalopathy,4.2.7.2,1.4.2.7.2,2.4.2.7.2,NE22,M27
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Anoxic or ischaemic coma or encephalopathy,4.2.7.3,1.4.2.7.3,2.4.2.7.3,RE8,N27
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Degenerative coma or encephalopathy,4.2.7.4,1.4.2.7.4,2.4.2.7.4,NE45,N35
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Anaesthesia related encephalopathy,4.2.7.5,1.4.2.7.5,2.4.2.7.5,NE53,M27
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Admission solely for purposes of donation after brainstem death (DBD),4.2.7.6,1.4.2.7.6,2.4.2.7.6,NE5,NCA
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Primary (diffuse) brain injury,4.2.7.7,1.4.2.7.7,2.4.2.7.7,NE54,N03
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Reye's or Reye-like syndrome ,4.2.7.8,1.4.2.7.8,2.4.2.7.8,NE55,M27
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Hypertension encephalopathy,4.2.7.9,1.4.2.7.9,2.4.2.7.9,NE84,M27
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Congenital hydrocephalus,4.2.8.1,1.4.2.8.1,2.4.2.8.1,NE44,N14
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Trigeminal neuralgia,4.2.8.10,1.4.2.8.10,2.4.2.8.10,NE85,N14
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Secondary hydrocephalus,4.2.8.2,1.4.2.8.2,2.4.2.8.2,NE56,N14
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Arnold-Chiari malformation,4.2.8.3,1.4.2.8.3,2.4.2.8.3,RE9,N14
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Cerebral palsy,4.2.8.4,1.4.2.8.4,2.4.2.8.4,NE8,N14
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Congenital abnormality of skull,4.2.8.5,1.4.2.8.5,2.4.2.8.5,NE43,N14
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Parkinson's Disease,4.2.8.6,1.4.2.8.6,2.4.2.8.6,RE87,N35
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Multiple sclerosis,4.2.8.7,1.4.2.8.7,2.4.2.8.7,NE26,N35
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Central hypoventilation (Ondine's curse),4.2.8.8,1.4.2.8.8,2.4.2.8.8,NE7,N14
-Neurological (including eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Intracerebral cyst,4.2.8.9,1.4.2.8.9,2.4.2.8.9,NE67,N02
-Neurological (including eyes),Spinal cord,Epidural or spinal drug administration,Epidural injection or infusion,4.3.12.1,1.4.3.12.1,2.4.3.12.1,NE12,N08
-Neurological (including eyes),Spinal cord,Epidural or spinal drug administration,Spinal injection or infusion,4.3.12.2,1.4.3.12.2,2.4.3.12.2,RE107,N08
-Neurological (including eyes),Spinal cord,Haemorrhage,Extradural haemorrhage,4.3.15.1,1.4.3.15.1,2.4.3.15.1,NE14,N06
-Neurological (including eyes),Spinal cord,Haemorrhage,Spinal cord haematoma,4.3.15.2,1.4.3.15.2,2.4.3.15.2,NE71,N03
-Neurological (including eyes),Spinal cord,Infection,Epidural or subdural abscess,4.3.27.1,1.4.3.27.1,2.4.3.27.1,NE48,N01
-Neurological (including eyes),Spinal cord,Infection,Poliomyelitis,4.3.27.2,1.4.3.27.2,2.4.3.27.2,RE96,N01
-Neurological (including eyes),Spinal cord,Infection,Tetanus,4.3.27.3,1.4.3.27.3,2.4.3.27.3,NE36,N01
-Neurological (including eyes),Spinal cord,Tumour or malignancy,Primary cord or meninges tumour,4.3.39.1,1.4.3.39.1,2.4.3.39.1,NE30,N02
-Neurological (including eyes),Spinal cord,Tumour or malignancy,Extrinsic compression of cord by non-neural tumour,4.3.39.2,1.4.3.39.2,2.4.3.39.2,NE16,N02
-Neurological (including eyes),Spinal cord,Vascular,Spinal cord ischaemia,4.3.41.1,1.4.3.41.1,2.4.3.41.1,NE72,C12
-Neurological (including eyes),Spinal cord,Vascular,Arterio-venous malformation,4.3.41.2,1.4.3.41.2,2.4.3.41.2,NE86,N14
-Neurological (including eyes),Spinal cord,Trauma,Cervical cord injury,4.3.56.1,1.4.3.56.1,2.4.3.56.1,NE9,N03
-Neurological (including eyes),Spinal cord,Trauma,Thoracic cord injury,4.3.56.2,1.4.3.56.2,2.4.3.56.2,NE37,N03
-Neurological (including eyes),Spinal cord,Trauma,Lumbar cord or cauda equina injury,4.3.56.3,1.4.3.56.3,2.4.3.56.3,NE13,N03
-Neurological (including eyes),Spinal cord,Trauma,Chronic spinal cord injury,4.3.56.4,1.4.3.56.4,2.4.3.56.4,NE42,N03
-Neurological (including eyes),Spinal cord,Congenital or acquired deformity or abnormality,Compression of spinal cord or nerve root by intervertebral disc,4.3.8.1,1.4.3.8.1,2.4.3.8.1,NE10,N14
-Neurological (including eyes),Spinal cord,Congenital or acquired deformity or abnormality,Spinal stenosis,4.3.8.2,1.4.3.8.2,2.4.3.8.2,NE34,N14
-Neurological (including eyes),Spinal cord,Congenital or acquired deformity or abnormality,Spina bifida or meningomyelocele,4.3.8.3,1.4.3.8.3,2.4.3.8.3,NE33,N14
-Neurological (including eyes),Spinal cord,Congenital or acquired deformity or abnormality,Multiple sclerosis,4.3.8.4,1.4.3.8.4,2.4.3.8.4,NE26,N35
-Neurological (including eyes),Spinal cord,Congenital or acquired deformity or abnormality,Spinal syrinx,4.3.8.5,1.4.3.8.5,2.4.3.8.5,NE73,N14
-Neurological (including eyes),Spinal cord,Degeneration,Motor neurone disease,4.3.9.1,1.4.3.9.1,2.4.3.9.1,NE24,N08
-Neurological (including eyes),Spinal cord,Degeneration,Transverse myelitis,4.3.9.2,1.4.3.9.2,2.4.3.9.2,NE62,N35
-Neurological (including eyes),Peripheral nervous system,Infection,Infective polyneuropathy,4.4.27.1,1.4.4.27.1,2.4.4.27.1,NE18,N01
-Neurological (including eyes),Peripheral nervous system,Infection,Leprosy,4.4.27.2,1.4.4.27.2,2.4.4.27.2,DE19,M01
-Neurological (including eyes),Peripheral nervous system,Infection,Botulism,4.4.27.3,1.4.4.27.3,2.4.4.27.3,NE64,N01
-Neurological (including eyes),Peripheral nervous system,Inflammation,Guillain-Barr� syndrome,4.4.28.1,1.4.4.28.1,2.4.4.28.1,RE52,N08
-Neurological (including eyes),Peripheral nervous system,Inflammation,Toxic polyneuropathy,4.4.28.2,1.4.4.28.2,2.4.4.28.2,NE60,N08
-Neurological (including eyes),Peripheral nervous system,Inflammation,Autoimmune polyneuropathy,4.4.28.3,1.4.4.28.3,2.4.4.28.3,NE3,N08
-Neurological (including eyes),Peripheral nervous system,Inflammation,Porphyria,4.4.28.4,1.4.4.28.4,2.4.4.28.4,HA27,H32
-Neurological (including eyes),Peripheral nervous system,Inflammation,Critical illness polyneuropathy,4.4.28.5,1.4.4.28.5,2.4.4.28.5,NE80,N08
-Neurological (including eyes),Peripheral nervous system,Trauma,Brachial plexus injury,4.4.56.1,1.4.4.56.1,2.4.4.56.1,NE39,N03
-Neurological (including eyes),Peripheral nervous system,Trauma,Lumbar plexus injury,4.4.56.2,1.4.4.56.2,2.4.4.56.2,NE20,N03
-Neurological (including eyes),Peripheral nervous system,Degeneration,Motor neurone disease,4.4.9.1,1.4.4.9.1,2.4.4.9.1,NE24,N08
-Neurological (including eyes),Neuro-muscular junction,Congenital or acquired deformity or abnormality,Pseudocholinesterase deficiency,4.5.8.1,1.4.5.8.1,2.4.5.8.1,NE31,N08
-Neurological (including eyes),Neuro-muscular junction,Congenital or acquired deformity or abnormality,Failure of reversal of non-depolarising neuromuscular blockers,4.5.8.2,1.4.5.8.2,2.4.5.8.2,NE17,N08
-Neurological (including eyes),Neuro-muscular junction,Congenital or acquired deformity or abnormality,Myasthenia gravi, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with sedatives or hypnotic, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with alcohol,, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with carbon monoxide,6, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with gases (not carbon monoxide),6, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with agent not defined,6, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with warfarin,6., Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with narcotic, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with tri- or tetracyclic antidepressant, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with non-cyclic antidepressant, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with cardiovascular drug, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with aspiri, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with paracetamo, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with industrial or agricultural chemical, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with insuli, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with sedatives or hypnotics,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with alcohol,6.8., Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with carbon monoxide,6.8., Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with gases (not carbon monoxide),6.8., Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with agent not defined,6.8., Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with warfarin,6.8.3, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with narcotics,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with tri- or tetracyclic antidepressants,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with non-cyclic antidepressants,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with cardiovascular drugs,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with aspirin,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with paracetamol,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with industrial or agricultural chemicals,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with insulin,6.8.34.9,1.6.8.34.9,2.6.8.34.9,EN95,N04
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Haemorrhage,Epistaxis,4.1.15.2,1.4.1.15.2,2.4.1.15.2,RE3,R23
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Haemorrhage,Haemorrhage into upper airway,4.1.15.3,1.4.1.15.3,2.4.1.15.3,RE119,R23
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Haemorrhage,Extrinsic compression of airway by haematoma,4.1.15.4,1.4.1.15.4,2.4.1.15.4,RE44,R26
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Infection,"Mandible, facial bones, dental or salivary infection",4.1.27.1,1.4.1.27.1,2.4.1.27.1,RE71,R01
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Infection,Tonsil or pharyngeal infection,4.1.27.2,1.4.1.27.2,2.4.1.27.2,GA114,R01
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Infection,Orbital cellulitis,4.1.27.3,1.4.1.27.3,2.4.1.27.3,DE9,N01
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Infection,Respiratory sinus infection,4.1.27.4,1.4.1.27.4,2.4.1.27.4,RE118,R01
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Infection,Mastoid infection,4.1.27.5,1.4.1.27.5,2.4.1.27.5,NE81,N01
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Head or neck tumour not intraoral or intranasal,4.1.39.1,1.4.1.39.1,2.4.1.39.1,RE54,N02
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Ocular tumour,4.1.39.3,1.4.1.39.3,2.4.1.39.3,NE52,N02
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Malignant neoplasm of oropharynx,4.1.39.4,1.4.1.39.4,2.4.1.39.4,GA164,R02
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Malignant neoplasm of nasopharynx,4.1.39.5,1.4.1.39.5,2.4.1.39.5,GA162,R02
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Tumour or malignancy,Malignant neoplasm of hypopharynx,4.1.39.6,1.4.1.39.6,2.4.1.39.6,GA161,R02
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Vascular,Carotid or vertebral artery stenosis or occlusion,4.1.41.1,1.4.1.41.1,2.4.1.41.1,NE89,C12
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Vascular,Traumatic rupture or puncture of carotid or vertebral artery,4.1.41.3,1.4.1.41.3,2.4.1.41.3,NE87,C03
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Vascular,Instrumental damage to carotid or vertebral artery,4.1.41.4,1.4.1.41.4,2.4.1.41.4,NE19,C03
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Vascular,Extracranial or neck arterio-venous malformation or haemangioma,4.1.41.5,1.4.1.41.5,2.4.1.41.5,CA13,C14
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Vascular,Vasculitis of cerebral circulation,4.1.41.6,1.4.1.41.6,2.4.1.41.6,NE40,C12
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Vascular,Vascular lesion of eyes,4.1.41.7,1.4.1.41.7,2.4.1.41.7,NE61,C12
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Vascular,Traumatic carotid or vertebral artery aneurysm or dissection,4.1.41.8,1.4.1.41.8,2.4.1.41.8,NE90,C03
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Vascular,Non-traumatic carotid or vertebral artery aneurysm or dissection,4.1.41.9,1.4.1.41.9,2.4.1.41.9,NE91,C12
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Trauma,"Trauma to mouth, mandible, pharynx or facial bones",4.1.56.1,1.4.1.56.1,2.4.1.56.1,NE50,R03
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Trauma,Ocular trauma,4.1.56.2,1.4.1.56.2,2.4.1.56.2,NE51,N03
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Trauma,Traumatic carotid or vertebral artery aneurysm or dissection,4.1.56.3,1.4.1.56.3,2.4.1.56.3,NE90,C03
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Non-traumatic aneurysm or dissection,Non-traumatic carotid or vertebral artery aneurysm or dissection,4.1.57.1,1.4.1.57.1,2.4.1.57.1,NE91,C12
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Congenital or acquired deformity or abnormality,"Mouth, mandible, pharynx or facial bones deformity",4.1.8.1,1.4.1.8.1,2.4.1.8.1,NE25,R14
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Congenital or acquired deformity or abnormality,Cystic hygroma,4.1.8.2,1.4.1.8.2,2.4.1.8.2,NE11,N14
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Congenital or acquired deformity or abnormality,Extracranial or neck arterio-venous malformation or haemangioma,4.1.8.3,1.4.1.8.3,2.4.1.8.3,CA13,C14
+Neurological (incl eyes),"Head, neck (extracranial) or eyes",Congenital or acquired deformity or abnormality,Cholesteatoma,4.1.8.4,1.4.1.8.4,2.4.1.8.4,NE65,N02
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Non-traumatic subarachnoid haemorrhage,4.2.15.2,1.4.2.15.2,2.4.2.15.2,NE35,N06
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Non-traumatic subdural haemorrhage,4.2.15.3,1.4.2.15.3,2.4.2.15.3,NE58,N06
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Extradural haemorrhage,4.2.15.4,1.4.2.15.4,2.4.2.15.4,NE14,N06
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Intracerebral haemorrhage (supratentorial),4.2.15.5,1.4.2.15.5,2.4.2.15.5,NE78,N05
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Haemorrhage,Intracerebral haemorrhage (posterior fossa),4.2.15.6,1.4.2.15.6,2.4.2.15.6,NE79,N05
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Infection,"Meningitis, unspecified",4.2.27.1,1.4.2.27.1,2.4.2.27.1,NE23,N01
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Infection,Encephalitis,4.2.27.2,1.4.2.27.2,2.4.2.27.2,NE47,N01
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Infection,Intracranial abscess,4.2.27.3,1.4.2.27.3,2.4.2.27.3,NE2,N01
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Infection,Orbital cellulitis,4.2.27.4,1.4.2.27.4,2.4.2.27.4,DE9,N01
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Infection,Infected CSF shunt,4.2.27.5,1.4.2.27.5,2.4.2.27.5,NE49,N01
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Infection,Meningococcal meningitis,4.2.27.6,1.4.2.27.6,2.4.2.27.6,NE69,N01
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Infection,"Bacterial meningitis, not meningococcal",4.2.27.7,1.4.2.27.7,2.4.2.27.7,NE63,N01
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Infection,Viral meningitis,4.2.27.8,1.4.2.27.8,2.4.2.27.8,NE77,N01
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Infection,Tuberculous meningitis,4.2.27.9,1.4.2.27.9,2.4.2.27.9,NE82,N01
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Seizures,Status epilepticus or uncontrolled seizures,4.2.33.1,1.4.2.33.1,2.4.2.33.1,NE57,N07
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Seizures,Eclampsia,4.2.33.2,1.4.2.33.2,2.4.2.33.2,GE60,N07
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Seizures,Alcohol withdrawal seizures,4.2.33.3,1.4.2.33.3,2.4.2.33.3,EN8,N07
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Tumour or malignancy,Primary brain or meningeal tumour,4.2.39.1,1.4.2.39.1,2.4.2.39.1,NE29,N02
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Tumour or malignancy,Secondary intracranial tumour,4.2.39.2,1.4.2.39.2,2.4.2.39.2,NE32,N02
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Vascular,Berry or other intracranial aneurysm,4.2.41.1,1.4.2.41.1,2.4.2.41.1,NE4,N14
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Vascular,Intracranial arterio-venous malformation,4.2.41.2,1.4.2.41.2,2.4.2.41.2,NE1,N14
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Vascular,Thrombo-occlusive disease of brain,4.2.41.3,1.4.2.41.3,2.4.2.41.3,NE38,N13
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Vascular,Arterial air embolus,4.2.41.4,1.4.2.41.4,2.4.2.41.4,NE41,N13
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Vascular,Vasculitis of cerebral circulation,4.2.41.5,1.4.2.41.5,2.4.2.41.5,NE40,C12
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Vascular,Embolic brain lesions causing respiratory failure,4.2.41.6,1.4.2.41.6,2.4.2.41.6,NE46,N13
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Vascular,Venous sinus thrombosis,4.2.41.7,1.4.2.41.7,2.4.2.41.7,NE76,N13
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Trauma,Primary (diffuse) brain injury,4.2.56.1,1.4.2.56.1,2.4.2.56.1,NE54,N03
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Trauma,Traumatic subdural haemorrhage,4.2.56.2,1.4.2.56.2,2.4.2.56.2,NE75,N06
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Trauma,Traumatic subarachnoid haemorrhage,4.2.56.3,1.4.2.56.3,2.4.2.56.3,NE74,N06
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Trauma,Non-accidental injury to brain,4.2.56.4,1.4.2.56.4,2.4.2.56.4,NE28,N03
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Trauma,Skull fracture,4.2.56.5,1.4.2.56.5,2.4.2.56.5,NE70,N03
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Trauma,Extradural haemorrhage,4.2.56.6,1.4.2.56.6,2.4.2.56.6,NE14,N06
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Trauma,Focal brain injury,4.2.56.7,1.4.2.56.7,2.4.2.56.7,NE66,N03
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Trauma,"Intracranial injury, unspecified",4.2.56.8,1.4.2.56.8,2.4.2.56.8,NE68,N03
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Non-traumatic aneurysm,Berry or other intracranial aneurysm,4.2.57.1,1.4.2.57.1,2.4.2.57.1,NE4,N14
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Toxic or drug induced coma or encephalopathy,4.2.7.1,1.4.2.7.1,2.4.2.7.1,NE15,M27
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Admission solely for purposes of donation after cardiac death (DCD),4.2.7.10,1.4.2.7.10,2.4.2.7.10,NE83,NCA
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Metabolic coma or encephalopathy,4.2.7.2,1.4.2.7.2,2.4.2.7.2,NE22,M27
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Anoxic or ischaemic coma or encephalopathy,4.2.7.3,1.4.2.7.3,2.4.2.7.3,RE8,N27
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Degenerative coma or encephalopathy,4.2.7.4,1.4.2.7.4,2.4.2.7.4,NE45,N35
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Anaesthesia related encephalopathy,4.2.7.5,1.4.2.7.5,2.4.2.7.5,NE53,M27
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Admission solely for purposes of donation after brainstem death (DBD),4.2.7.6,1.4.2.7.6,2.4.2.7.6,NE5,NCA
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Primary (diffuse) brain injury,4.2.7.7,1.4.2.7.7,2.4.2.7.7,NE54,N03
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Reye's or Reye-like syndrome ,4.2.7.8,1.4.2.7.8,2.4.2.7.8,NE55,M27
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Coma or encephalopathy,Hypertension encephalopathy,4.2.7.9,1.4.2.7.9,2.4.2.7.9,NE84,M27
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Congenital hydrocephalus,4.2.8.1,1.4.2.8.1,2.4.2.8.1,NE44,N14
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Trigeminal neuralgia,4.2.8.10,1.4.2.8.10,2.4.2.8.10,NE85,N14
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Secondary hydrocephalus,4.2.8.2,1.4.2.8.2,2.4.2.8.2,NE56,N14
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Arnold-Chiari malformation,4.2.8.3,1.4.2.8.3,2.4.2.8.3,RE9,N14
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Cerebral palsy,4.2.8.4,1.4.2.8.4,2.4.2.8.4,NE8,N14
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Congenital abnormality of skull,4.2.8.5,1.4.2.8.5,2.4.2.8.5,NE43,N14
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Parkinson's Disease,4.2.8.6,1.4.2.8.6,2.4.2.8.6,RE87,N35
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Multiple sclerosis,4.2.8.7,1.4.2.8.7,2.4.2.8.7,NE26,N35
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Central hypoventilation (Ondine's curse),4.2.8.8,1.4.2.8.8,2.4.2.8.8,NE7,N14
+Neurological (incl eyes),"Brain, CSF, meninges or skull vault",Congenital or acquired deformity or abnormality,Intracerebral cyst,4.2.8.9,1.4.2.8.9,2.4.2.8.9,NE67,N02
+Neurological (incl eyes),Spinal cord,Epidural or spinal drug administration,Epidural injection or infusion,4.3.12.1,1.4.3.12.1,2.4.3.12.1,NE12,N08
+Neurological (incl eyes),Spinal cord,Epidural or spinal drug administration,Spinal injection or infusion,4.3.12.2,1.4.3.12.2,2.4.3.12.2,RE107,N08
+Neurological (incl eyes),Spinal cord,Haemorrhage,Extradural haemorrhage,4.3.15.1,1.4.3.15.1,2.4.3.15.1,NE14,N06
+Neurological (incl eyes),Spinal cord,Haemorrhage,Spinal cord haematoma,4.3.15.2,1.4.3.15.2,2.4.3.15.2,NE71,N03
+Neurological (incl eyes),Spinal cord,Infection,Epidural or subdural abscess,4.3.27.1,1.4.3.27.1,2.4.3.27.1,NE48,N01
+Neurological (incl eyes),Spinal cord,Infection,Poliomyelitis,4.3.27.2,1.4.3.27.2,2.4.3.27.2,RE96,N01
+Neurological (incl eyes),Spinal cord,Infection,Tetanus,4.3.27.3,1.4.3.27.3,2.4.3.27.3,NE36,N01
+Neurological (incl eyes),Spinal cord,Tumour or malignancy,Primary cord or meninges tumour,4.3.39.1,1.4.3.39.1,2.4.3.39.1,NE30,N02
+Neurological (incl eyes),Spinal cord,Tumour or malignancy,Extrinsic compression of cord by non-neural tumour,4.3.39.2,1.4.3.39.2,2.4.3.39.2,NE16,N02
+Neurological (incl eyes),Spinal cord,Vascular,Spinal cord ischaemia,4.3.41.1,1.4.3.41.1,2.4.3.41.1,NE72,C12
+Neurological (incl eyes),Spinal cord,Vascular,Arterio-venous malformation,4.3.41.2,1.4.3.41.2,2.4.3.41.2,NE86,N14
+Neurological (incl eyes),Spinal cord,Trauma,Cervical cord injury,4.3.56.1,1.4.3.56.1,2.4.3.56.1,NE9,N03
+Neurological (incl eyes),Spinal cord,Trauma,Thoracic cord injury,4.3.56.2,1.4.3.56.2,2.4.3.56.2,NE37,N03
+Neurological (incl eyes),Spinal cord,Trauma,Lumbar cord or cauda equina injury,4.3.56.3,1.4.3.56.3,2.4.3.56.3,NE13,N03
+Neurological (incl eyes),Spinal cord,Trauma,Chronic spinal cord injury,4.3.56.4,1.4.3.56.4,2.4.3.56.4,NE42,N03
+Neurological (incl eyes),Spinal cord,Congenital or acquired deformity or abnormality,Compression of spinal cord or nerve root by intervertebral disc,4.3.8.1,1.4.3.8.1,2.4.3.8.1,NE10,N14
+Neurological (incl eyes),Spinal cord,Congenital or acquired deformity or abnormality,Spinal stenosis,4.3.8.2,1.4.3.8.2,2.4.3.8.2,NE34,N14
+Neurological (incl eyes),Spinal cord,Congenital or acquired deformity or abnormality,Spina bifida or meningomyelocele,4.3.8.3,1.4.3.8.3,2.4.3.8.3,NE33,N14
+Neurological (incl eyes),Spinal cord,Congenital or acquired deformity or abnormality,Multiple sclerosis,4.3.8.4,1.4.3.8.4,2.4.3.8.4,NE26,N35
+Neurological (incl eyes),Spinal cord,Congenital or acquired deformity or abnormality,Spinal syrinx,4.3.8.5,1.4.3.8.5,2.4.3.8.5,NE73,N14
+Neurological (incl eyes),Spinal cord,Degeneration,Motor neurone disease,4.3.9.1,1.4.3.9.1,2.4.3.9.1,NE24,N08
+Neurological (incl eyes),Spinal cord,Degeneration,Transverse myelitis,4.3.9.2,1.4.3.9.2,2.4.3.9.2,NE62,N35
+Neurological (incl eyes),Peripheral nervous system,Infection,Infective polyneuropathy,4.4.27.1,1.4.4.27.1,2.4.4.27.1,NE18,N01
+Neurological (incl eyes),Peripheral nervous system,Infection,Leprosy,4.4.27.2,1.4.4.27.2,2.4.4.27.2,DE19,M01
+Neurological (incl eyes),Peripheral nervous system,Infection,Botulism,4.4.27.3,1.4.4.27.3,2.4.4.27.3,NE64,N01
+Neurological (incl eyes),Peripheral nervous system,Inflammation,Guillain-Barr� syndrome,4.4.28.1,1.4.4.28.1,2.4.4.28.1,RE52,N08
+Neurological (incl eyes),Peripheral nervous system,Inflammation,Toxic polyneuropathy,4.4.28.2,1.4.4.28.2,2.4.4.28.2,NE60,N08
+Neurological (incl eyes),Peripheral nervous system,Inflammation,Autoimmune polyneuropathy,4.4.28.3,1.4.4.28.3,2.4.4.28.3,NE3,N08
+Neurological (incl eyes),Peripheral nervous system,Inflammation,Porphyria,4.4.28.4,1.4.4.28.4,2.4.4.28.4,HA27,H32
+Neurological (incl eyes),Peripheral nervous system,Inflammation,Critical illness polyneuropathy,4.4.28.5,1.4.4.28.5,2.4.4.28.5,NE80,N08
+Neurological (incl eyes),Peripheral nervous system,Trauma,Brachial plexus injury,4.4.56.1,1.4.4.56.1,2.4.4.56.1,NE39,N03
+Neurological (incl eyes),Peripheral nervous system,Trauma,Lumbar plexus injury,4.4.56.2,1.4.4.56.2,2.4.4.56.2,NE20,N03
+Neurological (incl eyes),Peripheral nervous system,Degeneration,Motor neurone disease,4.4.9.1,1.4.4.9.1,2.4.4.9.1,NE24,N08
+Neurological (incl eyes),NMJ disorders,Congenital or acquired deformity or abnormality,Pseudocholinesterase deficiency,4.5.8.1,1.4.5.8.1,2.4.5.8.1,NE31,N08
+Neurological (incl eyes),NMJ disorders,Congenital or acquired deformity or abnormality,Failure of reversal of non-depolarising neuromuscular blockers,4.5.8.2,1.4.5.8.2,2.4.5.8.2,NE17,N08
+Neurological (incl eyes),NMJ disorders,Congenital or acquired deformity or abnormality,Myasthenia gravi, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with sedatives or hypnotic, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with alcohol,, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with carbon monoxide,6, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with gases (not carbon monoxide),6, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with agent not defined,6, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with warfarin,6., Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with narcotic, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with tri- or tetracyclic antidepressant, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with non-cyclic antidepressant, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with cardiovascular drug, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with aspiri, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with paracetamo, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with industrial or agricultural chemical, Met, Thermoreg & poisoning,"Accidental intoxication, poisoning or medication event",Adverse event associated with insuli, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with sedatives or hypnotics,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with alcohol,6.8., Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with carbon monoxide,6.8., Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with gases (not carbon monoxide),6.8., Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with agent not defined,6.8., Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with warfarin,6.8.3, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with narcotics,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with tri- or tetracyclic antidepressants,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with non-cyclic antidepressants,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with cardiovascular drugs,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with aspirin,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with paracetamol,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with industrial or agricultural chemicals,6, Met, Thermoreg & poisoning,Self-harm or self poisoning,Self-harm with insulin,6.8.34.9,1.6.8.34.9,2.6.8.34.9,EN95,N04
 Genito-urinary,Kidney or ureter,Failure,Acute renal failure due to infection,7.1.13.1,1.7.1.13.1,2.7.1.13.1,GE5,M28
 Genito-urinary,Kidney or ureter,Failure,Acute renal failure due to haemodynamic causes,7.1.13.2,1.7.1.13.2,2.7.1.13.2,GE4,M28
 Genito-urinary,Kidney or ureter,Failure,Acute renal failure due to toxic or drug causes,7.1.13.3,1.7.1.13.3,2.7.1.13.3,GE6,K36
@@ -1192,47 +1192,47 @@ Genito-urinary,Bladder or urethra,"Non-traumatic perforation, rupture or fistula
 Genito-urinary,Bladder or urethra,"Non-traumatic perforation, rupture or fistula",Non-trauma related urethral fistula,7.2.57.4,1.7.2.57.4,2.7.2.57.4,GE90,K26
 Genito-urinary,Bladder or urethra,Congenital or acquired deformity or abnormality,Abnormality of bladder or urinary diversion procedure,7.2.8.1,1.7.2.8.1,2.7.2.8.1,GE1,K14
 Genito-urinary,Bladder or urethra,Congenital or acquired deformity or abnormality,Abnormality of urethra,7.2.8.2,1.7.2.8.2,2.7.2.8.2,GE2,K14
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Haemorrhage,Haemorrhage from uterus,7.3.15.1,1.7.3.15.1,2.7.3.15.1,GE24,K23
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Haemorrhage,Haemorrhage from ovary or fallopian tubes,7.3.15.2,1.7.3.15.2,2.7.3.15.2,GE22,K23
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Infection,Uterine cavity infection,7.3.27.1,1.7.3.27.1,2.7.3.27.1,GE56,K01
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Infection,Pelvic infection or abscess,7.3.27.2,1.7.3.27.2,2.7.3.27.2,GE36,K01
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Infection,Toxic shock syndrome,7.3.27.3,1.7.3.27.3,2.7.3.27.3,GE51,K01
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Infection,Tubo-ovarian abscess,7.3.27.4,1.7.3.27.4,2.7.3.27.4,GE53,K01
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Over-activity,Ovarian hyperstimulation,7.3.32.1,1.7.3.32.1,2.7.3.32.1,EN55,K30
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Tumour or malignancy,Ovarian tumour,7.3.39.1,1.7.3.39.1,2.7.3.39.1,EN56,K02
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Tumour or malignancy,Vulval or vaginal tumour,7.3.39.3,1.7.3.39.3,2.7.3.39.3,GE59,K02
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Tumour or malignancy,Ovarian cyst,7.3.39.4,1.7.3.39.4,2.7.3.39.4,GE35,K35
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Tumour or malignancy,Uterine tumour (non-fibroids),7.3.39.5,1.7.3.39.5,2.7.3.39.5,GE80,K02
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Tumour or malignancy,Uterine fibroids,7.3.39.6,1.7.3.39.6,2.7.3.39.6,GE81,K02
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),Traumatic perforation or rupture of uterus,7.3.56.1,1.7.3.56.1,2.7.3.56.1,GE87,K03
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),"Instrumental damage to uterus, ovaries or fallopian tubes",7.3.56.2,1.7.3.56.2,2.7.3.56.2,GE62,K03
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),Non-accidental injury to female genitalia ,7.3.56.3,1.7.3.56.3,2.7.3.56.3,GE33,K03
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),Traumatic damage to uterine vessels,7.3.56.4,1.7.3.56.4,2.7.3.56.4,GE91,K03
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),Instrumental damage to uterine vessels,7.3.56.5,1.7.3.56.5,2.7.3.56.5,GE92,K03
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),Traumatic damage to ovarian vessels,7.3.56.6,1.7.3.56.6,2.7.3.56.6,GE93,K03
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Trauma (or traumatic perforation or rupture),Instrumental damage to ovarian vessels,7.3.56.7,1.7.3.56.7,2.7.3.56.7,GE94,K03
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Non-traumatic rupture,Non-traumatic rupture of uterus,7.3.57.1,1.7.3.57.1,2.7.3.57.1,GE88,K26
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obstetric)",Congenital or acquired deformity or abnormality,Abnormality of external genitalia,7.3.8.1,1.7.3.8.1,2.7.3.8.1,GE74,K14
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Haemorrhage,Antepartum haemorrhage,7.4.15.1,1.7.4.15.1,2.7.4.15.1,GE11,K23
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Haemorrhage,Ectopic pregnancy,7.4.15.3,1.7.4.15.3,2.7.4.15.3,GE19,K23
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Haemorrhage,Peripartum haemorrhage,7.4.15.4,1.7.4.15.4,2.7.4.15.4,GE82,K23
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Haemorrhage,Postpartum haemorrhage,7.4.15.5,1.7.4.15.5,2.7.4.15.5,GE83,K23
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Infection,Amnionitis,7.4.27.1,1.7.4.27.1,2.7.4.27.1,GE9,K01
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Infection,Pelvic infection or abscess,7.4.27.2,1.7.4.27.2,2.7.4.27.2,GE36,K01
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Infection,Infected retained products of conception,7.4.27.3,1.7.4.27.3,2.7.4.27.3,GE25,K01
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Infection,Septic abortion,7.4.27.4,1.7.4.27.4,2.7.4.27.4,GE49,K01
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Inflammation (intrauterine death),Intrauterine death,7.4.28.1,1.7.4.28.1,2.7.4.28.1,GE28,K01
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Over-activity,Ovarian hyperstimulation,7.4.32.1,1.7.4.32.1,2.7.4.32.1,EN55,K30
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Tumour or malignancy,Molar pregnancy,7.4.39.1,1.7.4.39.1,2.7.4.39.1,GE31,K02
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Vascular,Amniotic fluid embolus,7.4.41.1,1.7.4.41.1,2.7.4.41.1,GE10,R13
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Vascular,HELLP syndrome,7.4.41.2,1.7.4.41.2,2.7.4.41.2,HA28,C16
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Vascular,Pre-eclampsia,7.4.41.3,1.7.4.41.3,2.7.4.41.3,GE40,C16
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Pregnancy,Normal pregnancy,7.4.55.1,1.7.4.55.1,2.7.4.55.1,GE76,NCA
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Pregnancy,Ectopic pregnancy,7.4.55.2,1.7.4.55.2,2.7.4.55.2,GE19,K23
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Pregnancy,Molar pregnancy,7.4.55.3,1.7.4.55.3,2.7.4.55.3,GE31,K02
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Trauma (or traumatic perforation or rupture),Traumatic perforation or rupture of uterus,7.4.56.1,1.7.4.56.1,2.7.4.56.1,GE87,K03
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Trauma (or traumatic perforation or rupture),"Instrumental damage to uterus, ovaries or fallopian tubes",7.4.56.2,1.7.4.56.2,2.7.4.56.2,GE62,K03
-Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obstetric)",Non-traumatic rupture,Non-traumatic rupture of uterus,7.4.57.1,1.7.4.57.1,2.7.4.57.1,GE88,K26
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Haemorrhage,Haemorrhage from uterus,7.3.15.1,1.7.3.15.1,2.7.3.15.1,GE24,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Haemorrhage,Haemorrhage from ovary or fallopian tubes,7.3.15.2,1.7.3.15.2,2.7.3.15.2,GE22,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Infection,Uterine cavity infection,7.3.27.1,1.7.3.27.1,2.7.3.27.1,GE56,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Infection,Pelvic infection or abscess,7.3.27.2,1.7.3.27.2,2.7.3.27.2,GE36,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Infection,Toxic shock syndrome,7.3.27.3,1.7.3.27.3,2.7.3.27.3,GE51,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Infection,Tubo-ovarian abscess,7.3.27.4,1.7.3.27.4,2.7.3.27.4,GE53,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Over-activity,Ovarian hyperstimulation,7.3.32.1,1.7.3.32.1,2.7.3.32.1,EN55,K30
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Tumour or malignancy,Ovarian tumour,7.3.39.1,1.7.3.39.1,2.7.3.39.1,EN56,K02
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Tumour or malignancy,Vulval or vaginal tumour,7.3.39.3,1.7.3.39.3,2.7.3.39.3,GE59,K02
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Tumour or malignancy,Ovarian cyst,7.3.39.4,1.7.3.39.4,2.7.3.39.4,GE35,K35
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Tumour or malignancy,Uterine tumour (non-fibroids),7.3.39.5,1.7.3.39.5,2.7.3.39.5,GE80,K02
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Tumour or malignancy,Uterine fibroids,7.3.39.6,1.7.3.39.6,2.7.3.39.6,GE81,K02
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Trauma (or traumatic perforation or rupture),Traumatic perforation or rupture of uterus,7.3.56.1,1.7.3.56.1,2.7.3.56.1,GE87,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Trauma (or traumatic perforation or rupture),"Instrumental damage to uterus, ovaries or fallopian tubes",7.3.56.2,1.7.3.56.2,2.7.3.56.2,GE62,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Trauma (or traumatic perforation or rupture),Non-accidental injury to female genitalia ,7.3.56.3,1.7.3.56.3,2.7.3.56.3,GE33,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Trauma (or traumatic perforation or rupture),Traumatic damage to uterine vessels,7.3.56.4,1.7.3.56.4,2.7.3.56.4,GE91,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Trauma (or traumatic perforation or rupture),Instrumental damage to uterine vessels,7.3.56.5,1.7.3.56.5,2.7.3.56.5,GE92,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Trauma (or traumatic perforation or rupture),Traumatic damage to ovarian vessels,7.3.56.6,1.7.3.56.6,2.7.3.56.6,GE93,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Trauma (or traumatic perforation or rupture),Instrumental damage to ovarian vessels,7.3.56.7,1.7.3.56.7,2.7.3.56.7,GE94,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Non-traumatic rupture,Non-traumatic rupture of uterus,7.3.57.1,1.7.3.57.1,2.7.3.57.1,GE88,K26
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (non-obs)",Congenital or acquired deformity or abnormality,Abnormality of external genitalia,7.3.8.1,1.7.3.8.1,2.7.3.8.1,GE74,K14
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Haemorrhage,Antepartum haemorrhage,7.4.15.1,1.7.4.15.1,2.7.4.15.1,GE11,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Haemorrhage,Ectopic pregnancy,7.4.15.3,1.7.4.15.3,2.7.4.15.3,GE19,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Haemorrhage,Peripartum haemorrhage,7.4.15.4,1.7.4.15.4,2.7.4.15.4,GE82,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Haemorrhage,Postpartum haemorrhage,7.4.15.5,1.7.4.15.5,2.7.4.15.5,GE83,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Infection,Amnionitis,7.4.27.1,1.7.4.27.1,2.7.4.27.1,GE9,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Infection,Pelvic infection or abscess,7.4.27.2,1.7.4.27.2,2.7.4.27.2,GE36,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Infection,Infected retained products of conception,7.4.27.3,1.7.4.27.3,2.7.4.27.3,GE25,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Infection,Septic abortion,7.4.27.4,1.7.4.27.4,2.7.4.27.4,GE49,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Inflammation (intrauterine death),Intrauterine death,7.4.28.1,1.7.4.28.1,2.7.4.28.1,GE28,K01
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Over-activity,Ovarian hyperstimulation,7.4.32.1,1.7.4.32.1,2.7.4.32.1,EN55,K30
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Tumour or malignancy,Molar pregnancy,7.4.39.1,1.7.4.39.1,2.7.4.39.1,GE31,K02
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Vascular,Amniotic fluid embolus,7.4.41.1,1.7.4.41.1,2.7.4.41.1,GE10,R13
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Vascular,HELLP syndrome,7.4.41.2,1.7.4.41.2,2.7.4.41.2,HA28,C16
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Vascular,Pre-eclampsia,7.4.41.3,1.7.4.41.3,2.7.4.41.3,GE40,C16
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Pregnancy,Normal pregnancy,7.4.55.1,1.7.4.55.1,2.7.4.55.1,GE76,NCA
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Pregnancy,Ectopic pregnancy,7.4.55.2,1.7.4.55.2,2.7.4.55.2,GE19,K23
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Pregnancy,Molar pregnancy,7.4.55.3,1.7.4.55.3,2.7.4.55.3,GE31,K02
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Trauma (or traumatic perforation or rupture),Traumatic perforation or rupture of uterus,7.4.56.1,1.7.4.56.1,2.7.4.56.1,GE87,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Trauma (or traumatic perforation or rupture),"Instrumental damage to uterus, ovaries or fallopian tubes",7.4.56.2,1.7.4.56.2,2.7.4.56.2,GE62,K03
+Genito-urinary,"Ovary, fallopian tubes, uterus or genitalia (obs)",Non-traumatic rupture,Non-traumatic rupture of uterus,7.4.57.1,1.7.4.57.1,2.7.4.57.1,GE88,K26
 Genito-urinary,"Testes, prostate or penis",Haemorrhage,Haemorrhage from prostate gland,7.5.15.1,1.7.5.15.1,2.7.5.15.1,GE16,K23
 Genito-urinary,"Testes, prostate or penis",Infection,Prostatitis,7.5.27.1,1.7.5.27.1,2.7.5.27.1,GE41,K01
 Genito-urinary,"Testes, prostate or penis",Infection,"Testicular, prostatatic or penile abscess",7.5.27.2,1.7.5.27.2,2.7.5.27.2,GE3,K01
@@ -1244,133 +1244,133 @@ Genito-urinary,"Testes, prostate or penis",Trauma,"Traumatic damage to testes, p
 Genito-urinary,"Testes, prostate or penis",Trauma,"Instrumental damage to testes, prostrate or penis",7.5.56.2,1.7.5.56.2,2.7.5.56.2,GE26,K03
 Genito-urinary,"Testes, prostate or penis",Trauma,Non-accidental injury to male genitalia,7.5.56.3,1.7.5.56.3,2.7.5.56.3,GE34,K03
 Genito-urinary,"Testes, prostate or penis",Congenital or acquired deformity or abnormality,"Abnormality of testes, prostate or penis",7.5.8.1,1.7.5.8.1,2.7.5.8.1,GE75,K14
-"Endo, Met, Thermoreg & poisoning",Thyroid,Haemorrhage,Haemorrhage into or from thyroid,8.1.15.1,1.8.1.15.1,2.8.1.15.1,EN27,M23
-"Endo, Met, Thermoreg & poisoning",Thyroid,Over-activity,Hyperthyroidism,8.1.32.1,1.8.1.32.1,2.8.1.32.1,EN32,M30
-"Endo, Met, Thermoreg & poisoning",Thyroid,Over-activity,Thyroid crisis,8.1.32.2,1.8.1.32.2,2.8.1.32.2,EN68,M30
-"Endo, Met, Thermoreg & poisoning",Thyroid,Tumour or malignancy,Thyroid tumour,8.1.39.1,1.8.1.39.1,2.8.1.39.1,EN70,M02
-"Endo, Met, Thermoreg & poisoning",Thyroid,Under-activity,Hypothyroidism or myxoedema,8.1.40.1,1.8.1.40.1,2.8.1.40.1,EN36,M30
-"Endo, Met, Thermoreg & poisoning",Thyroid,Congenital or acquired deformity or abnormality,Thyroid cysts,8.1.8.1,1.8.1.8.1,2.8.1.8.1,EN69,M14
-"Endo, Met, Thermoreg & poisoning",Chromosomal abnormalities,Sex chromosome disorders,Turner's syndrome (XO),8.11.46.1,1.8.11.46.1,2.8.11.46.1,EN83,M14
-"Endo, Met, Thermoreg & poisoning",Chromosomal abnormalities,Sex chromosome disorders,Klinefelter's syndrome (XXY),8.11.46.2,1.8.11.46.2,2.8.11.46.2,EN86,M14
-"Endo, Met, Thermoreg & poisoning",Chromosomal abnormalities,Sex chromosome disorders,"Sex chromosome disorder, neither Kleinfelter's syndrome (XXY) nor Turner's syndrome (XO)",8.11.46.3,1.8.11.46.3,2.8.11.46.3,EN75,M14
-"Endo, Met, Thermoreg & poisoning",Chromosomal abnormalities,Contiguous gene syndromes,Contiguous gene syndromes,8.11.47.1,1.8.11.47.1,2.8.11.47.1,EN85,M14
-"Endo, Met, Thermoreg & poisoning",Chromosomal abnormalities,Trisomy,Trisomy 18 (Edward's syndrome),8.11.53.1,1.8.11.53.1,2.8.11.53.1,EN81,M14
-"Endo, Met, Thermoreg & poisoning",Chromosomal abnormalities,Trisomy,Trisomy 21 (Down's syndrome),8.11.53.2,1.8.11.53.2,2.8.11.53.2,EN82,M14
-"Endo, Met, Thermoreg & poisoning",Chromosomal abnormalities,Trisomy,Trisomy 13 (Patau or trisomy D),8.11.53.3,1.8.11.53.3,2.8.11.53.3,EN80,M14
-"Endo, Met, Thermoreg & poisoning",Chromosomal abnormalities,Trisomy,"Trisomy, neither 13, 18 nor 21",8.11.53.4,1.8.11.53.4,2.8.11.53.4,EN76,M14
-"Endo, Met, Thermoreg & poisoning",Chromosomal abnormalities,Chromosomal deletion syndromes,Chromosomal deletion syndromes (partial monosomy),8.11.54.1,1.8.11.54.1,2.8.11.54.1,EN84,M14
-"Endo, Met, Thermoreg & poisoning",Pituitary,Haemorrhage,Pituitary haemorrhage,8.2.15.1,1.8.2.15.1,2.8.2.15.1,EN61,M30
-"Endo, Met, Thermoreg & poisoning",Pituitary,Over-activity,Cushing's syndrome,8.2.32.1,1.8.2.32.1,2.8.2.32.1,EN16,M30
-"Endo, Met, Thermoreg & poisoning",Pituitary,Over-activity,Acromegaly,8.2.32.2,1.8.2.32.2,2.8.2.32.2,EN2,M30
-"Endo, Met, Thermoreg & poisoning",Pituitary,Over-activity,Prolactinoma,8.2.32.3,1.8.2.32.3,2.8.2.32.3,EN63,M02
-"Endo, Met, Thermoreg & poisoning",Pituitary,Tumour or malignancy,Cushing's syndrome,8.2.39.1,1.8.2.39.1,2.8.2.39.1,EN16,M30
-"Endo, Met, Thermoreg & poisoning",Pituitary,Tumour or malignancy,Acromegaly,8.2.39.2,1.8.2.39.2,2.8.2.39.2,EN2,M30
-"Endo, Met, Thermoreg & poisoning",Pituitary,Tumour or malignancy,Prolactinoma,8.2.39.3,1.8.2.39.3,2.8.2.39.3,EN63,M02
-"Endo, Met, Thermoreg & poisoning",Pituitary,Tumour or malignancy,Pituitary tumour not defined,8.2.39.4,1.8.2.39.4,2.8.2.39.4,EN54,M02
-"Endo, Met, Thermoreg & poisoning",Pituitary,Under-activity,Diabetes insipidus (central),8.2.40.1,1.8.2.40.1,2.8.2.40.1,EN18,M30
-"Endo, Met, Thermoreg & poisoning",Pituitary,Under-activity,Hypopituitarism,8.2.40.2,1.8.2.40.2,2.8.2.40.2,EN35,M30
-"Endo, Met, Thermoreg & poisoning",Adrenal,Haemorrhage,Haemorrhage into or from adrenal,8.3.15.1,1.8.3.15.1,2.8.3.15.1,EN5,M30
-"Endo, Met, Thermoreg & poisoning",Adrenal,Over-activity,Cushing's syndrome,8.3.32.1,1.8.3.32.1,2.8.3.32.1,EN16,M30
-"Endo, Met, Thermoreg & poisoning",Adrenal,Tumour or malignancy,Phaeochromocytoma,8.3.39.1,1.8.3.39.1,2.8.3.39.1,CA91,K02
-"Endo, Met, Thermoreg & poisoning",Adrenal,Tumour or malignancy,Adrenocortical tumour,8.3.39.2,1.8.3.39.2,2.8.3.39.2,EN6,M02
-"Endo, Met, Thermoreg & poisoning",Adrenal,Under-activity,Addison's disease,8.3.40.1,1.8.3.40.1,2.8.3.40.1,EN4,M30
-"Endo, Met, Thermoreg & poisoning",Adrenal,Congenital or acquired deformity or abnormality,Inborn errors of adrenal function,8.3.8.1,1.8.3.8.1,2.8.3.8.1,EN39,M14
-"Endo, Met, Thermoreg & poisoning",Endocrine pancreas,Diabetes mellitus,Diabetic ketoacidosis,8.4.10.1,1.8.4.10.1,2.8.4.10.1,EN20,M29
-"Endo, Met, Thermoreg & poisoning",Endocrine pancreas,Diabetes mellitus,Hyperosmolar coma,8.4.10.2,1.8.4.10.2,2.8.4.10.2,EN31,M29
-"Endo, Met, Thermoreg & poisoning",Endocrine pancreas,Diabetes mellitus,Hypoglycaemia due to insulin therapy,8.4.10.3,1.8.4.10.3,2.8.4.10.3,EN33,M30
-"Endo, Met, Thermoreg & poisoning",Endocrine pancreas,Diabetes mellitus,Insulinoma,8.4.10.4,1.8.4.10.4,2.8.4.10.4,EN43,M02
-"Endo, Met, Thermoreg & poisoning",Endocrine pancreas,Diabetes mellitus,Diabetes mellitus,8.4.10.5,1.8.4.10.5,2.8.4.10.5,EN19,M30
-"Endo, Met, Thermoreg & poisoning",Endocrine pancreas,Transplant (or related),Islet cell allograft,8.4.37.1,1.8.4.37.1,2.8.4.37.1,EN44,M33
-"Endo, Met, Thermoreg & poisoning",Endocrine pancreas,Tumour or malignancy,Insulinoma,8.4.39.1,1.8.4.39.1,2.8.4.39.1,EN43,M02
-"Endo, Met, Thermoreg & poisoning",Parathyroids,Over-activity,Hypercalcaemia,8.5.32.1,1.8.5.32.1,2.8.5.32.1,EN29,M28
-"Endo, Met, Thermoreg & poisoning",Parathyroids,Tumour or malignancy,Parathyroid tumour,8.5.39.1,1.8.5.39.1,2.8.5.39.1,EN60,M02
-"Endo, Met, Thermoreg & poisoning",Parathyroids,Under-activity,Congenital hypoparathyroidism,8.5.40.1,1.8.5.40.1,2.8.5.40.1,EN15,M14
-"Endo, Met, Thermoreg & poisoning",Parathyroids,Under-activity,Autoimmune hypoparathyroidism,8.5.40.2,1.8.5.40.2,2.8.5.40.2,EN12,M30
-"Endo, Met, Thermoreg & poisoning",Parathyroids,Under-activity,Post-surgical hypoparathyroidism,8.5.40.3,1.8.5.40.3,2.8.5.40.3,EN62,M30
-"Endo, Met, Thermoreg & poisoning",Parathyroids,Congenital or acquired deformity or abnormality,Congenital hypoparathyroidism,8.5.8.1,1.8.5.8.1,2.8.5.8.1,EN15,M14
-"Endo, Met, Thermoreg & poisoning",Parathyroids,Congenital or acquired deformity or abnormality,Autoimmune hypoparathyroidism,8.5.8.2,1.8.5.8.2,2.8.5.8.2,EN12,M30
-"Endo, Met, Thermoreg & poisoning",Parathyroids,Congenital or acquired deformity or abnormality,Post-surgical hypoparathyroidism,8.5.8.3,1.8.5.8.3,2.8.5.8.3,EN62,M30
-"Endo, Met, Thermoreg & poisoning",Ovaries,Over-activity,Ovarian hyperstimulation,8.6.32.1,1.8.6.32.1,2.8.6.32.1,EN55,K30
-"Endo, Met, Thermoreg & poisoning",Ovaries,Tumour or malignancy,Ovarian tumour,8.6.39.1,1.8.6.39.1,2.8.6.39.1,EN56,K02
-"Endo, Met, Thermoreg & poisoning",Ovaries,Tumour or malignancy,Ovarian cyst,8.6.39.2,1.8.6.39.2,2.8.6.39.2,GE35,K35
-"Endo, Met, Thermoreg & poisoning",Thermoregulation,Hyperthermia,Malignant hyperpyrexia,8.7.20.1,1.8.7.20.1,2.8.7.20.1,EN46,M31
-"Endo, Met, Thermoreg & poisoning",Thermoregulation,Hyperthermia,Drug induced hyperpyrexia or neuroleptic malignant syndrome,8.7.20.2,1.8.7.20.2,2.8.7.20.2,EN51,M31
-"Endo, Met, Thermoreg & poisoning",Thermoregulation,Hyperthermia,Heat-stroke or heat exhaustion,8.7.20.3,1.8.7.20.3,2.8.7.20.3,EN28,M28
-"Endo, Met, Thermoreg & poisoning",Thermoregulation,Hypothermia,Accidental hypothermia,8.7.26.1,1.8.7.26.1,2.8.7.26.1,EN1,M31
-"Endo, Met, Thermoreg & poisoning",Thermoregulation,Hypothermia,Induced hypothermia,8.7.26.2,1.8.7.26.2,2.8.7.26.2,EN41,M31
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with sedatives or hypnotics,8.8.1.1,1.8.8.1.1,2.8.8.1.1,EN66,N36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with alcohol,8.8.1.10,1.8.8.1.10,2.8.8.1.10,EN7,N36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with carbon monoxide,8.8.1.11,1.8.8.1.11,2.8.8.1.11,EN88,R36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with gases (not carbon monoxide),8.8.1.12,1.8.8.1.12,2.8.8.1.12,EN90,R36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with agent not defined,8.8.1.13,1.8.8.1.13,2.8.8.1.13,EN50,N36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with warfarin,8.8.1.14,1.8.8.1.14,2.8.8.1.14,EN103,H36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with narcotics,8.8.1.2,1.8.8.1.2,2.8.8.1.2,EN49,N36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with tri- or tetracyclic antidepressants,8.8.1.3,1.8.8.1.3,2.8.8.1.3,EN87,N36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with non-cyclic antidepressants,8.8.1.4,1.8.8.1.4,2.8.8.1.4,EN10,N36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with cardiovascular drugs,8.8.1.5,1.8.8.1.5,2.8.8.1.5,EN13,C36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with aspirin,8.8.1.6,1.8.8.1.6,2.8.8.1.6,EN11,N36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with paracetamol,8.8.1.7,1.8.8.1.7,2.8.8.1.7,EN91,N36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with industrial or agricultural chemicals,8.8.1.8,1.8.8.1.8,2.8.8.1.8,EN89,N36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with insulin,8.8.1.9,1.8.8.1.9,2.8.8.1.9,EN42,M36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hyperglycaemia,Diabetic ketoacidosis,8.8.16.1,1.8.8.16.1,2.8.8.16.1,EN20,M29
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hyperglycaemia,Hyperosmolar states,8.8.16.2,1.8.8.16.2,2.8.8.16.2,EN74,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hyperkalaemia,Iatrogenic potassium intoxication,8.8.17.1,1.8.8.17.1,2.8.8.17.1,EN38,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hyperkalaemia,Familial periodic paralysis,8.8.17.3,1.8.8.17.3,2.8.8.17.3,EN25,N08
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hyperkalaemia,Acute renal failure due to infection,8.8.17.4,1.8.8.17.4,2.8.8.17.4,GE5,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hyperkalaemia,Acute renal failure due to haemodynamic causes,8.8.17.5,1.8.8.17.5,2.8.8.17.5,GE4,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hyperkalaemia,Acute renal failure due to toxic or drug causes,8.8.17.6,1.8.8.17.6,2.8.8.17.6,GE6,K36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hyperkalaemia,Chronic renal failure,8.8.17.7,1.8.8.17.7,2.8.8.17.7,GE17,K35
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hyperkalaemia,Acute renal failure due to haemolytic uraemic syndrome,8.8.17.8,1.8.8.17.8,2.8.8.17.8,HA37,H32
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypernatraemia,Water depletion,8.8.18.2,1.8.8.18.2,2.8.8.18.2,EN72,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypernatraemia,Excess sodium intake,8.8.18.3,1.8.8.18.3,2.8.8.18.3,EN24,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypernatraemia,Diabetes insipidus (central),8.8.18.4,1.8.8.18.4,2.8.8.18.4,EN18,M30
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypernatraemia,Diabetes insipidus (nephrogenic),8.8.18.5,1.8.8.18.5,2.8.8.18.5,EN106,M30
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Acidaemia,Hyperchloraemic acidosis,8.8.2.1,1.8.8.2.1,2.8.8.2.1,EN30,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Acidaemia,Lactic acidosis,8.8.2.2,1.8.8.2.2,2.8.8.2.2,EN45,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Acidaemia,Diabetic ketoacidosis,8.8.2.3,1.8.8.2.3,2.8.8.2.3,EN20,M29
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypocalcaemia,Hypoparathyroidism,8.8.21.1,1.8.8.21.1,2.8.8.21.1,EN34,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypocalcaemia,Chelating agent toxicity,8.8.21.2,1.8.8.21.2,2.8.8.21.2,EN14,M36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypoglycaemia,Hypoglycaemia due to insulin therapy,8.8.22.1,1.8.8.22.1,2.8.8.22.1,EN33,M30
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypoglycaemia,Insulinoma,8.8.22.2,1.8.8.22.2,2.8.8.22.2,EN43,M02
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypoglycaemia,Hypoglycaemia not due to excess insulin,8.8.22.3,1.8.8.22.3,2.8.8.22.3,EN53,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypokalaemia,Paraneoplastic hypokalaemia,8.8.23.1,1.8.8.23.1,2.8.8.23.1,EN59,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypokalaemia,Drug induced hypokalaemia,8.8.23.2,1.8.8.23.2,2.8.8.23.2,EN21,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypokalaemia,Renal hypokalaemia,8.8.23.3,1.8.8.23.3,2.8.8.23.3,GE67,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hyponatraemia,Water intoxication,8.8.24.1,1.8.8.24.1,2.8.8.24.1,EN73,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hyponatraemia,Iatrogenic hyponatraemia,8.8.24.2,1.8.8.24.2,2.8.8.24.2,EN37,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hyponatraemia,Paraneoplastic hyponatraemia,8.8.24.3,1.8.8.24.3,2.8.8.24.3,EN57,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Alcohol related disorders,Alcohol overdose,8.8.3.1,1.8.8.3.1,2.8.8.3.1,EN100,N36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Alcohol related disorders,Alcohol withdrawal seizures,8.8.3.2,1.8.8.3.2,2.8.8.3.2,EN8,N07
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Alcohol related disorders,Delerium tremens,8.8.3.3,1.8.8.3.3,2.8.8.3.3,EN17,M27
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Alcohol related disorders,Acute alcoholic hepatitis,8.8.3.4,1.8.8.3.4,2.8.8.3.4,EN3,G36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with sedatives or hypnotics,8.8.34.1,1.8.8.34.1,2.8.8.34.1,EN98,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with alcohol,8.8.34.10,1.8.8.34.10,2.8.8.34.10,EN99,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with carbon monoxide,8.8.34.11,1.8.8.34.11,2.8.8.34.11,EN64,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with gases (not carbon monoxide),8.8.34.12,1.8.8.34.12,2.8.8.34.12,EN77,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with agent not defined,8.8.34.13,1.8.8.34.13,2.8.8.34.13,EN97,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with warfarin,8.8.34.14,1.8.8.34.14,2.8.8.34.14,EN104,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with narcotics,8.8.34.2,1.8.8.34.2,2.8.8.34.2,EN96,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with tri- or tetracyclic antidepressants,8.8.34.3,1.8.8.34.3,2.8.8.34.3,EN79,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with non-cyclic antidepressants,8.8.34.4,1.8.8.34.4,2.8.8.34.4,EN92,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with cardiovascular drugs,8.8.34.5,1.8.8.34.5,2.8.8.34.5,EN94,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with aspirin,8.8.34.6,1.8.8.34.6,2.8.8.34.6,EN93,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with paracetamol ,8.8.34.7,1.8.8.34.7,2.8.8.34.7,EN78,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with industrial or agricultural chemicals ,8.8.34.8,1.8.8.34.8,2.8.8.34.8,EN65,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Self-harm or self poisoning,Self-harm with insulin,8.8.34.9,1.8.8.34.9,2.8.8.34.9,EN95,N04
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Alkalaemia,Gastric fluid loss,8.8.4.1,1.8.8.4.1,2.8.8.4.1,EN26,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Alkalaemia,Alkali ingestion,8.8.4.2,1.8.8.4.2,2.8.8.4.2,EN9,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypercalcaemia,Paraneoplastic hypercalcaemia,8.8.42.1,1.8.8.42.1,2.8.8.42.1,EN58,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypercalcaemia,Vitamin D intoxication,8.8.42.2,1.8.8.42.2,2.8.8.42.2,EN71,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypercalcaemia,Milk-alkali syndrome,8.8.42.3,1.8.8.42.3,2.8.8.42.3,EN47,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Hypercalcaemia,Hyperparathyroidism,8.8.42.4,1.8.8.42.4,2.8.8.42.4,EN105,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Fluid overload,Water intoxication,8.8.43.1,1.8.8.43.1,2.8.8.43.1,EN73,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Fluid overload,Excess parenteral fluids,8.8.43.2,1.8.8.43.2,2.8.8.43.2,EN23,M28
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Envenomation,Snake bite,8.8.44.1,1.8.8.44.1,2.8.8.44.1,EN67,M36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Envenomation,"Envenomation, not by snake bite",8.8.44.2,1.8.8.44.2,2.8.8.44.2,EN52,C36
-"Endo, Met, Thermoreg & poisoning",Body fluids or tissues,Inborn errors of metabolism,Inborn errors of metabolism,8.8.45.1,1.8.8.45.1,2.8.8.45.1,EN40,M14
-"Endo, Met, Thermoreg & poisoning",Body composition,Obesity,Morbid obesity,8.9.29.1,1.8.9.29.1,2.8.9.29.1,EN48,M35
-"Endo, Met, Thermoreg & poisoning",Body composition,Starvation,Eating disorder,8.9.36.1,1.8.9.36.1,2.8.9.36.1,EN22,M35
-"Endo, Met, Thermoreg & poisoning",Body composition,Starvation,Short bowel syndrome,8.9.36.2,1.8.9.36.2,2.8.9.36.2,EN102,M35
+"Endo, Met, Thermoreg & Tox",Thyroid,Haemorrhage,Haemorrhage into or from thyroid,8.1.15.1,1.8.1.15.1,2.8.1.15.1,EN27,M23
+"Endo, Met, Thermoreg & Tox",Thyroid,Over-activity,Hyperthyroidism,8.1.32.1,1.8.1.32.1,2.8.1.32.1,EN32,M30
+"Endo, Met, Thermoreg & Tox",Thyroid,Over-activity,Thyroid crisis,8.1.32.2,1.8.1.32.2,2.8.1.32.2,EN68,M30
+"Endo, Met, Thermoreg & Tox",Thyroid,Tumour or malignancy,Thyroid tumour,8.1.39.1,1.8.1.39.1,2.8.1.39.1,EN70,M02
+"Endo, Met, Thermoreg & Tox",Thyroid,Under-activity,Hypothyroidism or myxoedema,8.1.40.1,1.8.1.40.1,2.8.1.40.1,EN36,M30
+"Endo, Met, Thermoreg & Tox",Thyroid,Congenital or acquired deformity or abnormality,Thyroid cysts,8.1.8.1,1.8.1.8.1,2.8.1.8.1,EN69,M14
+"Endo, Met, Thermoreg & Tox",Chromosomal abnormalities,Sex chromosome disorders,Turner's syndrome (XO),8.11.46.1,1.8.11.46.1,2.8.11.46.1,EN83,M14
+"Endo, Met, Thermoreg & Tox",Chromosomal abnormalities,Sex chromosome disorders,Klinefelter's syndrome (XXY),8.11.46.2,1.8.11.46.2,2.8.11.46.2,EN86,M14
+"Endo, Met, Thermoreg & Tox",Chromosomal abnormalities,Sex chromosome disorders,"Sex chromosome disorder, neither Kleinfelter's syndrome (XXY) nor Turner's syndrome (XO)",8.11.46.3,1.8.11.46.3,2.8.11.46.3,EN75,M14
+"Endo, Met, Thermoreg & Tox",Chromosomal abnormalities,Contiguous gene syndromes,Contiguous gene syndromes,8.11.47.1,1.8.11.47.1,2.8.11.47.1,EN85,M14
+"Endo, Met, Thermoreg & Tox",Chromosomal abnormalities,Trisomy,Trisomy 18 (Edward's syndrome),8.11.53.1,1.8.11.53.1,2.8.11.53.1,EN81,M14
+"Endo, Met, Thermoreg & Tox",Chromosomal abnormalities,Trisomy,Trisomy 21 (Down's syndrome),8.11.53.2,1.8.11.53.2,2.8.11.53.2,EN82,M14
+"Endo, Met, Thermoreg & Tox",Chromosomal abnormalities,Trisomy,Trisomy 13 (Patau or trisomy D),8.11.53.3,1.8.11.53.3,2.8.11.53.3,EN80,M14
+"Endo, Met, Thermoreg & Tox",Chromosomal abnormalities,Trisomy,"Trisomy, neither 13, 18 nor 21",8.11.53.4,1.8.11.53.4,2.8.11.53.4,EN76,M14
+"Endo, Met, Thermoreg & Tox",Chromosomal abnormalities,Chromosomal deletion syndromes,Chromosomal deletion syndromes (partial monosomy),8.11.54.1,1.8.11.54.1,2.8.11.54.1,EN84,M14
+"Endo, Met, Thermoreg & Tox",Pituitary,Haemorrhage,Pituitary haemorrhage,8.2.15.1,1.8.2.15.1,2.8.2.15.1,EN61,M30
+"Endo, Met, Thermoreg & Tox",Pituitary,Over-activity,Cushing's syndrome,8.2.32.1,1.8.2.32.1,2.8.2.32.1,EN16,M30
+"Endo, Met, Thermoreg & Tox",Pituitary,Over-activity,Acromegaly,8.2.32.2,1.8.2.32.2,2.8.2.32.2,EN2,M30
+"Endo, Met, Thermoreg & Tox",Pituitary,Over-activity,Prolactinoma,8.2.32.3,1.8.2.32.3,2.8.2.32.3,EN63,M02
+"Endo, Met, Thermoreg & Tox",Pituitary,Tumour or malignancy,Cushing's syndrome,8.2.39.1,1.8.2.39.1,2.8.2.39.1,EN16,M30
+"Endo, Met, Thermoreg & Tox",Pituitary,Tumour or malignancy,Acromegaly,8.2.39.2,1.8.2.39.2,2.8.2.39.2,EN2,M30
+"Endo, Met, Thermoreg & Tox",Pituitary,Tumour or malignancy,Prolactinoma,8.2.39.3,1.8.2.39.3,2.8.2.39.3,EN63,M02
+"Endo, Met, Thermoreg & Tox",Pituitary,Tumour or malignancy,Pituitary tumour not defined,8.2.39.4,1.8.2.39.4,2.8.2.39.4,EN54,M02
+"Endo, Met, Thermoreg & Tox",Pituitary,Under-activity,Diabetes insipidus (central),8.2.40.1,1.8.2.40.1,2.8.2.40.1,EN18,M30
+"Endo, Met, Thermoreg & Tox",Pituitary,Under-activity,Hypopituitarism,8.2.40.2,1.8.2.40.2,2.8.2.40.2,EN35,M30
+"Endo, Met, Thermoreg & Tox",Adrenal,Haemorrhage,Haemorrhage into or from adrenal,8.3.15.1,1.8.3.15.1,2.8.3.15.1,EN5,M30
+"Endo, Met, Thermoreg & Tox",Adrenal,Over-activity,Cushing's syndrome,8.3.32.1,1.8.3.32.1,2.8.3.32.1,EN16,M30
+"Endo, Met, Thermoreg & Tox",Adrenal,Tumour or malignancy,Phaeochromocytoma,8.3.39.1,1.8.3.39.1,2.8.3.39.1,CA91,K02
+"Endo, Met, Thermoreg & Tox",Adrenal,Tumour or malignancy,Adrenocortical tumour,8.3.39.2,1.8.3.39.2,2.8.3.39.2,EN6,M02
+"Endo, Met, Thermoreg & Tox",Adrenal,Under-activity,Addison's disease,8.3.40.1,1.8.3.40.1,2.8.3.40.1,EN4,M30
+"Endo, Met, Thermoreg & Tox",Adrenal,Congenital or acquired deformity or abnormality,Inborn errors of adrenal function,8.3.8.1,1.8.3.8.1,2.8.3.8.1,EN39,M14
+"Endo, Met, Thermoreg & Tox",Endocrine pancreas,Diabetes mellitus,Diabetic ketoacidosis,8.4.10.1,1.8.4.10.1,2.8.4.10.1,EN20,M29
+"Endo, Met, Thermoreg & Tox",Endocrine pancreas,Diabetes mellitus,Hyperosmolar coma,8.4.10.2,1.8.4.10.2,2.8.4.10.2,EN31,M29
+"Endo, Met, Thermoreg & Tox",Endocrine pancreas,Diabetes mellitus,Hypoglycaemia due to insulin therapy,8.4.10.3,1.8.4.10.3,2.8.4.10.3,EN33,M30
+"Endo, Met, Thermoreg & Tox",Endocrine pancreas,Diabetes mellitus,Insulinoma,8.4.10.4,1.8.4.10.4,2.8.4.10.4,EN43,M02
+"Endo, Met, Thermoreg & Tox",Endocrine pancreas,Diabetes mellitus,Diabetes mellitus,8.4.10.5,1.8.4.10.5,2.8.4.10.5,EN19,M30
+"Endo, Met, Thermoreg & Tox",Endocrine pancreas,Transplant (or related),Islet cell allograft,8.4.37.1,1.8.4.37.1,2.8.4.37.1,EN44,M33
+"Endo, Met, Thermoreg & Tox",Endocrine pancreas,Tumour or malignancy,Insulinoma,8.4.39.1,1.8.4.39.1,2.8.4.39.1,EN43,M02
+"Endo, Met, Thermoreg & Tox",Parathyroids,Over-activity,Hypercalcaemia,8.5.32.1,1.8.5.32.1,2.8.5.32.1,EN29,M28
+"Endo, Met, Thermoreg & Tox",Parathyroids,Tumour or malignancy,Parathyroid tumour,8.5.39.1,1.8.5.39.1,2.8.5.39.1,EN60,M02
+"Endo, Met, Thermoreg & Tox",Parathyroids,Under-activity,Congenital hypoparathyroidism,8.5.40.1,1.8.5.40.1,2.8.5.40.1,EN15,M14
+"Endo, Met, Thermoreg & Tox",Parathyroids,Under-activity,Autoimmune hypoparathyroidism,8.5.40.2,1.8.5.40.2,2.8.5.40.2,EN12,M30
+"Endo, Met, Thermoreg & Tox",Parathyroids,Under-activity,Post-surgical hypoparathyroidism,8.5.40.3,1.8.5.40.3,2.8.5.40.3,EN62,M30
+"Endo, Met, Thermoreg & Tox",Parathyroids,Congenital or acquired deformity or abnormality,Congenital hypoparathyroidism,8.5.8.1,1.8.5.8.1,2.8.5.8.1,EN15,M14
+"Endo, Met, Thermoreg & Tox",Parathyroids,Congenital or acquired deformity or abnormality,Autoimmune hypoparathyroidism,8.5.8.2,1.8.5.8.2,2.8.5.8.2,EN12,M30
+"Endo, Met, Thermoreg & Tox",Parathyroids,Congenital or acquired deformity or abnormality,Post-surgical hypoparathyroidism,8.5.8.3,1.8.5.8.3,2.8.5.8.3,EN62,M30
+"Endo, Met, Thermoreg & Tox",Ovaries,Over-activity,Ovarian hyperstimulation,8.6.32.1,1.8.6.32.1,2.8.6.32.1,EN55,K30
+"Endo, Met, Thermoreg & Tox",Ovaries,Tumour or malignancy,Ovarian tumour,8.6.39.1,1.8.6.39.1,2.8.6.39.1,EN56,K02
+"Endo, Met, Thermoreg & Tox",Ovaries,Tumour or malignancy,Ovarian cyst,8.6.39.2,1.8.6.39.2,2.8.6.39.2,GE35,K35
+"Endo, Met, Thermoreg & Tox",Thermoregulation,Hyperthermia,Malignant hyperpyrexia,8.7.20.1,1.8.7.20.1,2.8.7.20.1,EN46,M31
+"Endo, Met, Thermoreg & Tox",Thermoregulation,Hyperthermia,Drug induced hyperpyrexia or neuroleptic malignant syndrome,8.7.20.2,1.8.7.20.2,2.8.7.20.2,EN51,M31
+"Endo, Met, Thermoreg & Tox",Thermoregulation,Hyperthermia,Heat-stroke or heat exhaustion,8.7.20.3,1.8.7.20.3,2.8.7.20.3,EN28,M28
+"Endo, Met, Thermoreg & Tox",Thermoregulation,Hypothermia,Accidental hypothermia,8.7.26.1,1.8.7.26.1,2.8.7.26.1,EN1,M31
+"Endo, Met, Thermoreg & Tox",Thermoregulation,Hypothermia,Induced hypothermia,8.7.26.2,1.8.7.26.2,2.8.7.26.2,EN41,M31
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with sedatives or hypnotics,8.8.1.1,1.8.8.1.1,2.8.8.1.1,EN66,N36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with alcohol,8.8.1.10,1.8.8.1.10,2.8.8.1.10,EN7,N36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with carbon monoxide,8.8.1.11,1.8.8.1.11,2.8.8.1.11,EN88,R36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with gases (not carbon monoxide),8.8.1.12,1.8.8.1.12,2.8.8.1.12,EN90,R36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with agent not defined,8.8.1.13,1.8.8.1.13,2.8.8.1.13,EN50,N36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with warfarin,8.8.1.14,1.8.8.1.14,2.8.8.1.14,EN103,H36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with narcotics,8.8.1.2,1.8.8.1.2,2.8.8.1.2,EN49,N36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with tri- or tetracyclic antidepressants,8.8.1.3,1.8.8.1.3,2.8.8.1.3,EN87,N36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with non-cyclic antidepressants,8.8.1.4,1.8.8.1.4,2.8.8.1.4,EN10,N36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with cardiovascular drugs,8.8.1.5,1.8.8.1.5,2.8.8.1.5,EN13,C36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with aspirin,8.8.1.6,1.8.8.1.6,2.8.8.1.6,EN11,N36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with paracetamol,8.8.1.7,1.8.8.1.7,2.8.8.1.7,EN91,N36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with industrial or agricultural chemicals,8.8.1.8,1.8.8.1.8,2.8.8.1.8,EN89,N36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,"Accidental intoxication, poisoning or medication event",Adverse event associated with insulin,8.8.1.9,1.8.8.1.9,2.8.8.1.9,EN42,M36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hyperglycaemia,Diabetic ketoacidosis,8.8.16.1,1.8.8.16.1,2.8.8.16.1,EN20,M29
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hyperglycaemia,Hyperosmolar states,8.8.16.2,1.8.8.16.2,2.8.8.16.2,EN74,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hyperkalaemia,Iatrogenic potassium intoxication,8.8.17.1,1.8.8.17.1,2.8.8.17.1,EN38,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hyperkalaemia,Familial periodic paralysis,8.8.17.3,1.8.8.17.3,2.8.8.17.3,EN25,N08
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hyperkalaemia,Acute renal failure due to infection,8.8.17.4,1.8.8.17.4,2.8.8.17.4,GE5,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hyperkalaemia,Acute renal failure due to haemodynamic causes,8.8.17.5,1.8.8.17.5,2.8.8.17.5,GE4,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hyperkalaemia,Acute renal failure due to toxic or drug causes,8.8.17.6,1.8.8.17.6,2.8.8.17.6,GE6,K36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hyperkalaemia,Chronic renal failure,8.8.17.7,1.8.8.17.7,2.8.8.17.7,GE17,K35
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hyperkalaemia,Acute renal failure due to haemolytic uraemic syndrome,8.8.17.8,1.8.8.17.8,2.8.8.17.8,HA37,H32
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypernatraemia,Water depletion,8.8.18.2,1.8.8.18.2,2.8.8.18.2,EN72,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypernatraemia,Excess sodium intake,8.8.18.3,1.8.8.18.3,2.8.8.18.3,EN24,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypernatraemia,Diabetes insipidus (central),8.8.18.4,1.8.8.18.4,2.8.8.18.4,EN18,M30
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypernatraemia,Diabetes insipidus (nephrogenic),8.8.18.5,1.8.8.18.5,2.8.8.18.5,EN106,M30
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Acidaemia,Hyperchloraemic acidosis,8.8.2.1,1.8.8.2.1,2.8.8.2.1,EN30,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Acidaemia,Lactic acidosis,8.8.2.2,1.8.8.2.2,2.8.8.2.2,EN45,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Acidaemia,Diabetic ketoacidosis,8.8.2.3,1.8.8.2.3,2.8.8.2.3,EN20,M29
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypocalcaemia,Hypoparathyroidism,8.8.21.1,1.8.8.21.1,2.8.8.21.1,EN34,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypocalcaemia,Chelating agent toxicity,8.8.21.2,1.8.8.21.2,2.8.8.21.2,EN14,M36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypoglycaemia,Hypoglycaemia due to insulin therapy,8.8.22.1,1.8.8.22.1,2.8.8.22.1,EN33,M30
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypoglycaemia,Insulinoma,8.8.22.2,1.8.8.22.2,2.8.8.22.2,EN43,M02
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypoglycaemia,Hypoglycaemia not due to excess insulin,8.8.22.3,1.8.8.22.3,2.8.8.22.3,EN53,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypokalaemia,Paraneoplastic hypokalaemia,8.8.23.1,1.8.8.23.1,2.8.8.23.1,EN59,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypokalaemia,Drug induced hypokalaemia,8.8.23.2,1.8.8.23.2,2.8.8.23.2,EN21,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypokalaemia,Renal hypokalaemia,8.8.23.3,1.8.8.23.3,2.8.8.23.3,GE67,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hyponatraemia,Water intoxication,8.8.24.1,1.8.8.24.1,2.8.8.24.1,EN73,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hyponatraemia,Iatrogenic hyponatraemia,8.8.24.2,1.8.8.24.2,2.8.8.24.2,EN37,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hyponatraemia,Paraneoplastic hyponatraemia,8.8.24.3,1.8.8.24.3,2.8.8.24.3,EN57,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Alcohol related disorders,Alcohol overdose,8.8.3.1,1.8.8.3.1,2.8.8.3.1,EN100,N36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Alcohol related disorders,Alcohol withdrawal seizures,8.8.3.2,1.8.8.3.2,2.8.8.3.2,EN8,N07
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Alcohol related disorders,Delerium tremens,8.8.3.3,1.8.8.3.3,2.8.8.3.3,EN17,M27
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Alcohol related disorders,Acute alcoholic hepatitis,8.8.3.4,1.8.8.3.4,2.8.8.3.4,EN3,G36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with sedatives or hypnotics,8.8.34.1,1.8.8.34.1,2.8.8.34.1,EN98,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with alcohol,8.8.34.10,1.8.8.34.10,2.8.8.34.10,EN99,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with carbon monoxide,8.8.34.11,1.8.8.34.11,2.8.8.34.11,EN64,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with gases (not carbon monoxide),8.8.34.12,1.8.8.34.12,2.8.8.34.12,EN77,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with agent not defined,8.8.34.13,1.8.8.34.13,2.8.8.34.13,EN97,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with warfarin,8.8.34.14,1.8.8.34.14,2.8.8.34.14,EN104,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with narcotics,8.8.34.2,1.8.8.34.2,2.8.8.34.2,EN96,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with tri- or tetracyclic antidepressants,8.8.34.3,1.8.8.34.3,2.8.8.34.3,EN79,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with non-cyclic antidepressants,8.8.34.4,1.8.8.34.4,2.8.8.34.4,EN92,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with cardiovascular drugs,8.8.34.5,1.8.8.34.5,2.8.8.34.5,EN94,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with aspirin,8.8.34.6,1.8.8.34.6,2.8.8.34.6,EN93,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with paracetamol ,8.8.34.7,1.8.8.34.7,2.8.8.34.7,EN78,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with industrial or agricultural chemicals ,8.8.34.8,1.8.8.34.8,2.8.8.34.8,EN65,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Self-harm or self poisoning,Self-harm with insulin,8.8.34.9,1.8.8.34.9,2.8.8.34.9,EN95,N04
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Alkalaemia,Gastric fluid loss,8.8.4.1,1.8.8.4.1,2.8.8.4.1,EN26,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Alkalaemia,Alkali ingestion,8.8.4.2,1.8.8.4.2,2.8.8.4.2,EN9,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypercalcaemia,Paraneoplastic hypercalcaemia,8.8.42.1,1.8.8.42.1,2.8.8.42.1,EN58,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypercalcaemia,Vitamin D intoxication,8.8.42.2,1.8.8.42.2,2.8.8.42.2,EN71,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypercalcaemia,Milk-alkali syndrome,8.8.42.3,1.8.8.42.3,2.8.8.42.3,EN47,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Hypercalcaemia,Hyperparathyroidism,8.8.42.4,1.8.8.42.4,2.8.8.42.4,EN105,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Fluid overload,Water intoxication,8.8.43.1,1.8.8.43.1,2.8.8.43.1,EN73,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Fluid overload,Excess parenteral fluids,8.8.43.2,1.8.8.43.2,2.8.8.43.2,EN23,M28
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Envenomation,Snake bite,8.8.44.1,1.8.8.44.1,2.8.8.44.1,EN67,M36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Envenomation,"Envenomation, not by snake bite",8.8.44.2,1.8.8.44.2,2.8.8.44.2,EN52,C36
+"Endo, Met, Thermoreg & Tox",Body fluids or tissues,Inborn errors of metabolism,Inborn errors of metabolism,8.8.45.1,1.8.8.45.1,2.8.8.45.1,EN40,M14
+"Endo, Met, Thermoreg & Tox",Body composition,Obesity,Morbid obesity,8.9.29.1,1.8.9.29.1,2.8.9.29.1,EN48,M35
+"Endo, Met, Thermoreg & Tox",Body composition,Starvation,Eating disorder,8.9.36.1,1.8.9.36.1,2.8.9.36.1,EN22,M35
+"Endo, Met, Thermoreg & Tox",Body composition,Starvation,Short bowel syndrome,8.9.36.2,1.8.9.36.2,2.8.9.36.2,EN102,M35
 Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,Autoimmune haemolysis,9.1.14.1,1.9.1.14.1,2.9.1.14.1,HA5,H32
 Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,Thrombotic thrombocytopaenic purpura,9.1.14.10,1.9.1.14.10,2.9.1.14.10,HA33,H32
 Haematological/Immunological,Blood,Haemolysis or thrombocytopaenia,Drug induced haemolysis,9.1.14.2,1.9.1.14.2,2.9.1.14.2,HA10,H32

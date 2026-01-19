@@ -19,14 +19,14 @@ function getSearchTerm() {
 
   let myInitialRows = data.matchRows(
     mySearchTermArray[0],
-    "lowerCaseCondition"
+    "lowerCaseCondition",
   );
   //console.log(myInitialRows);
 
   let myRows = myInitialRows.filter((row) =>
     mySearchTermArray.every((term) =>
-      row.arr.some((val) => val.toLowerCase().includes(term.toLowerCase()))
-    )
+      row.arr.some((val) => val.toLowerCase().includes(term.toLowerCase())),
+    ),
   );
 
   let SystemString = "";
@@ -34,6 +34,7 @@ function getSearchTerm() {
   let ProcessString = "";
   let ConditionString = "";
   let CodeString = "";
+  let UniqueCodeString = "";
 
   //console.log(myRows);
   for (let i = 0; i < myRows.length; i++) {
@@ -42,6 +43,7 @@ function getSearchTerm() {
     ProcessString += myRows[i].getString("Process") + "<br>";
     ConditionString += myRows[i].getString("Condition") + "<br>";
     CodeString += myRows[i].getString("ICM V4.0") + "<br>";
+    UniqueCodeString += myRows[i].getString("Unique code") + "<br>";
   }
 
   myICNARCsystem.html(SystemString);
@@ -49,6 +51,7 @@ function getSearchTerm() {
   myICNARCprocess.html(ProcessString);
   myICNARCcondition.html(ConditionString);
   myICNARCcode.html(CodeString);
+  myICNARCuniqueCode.html(UniqueCodeString);
 }
 
 function setup() {
@@ -69,6 +72,7 @@ function setup() {
   myICNARCprocess = select("#ICNARCprocess");
   myICNARCcondition = select("#ICNARCcondition");
   myICNARCcode = select("#ICNARCcode");
+  myICNARCuniqueCode = select("#ICNARCuniqueCode");
 
   // print(data.getRowCount() + " total rows in table");
   // print(data.getColumnCount() + " total columns in table");
