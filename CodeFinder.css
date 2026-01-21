@@ -141,6 +141,7 @@ canvas {
   border: 0px;
   font-size: 0.8rem;
   white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
   padding-left: 10px;
 }
