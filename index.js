@@ -127,7 +127,7 @@ function createHTMLTable(data) {
   }
   htmlTable += "</table>";
   document.getElementById("table1-container").innerHTML = htmlTable;
-  renderTable(calculatedFeeds);
+  //renderTable(calculatedFeeds);
 }
 
 function assignMaleGender() {
@@ -158,10 +158,12 @@ function renderTable(dataTable) {
   }
   highlightProtein();
   highlightSodium();
+  highlightProsource();
   updateOutputBox(); // ensure outputBox is live
 }
 
 function recalculate() {
+  //recalculates requirements for calculateRatesAndVolumes
   const energyVal = energyRequirements ? float(energyRequirements.value) : 0;
   const proteinVal = proteinRequirements ? float(proteinRequirements.value) : 0;
   dailyPropofolEnergy = int(propofolRate.value * 24 * 1.1);
@@ -318,6 +320,19 @@ function highlightProtein() {
   }
 }
 
+function highlightProsource() {
+  const htmlTable = document.getElementById("data_table");
+  if (!htmlTable) return;
+  for (let i = 2; i < calculatedFeeds.columns.length; i++) {
+    if (calculatedFeeds.getNum(10, i) < 0) {
+      //console.log(calculatedFeeds.getNum(10, i));
+      htmlTable.rows[11].cells[i].classList.add("highlight");
+    } else {
+      htmlTable.rows[11].cells[i].classList.remove("highlight");
+    }
+  }
+}
+
 function highlightSodium() {
   const htmlTable = document.getElementById("data_table");
   if (!htmlTable) return;
@@ -370,15 +385,15 @@ function updateOutputBox() {
   else if (useBMI27BW) weightTypeUsed = "BMI 27";
 
   const prosourceString =
-    prosourceCell > 0 ? `, ${prosourceCell} prosource required` : "";
+    prosourceCell > 0 ? `, ${prosourceCell} Prosource TF required` : "";
   const naloxegolString =
     naloxegol && naloxegol.checked ? " over 21 hours" : " over 24 hours";
 
   if (outputBox) {
-    outputBox.innerHTML = `${columnHeader.textContent.trim()}: target ${rateCell} ml/hr${naloxegolString}
-<br><br>Calculated using ${weightTypeUsed}, ${baseWeight}kg @ ${energyRequirements.value} kcal/kg/day and ${proteinRequirements.value} g/kg/day, and ${dailyPropofolEnergy} kcal/day from propofol.
-
-<br>Provides ${proteinDelivered}g protein (${proteinPercent}% of goal)${prosourceString}`;
+    outputBox.innerHTML = `<b>${columnHeader.textContent.trim()}: target ${rateCell} ml/hr${naloxegolString}</b>
+<br>-calculated using ${weightTypeUsed}, ${baseWeight}kg @ ${energyRequirements.value} kcal/kg/day and ${proteinRequirements.value} g/kg/day, and ${dailyPropofolEnergy} kcal/day from propofol.
+<br>-provides ${dailyEnergy} kcal
+<br>-provides ${proteinDelivered}g protein (${proteinPercent}% of ${dailyProtein}g goal)<b>${prosourceString}</b>`;
   }
 }
 
