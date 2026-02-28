@@ -338,7 +338,7 @@ function highlightSodium() {
   if (!htmlTable) return;
   if (NaRestrict && NaRestrict.checked) {
     for (let i = 2; i < calculatedFeeds.columns.length; i++) {
-      if (calculatedFeeds.getNum(6, i) > ABW)
+      if (calculatedFeeds.getNum(6, i) > ABW / 2)
         htmlTable.rows[7].cells[i].classList.add("highlight");
       else htmlTable.rows[7].cells[i].classList.remove("highlight");
     }
