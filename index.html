@@ -70,6 +70,13 @@
               value="25"
               oninput="updateEnergyValue(this.value)"
             />
+            <script>
+              function updateEnergyValue(value) {
+                // Convert value to floating point
+                let floatValue = parseFloat(value);
+                document.getElementById('energyReqLabel').textContent = "Energy (kcal/kg/day):" + floatValue.toFixed(1);
+              }
+            </script>
           </div>
 
           <div class="cell metrics_row_header">
@@ -83,6 +90,13 @@
               value="1.5"
               oninput="updateValue(this.value)"
             />
+            <script>
+              function updateValue(value) {
+                // Convert value to floating point
+                let floatValue = parseFloat(value);
+                document.getElementById('proteinReqLabel').textContent = "Protein (g/kg/day):" + floatValue.toFixed(1);
+              }
+            </script>
           </div>
 
           <div class="cell metrics_row_header">
@@ -96,6 +110,13 @@
               value="0"
               oninput="updatePropofolRate(this.value)"
             />
+            <script>
+              function updateValue(value) {
+                // Convert value to floating point
+                let floatValue = parseFloat(value);
+                document.getElementById('proteinReqLabel').textContent = "Protein (g/kg/day):" + floatValue.toFixed(1);
+              }
+            </script>
           </div>
 
           <div class="cell metrics_row_header">
@@ -168,7 +189,7 @@
       </div>
     </div>
 
-    <div class="row2">
+    <div class="row2 tableA">
       <div id="table1-container"></div>
     </div>
 
@@ -186,52 +207,52 @@
       <h4>You must read the disclaimer before use.</h4>
       <h4>Initial guidance:</h4>
       <ol>
-        <li>
+        <li style="text-align: justify">
           Enter the patient's actual height and gender to calculate their ideal
           body weight (IBW).
         </li>
-        <li>
+        <li style="text-align: justify">
           You can then select from actual body weight (ABW), adjusted body
           weight (Adj BW), BMI 27 weight, or ideal body weight (IBW) by clicking
           the corresponding button.
         </li>
-        <li>
+        <li style="text-align: justify">
           Adjust the energy requirements using the slider provided. The default
           value is set to 25 kcal/kg/day for energy. In the early catabolic
           phase of critical illness a value of 20-25 kcal/kg/day is appropriate.
           Later, in the anabolic phase between 30 and 35 kcal/kg/day can be
           used.
         </li>
-        <li>
+        <li style="text-align: justify">
           Adjust the protein requirements using the slider provided. The default
           value is set to 1.5 g/kg/day. In critically ill patients, protein
           requirements may range from 1.2 to 2.0 g/kg/day depending on the
           clinical situation.
         </li>
-        <li>
+        <li style="text-align: justify">
           If the patient is receiving naloxegol (or any other medication
           requiring a 3 hour break in feed administration), tick the naloxegol
           checkbox to adjust feed rates to account for a 3 hour break in feed
           administration.
         </li>
-        <li>
+        <li style="text-align: justify">
           If the patient is receiving propofol, enter an approximate hourly rate
           to account for the additional calories provided by the lipid emulsion
           which is 1.1 kcal/ml irrespective of whether 1% or 2% propofol is
           used. The calculator will convert the hourly rate to a 24 hour
           equivalent calorie value.
         </li>
-        <li>
+        <li style="text-align: justify">
           If the patient is hypernatraemic or on a sodium-restricted diet, tick
           the Na restrict checkbox to highlight feed regimens that have higher
           sodium content (>0.5mmol/kg/day).
         </li>
       </ol>
-      <li>
+      <li style="text-align: justify">
         Values highlighted in red suggest that these feeds should be reviewed
         carefully as they may not be clinically appropriate.
       </li>
-      <li>
+      <li style="text-align: justify">
         Select a feed by clicking anywhere in the relevant column. Copy and
         paste the feed details to your patient's chart.
       </li>
