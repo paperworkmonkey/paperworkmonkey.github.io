@@ -88,10 +88,10 @@
               max="2.0"
               step="0.1"
               value="1.5"
-              oninput="updateValue(this.value)"
+              oninput="updateProteinValue(this.value)"
             />
             <script>
-              function updateValue(value) {
+              function updateProteinValue(value) {
                 // Convert value to floating point
                 let floatValue = parseFloat(value);
                 document.getElementById('proteinReqLabel').textContent = "Protein (g/kg/day):" + floatValue.toFixed(1);
@@ -111,10 +111,10 @@
               oninput="updatePropofolRate(this.value)"
             />
             <script>
-              function updateValue(value) {
+              function updatePropofolRate(value) {
                 // Convert value to floating point
                 let floatValue = parseFloat(value);
-                document.getElementById('proteinReqLabel').textContent = "Protein (g/kg/day):" + floatValue.toFixed(1);
+                document.getElementById('propofolRateLabel').textContent = "Propofol rate (ml/hr):" + floatValue.toFixed(1);
               }
             </script>
           </div>
