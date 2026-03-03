@@ -9,55 +9,36 @@
   <title>ICNARC code finder</title>
 
   <body style="font-family: Verdana">
-    <header class="top-row">
-      <a href="" class="brand" aria-label="Homepage">
-        <img src="ICUonlineLogo.png" alt="Site logo" width="48" height="48" />
-        <span class="title">ICUonline</span>
-      </a>
-      <nav class="nav-links" role="navigation" aria-label="Top links">
-        <a href="index.html" class="btn-link btn-ghost" target="_self"
-          >Feed calculator</a
-        >
-        <a href="CodeFinder.html" class="btn-link btn-primary" target="_self"
-          >ICNARC code finder</a
-        >
-        <a href="Disclaimer.html" class="btn-link btn-ghost" target="_self"
-          >Disclaimer</a
-        >
-      </nav>
-    </header>
-    <!-- <main>
-      
-    </main> -->
+    <div id="headerPlaceholder"></div>
+
     <h3>ICNARC code finder</h3>
     <p style="font-size: small; color: grey">
       This search box allows completion mapping. e.g. you can search for "oes
       var" or "sm bow obs", or "bow ob smal" etc.
     </p>
 
-<div class="myGrid">
-  <div class="div1 topLines">
-    <label for="inputValue">Search for: </label>
-    <input
-      type="text"
-      id="inputValue"
-      oninput="getSearchTerm()"
-      backgroundColor="red"
-    />
-  </div>
-<div class="div2 topLines">System</div>
-<div class="div3 topLines">Site</div>
-<div class="div4 topLines">Process</div>
-<div class="div5 topLines">Condition</div>
-<div class="div6 topLines">Code</div>
-<div class="div7 topLines">Unique code</div>
-<div class="div8"> <p id="ICNARCsystem"></p></div>
-<div class="div9"> <p id="ICNARCsite"></p></div>
-<div class="div10"> <p id="ICNARCprocess"></p></div>
-<div class="div11"> <p id="ICNARCcondition"></p></div>
-<div class="div12"> <p id="ICNARCcode"></p></div>
-<div class="div13"> <p id="ICNARCuniqueCode"></p></div>
-</div>
+    <div class="myGrid">
+      <div class="div1 topLines">
+        <label for="inputValue">Search for: </label>
+        <input
+          type="text"
+          id="inputValue"
+          oninput="getSearchTerm()"
+          backgroundColor="red"
+        />
+      </div>
+      <div class="div2 topLines">System</div>
+      <div class="div3 topLines">Site</div>
+      <div class="div4 topLines">Process</div>
+      <div class="div5 topLines">Condition</div>
+      <div class="div6 topLines">Code</div>
+      <div class="div7 topLines">Unique code</div>
+      <div class="div8"><p id="ICNARCsystem"></p></div>
+      <div class="div9"><p id="ICNARCsite"></p></div>
+      <div class="div10"><p id="ICNARCprocess"></p></div>
+      <div class="div11"><p id="ICNARCcondition"></p></div>
+      <div class="div12"><p id="ICNARCcode"></p></div>
+      <div class="div13"><p id="ICNARCuniqueCode"></p></div>
     </div>
 
     <script src="CodeFinder.js"></script>

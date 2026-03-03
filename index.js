@@ -26,6 +26,17 @@ function preload() {
 function setup() {
   noCanvas();
 
+  //insert page top
+  fetch("PageTopNGFeed.html")
+    .then((response) => response.text())
+    .then((data) => {
+      document.getElementById("headerPlaceholder").innerHTML = data;
+      const page = document.getElementById("calculator");
+      if (page) {
+        page.className = "btn-link btn-primary";
+      }
+    });
+
   // form refs
   patientHeight = document.getElementById("patientHeight");
   patientWeight = document.getElementById("patientWeight");
