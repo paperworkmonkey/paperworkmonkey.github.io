@@ -60,7 +60,9 @@
           </div>
 
           <div class="cell metrics_row_header_sliders">
-            <label id="energyReqLabel">Energy (kcal/kg/day):25</label>
+            <label for="energyRequirements" id="energyReqLabel"
+              >Energy (kcal/kg/day):25</label
+            >
             <input
               type="range"
               id="energyRequirements"
@@ -81,7 +83,9 @@
           </div>
 
           <div class="cell metrics_row_header_sliders">
-            <label id="proteinReqLabel">Protein (g/kg/day):1.5</label>
+            <label for="proteinRequirements" id="proteinReqLabel"
+              >Protein (g/kg/day):1.5</label
+            >
             <input
               type="range"
               id="proteinRequirements"
@@ -102,7 +106,9 @@
           </div>
 
           <div class="cell metrics_row_header_sliders">
-            <label id="propofolRateLabel">Propofol rate (ml/hr): 0</label>
+            <label for="propofolRate" id="propofolRateLabel"
+              >Propofol rate (ml/hr): 0</label
+            >
             <input
               type="range"
               id="propofolRate"
@@ -199,6 +205,7 @@
     <div class="row3">
       <p id="outputBox" class="output_box" style="padding: 10px">Feed:</p>
       <input
+        class="copyFeedButton"
         type="button"
         value="Copy feed to clipboard"
         id="copyFeedButton"
