@@ -36,14 +36,50 @@ h3 {
 }
 
 /* Responsive */
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 390px) {
   .row1 {
     grid-template-columns: 1fr;
   }
 
-  th {
-    writing-mode: vertical-lr;
+  /* make checkboxes bigger */
+  input[type="checkbox"] {
+    width: 40px;
+    height: 40px;
   }
+
+  /* Scrolling behavious of feed table */
+  #table1-container {
+    overflow-x: auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  #data_table {
+    border-collapse: separate;
+    min-width: 800px;
+  }
+
+  #data_table th:first-child,
+  #data_table td:first-child {
+    position: sticky;
+    left: 0;
+    background: inherit;
+    z-index: 1;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.08);
+  }
+
+  #data_table th:first-child {
+    border-top-left-radius: 0px;
+  }
+
+  /* th {
+    writing-mode: vertical-lr;
+  } */
+  /* .row2 {
+    rotate: 90deg;
+    width: 800px;
+    height: 350px;
+  } */
 }
 
 /* ============================= */
@@ -95,14 +131,15 @@ h3 {
 .cell {
   padding: 6px;
   text-align: left;
+  align-items: center;
 }
 
 /* Row striping */
-.metrics_table>.cell:nth-child(odd) {
+.metrics_table > .cell:nth-child(odd) {
   background: rgb(178, 225, 241);
 }
 
-.metrics_table>.cell:nth-child(even) {
+.metrics_table > .cell:nth-child(even) {
   background: rgb(208, 231, 244);
 }
 
@@ -117,6 +154,20 @@ h3 {
   width: auto;
 }
 
+.metrics_row_header_sliders {
+  text-align: left;
+  font-weight: 500;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* left align */
+  gap: 6px;
+}
+
+.metrics_row_header_sliders input[type="range"] {
+  width: 80%;
+}
+
 /* Buttons */
 .weightSelectButton,
 .genderSelectButton {
@@ -124,14 +175,72 @@ h3 {
   border-radius: 6px;
 }
 
-.highlight {
-  background-color: rgb(248, 140, 140);
-}
-
 #dailyEnergyBox,
 #dailyProteinBox {
   font-size: 1.4rem;
   font-weight: bold;
+}
+
+.row_header {
+  font-weight: bold;
+  min-width: 100px;
+  padding: 5px;
+}
+
+.odd_row {
+  background-color: rgb(178, 225, 241);
+  padding: 0px;
+}
+
+.even_row {
+  background-color: rgb(208, 231, 244);
+  padding: 0px;
+}
+
+td {
+  text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+th {
+  background-color: #eeeeee;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  min-width: 30px;
+  padding-left: 6px;
+  padding-right: 6px;
+  /* height: 50px; */
+}
+
+#data_table th:first-child {
+  background-color: white;
+}
+
+.row1 > div {
+  /* max-width: 250px; */
+  flex: 2;
+  /*grow*/
+  padding: 0px;
+}
+
+.row2 {
+  display: grid;
+  max-width: 1000px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*used for feed column selection */
+.selected {
+  background-color: rgba(255, 242, 4, 0.84);
+}
+
+/*used for male/female button highlighting, assigned in sketch.js*/
+.highlight {
+  background-color: rgb(248, 140, 140);
+  /* border-radius: 8px; */
 }
 
 .output_box {
@@ -149,76 +258,20 @@ h3 {
   border-radius: 8px;
   padding: var(--pad);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
-  font: 0.75rem;
   font-size: 0.75rem;
 }
 
-/* canvas {
-  display: block;
-} */
-
-.row_header {
-  font-weight: bold;
-  min-width: 100px;
-  padding: 5px;
-}
-
-/* @media screen and (max-width: 800px) {
-  .column_header {
-    /* vertical-rl: Top-to-bottom, lines progress Right-to-Left */
-/* vertical-lr: Top-to-bottom, lines progress Left-to-Right */
-/* writing-mode: vertical-rl; */
-
-/* Optional: Keep characters upright instead of rotated */
-/* text-orientation: vertical;
-  }
-}  */
-
-.column_header {
-  font-weight: bold;
-  background-color: pink;
-}
-
-.odd_row {
-  background-color: rgb(178, 225, 241);
-  padding: 0px;
-}
-
-.even_row {
-  background-color: rgb(208, 231, 244);
-  padding: 0px;
-}
-
-td {
-  text-align: center;
-}
-
-.row1>div {
-  /* max-width: 250px; */
-  flex: 2;
-  /*grow*/
-  padding: 0px;
-}
-
-.row2 {
-  display: grid;
+.startGuide {
+  margin-top: 10px;
   max-width: 1000px;
   width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/* canvas {
-  display: block;
-} */
-
-/*used for feed column selection */
-.selected {
-  background-color: rgba(255, 242, 4, 0.84);
-}
-
-/*used for male/female button highlighting, assigned in sketch.js*/
-.highlight {
-  background-color: rgb(248, 140, 140);
-  /* border-radius: 8px; */
+  border: 2px;
+  border-style: solid;
+  border-color: gray;
+  background: var(--card);
+  border-radius: 8px;
+  padding: var(--pad);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  font: 0.75rem;
+  font-size: 0.75rem;
 }

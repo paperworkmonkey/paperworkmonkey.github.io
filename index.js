@@ -125,7 +125,9 @@ function setup() {
 // create table
 function createHTMLTable(data) {
   let htmlTable = "<table id='data_table' class='my_table'><tr>";
-  for (let colHeader of data.columns) htmlTable += `<th>${colHeader}</th>`;
+  for (let colHeader of data.columns) {
+    htmlTable += `<th>${colHeader}</th>`;
+  }
   htmlTable += "</tr>";
 
   for (let row = 0; row < data.getRowCount(); row++) {
@@ -142,19 +144,15 @@ function createHTMLTable(data) {
 }
 
 function assignMaleGender() {
-  if (patientMaleGender)
-    patientMaleGender.classList.add("genderSelectButtonHighlighted");
-  if (patientFemaleGender)
-    patientFemaleGender.classList.remove("genderSelectButtonHighlighted");
+  if (patientMaleGender) patientMaleGender.classList.add("highlight");
+  if (patientFemaleGender) patientFemaleGender.classList.remove("highlight");
   patientGender = "male";
   recalculate();
 }
 
 function assignFemaleGender() {
-  if (patientFemaleGender)
-    patientFemaleGender.classList.add("genderSelectButtonHighlighted");
-  if (patientMaleGender)
-    patientMaleGender.classList.remove("genderSelectButtonHighlighted");
+  if (patientFemaleGender) patientFemaleGender.classList.add("highlight");
+  if (patientMaleGender) patientMaleGender.classList.remove("highlight");
   patientGender = "female";
   recalculate();
 }

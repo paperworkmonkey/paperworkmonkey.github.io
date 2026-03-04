@@ -59,7 +59,7 @@
             />
           </div>
 
-          <div class="cell metrics_row_header">
+          <div class="cell metrics_row_header_sliders">
             <label id="energyReqLabel">Energy (kcal/kg/day):25</label>
             <input
               type="range"
@@ -74,12 +74,13 @@
               function updateEnergyValue(value) {
                 // Convert value to floating point
                 let floatValue = parseFloat(value);
-                document.getElementById('energyReqLabel').textContent = "Energy (kcal/kg/day):" + floatValue.toFixed(1);
+                document.getElementById("energyReqLabel").textContent =
+                  "Energy (kcal/kg/day):" + floatValue.toFixed(1);
               }
             </script>
           </div>
 
-          <div class="cell metrics_row_header">
+          <div class="cell metrics_row_header_sliders">
             <label id="proteinReqLabel">Protein (g/kg/day):1.5</label>
             <input
               type="range"
@@ -94,12 +95,13 @@
               function updateProteinValue(value) {
                 // Convert value to floating point
                 let floatValue = parseFloat(value);
-                document.getElementById('proteinReqLabel').textContent = "Protein (g/kg/day):" + floatValue.toFixed(1);
+                document.getElementById("proteinReqLabel").textContent =
+                  "Protein (g/kg/day):" + floatValue.toFixed(1);
               }
             </script>
           </div>
 
-          <div class="cell metrics_row_header">
+          <div class="cell metrics_row_header_sliders">
             <label id="propofolRateLabel">Propofol rate (ml/hr): 0</label>
             <input
               type="range"
@@ -114,7 +116,8 @@
               function updatePropofolRate(value) {
                 // Convert value to floating point
                 let floatValue = parseFloat(value);
-                document.getElementById('propofolRateLabel').textContent = "Propofol rate (ml/hr):" + floatValue.toFixed(1);
+                document.getElementById("propofolRateLabel").textContent =
+                  "Propofol rate (ml/hr):" + floatValue.toFixed(1);
               }
             </script>
           </div>
