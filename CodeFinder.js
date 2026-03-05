@@ -68,6 +68,7 @@ function getSearchTerm() {
   document.getElementById("ICNARCsite").innerHTML = SiteString;
   document.getElementById("ICNARCprocess").innerHTML = ProcessString;
   document.getElementById("ICNARCcondition").innerHTML = ConditionString;
+  document.getElementById("ICNARCcode").innerHTML = CodeString;
   document.getElementById("ICNARCuniqueCode").innerHTML = UniqueCodeString;
   document.getElementById("sgICNARCcondition").innerHTML = ConditionString;
   document.getElementById("sgICNARCcode").innerHTML = CodeString;
