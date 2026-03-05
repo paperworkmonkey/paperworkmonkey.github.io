@@ -36,7 +36,7 @@ h3 {
 }
 
 /* Responsive */
-@media screen and (max-width: 390pt) {
+@media screen and (max-width: 380pt) {
   .row1 {
     grid-template-columns: 1fr;
   }
