@@ -58,6 +58,17 @@ function setup() {
   noCanvas();
   noLoop();
 
+  //add PageTop header
+  fetch("PageTopNGFeed.html")
+    .then((response) => response.text())
+    .then((data) => {
+      document.getElementById("headerPlaceholder").innerHTML = data;
+      const page = document.getElementById("codeFinder");
+      if (page) {
+        page.className = "btn-link btn-primary";
+      }
+    });
+
   //create lower case condition column
   data.addColumn("lowerCaseCondition");
   for (let i = 0; i < data.getRowCount(); i++) {

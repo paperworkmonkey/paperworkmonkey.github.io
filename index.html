@@ -1,200 +1,307 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    <title>FeedMyPatient</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="p5.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style></style>
+  <body style="font-family: Verdana">
+    <div id="headerPlaceholder"></div>
 
-  <link rel="icon" type="image/x-icon" href="/favicon.png">
-  <title>FeedMyPatient</title>
+    <h3>Nasogastric Feed Calculator</h3>
 
-  <link rel="stylesheet" type="text/css" href="index.css">
+    <div class="row1">
+      <!-- ================= INPUT CARD ================= -->
+      <div class="tableA">
+        <div class="metrics_table input-grid">
+          <div class="cell metrics_row_header">
+            Height (cm):
+            <input
+              id="patientHeight"
+              type="number"
+              value="178"
+              min="100"
+              max="220"
+              style="width: 75pt"
+            />
+          </div>
 
-  <script src="p5.min.js"></script>
-  <!-- <script src="libraries/p5.sound.min.js"></script> -->
+          <div class="cell metrics_row_header">
+            Weight (kg):
+            <input
+              id="patientWeight"
+              type="number"
+              value="84"
+              min="30"
+              max="150"
+              style="width: 75pt"
+            />
+          </div>
 
-</head>
+          <div class="cell metrics_row_header">
+            Gender (M/F):
+            <input
+              id="patientMaleGender"
+              type="button"
+              value="M"
+              class="genderSelectButton"
+            />
+            <input
+              id="patientFemaleGender"
+              type="button"
+              value="F"
+              class="genderSelectButton"
+            />
+          </div>
 
-<body style="font-family:Verdana">
-   <header class="top-row">
-      <a href="" class="brand" aria-label="Homepage">
-        <img src="ICUonlineLogo.png" alt="Site logo" width="48" height="48" />
-        <span class="title">ICUonline</span>
-      </a>
-      <nav class="nav-links" role="navigation" aria-label="Top links">
-        <a href="index.html" class="btn-link btn-primary" target="_self"
-          >Feed calculator</a>
-        <a href="CodeFinder.html" class="btn-link btn-ghost" target="_self"
-          >ICNARC code finder</a>
-          <a href="Disclaimer.html" class="btn-link btn-ghost" target="_self"
-          >Disclaimer</a>
-      </nav>
-    </header>
-  <h3>Nasogastric Feed Calculator</h3>
-  <div class="row1">
-    <!--<div class="tableA">
-      <div>
-        <label>Paste content:</label><br>
-        <input type="text" id="read_in" style="height: 160px"></input>
-      </div>
-    </div>-->
-
-    <div class="tableA">
-      <table class="metrics_table">
-        <tr class="odd_row">
-          <td class="metrics_row_header"><label>Height (cm):
-            <input id="patientHeight" type="number" value="178" style="width: 75px" min="100" max = "220"></input></label></td>
-
-        </tr>
-        <tr class="even_row">
-          <td class="metrics_row_header"><label>Weight (kg):
-            <input id="patientWeight" type="number" value="84" min ="30" max="150" style="width: 75px"></input>
-          </label></td>
-
-        </tr>
-        <tr class="odd_row">
-          <td class="metrics_row_header"><label>Gender (M/F):
-            <input id="patientMaleGender" type="button" value="M" class = "genderSelectButton"></input>
-            <input id="patientFemaleGender" type="button" value="F" class = "genderSelectButton"></input>
-          </label></td>
-        </tr>
-
-        <tr class="even_row">
-          <td class="metrics_row_header"><label id="energyReqLabel" for="energyRequirements">Energy (kcal/kg/day):25</label>
-            <input type="range" id="energyRequirements" min="5" max="35" step="1" value="25"
-              oninput="updateEnergyValue(this.value)">
+          <div class="cell metrics_row_header_sliders">
+            <label for="energyRequirements" id="energyReqLabel"
+              >Energy (kcal/kg/day):25</label
+            >
+            <input
+              type="range"
+              id="energyRequirements"
+              min="5"
+              max="35"
+              step="1"
+              value="25"
+              oninput="updateEnergyValue(this.value)"
+            />
             <script>
               function updateEnergyValue(value) {
                 // Convert value to floating point
                 let floatValue = parseFloat(value);
-                document.getElementById('energyReqLabel').textContent = "Energy (kcal/kg/day):" + floatValue.toFixed(1);
+                document.getElementById("energyReqLabel").textContent =
+                  "Energy (kcal/kg/day):" + floatValue.toFixed(1);
               }
-            </script></td>
+            </script>
+          </div>
 
-        </tr>
-
-        <tr class="odd_row">
-          <td class="metrics_row_header"><label id="proteinReqLabel" for="proteinRequirements">Protein (g/kg/day):1.5</label>
-            <input type="range" id="proteinRequirements" min="1.0" max="2.0" step="0.1" value="1.5"
-              oninput="updateValue(this.value)">
+          <div class="cell metrics_row_header_sliders">
+            <label for="proteinRequirements" id="proteinReqLabel"
+              >Protein (g/kg/day):1.5</label
+            >
+            <input
+              type="range"
+              id="proteinRequirements"
+              min="1.0"
+              max="2.0"
+              step="0.1"
+              value="1.5"
+              oninput="updateProteinValue(this.value)"
+            />
             <script>
-              function updateValue(value) {
+              function updateProteinValue(value) {
                 // Convert value to floating point
                 let floatValue = parseFloat(value);
-                document.getElementById('proteinReqLabel').textContent = "Protein (g/kg/day):" + floatValue.toFixed(1);
+                document.getElementById("proteinReqLabel").textContent =
+                  "Protein (g/kg/day):" + floatValue.toFixed(1);
               }
-            </script></td>
-        </tr>
+            </script>
+          </div>
 
-         <tr class="even_row">
-          <td class="metrics_row_header"><label id="propofolRateLabel" for="propofolRate">Propofol rate (ml/hr): 0</label>
-            <input type="range" id="propofolRate" min="0" max="50" step="1" value="0"
-              oninput="updatePropofolRate(this.value)">
+          <div class="cell metrics_row_header_sliders">
+            <label for="propofolRate" id="propofolRateLabel"
+              >Propofol rate (ml/hr): 0</label
+            >
+            <input
+              type="range"
+              id="propofolRate"
+              min="0"
+              max="50"
+              step="1"
+              value="0"
+              oninput="updatePropofolRate(this.value)"
+            />
             <script>
               function updatePropofolRate(value) {
                 // Convert value to floating point
                 let floatValue = parseFloat(value);
-                document.getElementById('propofolRateLabel').textContent = "Propofol rate (ml/hr):" + floatValue.toFixed(1);
+                document.getElementById("propofolRateLabel").textContent =
+                  "Propofol rate (ml/hr):" + floatValue.toFixed(1);
               }
-            </script></td>
-        </tr>
+            </script>
+          </div>
 
-        <tr class="odd_row">
-          <td class="metrics_row_header">
-            <label>Naloxegol?<input id="naloxegol" type="checkbox"></input></label>
-            <label>Na restrict?<input id="NaRestrict" type="checkbox"></input></label>
-          </div></td>
-        </tr>
-      </table>
+          <div class="cell metrics_row_header">
+            Naloxegol? <input id="naloxegol" type="checkbox" /> Na restrict?
+            <input id="NaRestrict" type="checkbox" />
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= WEIGHT CARD ================= -->
+      <div class="tableA">
+        <div class="metrics_table weight-grid">
+          <div class="cell row_header">BMI</div>
+          <div class="cell" id="BMIBox"></div>
+          <div class="cell">Select</div>
+
+          <div class="cell row_header">Act BW</div>
+          <div class="cell" id="ActBWBox"></div>
+          <div class="cell">
+            <input class="weightSelectButton" id="ABWselected" type="button" />
+          </div>
+
+          <div class="cell row_header">Adj BW</div>
+          <div class="cell" id="AdjBWBox"></div>
+          <div class="cell">
+            <input
+              class="weightSelectButton"
+              id="AdjBWselected"
+              type="button"
+            />
+          </div>
+
+          <div class="cell row_header">BMI 27</div>
+          <div class="cell" id="BMI27BWBox"></div>
+          <div class="cell">
+            <input
+              class="weightSelectButton"
+              id="BMI27BWselected"
+              type="button"
+            />
+          </div>
+
+          <div class="cell row_header">IBW</div>
+          <div class="cell" id="IBWBox"></div>
+          <div class="cell">
+            <input class="weightSelectButton" id="IBWselected" type="button" />
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= OUTPUT CARD ================= -->
+      <!-- <div class="tableA">
+        <div class="metrics_table output-grid">
+          <div class="cell row_header">
+            Energy (kcal/day):
+            <div id="dailyEnergyBox"></div>
+          </div>
+
+          <div class="cell row_header">
+            Propofol calories (kcal/day):
+            <div id="dailyPropofolBox"></div>
+          </div>
+
+          <div class="cell row_header">
+            Non-Propofol energy (kcal/day):
+            <div id="dailyNonPropofolBox"></div>
+          </div>
+
+          <div class="cell row_header">
+            Protein (g/day):
+            <div id="dailyProteinBox"></div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+      <div class="tableA">
+        <div class="metrics_table output-grid">
+          <div class="h_dailyEnergyBox cell row_header">Energy (kcal/day):</div>
+          <div id="dailyEnergyBox" class="dailyEnergyBox"></div>
+          <div class="h_dailyPropofolBox cell row_header">
+            Propofol calories (kcal/day):
+          </div>
+          <div id="dailyPropofolBox" class="dailyPropofolBox"></div>
+          <div class="h_dailyNonPropofolBox cell row_header">
+            Non-Propofol energy (kcal/day):
+          </div>
+          <div id="dailyNonPropofolBox" class="dailyNonPropofolBox"></div>
+          <div class="h_dailyProteinBox cell row_header">Protein (g/day):</div>
+          <div id="dailyProteinBox" class="dailyProteinBox"></div>
+        </div>
+      </div>
     </div>
 
-    <div class="tableA">
-      <table class="metrics_table">
-        <tr class="odd_row">
-          <td class="metrics_row_header">BMI</td>
-          <td id="BMIBox"></td>
-          <td>Select weight to use:</td>
-        </tr>
-        <tr class="even_row">
-          <td class="metrics_row_header">Act BW</td>
-          <td id="ActBWBox"></td>
-          <td><input class="weightSelectButton" id="ABWselected" type="button" class="highlight"></td>
-        </tr>
-
-        <tr class="even_row">
-          <td class="metrics_row_header">Adj BW</td>
-          <td id="AdjBWBox"></td>
-          <td><input class="weightSelectButton" id="AdjBWselected" type="button"></td>
-        </tr>
-
-        <tr class="even_row">
-          <td class="metrics_row_header">BMI 27</td>
-          <td id="BMI27BWBox"></td>
-          <td><input class="weightSelectButton" id="BMI27BWselected" type="button"></td>
-        </tr>
-
-        <tr class="odd_row">
-          <td class="metrics_row_header">IBW</td>
-          <td id="IBWBox"></td>
-          <td><input class="weightSelectButton" id="IBWselected" type="button"></td>
-        </tr>
-
-      </table>
+    <div class="row2 tableA">
+      <div id="table1-container"></div>
     </div>
 
-    <div class="tableA">
-      <table class="metrics_table">
-        <tr class="odd_row" >
-          <td class="metrics_row_header">Energy (kcal/day)</td>
-          <td id="dailyEnergyBox"></td>
-        </tr>
-
-        <tr class="even_row" >
-          <td class="metrics_row_header">Propofol calories (kcal/day)</td>
-          <td id="dailyPropofolBox"></td>
-        </tr>
-
-             <tr class="odd_row" >
-          <td class="metrics_row_header">non-Propofol energy required (kcal/day)</td>
-          <td id="dailyNonPropofolBox"></td>
-        </tr>
-
-        <tr class="even_row">
-          <td class="metrics_row_header">Protein (g/day)</td>
-          <td id="dailyProteinBox"></td>
-        </tr>
-      </table>
+    <div class="row3">
+      <p id="outputBox" class="output_box" style="padding: 10pt">Feed:</p>
+      <input
+        class="copyFeedButton"
+        type="button"
+        value="Copy feed to clipboard"
+        id="copyFeedButton"
+        onclick="copyFeed()"
+      />
     </div>
-  </div>
 
-  <div class="row2">
-    <div id="table1-container"></div>
-  </div>
+    <div id="startGuide" class="startGuide" style="width: 100%">
+      <h4>You must read the disclaimer before use.</h4>
+      <h4>Initial guidance:</h4>
+      <ol>
+        <li style="text-align: justify">
+          Enter the patient's actual height and gender to calculate their ideal
+          body weight (IBW).
+        </li>
+        <li style="text-align: justify">
+          You can then select from actual body weight (ABW), adjusted body
+          weight (Adj BW), BMI 27 weight, or ideal body weight (IBW) by clicking
+          the corresponding button.
+        </li>
+        <li style="text-align: justify">
+          Adjust the energy requirements using the slider provided. The default
+          value is set to 25 kcal/kg/day for energy. In the early catabolic
+          phase of critical illness a value of 20-25 kcal/kg/day is appropriate.
+          Later, in the anabolic phase between 30 and 35 kcal/kg/day can be
+          used.
+        </li>
+        <li style="text-align: justify">
+          Adjust the protein requirements using the slider provided. The default
+          value is set to 1.5 g/kg/day. In critically ill patients, protein
+          requirements may range from 1.2 to 2.0 g/kg/day depending on the
+          clinical situation.
+        </li>
+        <li style="text-align: justify">
+          If the patient is receiving naloxegol (or any other medication
+          requiring a 3 hour break in feed administration), tick the naloxegol
+          checkbox to adjust feed rates to account for a 3 hour break in feed
+          administration.
+        </li>
+        <li style="text-align: justify">
+          If the patient is receiving propofol, enter an approximate hourly rate
+          to account for the additional calories provided by the lipid emulsion
+          which is 1.1 kcal/ml irrespective of whether 1% or 2% propofol is
+          used. The calculator will convert the hourly rate to a 24 hour
+          equivalent calorie value.
+        </li>
+        <li style="text-align: justify">
+          If the patient is hypernatraemic or on a sodium-restricted diet, tick
+          the Na restrict checkbox to highlight feed regimens that have higher
+          sodium content (>0.5mmol/kg/day).
+        </li>
+      </ol>
+      <li style="text-align: justify">
+        Values highlighted in red suggest that these feeds should be reviewed
+        carefully as they may not be clinically appropriate.
+      </li>
+      <li style="text-align: justify">
+        Select a feed by clicking anywhere in the relevant column. Copy and
+        paste the feed details to your patient's chart.
+      </li>
+      <li>
+        <span>Simple summary of feeding in critical illness in an </span>
+        <a
+          id="reference1"
+          href="https://onepagericu.com/nutrition"
+          class=""
+          target="_self"
+          >infographic</a
+        >
+        <span> from Dr Nick Mark MD.</span>
+      </li>
+    </div>
 
-  <div class="row3">
-  <p id="outputBox" class="output_box" style="padding: 10px">Feed:</p>
-  <input type="button" value="Copy feed to clipboard" id="copyFeedButton" onclick="copyFeed()">
-  </div>
-
-  <div id="startGuide" class="startGuide">
-    <h5>You must read the disclaimer before use.</h5>
-    <h5>Initial guidance:</h5>
-    <ol>
-      <li>Enter the patient's actual height and gender to calculate their ideal body weight (IBW).</li>
-      <li>You can then select from actual body weight (ABW), adjusted body weight (Adj BW), BMI 27 weight, or ideal body weight (IBW) by clicking the corresponding button.</li>
-      <li>Adjust the energy requirements using the slider provided. The default value is set to 25 kcal/kg/day for energy. In the early catabolic phase of critical illness a value of 20-25 kcal/kg/day is appropriate. Later, in the anabolic phase between 30 and 35 kcal/kg/day can be used.</li>
-      <li>Adjust the protein requirements using the slider provided. The default value is set to 1.5 g/kg/day. In critically ill patients, protein requirements may range from 1.2 to 2.0 g/kg/day depending on the clinical situation.</li>
-      <li>If the patient is receiving naloxegol (or any other medication requiring a 3 hour break in feed administration), tick the naloxegol checkbox to adjust feed rates to account for a 3 hour break in feed administration.</li>
-      <li>If the patient is receiving propofol, enter an approximate hourly rate to account for the additional calories provided by the lipid emulsion which is 1.1 kcal/ml irrespective of whether 1% or 2% propofol is used. The calculator will convert the hourly rate to a 24 hour equivalent calorie value.</li>
-      <li>If the patient is hypernatraemic or on a sodium-restricted diet, tick the Na restrict checkbox to highlight feed regimens that have higher sodium content (>1mmol/kg/day).</li>
-    </ol>
-    <li>Values highlighted in red suggest that these feeds should be reviewed carefully as they may not be clinically appropriate.</li>
-    <li>Select a feed by clicking anywhere in the relevant column. Copy and paste the feed details to your patient's chart.</li>
-  </div>
-
-  <script src="index.js"></script>
-  <script src="nonfeedfunctions.js"></script>
-
-</body>
-
+    <script src="index.js"></script>
+    <script src="nonfeedfunctions.js"></script>
+  </body>
 </html>

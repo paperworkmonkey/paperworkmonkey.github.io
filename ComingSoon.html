@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    <title>ICUonline</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="p5.min.js"></script>
+  </head>
+  <body style="font-family: Verdana">
+    <div id="headerPlaceholder"></div>
+
+    <div id="disclaimer">
+    <h4>Coming soon...</h4>
+    <script>
+      //add PageTop header
+      fetch("PageTopNGFeed.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("headerPlaceholder").innerHTML = data;
+          const page = document.getElementById("AcidBaseHolder");
+          if (page) {
+            page.className = "btn-link btn-primary";
+          }
+        });
+    </script>
+  </body>
+</html>
