@@ -1,21 +1,39 @@
 let data;
 let searchTerm;
-let searchTermBox,
-  myResultsBox,
-  myICNARCsystem,
-  myICNARCsite,
-  myICNARCprocess,
-  myICNARCcondition,
-  myICNARCcode;
+let searchTermBox;
 
 function preload() {
   data = loadTable("ICNARCcodetable3.csv", "csv", "header");
 }
 
+function setup() {
+  noCanvas();
+  noLoop();
+
+  //add PageTop header
+  fetch("PageTopNGFeed.html")
+    .then((response) => response.text())
+    .then((data) => {
+      document.getElementById("headerPlaceholder").innerHTML = data;
+      const page = document.getElementById("codeFinder");
+      if (page) {
+        page.className = "btn-link btn-primary";
+      }
+    });
+
+  //create lower case condition column
+  data.addColumn("lowerCaseCondition");
+  for (let i = 0; i < data.getRowCount(); i++) {
+    data.set(i, "lowerCaseCondition", data.get(i, "Condition").toLowerCase());
+  }
+
+  //get DOM elements
+  // searchTermBox = document.getElementById("#inputValue");
+}
+
 function getSearchTerm() {
   searchTerm = inputValue.value.toLowerCase();
   let mySearchTermArray = searchTerm.split(" ");
-  //console.log(mySearchTermArray);
 
   let myInitialRows = data.matchRows(
     mySearchTermArray[0],
@@ -46,49 +64,11 @@ function getSearchTerm() {
     UniqueCodeString += myRows[i].getString("Unique code") + "<br>";
   }
 
-  myICNARCsystem.html(SystemString);
-  myICNARCsite.html(SiteString);
-  myICNARCprocess.html(ProcessString);
-  myICNARCcondition.html(ConditionString);
-  myICNARCcode.html(CodeString);
-  myICNARCuniqueCode.html(UniqueCodeString);
-}
-
-function setup() {
-  noCanvas();
-  noLoop();
-
-  //add PageTop header
-  fetch("PageTopNGFeed.html")
-    .then((response) => response.text())
-    .then((data) => {
-      document.getElementById("headerPlaceholder").innerHTML = data;
-      const page = document.getElementById("codeFinder");
-      if (page) {
-        page.className = "btn-link btn-primary";
-      }
-    });
-
-  //create lower case condition column
-  data.addColumn("lowerCaseCondition");
-  for (let i = 0; i < data.getRowCount(); i++) {
-    data.set(i, "lowerCaseCondition", data.get(i, "Condition").toLowerCase());
-  }
-
-  //get DOM elements
-  searchTermBox = select("#inputValue");
-  myResultsBox = select("#resultsBox");
-  myICNARCsystem = select("#ICNARCsystem");
-  myICNARCsite = select("#ICNARCsite");
-  myICNARCprocess = select("#ICNARCprocess");
-  myICNARCcondition = select("#ICNARCcondition");
-  myICNARCcode = select("#ICNARCcode");
-  myICNARCuniqueCode = select("#ICNARCuniqueCode");
-
-  // print(data.getRowCount() + " total rows in table");
-  // print(data.getColumnCount() + " total columns in table");
-}
-
-function draw() {
-  //background(220);
+  document.getElementById("ICNARCsystem").innerHTML = SystemString;
+  document.getElementById("ICNARCsite").innerHTML = SiteString;
+  document.getElementById("ICNARCprocess").innerHTML = ProcessString;
+  document.getElementById("ICNARCcondition").innerHTML = ConditionString;
+  document.getElementById("ICNARCuniqueCode").innerHTML = UniqueCodeString;
+  document.getElementById("sgICNARCcondition").innerHTML = ConditionString;
+  document.getElementById("sgICNARCcode").innerHTML = CodeString;
 }

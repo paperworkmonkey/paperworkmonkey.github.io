@@ -19,16 +19,14 @@
       var" or "sm bow obs", or "bow ob smal" etc.
     </p>
 
-    <div class="myGrid">
+    <div class="sgDivSearchBox">
       <div class="div1 topLines">
         <label for="inputValue">Search for: </label>
-        <input
-          type="text"
-          id="inputValue"
-          oninput="getSearchTerm()"
-          backgroundColor="red"
-        />
+        <input type="text" id="inputValue" oninput="getSearchTerm()" />
       </div>
+    </div>
+
+    <div class="myGrid">
       <div class="div2 topLines">System</div>
       <div class="div3 topLines">Site</div>
       <div class="div4 topLines">Process</div>
@@ -41,6 +39,13 @@
       <div class="div11"><p id="ICNARCcondition"></p></div>
       <div class="div12"><p id="ICNARCcode"></p></div>
       <div class="div13"><p id="ICNARCuniqueCode"></p></div>
+    </div>
+
+    <div class="smallGrid">
+      <div class="sgPathology">Condition</div>
+      <div class="sgCode">Code</div>
+      <div class="sgPathologyList"><p id="sgICNARCcondition"></p></div>
+      <div class="sgCodeList"><p id="sgICNARCcode"></p></div>
     </div>
 
     <script src="CodeFinder.js"></script>
