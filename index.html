@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="Nasogastric feed calculator for ICU patients. Calculate energy, protein and feed rates with IBW, adjusted weight, propofol and sodium considerations."
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/favicon.png" />
     <title>FeedMyPatient</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
@@ -180,7 +177,7 @@
       </div>
 
       <!-- ================= OUTPUT CARD ================= -->
-      <div class="tableA">
+      <!-- <div class="tableA">
         <div class="metrics_table output-grid">
           <div class="cell row_header">
             Energy (kcal/day):
@@ -201,6 +198,24 @@
             Protein (g/day):
             <div id="dailyProteinBox"></div>
           </div>
+        </div>
+      </div>
+    </div> -->
+
+      <div class="tableA">
+        <div class="metrics_table output-grid">
+          <div class="h_dailyEnergyBox cell row_header">Energy (kcal/day):</div>
+          <div id="dailyEnergyBox" class="dailyEnergyBox"></div>
+          <div class="h_dailyPropofolBox cell row_header">
+            Propofol calories (kcal/day):
+          </div>
+          <div id="dailyPropofolBox" class="dailyPropofolBox"></div>
+          <div class="h_dailyNonPropofolBox cell row_header">
+            Non-Propofol energy (kcal/day):
+          </div>
+          <div id="dailyNonPropofolBox" class="dailyNonPropofolBox"></div>
+          <div class="h_dailyProteinBox cell row_header">Protein (g/day):</div>
+          <div id="dailyProteinBox" class="dailyProteinBox"></div>
         </div>
       </div>
     </div>

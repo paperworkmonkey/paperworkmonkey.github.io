@@ -12,9 +12,9 @@
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.6)
     );
-    border-radius: 8pt;
-    backdrop-filter: saturate(120%) blur(6pt);
-    box-shadow: 0 2pt 6pt rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    backdrop-filter: saturate(120%) blur(6px);
+    box-shadow: 0 2px 6px rgba(16, 24, 40, 0.05);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -23,45 +23,45 @@
   .brand {
     display: flex;
     align-items: center;
-    gap: 10pt;
+    gap: 10px;
     text-decoration: none;
     color: inherit;
   }
 
   .brand img {
     display: block;
-    width: 48pt;
-    height: 48pt;
+    width: 48px;
+    height: 48px;
     object-fit: cover;
-    border-radius: 8pt;
-    box-shadow: 0 2pt 6pt rgba(16, 24, 40, 0.08);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(16, 24, 40, 0.08);
   }
 
   .brand .title {
     font-weight: 600;
-    letter-spacing: 0.2pt;
+    letter-spacing: 0.2px;
     font-size: 1rem;
   }
 
   .nav-links {
     display: flex;
-    gap: 8pt;
+    gap: 8px;
     align-items: center;
-    margin-left: 16pt;
+    margin-left: 16px;
   }
   .btn-link {
     display: inline-block;
-    padding: 10pt 14pt;
+    padding: 10px 14px;
     font-size: 0.95rem;
-    border-radius: 10pt;
+    border-radius: 10px;
     text-decoration: none;
     transition:
       transform 0.12s ease,
       box-shadow 0.12s ease;
-    box-shadow: 0 1pt 0 rgba(16, 24, 40, 0.03);
+    box-shadow: 0 1px 0 rgba(16, 24, 40, 0.03);
   }
   .btn-link:active {
-    transform: translateY(1pt);
+    transform: translateY(1px);
   }
 
   .btn-primary {
@@ -72,26 +72,26 @@
   .btn-ghost {
     background: transparent;
     color: var(--accent-2);
-    border: 1pt solid rgba(29, 78, 216, 0.08);
+    border: 1px solid rgba(29, 78, 216, 0.08);
   }
 
   .btn-ghost:hover {
     background-color: #f1f1ff;
   }
 
-  @media screen and (max-width: 380pt) {
+  @media screen and (max-width: 390px) {
     .top-row {
       flex-direction: column;
       align-items: flex-start;
-      gap: 10pt;
-      padding: 10pt;
+      gap: 10px;
+      padding: 10px;
     }
     .nav-links {
       margin-left: 0;
       flex-direction: column;
       align-items: flex-start;
-      gap: 10pt;
-      padding: 10pt;
+      gap: 10px;
+      padding: 10px;
     }
   }
 </style>

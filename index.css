@@ -3,8 +3,8 @@
   --card: #ffffff;
   --accent: #2563eb;
   --accent-2: #1d4ed8;
-  --gap: 16pt;
-  --pad: 14pt;
+  --gap: 16px;
+  --pad: 14px;
 }
 
 * {
@@ -12,7 +12,7 @@
 }
 
 body {
-  margin: 20pt;
+  margin: 20px;
   font-family: Verdana, system-ui, sans-serif;
   background: var(--bg);
   color: #111;
@@ -20,7 +20,7 @@ body {
 
 h3 {
   font-size: 1.5rem;
-  margin-bottom: 20pt;
+  margin-bottom: 20px;
 }
 
 /* ============================= */
@@ -31,20 +31,20 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--gap);
-  max-width: 1000pt;
+  max-width: 1000px;
   width: 100%;
 }
 
 /* Responsive */
-@media screen and (max-width: 380pt) {
+@media screen and (max-width: 480px) {
   .row1 {
     grid-template-columns: 1fr;
   }
 
   /* make checkboxes bigger */
   input[type="checkbox"] {
-    width: 40pt;
-    height: 40pt;
+    width: 40px;
+    height: 40px;
   }
 
   /* Scrolling behavious of feed table */
@@ -56,7 +56,7 @@ h3 {
 
   #data_table {
     border-collapse: separate;
-    min-width: 800pt;
+    min-width: 800px;
   }
 
   #data_table th:first-child,
@@ -65,11 +65,11 @@ h3 {
     left: 0;
     background: inherit;
     z-index: 1;
-    box-shadow: 2pt 0 4pt rgba(0, 0, 0, 0.08);
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.08);
   }
 
   #data_table th:first-child {
-    border-top-left-radius: 0pt;
+    border-top-left-radius: 0px;
   }
 
   /* th {
@@ -77,8 +77,8 @@ h3 {
   } */
   /* .row2 {
     rotate: 90deg;
-    width: 800pt;
-    height: 350pt;
+    width: 800px;
+    height: 350px;
   } */
 }
 
@@ -89,11 +89,11 @@ h3 {
 .tableA,
 .htmlTable {
   background: var(--card);
-  border-radius: 8pt;
+  border-radius: 8px;
   padding: var(--pad);
-  box-shadow: 0 2pt 6pt rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
   font-size: 0.75rem;
-  min-width: 250pt;
+  min-width: 250px;
 }
 
 /* ============================= */
@@ -102,34 +102,63 @@ h3 {
 
 .metrics_table {
   display: grid;
-  gap: 4pt;
+  gap: 4px;
   font-size: 0.75rem;
 }
 
 /* Input section (1 column) */
 .input-grid {
   grid-template-columns: 1fr;
-  margin: 10pt;
+  margin: 10px;
 }
 
 /* Weight selection (3 columns) */
 .weight-grid {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: left;
-  margin: 10pt;
+  margin: 10px;
 }
 
 /* Output section (2 columns) */
 .output-grid {
-  margin: 10pt;
-  grid-template-columns: 1fr;
-  align-items: left;
-  text-align: left;
+  margin: 10px;
+  grid-template-columns: 2fr;
+  align-items: center;
+  text-align: center;
+}
+
+/* .output-grid > div {
+  
+} */
+
+.h_dailyEnergyBox {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.dailyEnergyBox {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.h_dailyPropofolBox {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.dailyPropofolBox {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.h_dailyNonPropofolBox {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.dailyNonPropofolBox {
+  grid-area: 3 / 2 / 4 / 3;
+}
+._dailyProteinBox {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.dailyProteinBox {
+  grid-area: 4 / 2 / 5 / 3;
 }
 
 /* Cell styling */
 .cell {
-  padding: 6pt;
+  padding: 6px;
   text-align: left;
   align-items: center;
 }
@@ -161,7 +190,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* left align */
-  gap: 6pt;
+  gap: 6px;
 }
 
 .metrics_row_header_sliders input[type="range"] {
@@ -171,16 +200,16 @@ h3 {
 /* Buttons */
 /* .weightSelectButton,
 .genderSelectButton {
-  width: 30pt;
-  border-radius: 6pt;
+  width: 30px;
+  border-radius: 6px;
 } */
 
 .weightSelectButton,
 .genderSelectButton {
-  width: 32pt;
-  height: 32pt;
-  border-radius: 8pt;
-  border: 1pt solid #cbd5e1;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
   background-color: #ffffff;
   font-weight: 600;
   font-size: 0.75rem;
@@ -197,14 +226,14 @@ h3 {
 .genderSelectButton:hover:not(.highlight) {
   background-color: #f1f5f9;
   border-color: #94a3b8;
-  box-shadow: 0 2pt 6pt rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 /* Pressed */
 .weightSelectButton:active,
 .genderSelectButton:active {
-  transform: translateY(1pt);
-  box-shadow: 0 1pt 3pt rgba(0, 0, 0, 0.08);
+  transform: translateY(1px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 /*used for feed column selection */
@@ -217,8 +246,8 @@ h3 {
   background-color: rgb(248, 140, 140);
   border-color: rgb(220, 90, 90);
   color: white;
-  box-shadow: inset 0 2pt 4pt rgba(0, 0, 0, 0.15);
-  /* border-radius: 3pt; */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+  /* border-radius: 3px; */
 }
 
 #dailyEnergyBox,
@@ -229,34 +258,34 @@ h3 {
 
 .row_header {
   font-weight: bold;
-  min-width: 100pt;
-  padding: 5pt;
+  min-width: 100px;
+  padding: 10px;
 }
 
 .odd_row {
   background-color: rgb(178, 225, 241);
-  padding: 0pt;
+  padding: 0px;
 }
 
 .even_row {
   background-color: rgb(208, 231, 244);
-  padding: 0pt;
+  padding: 0px;
 }
 
 td {
   text-align: center;
-  padding-left: 6pt;
-  padding-right: 6pt;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 th {
   background-color: #eeeeee;
-  border-top-left-radius: 8pt;
-  border-top-right-radius: 8pt;
-  min-width: 30pt;
-  padding-left: 6pt;
-  padding-right: 6pt;
-  /* height: 50pt; */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  min-width: 30px;
+  padding-left: 6px;
+  padding-right: 6px;
+  /* height: 50px; */
 }
 
 #data_table th:first-child {
@@ -264,42 +293,37 @@ th {
 }
 
 .row1 > div {
-  /* max-width: 250pt; */
+  /* max-width: 250px; */
   flex: 2;
   /*grow*/
-  padding: 0pt;
+  padding: 0px;
 }
 
 .row2 {
   display: grid;
-  max-width: 1000pt;
+  max-width: 1000px;
   width: 100%;
-  margin-top: 10pt;
-  margin-bottom: 10pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .output_box {
-  /* border: 2pt;
-  border-style: solid;
-  border-color: black;
-  background-color: rgb(178, 225, 241);
-  width: 700pt; */
-  max-width: 1000pt;
+  max-width: 1000px;
   width: 100%;
-  border: 2pt;
+  border: 1px;
   border-style: solid;
   border-color: black;
   /* background: var(--card); */
   background: rgb(208, 231, 244);
-  border-radius: 8pt;
+  border-radius: 8px;
   padding: var(--pad);
-  box-shadow: 0 2pt 6pt rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
   font-size: 0.75rem;
 }
 
 #copyFeedButton {
-  padding: 10pt 18pt;
-  border-radius: 10pt;
+  padding: 10px 18px;
+  border-radius: 10px;
   border: none;
   background-color: #2563eb;
   color: white;
@@ -310,40 +334,40 @@ th {
     background-color 0.15s ease,
     transform 0.05s ease,
     box-shadow 0.15s ease;
-  box-shadow: 0 4pt 10pt rgba(37, 99, 235, 0.25);
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
 }
 
 /* Hover */
 #copyFeedButton:hover {
   background-color: #1d4ed8;
-  box-shadow: 0 6pt 14pt rgba(29, 78, 216, 0.3);
+  box-shadow: 0 6px 14px rgba(29, 78, 216, 0.3);
 }
 
 /* Pressed */
 #copyFeedButton:active {
-  transform: translateY(1pt);
-  box-shadow: 0 3pt 8pt rgba(29, 78, 216, 0.25);
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(29, 78, 216, 0.25);
 }
 
 /* Focus (keyboard accessibility) */
 #copyFeedButton:focus {
   outline: none;
   box-shadow:
-    0 0 0 3pt rgba(37, 99, 235, 0.3),
-    0 4pt 10pt rgba(37, 99, 235, 0.25);
+    0 0 0 3px rgba(37, 99, 235, 0.3),
+    0 4px 10px rgba(37, 99, 235, 0.25);
 }
 
 .startGuide {
-  margin-top: 10pt;
-  max-width: 1000pt;
+  margin-top: 10px;
+  max-width: 1000px;
   width: 100%;
-  border: 2pt;
+  border: 2px;
   border-style: solid;
   border-color: gray;
   background: var(--card);
-  border-radius: 8pt;
+  border-radius: 8px;
   padding: var(--pad);
-  box-shadow: 0 2pt 6pt rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
   font: 0.75rem;
   font-size: 0.75rem;
 }
