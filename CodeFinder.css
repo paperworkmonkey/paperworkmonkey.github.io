@@ -3,8 +3,8 @@
   --card: #ffffff;
   --accent: #2563eb;
   --accent-2: #1d4ed8;
-  --gap: 12px;
-  --pad: 14px;
+  --gap: 12pt;
+  --pad: 14pt;
 }
 
 * {
@@ -28,7 +28,7 @@ body {
 }
 
 main {
-  padding: 28px;
+  padding: 28pt;
 }
 
 html {
@@ -36,17 +36,17 @@ html {
 }
 
 body {
-  padding: 20px;
+  padding: 20pt;
 }
 
 h3 {
   font-size: 1.5rem;
-  padding: 10px;
+  padding: 10pt;
   /* border-color: rgb(0, 0, 0); */
   border-style: none;
-  width: 700px;
+  width: 700pt;
   /* background-color: cadetblue; */
-  min-width: 700px;
+  min-width: 700pt;
 }
 
 canvas {
@@ -58,12 +58,12 @@ canvas {
   justify-content: left;
   align-items: left;
   background: lightblue;
-  border: 0px;
+  border: 0pt;
   font-size: 0.8rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-left: 10px;
+  padding-left: 10pt;
 }
 
 .topLines {
@@ -76,9 +76,9 @@ canvas {
 .myGrid {
   display: grid;
   grid-template-columns: 10.8% 21.6% 21.6% 33.4% 6.25% 6.25%;
-  grid-template-rows: repeat(2, 25px) 1fr;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  grid-template-rows: repeat(2, 25pt) 1fr;
+  grid-column-gap: 5pt;
+  grid-row-gap: 5pt;
 }
 
 .div1 {
