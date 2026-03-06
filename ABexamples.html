@@ -31,11 +31,15 @@
       <tbody></tbody>
     </table>
 
-    <textarea
-      id="output"
-      placeholder="Click a column header to populate this..."
-    ></textarea>
-    <button onclick="copyToClipboard()">Copy to Clipboard</button>
+    <div class="output_area">
+      <textarea
+        id="output"
+        placeholder="Click a column header to populate this..."
+      ></textarea>
+      <button class="copyButton" onclick="copyToClipboard()">
+        Copy to Clipboard
+      </button>
+    </div>
 
     <script>
       //add PageTop header

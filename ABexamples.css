@@ -1,0 +1,100 @@
+body {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+thead th {
+  background: #f4f4f4;
+  cursor: pointer;
+  user-select: none;
+}
+
+thead th:hover {
+  background: #e9e9e9;
+}
+
+.selected {
+  background: #dbeafe !important;
+  font-weight: bold;
+}
+
+.output_area {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+textarea {
+  width: fit-content;
+  height: 320px;
+  font-family: monospace;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.copyButton {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    transform 0.05s ease,
+    box-shadow 0.15s ease;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
+  height: 40px;
+}
+
+/* Hover */
+.copyButton:hover {
+  background-color: #1d4ed8;
+  box-shadow: 0 6px 14px rgba(29, 78, 216, 0.3);
+}
+
+/* Pressed */
+.copyButton:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(29, 78, 216, 0.25);
+}
+
+/* Focus (keyboard accessibility) */
+.copyButton:focus {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(37, 99, 235, 0.3),
+    0 4px 10px rgba(37, 99, 235, 0.25);
+}
+
+.hint {
+  margin: 10px 0 16px;
+  color: #555;
+}
