@@ -19,7 +19,7 @@
         .then((response) => response.text())
         .then((data) => {
           document.getElementById("headerPlaceholder").innerHTML = data;
-          const page = document.getElementById("AcidBaseHolder");
+          const page = document.getElementById("AcidBase");
           if (page) {
             page.className = "btn-link btn-primary";
           }

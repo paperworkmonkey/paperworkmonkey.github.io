@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ICUonline</title>
+
+    <link rel="stylesheet" type="text/css" href="AcidBase.css" />
+    <link rel="stylesheet" type="text/css" href="AcidBaseNotes.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    <script src="libraries/p5.min.js"></script>
+  </head>
+
+  <body>
+    <div id="headerPlaceholder"></div>
+
+    <h4>Notes</h4>
+    <p>
+      CO<sub>2</sub> as bicarb calcualted from Henderson-Hasselbach:<br />(Bic =
+      [HCO<sub>3</sub><sup>-</sup>] = 0.225 x PCO<sub>2</sub> x 10<sup
+        >(pH -6.1)</sup
+      >
+    </p>
+    <p></p>
+
+    <!-- Acid base disturbances table -->
+    <table id="general_table" border="1" style="column-width: 300px 800px">
+      <tr style="text-align: left">
+        <td style="text-align: left">
+          <h4>HAGMA</h4>
+          <ul>
+            <li>C - CO, cyanide, congenial HF</li>
+            <li>A- aminoglycosides</li>
+            <li>T - theophylline, toluene (glue sniffing)</li>
+            <li>M - methanol</li>
+            <li>U - uraemia</li>
+            <li>D - DKA (or other ketoacidosis)</li>
+            <li>P - paraldehyde, phenformin, paracetamol</li>
+            <li>I - isoniazid, IEM, iron</li>
+            <li>L - lactate</li>
+            <li>E - ethanol, ethylene glycol</li>
+            <li>S - salicylates</li>
+          </ul>
+          <h4>NAGMA - USEDCARP</h4>
+          <ul>
+            <li>U - Ureterostomy</li>
+            <li>S - Small bowel fistula, spironolactone</li>
+            <li>E - Extra chloride</li>
+            <li>D - Diarrhea</li>
+            <li>C - Carbonic anhydrase inhibitors</li>
+            <li>A - adrenal insufficiency</li>
+            <li>R - Renal tubular acidosis</li>
+            <li>P - Pancreatic fistula, post hypercapnia</li>
+          </ul>
+        </td>
+
+        <td style="text-align: left; width: 80%">
+          <h4>Metabolic alkalosis</h4>
+          <ul>
+            <li>Chloride loss:</li>
+            <ul>
+              <li>GIT - vomiting, NG aspiration, vilous adenoma</li>
+              <li>
+                Renal: Chloriuretic diuretics, severe K depletion,
+                post-hypercapnia
+              </li>
+              <li>Skin: cystic fibrosis</li>
+            </ul>
+
+            <li>
+              Potassium loss:
+              <ul>
+                <li>GIT: laxative abuse</li>
+                <li>
+                  Renal: hyperaldosteronism (primary and secondary), other
+                  hypokalaemic hypertensive syndromes (incl Bartter adn
+                  Gitelman)
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              Base loading in presence of low GFR
+              <ul>
+                <li>Milk-alkali syndrome</li>
+                <li>Base loading in ESRF</li>
+                <li>
+                  Co-administration of nonreabsorbable antacids and
+                  cation-exchange resin
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              Miscellaneous
+              <ul>
+                <li>post-hypercapnic states</li>
+                <li>Multiple citrate blood transfusions</li>
+                <li>widespread bont metastases</li>
+                <li>recovery from starvation</li>
+              </ul>
+            </li>
+          </ul>
+
+          <h4>Respiratory alkalosis</h4>
+          <ul>
+            <li>
+              CNS stimulation
+              <ul>
+                <li>pain, anxiety</li>
+                <li>ischaemia</li>
+                <li>stroke</li>
+                <li>tumour</li>
+                <li>infeciton</li>
+                <li>
+                  drugs (salicylates, progesterone, stimulants (doxapram))
+                </li>
+              </ul>
+            </li>
+            <li>
+              Peripheral stimulation
+              <ul>
+                <li>hypoxaemia</li>
+                <li>altitude</li>
+                <li>
+                  pulmonary disease (congestive HF, non-cardiogenic pulmonary
+                  oedema, asthma, PE)
+                </li>
+                <li>severe anaemia</li>
+              </ul>
+            </li>
+            <li>
+              Unknown mechanism
+              <ul>
+                <li>sepsis</li>
+                <li>metabolic encephalopathies</li>
+              </ul>
+            </li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="text-align: left">
+          <h4>Delta values</h4>
+          <ul>
+            <li>
+              Delta Ratio less than 1: Suggests a normal anion gap metabolic
+              acidosis (NAGMA).
+            </li>
+            <li>
+              Delta Ratio > 2: Suggests a concurrent metabolic alkalosis or
+              pre-existing high bicarbonate.
+            </li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Stewart variables table -->
+    <h4>Stewart variables</h4>
+    <table border="4">
+      <tr class="independent">
+        <!-- This cell spans 3 rows vertically -->
+        <td rowspan="3" style="width: 5%"><b>Independent variables</b></td>
+        <td>PCO<sub>2</sub></td>
+        <td>Total CO<sub>2</sub></td>
+        <td>Lungs</td>
+      </tr>
+      <tr class="independent">
+        <td>A<sub>TOT</sub></td>
+        <td>Total weak non-volatile acids</td>
+        <td>Liver</td>
+      </tr>
+      <tr class="independent">
+        <td>SID</td>
+        <td>Strong ion difference</td>
+        <td>Kidneys</td>
+      </tr>
+      <tr>
+        <!-- This cell spans 3 rows vertically -->
+        <td rowspan="6" style="width: 5%"><b>Dependent variables</b></td>
+        <td>H<sup>+</sup></td>
+        <td></td>
+        <td rowspan="2">Water dissociation</td>
+      </tr>
+      <tr>
+        <td>OH<sup>-</sup></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>HCO<sub>3</sub><sup>-</sup></td>
+        <td>Bicarbonate</td>
+        <td>Henderson-Hasselbach</td>
+      </tr>
+      <tr>
+        <td>CO<sub>3</sub><sup>2-</sup></td>
+        <td>Carbonate</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>HA</td>
+        <td>Weak acid</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>A<sup>-</sup></td>
+        <td>Weak anions</td>
+        <td></td>
+      </tr>
+    </table>
+
+    <ul>
+      <li>
+        <h4>SIDa</h4>
+        SIDa = apparent SID = charge difference between measures strong ions and
+        strong anions. Normal values 40-46. SIDa = (Na<sup>+</sup> + K<sup
+          >+</sup
+        >
+        + Ca<sup>2+</sup> + Mg<sup>2+</sup>) - (Cl<sup>−</sup> +
+        Lactate<sup>−</sup>)
+      </li>
+      <li>
+        <h4>SIDe</h4>
+        SIDe = Effective SID = calculated sum of charges measured weak acids in
+        plasma (bic, albumin and phosphate).<br />SIDe = Bic<sup>-</sup> +
+        Albumin<sup>-</sup> + Phosphate<sup>-</sup><br />Normal value is 36-40.
+      </li>
+      <li>
+        <h4>SIG</h4>
+        SIG = SIDa – SIDe. i.e. take the SIDa (calculated from difference in
+        charges on strong cations and anions) and subtract the charges from weak
+        acids (SIDe) - what is left is a caused by known anions (e.g. sulphate,
+        acetate, citrate, D-lactate etc.).
+        <ul>
+          <li>
+            Increased SIG acidosis:
+            <ol>
+              <li>ketoacidosis</li>
+              <li>D-lactate</li>
+              <li>uraemia</li>
+              <li>hepatic failure</li>
+              <li>
+                toxins ( (organic alcohols, iron, isoniazid, cyanide
+                paraldehyde, salicylates))
+              </li>
+            </ol>
+          </li>
+          <li>
+            Decreased SIG acidosis:
+            <ol>
+              <li>lithium toxicity</li>
+              <li>bromine toxicity</li>
+              <li>THAM</li>
+              <li>paraproteins</li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h4>Stewart equations</h4>
+    <ol>
+      <li>
+        [H<sup>+</sup>] × [OH<sup>−</sup>] = K′<sub>w</sub> (water dissociation
+        equilibrium)
+      </li>
+
+      <li>
+        [H<sup>+</sup>] × [A<sup>−</sup>] = K<sub>A</sub> × [HA] (weak acid
+        equilibrium)
+      </li>
+
+      <li>
+        [HA] + [A<sup>−</sup>] = [A<sub>TOT</sub>] (conservation of mass for
+        “A”)
+      </li>
+
+      <li>
+        [H<sup>+</sup>] × [HCO<sub>3</sub><sup>−</sup>] = K<sub>C</sub> ×
+        pCO<sub>2</sub>
+        (bicarbonate ion formation equilibrium)
+      </li>
+
+      <li>
+        [H<sup>+</sup>] × [CO<sub>3</sub><sup>2−</sup>] = K<sub>3</sub> ×
+        [HCO<sub>3</sub><sup>−</sup>] (carbonate ion formation equilibrium)
+      </li>
+
+      <li>
+        [SID] + [H<sup>+</sup>] − [HCO<sub>3</sub><sup>−</sup>] −
+        [A<sup>−</sup>] − [CO<sub>3</sub><sup>2−</sup>] − [OH<sup>−</sup>] = 0
+        (maintenance of electrical neutrality)
+      </li>
+    </ol>
+  </body>
+  <script>
+    //add PageTop header
+    fetch("PageTopAcidBase.html")
+      .then((response) => response.text())
+      .then((data) => {
+        document.getElementById("headerPlaceholder").innerHTML = data;
+
+        const page = document.getElementById("AcidBase");
+        if (page) {
+          page.className = "btn-link btn-primary";
+        }
+
+        const ABlink = document.getElementById("ABnotes");
+        if (ABlink) {
+          ABlink.className = "btn-link btn-primary";
+        }
+      });
+  </script>
+</html>

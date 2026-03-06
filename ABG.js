@@ -524,7 +524,7 @@ class ABGclass {
           this.interpretationText += `. Delta ratio (${this.DeltaRatio.toFixed(1)}) suggests a concurrent metabolic alkalosis or pre-existing high bicarbonate.`;
         } else if (this.DeltaRatio > 1.0 && this.DeltaRatio < 2.0) {
           this.interpretationText += `. Delta ratio (${this.DeltaRatio.toFixed(1)}) suggests uncomplicated HAGMA.`;
-        } else if (DeltaRatio >= 0.8 && DeltaRatio <= 1.0) {
+        } else if (this.DeltaRatio >= 0.8 && DeltaRatio <= 1.0) {
           this.interpretationText += `. Delta ratio (${this.DeltaRatio.toFixed(1)}) unhelpful.`;
         } else if (this.DeltaRatio > 0.4 && this.DeltaRatio < 0.8) {
           this.interpretationText += `. Delta ratio (${this.DeltaRatio.toFixed(1)}) suggests mixed NAGMA and HAGMA.`;
