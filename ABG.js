@@ -31,6 +31,7 @@ class ABGclass {
     this.albumin = albumin;
     this.Hb = Hb;
     this.MeasuredOsm = MeasuredOsm;
+    this.OsmGap;
     this.Ur = Ur;
     this.Gluc = Gluc;
     this.AnionGap;
@@ -58,32 +59,68 @@ class ABGclass {
     }
     debugg(`iCa ${this.iCa}`);
 
-    //
-    this.AnionGap = this.Na + this.K - (this.Cl + this.HCO3);
-    this.CorrAnionGap =
-      this.Na - (this.Cl + this.HCO3) + 0.25 * (this.albumin - 40);
+    if (this.Na && this.K && this.Cl) {
+      //AG
+      this.AnionGap = this.Na + this.K - (this.Cl + this.HCO3);
+    } else {
+      this.AnionGap = NaN;
+    }
+
+    //AG(corr)
+    if (this.Na && this.K && this.Cl && this.albumin) {
+      this.CorrAnionGap =
+        this.Na - (this.Cl + this.HCO3) + 0.25 * (this.albumin - 40);
+    } else {
+      this.CorrAnionGap = NaN;
+    }
+    //AG(normal)
     this.NormalAG = 0.2 * this.albumin + 1.5 * this.phosphate + this.lactate; // in mmol/L
-    this.SIDa =
-      this.Na +
-      this.K +
-      this.CaTot +
-      2 * this.Mg +
-      2 * this.iCa -
-      this.Cl -
-      this.lactate;
 
-    this.AlbuminEffect = (0.123 * this.pH - 0.631) * (42 - this.albumin);
-    this.CO2asBicarb = 0.23 * this.PCO2 * Math.pow(10, this.pH - 6.1);
-    this.PhosphateEffect = (1.1 - this.phosphate) * (0.309 * this.pH - 0.469);
+    //SIDa
+    if (
+      this.Na &&
+      this.K &&
+      (this.CaTot || this.iCa) &&
+      this.Mg &&
+      this.Cl &&
+      this.lactate
+    ) {
+      this.SIDa =
+        this.Na +
+        this.K +
+        this.CaTot +
+        2 * this.Mg +
+        2 * this.iCa -
+        this.Cl -
+        this.lactate;
+    } else {
+      this.SIDa = NaN;
+    }
 
+    //SIDe component effect calculations
+    if (this.Albumin) {
+      this.AlbuminEffect = (0.123 * this.pH - 0.631) * (42 - this.albumin);
+    } else this.AlbuminEffect = NaN;
+
+    if (this.PCO2 && this.pH) {
+      this.CO2asBicarb = 0.23 * this.PCO2 * Math.pow(10, this.pH - 6.1);
+    } else this.CO2asBicarb = NaN;
+
+    if (this.phosphate && this.pH) {
+      this.PhosphateEffect = (1.1 - this.phosphate) * (0.309 * this.pH - 0.469);
+    } else this.PhosphateEffect = NaN;
+
+    //SIDe
     // this.SIDe = this.CO2asBicarb + this.AlbuminEffect + this.PhosphateEffect;
     this.SIDe =
       2.46e-8 * (this.PCO2 / Math.pow(10, -this.pH)) +
       this.albumin * (0.123 * this.pH - 0.631) +
       this.phosphate * (0.309 * this.pH - 0.469);
 
-    // this.SIDe = this.CO2asBicarb + this.AlbuminEffect + this.PhosphateEffect;
-    this.SIG = this.SIDa - this.SIDe;
+    //SIG
+    if (this.SIDa && this.SIDe) {
+      this.SIG = this.SIDa - this.SIDe;
+    } else this.SIG = NaN;
 
     //NaCl effect
     if (!this.Na) {
@@ -92,26 +129,25 @@ class ABGclass {
       this.NaEffect = 0.3 * (this.Na - 140);
     }
 
-    if (!this.Cl) {
+    if (!this.Cl || !this.Na) {
       this.ClEffect = NaN;
     } else {
       this.ClEffect = 102 - (this.Cl * 140) / this.Na;
     }
 
-    // console.log(`Na effect: ${this.NaEffect}`);
-    // console.log(`Cl effect: ${this.ClEffect}`);
-
-    if (this.NaEffect == NaN || this.ClEffect == NaN) {
+    if (!this.NaEffect || !this.ClEffect) {
       this.NaClEffect = NaN;
     } else {
       this.NaClEffect = this.Na - this.Cl - 38;
     }
 
     // Lactate Effect
-    this.LactateEffect = 1.3 - this.lactate;
+    if (this.lactate) {
+      this.LactateEffect = 1.3 - this.lactate;
+    } else this.LactateEffect = NaN;
 
     //Base excess calculations
-    if (this.CO2asBicarb == 0 || this.pH == 0) {
+    if (!this.CO2asBicarb || !this.pH || !this.CO2asBicarb || !this.pH) {
       this.sBEHb50 = NaN;
       this.sBEHbPt = NaN;
     } else {
@@ -126,15 +162,21 @@ class ABGclass {
     }
 
     //delta gaps and ratios
-    this.DeltaGap = this.AnionGap - 12 - (this.HCO3 - 24);
-    this.DeltaRatio = this.DeltaGap / (24 - this.HCO3);
+    if (this.AnionGap && this.HCO3) {
+      this.DeltaGap = this.AnionGap - 12 - (this.HCO3 - 24);
+      this.DeltaRatio = (this.AnionGap - 12) / (24 - this.HCO3);
+    } else {
+      this.DeltaGap = NaN;
+      this.DeltaRatio = NaN;
+    }
 
     //osm gap
-    let OsmCalc = 2 * (this.Na + this.K) + this.Ur + this.Gluc;
-    if (this.MeasuredOsm > 100) {
-      this.OsmGap = this.MeasuredOsm - this.OsmCalc;
+
+    if (this.Na && this.K && this.Ur && this.Gluc && this.MeasuredOsm > 100) {
+      let OsmCalc = 2 * (this.Na + this.K) + this.Ur + this.Gluc;
+      this.OsmGap = this.MeasuredOsm - OsmCalc;
     } else {
-      this.OsmGap = "";
+      this.OsmGap = NaN;
     }
   }
 
@@ -172,7 +214,7 @@ class ABGclass {
 
     //avoid displaying Osm Gap if non-sensical
     if (this.MeasuredOsm < this.OsmCalc) {
-      document.getElementById("OsmGapBox").innerText = "";
+      document.getElementById("OsmGapBox").innerText = "err";
     } else {
       document.getElementById("OsmGapBox").innerText = Number(
         this.OsmGap,
@@ -201,8 +243,12 @@ class ABGclass {
     }
 
     //avoid displaying delta values if HCO3 is normal
-    if (this.HCO3 >= 20 && this.HCO3 <= 28) {
-      debugg("no d gap or ration because of logic");
+    if (
+      (this.HCO3 >= 20 && this.HCO3 <= 28) ||
+      !this.DeltaGap ||
+      !this.DeltaRatio
+    ) {
+      debugg("no d gap or ratio because of logic");
       document.getElementById("DeltaGapBox").innerText = "";
       document.getElementById("DeltaRatioBox").innerText = "";
     } else {
@@ -517,25 +563,25 @@ class ABGclass {
 
       if (this.AnionGap > 16) {
         debugg("well, AG is high ");
-        this.interpretationText += "HAGMA";
+        this.interpretationText += "HAGMA. ";
 
         //Delta ratios
         if (this.DeltaRatio >= 2) {
-          this.interpretationText += `. Delta ratio (${this.DeltaRatio.toFixed(1)}) suggests a concurrent metabolic alkalosis or pre-existing high bicarbonate.`;
+          this.interpretationText += `Delta ratio (${this.DeltaRatio.toFixed(1)}) suggests a concurrent metabolic alkalosis or pre-existing high bicarbonate. `;
         } else if (this.DeltaRatio > 1.0 && this.DeltaRatio < 2.0) {
-          this.interpretationText += `. Delta ratio (${this.DeltaRatio.toFixed(1)}) suggests uncomplicated HAGMA.`;
-        } else if (DeltaRatio >= 0.8 && DeltaRatio <= 1.0) {
-          this.interpretationText += `. Delta ratio (${this.DeltaRatio.toFixed(1)}) unhelpful.`;
+          this.interpretationText += `Delta ratio (${this.DeltaRatio.toFixed(1)}) suggests uncomplicated HAGMA. `;
+        } else if (this.DeltaRatio >= 0.8 && DeltaRatio <= 1.0) {
+          this.interpretationText += `Delta ratio (${this.DeltaRatio.toFixed(1)}) unhelpful. `;
         } else if (this.DeltaRatio > 0.4 && this.DeltaRatio < 0.8) {
-          this.interpretationText += `. Delta ratio (${this.DeltaRatio.toFixed(1)}) suggests mixed NAGMA and HAGMA.`;
+          this.interpretationText += `Delta ratio (${this.DeltaRatio.toFixed(1)}) suggests mixed NAGMA and HAGMA. `;
         } else if (this.DeltaRatio <= 0.4) {
-          this.interpretationText += `. Delta ratio (${this.DeltaRatio} suggest pure NAGMA`;
+          this.interpretationText += `Delta ratio (${this.DeltaRatio.toFixed(2)} suggest pure NAGMA). `;
         }
 
         //osmolar gap
         if (this.OsmGap >= 16) {
           this.interpretationText +=
-            ". Raised osmolar gap — consider toxic alcohol ingestion.";
+            "Raised osmolar gap — consider toxic alcohol ingestion. ";
         }
       } else if (this.AnionGap <= 16) {
         debugg("well AG is LOW!! ");
@@ -544,15 +590,15 @@ class ABGclass {
     }
 
     if (this.LactateEffect < -2) {
-      this.interpretationText += `\nLactic acidosis. Lactate effect ${this.LactateEffect.toFixed(1)} on sBE`;
+      this.interpretationText += `\nLactic acidosis - lactate effect ${this.LactateEffect.toFixed(1)} on sBE`;
     }
 
     if (this.NaClEffect <= -4) {
-      this.interpretationText += `\nHyperchloraemic acidosis. NaCl effect ${this.NaClEffect.toFixed(1)} on sBE`;
+      this.interpretationText += `\nHyperchloraemic acidosis - NaCl effect ${this.NaClEffect.toFixed(1)} on sBE`;
     }
 
     if (this.AlbuminEffect > 2) {
-      this.interpretationText += `\nHypoalbuminaemic alkalosis. Albumin effect ${this.AlbuminEffect.toFixed(1)} on sBE`;
+      this.interpretationText += `\nHypoalbuminaemic alkalosis - albumin effect ${this.AlbuminEffect.toFixed(1)} on sBE`;
     }
 
     debugg(this.interpretationText);
