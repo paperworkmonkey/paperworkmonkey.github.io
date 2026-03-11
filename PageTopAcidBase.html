@@ -1,0 +1,182 @@
+<!-- Paste this just below body tag 
+     <div id="headerPlaceholder"></div>
+-->
+<style>
+  .top-row {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    padding: calc(var(--pad)) calc(var(--pad) * 1.5);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.6)
+    );
+    border-radius: 8px;
+    backdrop-filter: saturate(120%) blur(6px);
+    box-shadow: 0 2px 6px rgba(16, 24, 40, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .brand img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(16, 24, 40, 0.08);
+  }
+
+  .brand .title {
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    font-size: 1rem;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-left: 16px;
+
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .btn-link {
+    display: inline-block;
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition:
+      transform 0.12s ease,
+      box-shadow 0.12s ease;
+    box-shadow: 0 1px 0 rgba(16, 24, 40, 0.03);
+  }
+  .btn-link:active {
+    transform: translateY(1px);
+  }
+
+  .btn-primary {
+    background: linear-gradient(180deg, var(--accent), var(--accent-2));
+    color: white;
+  }
+
+  .btn-ghost {
+    background: transparent;
+    color: var(--accent-2);
+    border: 1px solid rgba(29, 78, 216, 0.08);
+  }
+
+  .btn-ghost:hover {
+    background-color: #f1f1ff;
+  }
+
+  @media screen and (max-width: 390px) {
+    .top-row {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px;
+    }
+    .nav-links {
+      margin-left: 0;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px;
+    }
+  }
+</style>
+
+<header class="top-row">
+  <a href="" class="brand" aria-label="Homepage">
+    <img src="ICUonlineLogo.png" alt="Site logo" width="48" height="48" />
+    <span class="title">ICUonline</span>
+  </a>
+  <nav class="nav-links" role="navigation" aria-label="Top links">
+    <a
+      id="calculator"
+      href="index.html"
+      class="btn-link btn-ghost"
+      target="_self"
+      >Feed calculator</a
+    >
+    <a
+      id="codeFinder"
+      href="CodeFinder.html"
+      class="btn-link btn-ghost"
+      target="_self"
+      >ICNARC code finder</a
+    >
+
+    <a
+      id="AcidBase"
+      href="AcidBase.html"
+      class="btn-link btn-ghost"
+      target="_self"
+      >Acid Base</a
+    >
+    <a
+      id="disclaimer"
+      href="Disclaimer.html"
+      class="btn-link btn-ghost"
+      target="_self"
+      >Disclaimer</a
+    >
+    <a
+      id="feedback"
+      href="Feedback.html"
+      class="btn-link btn-ghost"
+      target="_self"
+      >Feedback</a
+    >
+  </nav>
+</header>
+
+<div class="firstRow">
+  <h4>Acid Base</h4>
+  <a
+    id="ABsolver"
+    href="AcidBase.html"
+    class="btn-link btn-ghost"
+    target="_self"
+    >ABG solver</a
+  >
+
+  <a
+    id="ABexamples"
+    href="ABexamples.html"
+    class="btn-link btn-ghost"
+    target="_self"
+    >Examples</a
+  >
+
+  <a id="ABnotes" href="ABnotes.html" class="btn-link btn-ghost" target="_self"
+    >Notes</a
+  >
+</div>
+
+<!-- 
+ADD TO SETUP;
+    //add PageTop header
+    fetch("PageTop.html")
+      .then((response) => response.text())
+      .then((data) => {
+        document.getElementById("headerPlaceholder").innerHTML = data;
+        const page = document.getElementById("***add ID here***");
+        if (page) {
+          page.className = "btn-link btn-primary";
+        }
+      }); -->
