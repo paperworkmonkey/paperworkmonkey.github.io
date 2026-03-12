@@ -59,8 +59,8 @@ class ABGclass {
     }
     debugg(`iCa ${this.iCa}`);
 
+    //AG
     if (this.Na && this.K && this.Cl) {
-      //AG
       this.AnionGap = this.Na + this.K - (this.Cl + this.HCO3);
     } else {
       this.AnionGap = NaN;
@@ -98,7 +98,7 @@ class ABGclass {
     }
 
     //SIDe component effect calculations
-    if (this.Albumin) {
+    if (this.albumin) {
       this.AlbuminEffect = (0.123 * this.pH - 0.631) * (42 - this.albumin);
     } else this.AlbuminEffect = NaN;
 
@@ -147,7 +147,7 @@ class ABGclass {
     } else this.LactateEffect = NaN;
 
     //Base excess calculations
-    if (!this.CO2asBicarb || !this.pH || !this.CO2asBicarb || !this.pH) {
+    if (!this.CO2asBicarb || !this.pH) {
       this.sBEHb50 = NaN;
       this.sBEHbPt = NaN;
     } else {
@@ -160,6 +160,22 @@ class ABGclass {
           (2.3 * (this.Hb / 10) + 7.7) * (this.pH - 7.4)) *
         (1 - (0.023 * this.Hb) / 10);
     }
+
+    //avoid displaying BE if absent values
+    // if (!this.sBEHb50) {
+    //   document.getElementById("sBEHb50Box").innerText = "";
+    // } else {
+    //   document.getElementById("sBEHb50Box").innerText = Number(
+    //     this.sBEHb50,
+    //   ).toFixed(1);
+    // }
+    // if (!this.sBEHbPt) {
+    //   document.getElementById("sBEHbPtBox").innerText = "";
+    // } else {
+    //   document.getElementById("sBEHbPtBox").innerText = Number(
+    //     this.sBEHbPt,
+    //   ).toFixed(1);
+    // }
 
     //delta gaps and ratios
     if (this.AnionGap && this.HCO3) {
@@ -181,36 +197,45 @@ class ABGclass {
   }
 
   display() {
-    document.getElementById("AnionGapBox").innerText = Number(
-      this.AnionGap,
-    ).toFixed(1);
-    document.getElementById("CorrAnionGapBox").innerText = Number(
-      this.CorrAnionGap,
-    ).toFixed(1);
-    document.getElementById("SIDaBox").innerText = Number(this.SIDa).toFixed(1);
-    document.getElementById("SIDeBox").innerText = Number(this.SIDe).toFixed(1);
-    document.getElementById("SIGBox").innerText = Number(this.SIG).toFixed(1);
-    document.getElementById("NaClEffectBox").innerText = Number(
-      this.NaClEffect,
-    ).toFixed(1);
-    document.getElementById("LactateEffectBox").innerText = Number(
+    function displayOrNot(what, where) {
+      // console.log(`what: ${what}`);
+      // console.log(`where: ${where}`);
+      if (Number.isNaN(what)) {
+        where.innerText = "---";
+      } else {
+        where.innerText = what.toFixed(1);
+      }
+    }
+
+    displayOrNot(this.AnionGap, document.getElementById("AnionGapBox"));
+    displayOrNot(this.CorrAnionGap, document.getElementById("CorrAnionGapBox"));
+    displayOrNot(this.SIDa, document.getElementById("SIDaBox"));
+    displayOrNot(this.SIDe, document.getElementById("SIDeBox"));
+    displayOrNot(this.SIG, document.getElementById("SIGBox"));
+    displayOrNot(this.NaClEffect, document.getElementById("NaClEffectBox"));
+    displayOrNot(
       this.LactateEffect,
-    ).toFixed(1);
-    document.getElementById("PhosphateEffectBox").innerText = Number(
+      document.getElementById("LactateEffectBox"),
+    );
+    displayOrNot(
       this.PhosphateEffect,
-    ).toFixed(1);
-    document.getElementById("CO2asBicarbBox").innerText = Number(
-      this.CO2asBicarb,
-    ).toFixed(1);
-    document.getElementById("sBEHb50Box").innerText = Number(
-      this.sBEHb50,
-    ).toFixed(1);
-    document.getElementById("sBEHbPtBox").innerText = Number(
-      this.sBEHbPt,
-    ).toFixed(1);
-    document.getElementById("AlbuminEffectBox").innerText = Number(
+      document.getElementById("PhosphateEffectBox"),
+    );
+    displayOrNot(this.CO2asBicarb, document.getElementById("CO2asBicarbBox"));
+    displayOrNot(this.sBEHb50, document.getElementById("sBEHb50Box"));
+    displayOrNot(this.sBEHbPt, document.getElementById("sBEHbPtBox"));
+    displayOrNot(
       this.AlbuminEffect,
-    ).toFixed(1);
+      document.getElementById("AlbuminEffectBox"),
+    );
+
+    if (this.HCO3 <= 20 || this.HCO3 >= 28) {
+      displayOrNot(this.DeltaGap, document.getElementById("DeltaGapBox"));
+      displayOrNot(this.DeltaRatio, document.getElementById("DeltaRatioBox"));
+    } else {
+      displayOrNot(NaN, document.getElementById("DeltaGapBox"));
+      displayOrNot(NaN, document.getElementById("DeltaRatioBox"));
+    }
 
     //avoid displaying Osm Gap if non-sensical
     if (this.MeasuredOsm < this.OsmCalc) {
@@ -221,46 +246,7 @@ class ABGclass {
       ).toFixed(1);
     }
 
-    //avoid displaying BE if absent values
-    if (!this.sBEHb50) {
-      document.getElementById("sBEHb50Box").innerText = "";
-    } else {
-      document.getElementById("sBEHb50Box").innerText = Number(
-        this.sBEHb50,
-      ).toFixed(1);
-    }
-    if (!this.sBEHbPt) {
-      document.getElementById("sBEHbPtBox").innerText = "";
-    } else {
-      document.getElementById("sBEHbPtBox").innerText = Number(
-        this.sBEHb50,
-      ).toFixed(1);
-    }
-
-    //avoid displaying NaCl
-    if (!this.NaClEffect) {
-    } else {
-    }
-
-    //avoid displaying delta values if HCO3 is normal
-    if (
-      (this.HCO3 >= 20 && this.HCO3 <= 28) ||
-      !this.DeltaGap ||
-      !this.DeltaRatio
-    ) {
-      debugg("no d gap or ratio because of logic");
-      document.getElementById("DeltaGapBox").innerText = "";
-      document.getElementById("DeltaRatioBox").innerText = "";
-    } else {
-      document.getElementById("DeltaGapBox").innerText = Number(
-        this.DeltaGap,
-      ).toFixed(1);
-      document.getElementById("DeltaRatioBox").innerText = Number(
-        this.DeltaRatio,
-      ).toFixed(2);
-    }
-
-    //AG bix colour
+    //AG box colour
     if (this.AnionGap > 16) {
       let anionGapColour =
         "rgb(255," +
@@ -352,7 +338,6 @@ class ABGclass {
       SIDaBoxColour = "lightblue";
     }
     document.getElementById("SIDaBox").style.background = SIDaBoxColour;
-    debugg(SIDaBoxColour);
   }
 
   updateInterpretation() {

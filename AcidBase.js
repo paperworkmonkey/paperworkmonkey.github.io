@@ -59,6 +59,21 @@ function setup() {
     thirdButtonColumn.appendChild(ExButton);
   }
 
+  //add PageTop header
+  fetch("PageTopAcidBase.html")
+    .then((response) => response.text())
+    .then((data) => {
+      document.getElementById("headerPlaceholder").innerHTML = data;
+      const page = document.getElementById("AcidBase");
+      if (page) {
+        page.className = "btn-link btn-primary";
+      }
+      const ABlink = document.getElementById("ABsolver");
+      if (ABlink) {
+        ABlink.className = "btn-link btn-primary";
+      }
+    });
+
   img = new Image();
   img.src = "Acid-base_nomogram.svg.png";
 
@@ -235,7 +250,7 @@ function loadABG() {
 
   let data = JSON.parse(raw);
   ABG = ABGclass.fromJSON(data);
-  console.log("loaded ABG: ", ABG);
+  // console.log("loaded ABG: ", ABG);
   ABG.loadABGintoInputFields();
   ABG.calculate();
   ABG.display();
@@ -245,7 +260,7 @@ function loadABG() {
 }
 
 function resetABG() {
-  console.log("resetting ABG");
+  // console.log("resetting ABG");
 
   ABG.pH = 7.4;
   ABG.PCO2 = 5.0;
