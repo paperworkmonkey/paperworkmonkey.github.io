@@ -10,19 +10,46 @@
   </head>
   <body style="font-family: Verdana">
     <style>
-      ol,
+      /* ol,
       ul,
       p {
         font-size: 0.75rem;
         width: min(750, 100%);
+      } */
+      body {
+        font-family: Verdana, sans-serif;
+        background-color: #f4f6f9;
+        /* margin: auto; */
+        /* padding: 40px 20px; */
+      }
+
+      .feedback-container {
+        max-width: 700px;
+        margin: 0;
+        background: #ffffff;
+        padding: 30px 35px;
+        border-radius: 10px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      }
+
+      .feedback-container h3 {
+        margin-top: 0;
+        font-size: 1.6rem;
+        color: #2c3e50;
+      }
+
+      .feedback-container p {
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 25px;
       }
     </style>
 
     <div id="headerPlaceholder"></div>
 
-    <div id="disclaimer">
+    <div class="feedback-container" id="disclaimer">
       <!-- <h3>Disclaimer for NG feed calculator</h3> -->
-      <h3>Disclaimer for feed calculator</h3>
+      <h3>Disclaimer for Feed Calculator</h3>
       <ol>
         <li>
           This application is intended to provide general medical information
@@ -67,7 +94,7 @@
         </li>
       </ol>
 
-      <h3>Disclaimer for Code Generator</h3>
+      <h3>Disclaimer for ICNARC Code Finder</h3>
       <ol>
         <li>
           Care has been taken to ensure the accuracy of this application, but
