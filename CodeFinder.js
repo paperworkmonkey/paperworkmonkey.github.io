@@ -1,75 +1,123 @@
 let data;
-let searchTerm;
-let searchTermBox;
 
 function preload() {
-  data = loadTable("ICNARCcodetable3.csv", "csv", "header");
+  data = loadTable("ICNARCcodetable3.csv","csv","header");
 }
 
-function setup() {
+function setup(){
   noCanvas();
   noLoop();
-
-  //add PageTop header
+  
   fetch("PageTopNGFeed.html")
-    .then((response) => response.text())
-    .then((data) => {
-      document.getElementById("headerPlaceholder").innerHTML = data;
-      const page = document.getElementById("codeFinder");
-      if (page) {
-        page.className = "btn-link btn-primary";
-      }
-    });
+  .then(r => r.text())
+  .then(html => {
+    document.getElementById("headerPlaceholder").innerHTML = html;
+    const page = document.getElementById("codeFinder");
+    if(page){
+      page.className = "btn-link btn-primary";
+    }
+  });
 
-  //create lower case condition column
   data.addColumn("lowerCaseCondition");
-  for (let i = 0; i < data.getRowCount(); i++) {
-    data.set(i, "lowerCaseCondition", data.get(i, "Condition").toLowerCase());
-  }
 
-  //get DOM elements
-  // searchTermBox = document.getElementById("#inputValue");
+  for(let i=0;i<data.getRowCount();i++){
+    data.set(
+      i,
+      "lowerCaseCondition",
+      data.get(i,"Condition").toLowerCase()
+    );
+  }
 }
 
-function getSearchTerm() {
-  searchTerm = inputValue.value.toLowerCase();
-  let mySearchTermArray = searchTerm.split(" ");
+function getSearchTerm(){
 
-  let myInitialRows = data.matchRows(
-    mySearchTermArray[0],
-    "lowerCaseCondition",
-  );
-  //console.log(myInitialRows);
+  const searchTerm =
+    document
+    .getElementById("inputValue")
+    .value
+    .toLowerCase();
 
-  let myRows = myInitialRows.filter((row) =>
-    mySearchTermArray.every((term) =>
-      row.arr.some((val) => val.toLowerCase().includes(term.toLowerCase())),
-    ),
-  );
+  const terms = searchTerm.split(" ");
 
-  let SystemString = "";
-  let SiteString = "";
-  let ProcessString = "";
-  let ConditionString = "";
-  let CodeString = "";
-  let UniqueCodeString = "";
+  const initialRows =
+    data.matchRows(
+      terms[0],
+      "lowerCaseCondition"
+    );
 
-  //console.log(myRows);
-  for (let i = 0; i < myRows.length; i++) {
-    SystemString += myRows[i].getString("System") + "<br>";
-    SiteString += myRows[i].getString("Site") + "<br>";
-    ProcessString += myRows[i].getString("Process") + "<br>";
-    ConditionString += myRows[i].getString("Condition") + "<br>";
-    CodeString += myRows[i].getString("ICM V4.0") + "<br>";
-    UniqueCodeString += myRows[i].getString("Unique code") + "<br>";
-  }
+  const rows =
+    initialRows.filter(row =>
+      terms.every(term =>
+        row.arr.some(val =>
+          val.toLowerCase().includes(term)
+        )
+      )
+    );
 
-  document.getElementById("ICNARCsystem").innerHTML = SystemString;
-  document.getElementById("ICNARCsite").innerHTML = SiteString;
-  document.getElementById("ICNARCprocess").innerHTML = ProcessString;
-  document.getElementById("ICNARCcondition").innerHTML = ConditionString;
-  document.getElementById("ICNARCcode").innerHTML = CodeString;
-  document.getElementById("ICNARCuniqueCode").innerHTML = UniqueCodeString;
-  document.getElementById("sgICNARCcondition").innerHTML = ConditionString;
-  document.getElementById("sgICNARCcode").innerHTML = CodeString;
+  const container =
+    document.getElementById("resultsContainer");
+
+  container.innerHTML = "";
+
+  rows.forEach(row => {
+    const rowData = {
+      system: row.getString("System"),
+      site: row.getString("Site"),
+      process: row.getString("Process"),
+      condition: row.getString("Condition"),
+      code: row.getString("ICM V4.0"),
+      unique: row.getString("Unique code")
+    };
+    const rowDiv = createRow(rowData);
+    container.appendChild(rowDiv);
+  });
 }
+
+function createRow(data){
+  const row = document.createElement("div");
+  row.className = "resultRow";
+  row.innerHTML = `
+  <div>${data.system}</div>
+  <div>${data.site}</div>
+  <div>${data.process}</div>
+  <div>${data.condition}</div>
+  <div>${data.code}</div>
+  <div>${data.unique}</div>
+  `;
+
+  row.onclick = () => selectRow(row,data);
+
+  return row;
+
+}
+
+function selectRow(row,data){
+
+  document
+  .querySelectorAll(".resultRow")
+  .forEach(r => r.classList.remove("selectedRow"));
+
+  row.classList.add("selectedRow");
+
+  document.getElementById("selectedContent").innerHTML = `
+
+${data.system} - ${data.site} - 
+${data.process} - 
+${data.condition} - 
+${data.code}
+`;
+}
+
+function copy_all(){
+  let code=document.getElementById("selectedContent").textContent;
+  alert(`Code copied: ${code}`);
+}
+
+function copy_condition(){
+alert("Copy condition and code");
+}
+
+function copy_code(){
+alert("Copy code only");
+}
+

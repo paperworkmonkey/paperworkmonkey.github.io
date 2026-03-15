@@ -4,50 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/favicon.png" />
-    <title>ICUonline</title>
-    <link rel="stylesheet" type="text/css" href="CodeFinder.css" />
+    <title>ICNARC code finder</title>
+    <link rel="stylesheet" href="CodeFinder.css" />
     <script src="p5.min.js"></script>
   </head>
-  <title>ICNARC code finder</title>
 
   <body style="font-family: Verdana">
     <div id="headerPlaceholder"></div>
 
     <h3>ICNARC code finder</h3>
+
     <p style="font-size: small; color: grey">
       This search box allows completion mapping. e.g. you can search for "oes
       var" or "sm bow obs", or "bow ob smal" etc.
     </p>
 
-    <div class="sgDivSearchBox">
-      <div class="div1 topLines">
+    <!-- <div class="searchRow"></div> -->
+
+    <div id="buttons_grid" class="buttons_grid">
+      <div class="searchBox">
         <label for="inputValue">Search for: </label>
-        <input type="text" id="inputValue" oninput="getSearchTerm()" />
+        <input
+          type="text"
+          id="inputValue"
+          autocomplete="off"
+          oninput="getSearchTerm()"
+        />
+      </div>
+    
+      <div class="copy_buttons">
+        <button disabled type="button" class="copyButtons" onclick="copy_code()">Copy code</button>
+        <button disabled type="button" class="copyButtons" onclick="copy_condition()">Copy condition</button>
+        <button disabled type="button" class="copyButtons" onclick="copy_all()">Copy All</button>
+      </div>
+
+      <div class="selectedBox">
+        <div id="selectedContent">Click a row...</div>
       </div>
     </div>
 
     <div class="myGrid">
-      <div class="div2 topLines">System</div>
-      <div class="div3 topLines">Site</div>
-      <div class="div4 topLines">Process</div>
-      <div class="div5 topLines">Condition</div>
-      <div class="div6 topLines">Code</div>
-      <div class="div7 topLines">Unique code</div>
-      <div class="div8"><p id="ICNARCsystem"></p></div>
-      <div class="div9"><p id="ICNARCsite"></p></div>
-      <div class="div10"><p id="ICNARCprocess"></p></div>
-      <div class="div11"><p id="ICNARCcondition"></p></div>
-      <div class="div12"><p id="ICNARCcode"></p></div>
-      <div class="div13"><p id="ICNARCuniqueCode"></p></div>
+      <div class="topLines">System</div>
+      <div class="topLines">Site</div>
+      <div class="topLines">Process</div>
+      <div class="topLines">Condition</div>
+      <div class="topLines">Code</div>
+      <div class="topLines">Unique code</div>
+      <div id="resultsContainer" class="resultsContainer"></div>
     </div>
-
-    <div class="smallGrid">
-      <div class="sgPathology">Condition</div>
-      <div class="sgCode">Code</div>
-      <div class="sgPathologyList"><p id="sgICNARCcondition"></p></div>
-      <div class="sgCodeList"><p id="sgICNARCcode"></p></div>
-    </div>
-
     <script src="CodeFinder.js"></script>
   </body>
 </html>

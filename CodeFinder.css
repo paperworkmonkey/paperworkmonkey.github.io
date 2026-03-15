@@ -3,177 +3,239 @@
   --card: #ffffff;
   --accent: #2563eb;
   --accent-2: #1d4ed8;
-  --gap: 12pt;
-  --pad: 14pt;
+  --gap: 12px;
+  --pad: 14px;
 }
 
-* {
-  box-sizing: border-box;
+
+*{
+  box-sizing:border-box;
 }
 
-html,
-body {
-  height: 100%;
-  margin: 0;
+html,body{
+  height:100%;
+  margin:0;
   font-family:
     Inter,
     system-ui,
     -apple-system,
     "Segoe UI",
     Roboto,
-    "Helvetica Neue",
     Arial;
-  background: var(--bg);
-  color: #111;
+  background:var(--bg);
 }
 
-main {
-  padding: 28pt;
+body{
+  padding:20pt;
 }
 
-html {
-  background-color: rgba(255, 255, 255, 0.6);
+h3{
+  font-size:1.5rem;
+  padding:10pt;
+  width:700pt;
+  min-width:700pt;
 }
 
-body {
-  padding: 20pt;
-}
+/* ---------- SEARCH AREA ---------- */
 
-h3 {
-  font-size: 1.5rem;
-  padding: 10pt;
-  /* border-color: rgb(0, 0, 0); */
-  border-style: none;
-  width: 700pt;
-  /* background-color: cadetblue; */
-  min-width: 700pt;
-}
+/* .searchRow{
+  display:flex;
+  gap:20px;
+  align-items:flex-start;
+} */
 
-canvas {
-  display: block;
-}
 
-.myGrid > div {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  background: lightblue;
-  border: 0px;
-  font-size: 0.8rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding-left: 10px;
-}
 
-.topLines {
-  display: flex;
-  border: 2px;
-  text-align: center;
-  align-items: center;
-}
 
-.myGrid {
+/*---------------  Box and copy buttons grid --------------*/
+
+.buttons_grid {
+  background: gray;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: grid;
-  grid-template-columns: 10.8% 21.6% 21.6% 33.4% 6.25% 6.25%;
-  grid-template-rows: repeat(2, 25px) 1fr;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  width: 700px;
+
+  background: var(--card);
+  border-radius: 8px;
+  padding: var(--pad);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  font-size: 0.75rem;
+  min-width: 250px;
+
 }
 
-.div1 {
-  grid-area: 1 / 1 / 2 / 7;
-}
-.div2 {
-  grid-area: 2 / 1 / 3 / 2;
-}
-.div3 {
-  grid-area: 2 / 2 / 3 / 3;
-}
-.div4 {
-  grid-area: 2 / 3 / 3 / 4;
-}
-.div5 {
-  grid-area: 2 / 4 / 3 / 5;
-}
-.div6 {
-  grid-area: 2 / 5 / 3 / 6;
-}
-.div7 {
-  grid-area: 2 / 6 / 3 / 7;
-}
-.div8 {
-  grid-area: 3 / 1 / 4 / 2;
-}
-.div9 {
-  grid-area: 3 / 2 / 4 / 3;
-}
-.div10 {
-  grid-area: 3 / 3 / 4 / 4;
-}
-.div11 {
-  grid-area: 3 / 4 / 4 / 5;
-}
-.div12 {
-  grid-area: 3 / 5 / 4 / 6;
-}
-.div13 {
-  grid-area: 3 / 6 / 4 / 7;
-}
-
-#inputValue {
-  border-radius: 3px;
-  border-color: black;
-}
-
-.smallGrid {
-  display: none;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 25px);
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-}
-
-.smallGrid > div {
-  display: grid;
-
-  /* justify-content: left;
-  align-items: left; */
-
+.buttons_grid > div {
+  display: flex;
   align-items: center;
-  text-align: left;
-
-  background: lightblue;
-  border: 2px;
-  font-size: 0.8rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding-left: 10pt;
+  row-gap: 3px;
+  border-radius: 4px;
 }
 
-.sgDivSearchBox {
-  grid-area: 1 / 1 / 2 / 3;
-}
-.sgPathology {
-  grid-area: 2 / 1 / 3 / 2;
-}
-.sgCode {
-  grid-area: 2 / 2 / 3 / 3;
-}
-.sgPathologyList {
-  grid-area: 3 / 1 / 4 / 2;
-}
-.sgCodeList {
-  grid-area: 3 / 2 / 4 / 3;
+.searchBox {
+  grid-area: 1/1/2/2;
+  /* align-items: center; */
 }
 
-@media screen and (max-width: 480px) {
-  .myGrid {
-    display: none;
-  }
+#inputValue{
+  border-radius:3px;
+  border:1px solid black;
+  padding: 6px
+}
 
-  .smallGrid {
-    display: grid;
+.selectedBox{
+  grid-area: 2/1/3/3;
+
+  display: flex;
+  border:1px solid #ccc;
+  background:white;
+  font-size:0.8rem;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  min-height: 4lh;
+}
+
+#selectedContent{
+  padding: 10px;
+}
+
+.copy_buttons{
+  grid-area: 1/2/2/3;
+  display: flex;
+
+}
+
+/* .copy_all_button {
+  grid-area: 1/2/2/3;
+}
+
+.copy_code_button {
+  grid-area: 1/3/2/4;
+}
+
+.copy_code_condition_button{
+  grid-area: 1/4/2/5;
+} */
+
+.copyButtons {
+  margin: 4px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    transform 0.05s ease,
+    box-shadow 0.15s ease;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
+}
+
+/* Hover */
+.copyButtons:hover {
+  background-color: #1d4ed8;
+  box-shadow: 0 6px 14px rgba(29, 78, 216, 0.3);
+}
+
+/* Pressed */
+.copyButtons:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(29, 78, 216, 0.25);
+}
+
+/* Focus (keyboard accessibility) */
+.copyButtons:focus {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(37, 99, 235, 0.3),
+    0 4px 10px rgba(37, 99, 235, 0.25);
+}
+
+
+/* ----------ROWs of search terms GRID ---------- */
+
+.myGrid{
+  display:grid;
+
+  grid-template-columns:
+    10.8%
+    21.6%
+    21.6%
+    33.4%
+    6.25%
+    6.25%;
+
+  grid-template-rows:25px 1fr;
+  grid-column-gap:5px;
+  grid-row-gap:5px;
+  width:100%;
+}
+
+/* ---------- COLUMN HEADERS ---------- */
+
+.topLines{
+  display:flex;
+  align-items:center;
+  padding-left:10px;
+  background:rgb(173, 216, 230);
+  font-size:0.8rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* ---------- RESULTS AREA ---------- */
+
+.resultsContainer{
+  grid-column:1 / 7;
+  display:flex;
+  flex-direction:column;
+  max-height:400px;
+  overflow-y:auto;
+}
+
+/* ---------- ROWS ---------- */
+
+.resultRow{
+  display:grid;
+  grid-template-columns:
+    10.8%
+    21.6%
+    21.6%
+    33.4%
+    6.25%
+    6.25%;
+  min-height:25px;
+  cursor:pointer;
+  background:lightblue;
+}
+
+.resultRow div{
+  padding-left:10px;
+  display:flex;
+  align-items:center;
+  font-size:0.8rem;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.resultRow:hover{
+  background: rgb(188,216,230);
+}
+
+.selectedRow{
+  background:#93c5fd;
+}
+
+/* ---------- MOBILE ---------- */
+
+@media screen and (max-width:480px){
+  .myGrid{
+    display:none;
   }
 }
