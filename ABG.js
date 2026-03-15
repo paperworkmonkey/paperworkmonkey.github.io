@@ -348,7 +348,7 @@ class ABGclass {
       {
         //done
         pH: "low",
-        CsO2: "high",
+        CO2: "high",
         HCO3: "normal",
         meaning: "Uncompensated respiratory acidosis",
         metabolicAcidosis: false,
@@ -530,11 +530,11 @@ class ABGclass {
           row.pH === pHdisturbance &&
           row.CO2 === PCO2disturbance &&
           row.HCO3 === HCO3disturbance,
-      )?.meaning || "Pattern not recognised — consider mixed disorder";
+      )?.meaning ||
+      `Pattern not recognised (pH  ${pHdisturbance}, PCO2 ${PCO2disturbance}, bicarb ${HCO3disturbance}) — consider mixed disorder`;
 
-    this.interpretationText += `\n(pH  ${pHdisturbance}, PCO2 ${PCO2disturbance}, bicarb ${HCO3disturbance})\n`;
-
-    debugg("int txt: " + this.interpretationText);
+    // this.interpretationText += `\n(pH  ${pHdisturbance}, PCO2 ${PCO2disturbance}, bicarb ${HCO3disturbance})\n`;
+    this.interpretationText += ".\n";
 
     //if (this.interpretationText.includes("metabolic acidosis")) {
     if (
@@ -547,7 +547,6 @@ class ABGclass {
       // this.interpretationText += "\nMetabolic acidosis present. ";
 
       if (this.AnionGap > 16) {
-        debugg("well, AG is high ");
         this.interpretationText += "HAGMA. ";
 
         //Delta ratios
@@ -562,11 +561,16 @@ class ABGclass {
         } else if (this.DeltaRatio <= 0.4) {
           this.interpretationText += `Delta ratio (${this.DeltaRatio.toFixed(2)} suggest pure NAGMA). `;
         }
+        
 
         //osmolar gap
         if (this.OsmGap >= 16) {
           this.interpretationText +=
             "Raised osmolar gap — consider toxic alcohol ingestion. ";
+        } else if (this.OsmGap < 16) {
+          this.interpretationText += "Normal osmolar gap.";
+        } else if (Number.isNaN(this.OsmGap)) {
+          this.interpretationText += "Osmolar gap not available.";
         }
       } else if (this.AnionGap <= 16) {
         debugg("well AG is LOW!! ");
