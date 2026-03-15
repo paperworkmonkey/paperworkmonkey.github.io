@@ -14,7 +14,6 @@
 
 html,body{
   height:100%;
-  margin:0;
   font-family:
     Inter,
     system-ui,
@@ -26,7 +25,7 @@ html,body{
 }
 
 body{
-  padding:20pt;
+  margin:20px;
 }
 
 h3{
