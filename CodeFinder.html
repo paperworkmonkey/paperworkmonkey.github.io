@@ -31,11 +31,17 @@
           oninput="getSearchTerm()"
         />
       </div>
-    
+
       <div class="copy_buttons">
-        <!-- <button disabled type="button" class="copyButtons" onclick="copy_code()">Copy code</button>
-        <button disabled type="button" class="copyButtons" onclick="copy_condition()">Copy condition</button> -->
-        <button type="button" class="copyButtons" onclick="copy_all()">Copy All</button>
+        <button type="button" class="copyButtons" onclick="copy_code()">
+          Copy code
+        </button>
+        <button type="button" class="copyButtons" onclick="copy_condition()">
+          Copy condition and code
+        </button>
+        <button type="button" class="copyButtons" onclick="copy_all()">
+          Copy All
+        </button>
       </div>
 
       <div class="selectedBox">
@@ -49,7 +55,7 @@
       <div class="topLines">Process</div>
       <div class="topLines">Condition</div>
       <div class="topLines">Code</div>
-      <div class="topLines">Unique code</div>
+      <!-- <div class="topLines">Unique code</div> -->
       <div id="resultsContainer" class="resultsContainer"></div>
     </div>
     <script src="CodeFinder.js"></script>

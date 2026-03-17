@@ -1,4 +1,5 @@
 let data;
+let selectedRowData = null;
 
 function preload() {
   data = loadTable("ICNARCcodetable3.csv", "csv", "header");
@@ -65,8 +66,9 @@ function createRow(data) {
   <div>${data.process}</div>
   <div>${data.condition}</div>
   <div>${data.code}</div>
-  <div>${data.unique}</div>
   `;
+
+  //add back:   <div>${data.unique}</div>.    if needed
 
   row.onclick = () => selectRow(row, data);
 
@@ -80,21 +82,41 @@ function selectRow(row, data) {
 
   row.classList.add("selectedRow");
 
+  selectedRowData = data;
+
   document.getElementById("selectedContent").innerHTML =
     `${data.system} - ${data.site} - ${data.process} - ${data.condition} - ${data.code}`;
 }
 
 function copy_all() {
-  let code = document.getElementById("selectedContent").textContent;
-  navigator.clipboard.writeText(code);
+  if (!selectedRowData) {
+    alert("No row selected");
+    return;
+  }
+  const text = `${selectedRowData.system} - ${selectedRowData.site} - ${selectedRowData.process} - ${selectedRowData.condition} - ${selectedRowData.code}`;
+  navigator.clipboard.writeText(text);
   console.log("Copied to clipboard");
-  alert(`Copied to clipboard:  ${code}`);
+  alert(`Copied to clipboard:\n${text}`);
 }
 
 function copy_condition() {
-  alert("Copy condition and code");
+  if (!selectedRowData) {
+    alert("No row selected");
+    return;
+  }
+  const text = `${selectedRowData.condition} - ${selectedRowData.code}`;
+  navigator.clipboard.writeText(text);
+  console.log("Copied to clipboard");
+  alert(`Copied to clipboard:\n${text}`);
 }
 
 function copy_code() {
-  alert("Copy code only");
+  if (!selectedRowData) {
+    alert("No row selected");
+    return;
+  }
+  const text = `${selectedRowData.code}`;
+  navigator.clipboard.writeText(text);
+  console.log("Copied to clipboard");
+  alert(`Copied to clipboard:\n${text}`);
 }
