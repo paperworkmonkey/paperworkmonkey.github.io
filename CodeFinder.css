@@ -50,7 +50,7 @@ h3 {
 
   grid-template-columns: 1fr auto; /* search | buttons */
   grid-template-rows: auto auto; /* row1 | row2 🔥 */
-  align-items: start; /* prevent vertical stretch */
+  align-items: stretch; /* prevent vertical stretch */
 
   background: gray;
 
@@ -73,7 +73,7 @@ h3 {
 
 .searchBox {
   grid-area: 1/1/2/2;
-  align-content: center;
+  align-self: center;
 }
 
 #inputValue {
@@ -87,7 +87,6 @@ h3 {
   display: flex;
 
   align-items: center; /* or flex-start */
-  height: fit-content; /* 🔥 important */
 }
 
 .selectedBox {
