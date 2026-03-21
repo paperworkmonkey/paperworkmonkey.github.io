@@ -13,7 +13,7 @@
 
 body {
   margin: 20px;
-    font-family:
+  font-family:
     Inter,
     system-ui,
     -apple-system,
@@ -109,11 +109,93 @@ h3 {
   margin: 10px;
 }
 
+/* ============================= */
+/* WEIGHT GRID */
+/* ============================= */
 /* Weight selection (3 columns) */
 .weight-grid {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: left;
+  gap: 5px;
+  column-gap: 2px;
+  row-gap: 5px;
+  grid-auto-rows: 1fr;
+  align-items: stretch;
   margin: 10px;
+}
+
+.weight-grid > * {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+}
+
+.weight-grid > :nth-child(6n + 1),
+.weight-grid > :nth-child(6n + 2),
+.weight-grid > :nth-child(6n + 3) {
+  background: rgb(178, 225, 241);
+}
+
+.weight-grid > :nth-child(6n + 4),
+.weight-grid > :nth-child(6n + 5),
+.weight-grid > :nth-child(6n + 6) {
+  background: rgb(208, 231, 244);
+}
+
+/* Row 1 */
+.h_BMIbox {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.BMIboxv2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.BMI_select {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+/* Row 2 */
+.h_ActBW {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.ActBW {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.ActBW_select {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+/* Row 3 */
+.h_AdjBW {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.AdjBW {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.AdjBW_select {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+/* Row 4 */
+.h_BMI27 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.BMI27 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.BMI27_select {
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+/* Row 5 */
+.h_IBW {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.IBW {
+  grid-area: 5 / 2 / 6 / 3;
+}
+.IBW_select {
+  grid-area: 5 / 3 / 6 / 4;
 }
 
 /* Output section (2 columns) */
@@ -123,10 +205,6 @@ h3 {
   align-items: center;
   text-align: center;
 }
-
-/* .output-grid > div {
-  
-} */
 
 .h_dailyEnergyBox {
   grid-area: 1 / 1 / 2 / 2;
@@ -146,7 +224,7 @@ h3 {
 .dailyNonPropofolBox {
   grid-area: 3 / 2 / 4 / 3;
 }
-._dailyProteinBox {
+.h_dailyProteinBox {
   grid-area: 4 / 1 / 5 / 2;
 }
 .dailyProteinBox {
@@ -168,7 +246,6 @@ h3 {
 .metrics_table > .cell:nth-child(even) {
   background: rgb(208, 231, 244);
 }
-
 /* Headers */
 .row_header {
   font-weight: bold;
@@ -360,7 +437,7 @@ th {
   width: 100%;
   border: 2px;
   border-style: solid;
-  border-color: gray;
+  border-color: lightgray;
   background: var(--card);
   border-radius: 8px;
   padding: var(--pad);
