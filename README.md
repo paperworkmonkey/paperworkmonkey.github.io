@@ -2,6 +2,6 @@ Tools for a DGH intensivist that may be helpful for others. One webpage function
 
 Written in HTML, css and JS. Not pretty, could do with refactoring a lot, and as it all happens in the browser, a little server-side action too.
 
-dig www.icuonline.co.uk  +nostats +nocomments +nocmd
+dig www.icuonline.co.uk +nostats +nocomments +nocmd
 
 dig +noall +answer icuonline.co.uk

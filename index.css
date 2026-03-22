@@ -5,9 +5,18 @@
   --accent-2: #1d4ed8;
   --gap: 16px;
   --pad: 14px;
+
+  --stripe-1: rgb(178, 225, 241);
+  --stripe-2: rgb(208, 231, 244);
 }
 
-* {
+/* ============================= */
+/* BASE */
+/* ============================= */
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -30,30 +39,275 @@ h3 {
 }
 
 /* ============================= */
-/* MAIN 3 COLUMN LAYOUT */
+/* LAYOUT */
 /* ============================= */
+
+.row1,
+.row2,
+.output_box,
+.startGuide {
+  max-width: 1000px;
+  width: 100%;
+}
 
 .row1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--gap);
-  max-width: 1000px;
-  width: 100%;
 }
 
-/* Responsive */
-@media screen and (max-width: 480px) {
+.row1 > div {
+  padding: 0;
+}
+
+.row2 {
+  display: grid;
+  margin: 10px 0;
+}
+
+/* ============================= */
+/* CARD */
+/* ============================= */
+
+.tableA,
+.htmlTable,
+.output_box,
+.startGuide {
+  border-radius: 8px;
+  padding: var(--pad);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  font-size: 0.75rem;
+}
+
+.tableA,
+.htmlTable,
+.startGuide {
+  background: var(--card);
+}
+
+.output_box {
+  background: var(--stripe-2);
+  border: 1px solid black;
+}
+
+/* ============================= */
+/* TABLE / GRID SYSTEM */
+/* ============================= */
+
+.metrics_table {
+  display: grid;
+  gap: 4px;
+  font-size: inherit;
+}
+
+.metrics_table > .cell:nth-child(odd),
+.odd_row {
+  background: var(--stripe-1);
+}
+
+.metrics_table > .cell:nth-child(even),
+.even_row {
+  background: var(--stripe-2);
+}
+
+.cell {
+  padding: 6px;
+  text-align: left;
+  align-items: center;
+}
+
+/* Headers */
+.row_header,
+.metrics_row_header {
+  font-weight: 500;
+  text-align: left;
+}
+
+.row_header {
+  font-weight: bold;
+  min-width: 100px;
+  padding: 10px;
+}
+
+/* Slider header */
+.metrics_row_header_sliders {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.metrics_row_header_sliders input[type="range"] {
+  width: 80%;
+}
+
+/* ============================= */
+/* INPUT / WEIGHT GRID */
+/* ============================= */
+
+.input-grid {
+  grid-template-columns: 1fr;
+  margin: 10px;
+}
+
+.weight-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px 2px;
+  grid-auto-rows: 1fr;
+  align-items: stretch;
+  margin: 10px;
+}
+
+.weight-grid > * {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+}
+
+.weight-grid > :nth-child(6n + 1),
+.weight-grid > :nth-child(6n + 2),
+.weight-grid > :nth-child(6n + 3) {
+  background: var(--stripe-1);
+}
+
+.weight-grid > :nth-child(6n + 4),
+.weight-grid > :nth-child(6n + 5),
+.weight-grid > :nth-child(6n + 6) {
+  background: var(--stripe-2);
+}
+
+/* ============================= */
+/* BUTTONS */
+/* ============================= */
+
+.weightSelectButton,
+.genderSelectButton {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  font: 600 0.75rem inherit;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.weightSelectButton:hover:not(.highlight),
+.genderSelectButton:hover:not(.highlight) {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.weightSelectButton:active,
+.genderSelectButton:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Primary button */
+#copyFeedButton {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.15s ease;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
+}
+
+#copyFeedButton:hover {
+  background: var(--accent-2);
+  box-shadow: 0 6px 14px rgba(29, 78, 216, 0.3);
+}
+
+#copyFeedButton:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(29, 78, 216, 0.25);
+}
+
+#copyFeedButton:focus {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(37, 99, 235, 0.3),
+    0 4px 10px rgba(37, 99, 235, 0.25);
+}
+
+/* ============================= */
+/* STATES */
+/* ============================= */
+
+.selected {
+  background: rgba(255, 242, 4, 0.84);
+}
+
+.highlight {
+  background: rgb(248, 140, 140);
+  border-color: rgb(220, 90, 90);
+  color: #fff;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* ============================= */
+/* TABLE ELEMENTS */
+/* ============================= */
+
+td {
+  text-align: center;
+  padding: 2px 0;
+}
+
+th {
+  background: #eee;
+  border-radius: 8px 8px 0 0;
+  min-width: 30px;
+  padding: 0 6px;
+}
+
+#data_table th:first-child {
+  background: #fff;
+}
+
+/* ============================= */
+/* OUTPUT GRID */
+/* ============================= */
+
+.output-grid {
+  margin: 10px;
+  grid-template-columns: repeat(2, 1fr); /* FIX */
+  align-items: center;
+  text-align: center;
+}
+
+#dailyEnergyBox,
+#dailyProteinBox {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 480px) {
   .row1 {
     grid-template-columns: 1fr;
   }
 
-  /* make checkboxes bigger */
+  .metrics_table {
+    font-size: large;
+  }
+
   input[type="checkbox"] {
     width: 40px;
     height: 40px;
   }
 
-  /* Scrolling behavious of feed table */
   #table1-container {
     overflow-x: auto;
     max-width: 100%;
@@ -75,373 +329,6 @@ h3 {
   }
 
   #data_table th:first-child {
-    border-top-left-radius: 0px;
+    border-top-left-radius: 0;
   }
-}
-
-/* ============================= */
-/* CARD STYLING */
-/* ============================= */
-
-.tableA,
-.htmlTable {
-  background: var(--card);
-  border-radius: 8px;
-  padding: var(--pad);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
-  font-size: 0.75rem;
-  min-width: 250px;
-}
-
-/* ============================= */
-/* GRID TABLE SYSTEM */
-/* ============================= */
-
-.metrics_table {
-  display: grid;
-  gap: 4px;
-  font-size: 0.75rem;
-}
-
-/* Input section (1 column) */
-.input-grid {
-  grid-template-columns: 1fr;
-  margin: 10px;
-}
-
-/* ============================= */
-/* WEIGHT GRID */
-/* ============================= */
-/* Weight selection (3 columns) */
-.weight-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 5px;
-  column-gap: 2px;
-  row-gap: 5px;
-  grid-auto-rows: 1fr;
-  align-items: stretch;
-  margin: 10px;
-}
-
-.weight-grid > * {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  padding: 10px;
-}
-
-.weight-grid > :nth-child(6n + 1),
-.weight-grid > :nth-child(6n + 2),
-.weight-grid > :nth-child(6n + 3) {
-  background: rgb(178, 225, 241);
-}
-
-.weight-grid > :nth-child(6n + 4),
-.weight-grid > :nth-child(6n + 5),
-.weight-grid > :nth-child(6n + 6) {
-  background: rgb(208, 231, 244);
-}
-
-/* Row 1 */
-.h_BMIbox {
-  grid-area: 1 / 1 / 2 / 2;
-}
-.BMIboxv2 {
-  grid-area: 1 / 2 / 2 / 3;
-}
-.BMI_select {
-  grid-area: 1 / 3 / 2 / 4;
-}
-
-/* Row 2 */
-.h_ActBW {
-  grid-area: 2 / 1 / 3 / 2;
-}
-.ActBW {
-  grid-area: 2 / 2 / 3 / 3;
-}
-.ActBW_select {
-  grid-area: 2 / 3 / 3 / 4;
-}
-
-/* Row 3 */
-.h_AdjBW {
-  grid-area: 3 / 1 / 4 / 2;
-}
-.AdjBW {
-  grid-area: 3 / 2 / 4 / 3;
-}
-.AdjBW_select {
-  grid-area: 3 / 3 / 4 / 4;
-}
-
-/* Row 4 */
-.h_BMI27 {
-  grid-area: 4 / 1 / 5 / 2;
-}
-.BMI27 {
-  grid-area: 4 / 2 / 5 / 3;
-}
-.BMI27_select {
-  grid-area: 4 / 3 / 5 / 4;
-}
-
-/* Row 5 */
-.h_IBW {
-  grid-area: 5 / 1 / 6 / 2;
-}
-.IBW {
-  grid-area: 5 / 2 / 6 / 3;
-}
-.IBW_select {
-  grid-area: 5 / 3 / 6 / 4;
-}
-
-/* Output section (2 columns) */
-.output-grid {
-  margin: 10px;
-  grid-template-columns: 2fr;
-  align-items: center;
-  text-align: center;
-}
-
-.h_dailyEnergyBox {
-  grid-area: 1 / 1 / 2 / 2;
-}
-.dailyEnergyBox {
-  grid-area: 1 / 2 / 2 / 3;
-}
-.h_dailyPropofolBox {
-  grid-area: 2 / 1 / 3 / 2;
-}
-.dailyPropofolBox {
-  grid-area: 2 / 2 / 3 / 3;
-}
-.h_dailyNonPropofolBox {
-  grid-area: 3 / 1 / 4 / 2;
-}
-.dailyNonPropofolBox {
-  grid-area: 3 / 2 / 4 / 3;
-}
-.h_dailyProteinBox {
-  grid-area: 4 / 1 / 5 / 2;
-}
-.dailyProteinBox {
-  grid-area: 4 / 2 / 5 / 3;
-}
-
-/* Cell styling */
-.cell {
-  padding: 6px;
-  text-align: left;
-  align-items: center;
-}
-
-/* Row striping */
-.metrics_table > .cell:nth-child(odd) {
-  background: rgb(178, 225, 241);
-}
-
-.metrics_table > .cell:nth-child(even) {
-  background: rgb(208, 231, 244);
-}
-/* Headers */
-.row_header {
-  font-weight: bold;
-}
-
-.metrics_row_header {
-  text-align: left;
-  font-weight: 500;
-  width: auto;
-}
-
-.metrics_row_header_sliders {
-  text-align: left;
-  font-weight: 500;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* left align */
-  gap: 6px;
-}
-
-.metrics_row_header_sliders input[type="range"] {
-  width: 80%;
-}
-
-/* Buttons */
-/* .weightSelectButton,
-.genderSelectButton {
-  width: 30px;
-  border-radius: 6px;
-} */
-
-.weightSelectButton,
-.genderSelectButton {
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
-  border: 1px solid #cbd5e1;
-  background-color: #ffffff;
-  font-weight: 600;
-  font-size: 0.75rem;
-  cursor: pointer;
-  transition:
-    background-color 0.15s ease,
-    transform 0.05s ease,
-    box-shadow 0.15s ease,
-    border-color 0.15s ease;
-}
-
-/* Hover */
-.weightSelectButton:hover:not(.highlight),
-.genderSelectButton:hover:not(.highlight) {
-  background-color: #f1f5f9;
-  border-color: #94a3b8;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-}
-
-/* Pressed */
-.weightSelectButton:active,
-.genderSelectButton:active {
-  transform: translateY(1px);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-
-/*used for feed column selection */
-.selected {
-  background-color: rgba(255, 242, 4, 0.84);
-}
-
-/*used for genderSelectButtons and htmlTable highlighting*/
-.highlight {
-  background-color: rgb(248, 140, 140);
-  border-color: rgb(220, 90, 90);
-  color: white;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
-  /* border-radius: 3px; */
-}
-
-#dailyEnergyBox,
-#dailyProteinBox {
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-
-.row_header {
-  font-weight: bold;
-  min-width: 100px;
-  padding: 10px;
-}
-
-.odd_row {
-  background-color: rgb(178, 225, 241);
-  padding: 0px;
-}
-
-.even_row {
-  background-color: rgb(208, 231, 244);
-  padding: 0px;
-}
-
-td {
-  text-align: center;
-  padding-left: 6px;
-  padding-right: 6px;
-}
-
-th {
-  background-color: #eeeeee;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  min-width: 30px;
-  padding-left: 6px;
-  padding-right: 6px;
-  /* height: 50px; */
-}
-
-#data_table th:first-child {
-  background-color: white;
-}
-
-.row1 > div {
-  /* max-width: 250px; */
-  flex: 2;
-  /*grow*/
-  padding: 0px;
-}
-
-.row2 {
-  display: grid;
-  max-width: 1000px;
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.output_box {
-  max-width: 1000px;
-  width: 100%;
-  border: 1px;
-  border-style: solid;
-  border-color: black;
-  /* background: var(--card); */
-  background: rgb(208, 231, 244);
-  border-radius: 8px;
-  padding: var(--pad);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
-  font-size: 0.75rem;
-}
-
-#copyFeedButton {
-  padding: 10px 18px;
-  border-radius: 10px;
-  border: none;
-  background-color: #2563eb;
-  color: white;
-  font-size: 0.85rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition:
-    background-color 0.15s ease,
-    transform 0.05s ease,
-    box-shadow 0.15s ease;
-  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
-}
-
-/* Hover */
-#copyFeedButton:hover {
-  background-color: #1d4ed8;
-  box-shadow: 0 6px 14px rgba(29, 78, 216, 0.3);
-}
-
-/* Pressed */
-#copyFeedButton:active {
-  transform: translateY(1px);
-  box-shadow: 0 3px 8px rgba(29, 78, 216, 0.25);
-}
-
-/* Focus (keyboard accessibility) */
-#copyFeedButton:focus {
-  outline: none;
-  box-shadow:
-    0 0 0 3px rgba(37, 99, 235, 0.3),
-    0 4px 10px rgba(37, 99, 235, 0.25);
-}
-
-.startGuide {
-  margin-top: 10px;
-  max-width: 1000px;
-  width: 100%;
-  border: 2px;
-  border-style: solid;
-  border-color: lightgray;
-  background: var(--card);
-  border-radius: 8px;
-  padding: var(--pad);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
-  font: 0.75rem;
-  font-size: 0.75rem;
 }
